@@ -1,4 +1,4 @@
-import { ArrowLeft, Check, ChefHat, Clock, ExternalLink, Flame, Heart, Plus, ThumbsDown, Timer } from 'lucide-react';
+import { ArrowLeft, Check, ChefHat, Clock, ExternalLink, Flame, Heart, Plus, Share2, ThumbsDown, Timer } from 'lucide-react';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import { Button, cx, EmptyState, IconButton, RecipeCover, Stepper } from '../components/ui';
@@ -6,8 +6,9 @@ import { INGREDIENT_MAP, RECIPE_MAP } from '../data/catalog';
 import { db } from '../db/db';
 import { mutatePlan, updateRecipeState } from '../db/repo';
 import { MAX_SERVINGS, MIN_SERVINGS, setServings } from '../lib/plan';
+import { recipeToText } from '../lib/share';
 import { formatQuantity, ingredientLabel, scaleAmount } from '../lib/units';
-import { usePlan, usePlanActions, usePreferences, useRecipeStates, useToast, useWeek } from '../state/hooks';
+import { usePlan, usePlanActions, usePreferences, useRecipeStates, useShare, useToast, useWeek } from '../state/hooks';
 import type { Recipe } from '../types';
 
 const DIFFICULTY: Record<Recipe['difficulty'], string> = { easy: 'makkelijk', medium: 'gemiddeld', hard: 'uitdagend' };
@@ -28,6 +29,7 @@ export function RecipeDetail() {
 function RecipeView({ recipe }: { recipe: Recipe }) {
   const navigate = useNavigate();
   const toast = useToast();
+  const share = useShare();
   const { activeWeek } = useWeek();
   const plan = usePlan(activeWeek);
   const prefs = usePreferences();
@@ -53,14 +55,23 @@ function RecipeView({ recipe }: { recipe: Recipe }) {
           <IconButton label="Terug" onClick={() => (window.history.length > 1 ? navigate(-1) : navigate('/'))} className="bg-white/90 shadow-card backdrop-blur">
             <ArrowLeft size={20} />
           </IconButton>
-          <IconButton
-            label={state?.favorite ? 'Uit favorieten halen' : 'Aan favorieten toevoegen'}
-            aria-pressed={!!state?.favorite}
-            onClick={() => updateRecipeState(db, recipe.id, { favorite: !state?.favorite })}
-            className="bg-white/90 shadow-card backdrop-blur"
-          >
-            <Heart size={20} className={cx(state?.favorite && 'fill-tomato-500 text-tomato-500 animate-pop')} />
-          </IconButton>
+          <div className="flex gap-2">
+            <IconButton
+              label="Recept delen, bijvoorbeeld via WhatsApp"
+              onClick={() => share(recipe.title, recipeToText(recipe, servings, INGREDIENT_MAP, window.location.origin), 'Recept gekopieerd')}
+              className="bg-white/90 shadow-card backdrop-blur"
+            >
+              <Share2 size={20} />
+            </IconButton>
+            <IconButton
+              label={state?.favorite ? 'Uit favorieten halen' : 'Aan favorieten toevoegen'}
+              aria-pressed={!!state?.favorite}
+              onClick={() => updateRecipeState(db, recipe.id, { favorite: !state?.favorite })}
+              className="bg-white/90 shadow-card backdrop-blur"
+            >
+              <Heart size={20} className={cx(state?.favorite && 'fill-tomato-500 text-tomato-500 animate-pop')} />
+            </IconButton>
+          </div>
         </div>
       </div>
 

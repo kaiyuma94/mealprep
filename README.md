@@ -12,7 +12,8 @@ No account, no server, no paid APIs. Everything lives on your device in IndexedD
 - **Search** – by name, ingredient (Dutch, plus English aliases), cuisine or tag. Filter by cooking time, cuisine, favourites, cooked before, or new.
 - **Recipe detail** – adjustable servings, scaled ingredients, full method, personal notes, favourite / "not for us", and source attribution.
 - **Cooking mode** – large text, swipe or arrow-key navigation, step timers that keep running between steps, an ingredients overlay, and screen wake-lock.
-- **Shopping list** – merged by canonical ingredient, units converted, scaled per meal. It shows what you *need* next to what to *buy* (typical Dutch pack sizes), grouped by aisle in the walking order of the selected store (Lidl, AH or Jumbo). Items that may be hard to find at that store are flagged with an alternative store ("mogelijk lastig bij Lidl, anders AH of Jumbo"). Pantry items are pre-marked "al in huis". You can also pick substitutions, add or edit items, tick items off, and copy the list as Dutch plain text in one tap. Your ticks, edits and manual items survive changes to the menu.
+- **Shopping list** – merged by canonical ingredient, units converted, scaled per meal. It shows what you *need* next to what to *buy* (typical Dutch pack sizes), grouped by aisle in the walking order of the selected store (Lidl, AH or Jumbo). Items that may be hard to find at that store are flagged with an alternative store ("mogelijk lastig bij Lidl, anders AH of Jumbo"). Pantry items are pre-marked "al in huis". You can also pick substitutions, add or edit items, and tick items off. Your ticks, edits and manual items survive changes to the menu.
+- **Sharing** – a Delen button on the shopping list, the week menu and every recipe opens the phone's own share menu (WhatsApp, Messages, Mail, …) with a ready-made Dutch text, including links back to the recipes. It uses the browser's built-in share function: no accounts, no API, nothing is sent until you press send. Where there is no share menu (some desktop browsers), the text is copied instead.
 - **History & backup** – favourites, dislikes, notes, cooking history, pantry and shopping progress persist. Export and restore everything as a JSON file.
 
 ## About the recipes
@@ -94,7 +95,7 @@ Ingredients are matched to canonical IDs through names, plurals and aliases in `
 
 ## Testing
 
-`npm test` runs 101 tests covering:
+`npm test` runs 133 tests covering:
 
 - ISO week numbers, year rollover, and Sunday / midnight boundaries in Europe/Amsterdam (CET and CEST)
 - Deterministic weekly selection, bucket composition, cold start, cuisine diversity, single-card replacement
@@ -104,6 +105,7 @@ Ingredients are matched to canonical IDs through names, plurals and aliases in `
 - Shopping list aggregation, packaging suggestions, per-store aisle order and availability hints, pantry and stock overrides, substitutions, persistence of checks, edits and manual items across regeneration, and plain-text export
 - IndexedDB persistence, the v1 → v2 database upgrade, backup export/restore and migration, and invalid or future backup rejection
 - Recipe and import validation with missing or incomplete data, plus the plain ingredient-line parser
+- Sharing via the share menu, the copy fallback and a closed share menu, plus the texts for the week menu and a scaled recipe
 - Every recipe using an illustrated cover (its own palette), with no bundled photos
 
 ## Architecture
@@ -118,6 +120,7 @@ src/
     plan.ts           Meal target / add / swap / remove rules
     units.ts          Conversion, scaling, formatting
     shopping.ts       Aggregation, packaging, overrides, store hints, text export
+    share.ts          Share menu / copy fallback, week menu and recipe texts
     sections.ts       Supermarkets (Lidl, AH, Jumbo) and their aisle order
     search.ts         Recipe search & filters
     validation.ts     Catalogue validation

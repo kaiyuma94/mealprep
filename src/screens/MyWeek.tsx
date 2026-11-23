@@ -1,4 +1,4 @@
-import { CalendarPlus, Check, ChefHat, CircleCheck, Plus, Settings, ShoppingBasket, Trash2 } from 'lucide-react';
+import { CalendarPlus, Check, ChefHat, CircleCheck, Plus, Settings, Share2, ShoppingBasket, Trash2 } from 'lucide-react';
 import { Link, useNavigate } from 'react-router-dom';
 import { MealTargetCard, SundayToggle, WeekNavigator } from '../components/WeekControls';
 import { Button, cx, IconButton, PageHeader, RecipeCover, Stepper } from '../components/ui';
@@ -6,13 +6,15 @@ import { RECIPE_MAP } from '../data/catalog';
 import { db } from '../db/db';
 import { markCooked, mutatePlan, savePlan, unmarkCooked } from '../db/repo';
 import { MAX_SERVINGS, MIN_SERVINGS, removeMeal, setServings } from '../lib/plan';
-import { usePlan, useToast, useWeek } from '../state/hooks';
+import { weekMenuToText } from '../lib/share';
+import { usePlan, useShare, useToast, useWeek } from '../state/hooks';
 
 export function MyWeek() {
   const { activeWeek } = useWeek();
   const plan = usePlan(activeWeek);
   const navigate = useNavigate();
   const toast = useToast();
+  const share = useShare();
   if (!plan) return null;
   const empty = Math.max(0, plan.mealTarget - plan.meals.length);
   const cookedCount = plan.meals.filter((m) => m.cookedAt).length;
@@ -22,9 +24,20 @@ export function MyWeek() {
       <PageHeader
         title="Mijn week"
         right={
-          <Link to="/settings" aria-label="Instellingen & back-up" className="flex h-11 w-11 items-center justify-center rounded-full text-ink-500 hover:bg-cream-200">
-            <Settings size={22} />
-          </Link>
+          <div className="flex items-center">
+            {plan.meals.length > 0 && (
+              <IconButton
+                label="Weekmenu delen, bijvoorbeeld via WhatsApp"
+                className="text-ink-500 hover:bg-cream-200"
+                onClick={() => share('Weekmenu', weekMenuToText(plan, RECIPE_MAP, window.location.origin), 'Weekmenu gekopieerd')}
+              >
+                <Share2 size={21} />
+              </IconButton>
+            )}
+            <Link to="/settings" aria-label="Instellingen & back-up" className="flex h-11 w-11 items-center justify-center rounded-full text-ink-500 hover:bg-cream-200">
+              <Settings size={22} />
+            </Link>
+          </div>
         }
       />
       <SundayToggle />

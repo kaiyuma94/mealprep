@@ -4,6 +4,7 @@ import { RECIPES } from '../data/catalog';
 import { db } from '../db/db';
 import { defaultPreferences, ensureSelection, getPlan, mutatePlan } from '../db/repo';
 import { addMeal, addMealRaisingTarget, MAX_MEALS, removeMeal, swapMeal } from '../lib/plan';
+import { shareText } from '../lib/share';
 import { currentWeek, isSundayInAmsterdam, planningWeek } from '../lib/week';
 import type { RecipeUserState, UserPreferences, WeekKey, WeeklyMealPlan, WeeklySelection } from '../types';
 
@@ -108,6 +109,24 @@ export function ToastProvider({ children }: { children: ReactNode }) {
 }
 
 export const useToast = () => useContext(ToastContext);
+
+/**
+ * Returns a function for tap handlers that opens the phone's share menu, or
+ * copies the text where there is none and says so in a toast.
+ */
+export function useShare() {
+  const toast = useToast();
+  return useCallback(
+    (title: string, text: string, copiedMessage = 'Gekopieerd, plak het waar je wilt') => {
+      // Not awaited before the call: the share menu only opens straight from a tap.
+      void shareText({ title, text }).then((outcome) => {
+        if (outcome === 'copied') toast({ message: copiedMessage });
+        if (outcome === 'failed') toast({ message: 'Delen lukte niet op dit apparaat' });
+      });
+    },
+    [toast],
+  );
+}
 
 // ---------- Plan actions ----------
 

@@ -1,5 +1,5 @@
 import { useLiveQuery } from 'dexie-react-hooks';
-import { Check, ClipboardCopy, Home, MoreHorizontal, Plus, ShoppingBasket, Store } from 'lucide-react';
+import { Check, Home, MoreHorizontal, Plus, Share2, ShoppingBasket, Store } from 'lucide-react';
 import { useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Button, cx, EmptyState, IconButton, PageHeader, ProgressBar, Sheet } from '../components/ui';
@@ -10,7 +10,7 @@ import { addManualItem, clearChecks, removeManualItem, setOverride, updateManual
 import { SECTION_LABELS, STORE_SECTION_ORDER, STORES, storeName, storeShort } from '../lib/sections';
 import { buildShoppingList, groupBySection, shoppingListToText } from '../lib/shopping';
 import { weekRangeLabel } from '../lib/week';
-import { usePlan, usePreferences, useToast, useWeek } from '../state/hooks';
+import { usePlan, usePreferences, useShare, useWeek } from '../state/hooks';
 import type { ShoppingItem, StoreId, SupermarketSection } from '../types';
 
 export function ShoppingList() {
@@ -19,7 +19,6 @@ export function ShoppingList() {
   const prefs = usePreferences();
   const store = prefs.supermarket;
   const state = useLiveQuery(() => db.shopping.get(activeWeek), [activeWeek]);
-  const toast = useToast();
   const [editing, setEditing] = useState<ShoppingItem | null>(null);
   const [adding, setAdding] = useState(false);
   const [showStock, setShowStock] = useState(false);
@@ -47,21 +46,8 @@ export function ShoppingList() {
   const toggleCheck = (i: ShoppingItem) =>
     i.manual ? updateManualItem(db, activeWeek, i.key.slice(7), { checked: !i.checked }) : setOverride(db, activeWeek, i.key, { checked: !i.checked });
 
-  const copy = async () => {
-    const text = shoppingListToText(items, activeWeek, store);
-    try {
-      await navigator.clipboard.writeText(text);
-    } catch {
-      // Fallback for browsers without clipboard permission.
-      const ta = document.createElement('textarea');
-      ta.value = text;
-      document.body.appendChild(ta);
-      ta.select();
-      document.execCommand('copy');
-      ta.remove();
-    }
-    toast({ message: 'Boodschappenlijst gekopieerd' });
-  };
+  const share = useShare();
+  const shareList = () => share('Boodschappenlijst', shoppingListToText(items, activeWeek, store), 'Boodschappenlijst gekopieerd');
 
   if (!plan) return null;
 
@@ -72,8 +58,8 @@ export function ShoppingList() {
         title="Boodschappen"
         right={
           items.length > 0 && (
-            <Button size="sm" variant="secondary" onClick={copy} aria-label="Boodschappenlijst kopiëren als tekst">
-              <ClipboardCopy size={16} /> Kopieer
+            <Button size="sm" variant="secondary" onClick={shareList} aria-label="Boodschappenlijst delen, bijvoorbeeld via WhatsApp">
+              <Share2 size={16} /> Delen
             </Button>
           )
         }
