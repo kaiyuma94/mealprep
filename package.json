@@ -11,8 +11,7 @@
     "test:watch": "vitest",
     "typecheck": "tsc -b",
     "validate:recipes": "tsx scripts/validate-recipes.ts",
-    "import:recipes": "tsx scripts/import-recipes.ts",
-    "photos:apply": "tsx scripts/apply-photos.ts"
+    "import:recipes": "tsx scripts/import-recipes.ts"
   },
   "dependencies": {
     "dexie": "^4.0.10",

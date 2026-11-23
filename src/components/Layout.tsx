@@ -1,7 +1,5 @@
 import { CalendarHeart, Compass, Search, ShoppingBasket } from 'lucide-react';
-import { useEffect } from 'react';
 import { NavLink, Outlet } from 'react-router-dom';
-import { RECIPE_MAP } from '../data/catalog';
 import { usePlan, useWeek } from '../state/hooks';
 import { FullPlanDialog } from './dialogs';
 import { cx } from './ui';
@@ -16,16 +14,6 @@ const tabs = [
 export function Layout() {
   const { activeWeek } = useWeek();
   const plan = usePlan(activeWeek);
-  // Warm the offline cache with the photos of this week's meals (the service
-  // worker stores /recipe-images/* on first fetch).
-  const mealKey = plan?.meals.map((m) => m.recipeId).join(',') ?? '';
-  useEffect(() => {
-    for (const id of mealKey.split(',').filter(Boolean)) {
-      const img = RECIPE_MAP.get(id)?.image;
-      if (!img) continue;
-      for (const src of [img.url, img.thumbUrl]) if (src) new Image().src = src;
-    }
-  }, [mealKey]);
   return (
     <div className="min-h-screen bg-cream-100 text-ink-900 md:flex">
       {/* Desktop side rail */}

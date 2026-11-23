@@ -28,17 +28,11 @@ Each recipe is labelled with source type `inspired` and links to the recipe it i
 
 The recipe sources live in `recipes-src/` in the human-friendly import format and are compiled into `src/data/recipes.json` by the import script.
 
-### Photos
+### Covers
 
-Every recipe has an illustrative food photo from [Unsplash](https://unsplash.com/license), free to use under the Unsplash License. Only free photos were picked, never Unsplash+. Each one was checked by hand to match the dish and to show no meat or fish. The photographer is credited on the recipe page ("Sfeerfoto: … · Unsplash License"), and the photos are marked as illustrative, since they show a similar dish rather than this exact recipe.
+Recipes show an illustrated cover: a top-down "plate" drawn from each recipe's own two-colour `palette`. No photos are bundled, which keeps the app small and fully offline.
 
-- The selection is in `recipes-src/photos.json`: recipe id → Unsplash file id, photo id, photographer.
-- The files sit in `public/recipe-images/`: `<id>.jpg` is 1200×900 for the recipe page, `<id>-sm.jpg` is 600×450 for cards.
-- `npm run photos:apply` attaches them to the catalogue. `npm run validate:recipes` fails if a file is missing.
-- If an image can't load, the app falls back to the illustrated cover.
-- Photos of the week's planned meals are fetched in the background, so the service worker caches them for offline cooking.
-
-To swap a photo, change the entry in `photos.json`, then download the two sizes from `https://images.unsplash.com/photo-<file id>?w=1200&h=900&fit=crop&q=72&fm=jpg` (and `w=600&h=450`) to `public/recipe-images/`, and run `npm run photos:apply`.
+The app still supports an optional `image` per recipe (with url, alt, credit and license; local files go in `public/` and are checked by `npm run validate:recipes`), for adding your own photo of a dish later.
 
 ## Getting started
 
@@ -110,7 +104,7 @@ Ingredients are matched to canonical IDs through names, plurals and aliases in `
 - Shopping list aggregation, packaging suggestions, per-store aisle order and availability hints, pantry and stock overrides, substitutions, persistence of checks, edits and manual items across regeneration, and plain-text export
 - IndexedDB persistence, the v1 → v2 database upgrade, backup export/restore and migration, and invalid or future backup rejection
 - Recipe and import validation with missing or incomplete data, plus the plain ingredient-line parser
-- Every recipe having a unique, credited, freely licensed photo whose files exist
+- Every recipe using an illustrated cover (its own palette), with no bundled photos
 
 ## Architecture
 

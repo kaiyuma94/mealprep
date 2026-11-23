@@ -27,21 +27,12 @@ describe('recipe data validation', () => {
     expect(new Set(RECIPES.map((r) => r.source.url)).size).toBe(RECIPES.length);
   });
 
-  it('every recipe has a credited, freely licensed photo that exists on disk (no HelloFresh photos)', () => {
+  it('uses illustrated covers, no bundled photos', () => {
     for (const r of RECIPES) {
-      expect(r.image, r.id).toBeDefined();
-      const img = r.image!;
-      expect(img).toMatchObject({ license: 'Unsplash License', illustrative: true });
-      expect(img.credit.length).toBeGreaterThan(0);
-      expect(img.creditUrl).toMatch(/^https:\/\/unsplash\.com\/photos\/[\w-]{11}$/);
-      for (const url of [img.url, img.thumbUrl!]) {
-        expect(url).toMatch(/^\/recipe-images\/.+\.jpg$/);
-        expect(existsSync(resolve(__dirname, '../public', url.slice(1))), url).toBe(true);
-      }
-      expect(JSON.stringify(img)).not.toMatch(/hellofresh/i);
+      expect(r.image, r.id).toBeUndefined();
+      expect(r.palette, r.id).toHaveLength(2);
     }
-    // No photo is used twice.
-    expect(new Set(RECIPES.map((r) => r.image!.creditUrl)).size).toBe(RECIPES.length);
+    expect(existsSync(resolve(__dirname, '../public/recipe-images'))).toBe(false);
   });
 
   it('accepts a valid recipe', () => {

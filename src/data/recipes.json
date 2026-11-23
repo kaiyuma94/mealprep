@@ -138,16 +138,7 @@
       "palette": [
         "#e0a526",
         "#5b7f4a"
-      ],
-      "image": {
-        "url": "/recipe-images/krokante-kikkererwten-romige-currysaus.jpg",
-        "thumbUrl": "/recipe-images/krokante-kikkererwten-romige-currysaus-sm.jpg",
-        "alt": "Sfeerfoto bij Krokante kikkererwten met zoete romige currysaus",
-        "credit": "Álvaro Bernal",
-        "creditUrl": "https://unsplash.com/photos/ReySmTMcKEQ",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "aubergine-midden-oosterse-kruiden-bulgur",
@@ -309,16 +300,7 @@
       "palette": [
         "#6b3f6e",
         "#d9a35a"
-      ],
-      "image": {
-        "url": "/recipe-images/aubergine-midden-oosterse-kruiden-bulgur.jpg",
-        "thumbUrl": "/recipe-images/aubergine-midden-oosterse-kruiden-bulgur-sm.jpg",
-        "alt": "Sfeerfoto bij Aubergine met Midden-Oosterse kruiden en bulgur",
-        "credit": "Aneta Pawlik",
-        "creditUrl": "https://unsplash.com/photos/1yPbO61xjzw",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "crispy-sesam-bloemkool",
@@ -468,16 +450,7 @@
       "palette": [
         "#e8a33d",
         "#f2e6cf"
-      ],
-      "image": {
-        "url": "/recipe-images/crispy-sesam-bloemkool.jpg",
-        "thumbUrl": "/recipe-images/crispy-sesam-bloemkool-sm.jpg",
-        "alt": "Sfeerfoto bij Crispy sesambloemkoolstukjes",
-        "credit": "Zoshua Colah",
-        "creditUrl": "https://unsplash.com/photos/KTYS8SKCHjs",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "zoetzure-tempehwraps-mangochutney",
@@ -593,16 +566,7 @@
       "palette": [
         "#8a5a2b",
         "#a9c46c"
-      ],
-      "image": {
-        "url": "/recipe-images/zoetzure-tempehwraps-mangochutney.jpg",
-        "thumbUrl": "/recipe-images/zoetzure-tempehwraps-mangochutney-sm.jpg",
-        "alt": "Sfeerfoto bij Zoetzure tempehwraps met mangochutney",
-        "credit": "LikeMeat",
-        "creditUrl": "https://unsplash.com/photos/8lA4s3WjBds",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "indiase-dahl-zoete-aardappel",
@@ -737,16 +701,7 @@
       "palette": [
         "#e5a23a",
         "#4e7a3c"
-      ],
-      "image": {
-        "url": "/recipe-images/indiase-dahl-zoete-aardappel.jpg",
-        "thumbUrl": "/recipe-images/indiase-dahl-zoete-aardappel-sm.jpg",
-        "alt": "Sfeerfoto bij Indiase dahl met zoete aardappel",
-        "credit": "VD Photography",
-        "creditUrl": "https://unsplash.com/photos/iEJ3GhgO3jY",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "surinaamse-roerbak-tempeh",
@@ -871,16 +826,7 @@
       "palette": [
         "#9c3d22",
         "#e0b14a"
-      ],
-      "image": {
-        "url": "/recipe-images/surinaamse-roerbak-tempeh.jpg",
-        "thumbUrl": "/recipe-images/surinaamse-roerbak-tempeh-sm.jpg",
-        "alt": "Sfeerfoto bij Surinaamse stijl roerbak met tempeh",
-        "credit": "Lynnsey Schneider",
-        "creditUrl": "https://unsplash.com/photos/tbTZcLUqtrs",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "curry-noedelsoep-kokosmelk",
@@ -992,16 +938,7 @@
       "palette": [
         "#c8442f",
         "#f0d9a8"
-      ],
-      "image": {
-        "url": "/recipe-images/curry-noedelsoep-kokosmelk.jpg",
-        "thumbUrl": "/recipe-images/curry-noedelsoep-kokosmelk-sm.jpg",
-        "alt": "Sfeerfoto bij Curry-noedelsoep met kokosmelk",
-        "credit": "charlesdeluvio",
-        "creditUrl": "https://unsplash.com/photos/wrfO9SWykdE",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "spaghetti-vegan-cacciatore",
@@ -1137,16 +1074,7 @@
       "palette": [
         "#8e3b26",
         "#556b3f"
-      ],
-      "image": {
-        "url": "/recipe-images/spaghetti-vegan-cacciatore.jpg",
-        "thumbUrl": "/recipe-images/spaghetti-vegan-cacciatore-sm.jpg",
-        "alt": "Sfeerfoto bij Volkoren spaghetti met vegan cacciatore saus",
-        "credit": "Homescreenify",
-        "creditUrl": "https://unsplash.com/photos/sA3wymYqyaI",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "tofubowl-pindasaus-paksoi",
@@ -1277,16 +1205,7 @@
       "palette": [
         "#b8763c",
         "#7c9a4d"
-      ],
-      "image": {
-        "url": "/recipe-images/tofubowl-pindasaus-paksoi.jpg",
-        "thumbUrl": "/recipe-images/tofubowl-pindasaus-paksoi-sm.jpg",
-        "alt": "Sfeerfoto bij Tofubowl met pindasaus en paksoi",
-        "credit": "Anh Nguyen",
-        "creditUrl": "https://unsplash.com/photos/iJlYqriF-X0",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "bloemkool-groene-currysaus",
@@ -1425,16 +1344,7 @@
       "palette": [
         "#6f9a52",
         "#f1efe6"
-      ],
-      "image": {
-        "url": "/recipe-images/bloemkool-groene-currysaus.jpg",
-        "thumbUrl": "/recipe-images/bloemkool-groene-currysaus-sm.jpg",
-        "alt": "Sfeerfoto bij Geroosterde bloemkool in groene currysaus",
-        "credit": "Louis Hansel",
-        "creditUrl": "https://unsplash.com/photos/ZPWR_TWZ4HA",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "lasagne-gegrilde-groenten",
@@ -1551,16 +1461,7 @@
       "palette": [
         "#c4482f",
         "#f2d58c"
-      ],
-      "image": {
-        "url": "/recipe-images/lasagne-gegrilde-groenten.jpg",
-        "thumbUrl": "/recipe-images/lasagne-gegrilde-groenten-sm.jpg",
-        "alt": "Sfeerfoto bij Lasagne met gegrilde groenten",
-        "credit": "Kristine Tumanyan",
-        "creditUrl": "https://unsplash.com/photos/k4fxXuvgsrQ",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "parelcouscous-krokante-kikkererwten",
@@ -1701,16 +1602,7 @@
       "palette": [
         "#d6a04a",
         "#e9e1cf"
-      ],
-      "image": {
-        "url": "/recipe-images/parelcouscous-krokante-kikkererwten.jpg",
-        "thumbUrl": "/recipe-images/parelcouscous-krokante-kikkererwten-sm.jpg",
-        "alt": "Sfeerfoto bij Parelcouscous met knapperige kikkererwten",
-        "credit": "Anto Meneghini",
-        "creditUrl": "https://unsplash.com/photos/XL3UhgGNa8c",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "miso-risotto-champignons",
@@ -1841,16 +1733,7 @@
       "palette": [
         "#b8763c",
         "#6f9a52"
-      ],
-      "image": {
-        "url": "/recipe-images/miso-risotto-champignons.jpg",
-        "thumbUrl": "/recipe-images/miso-risotto-champignons-sm.jpg",
-        "alt": "Sfeerfoto bij Fusion risotto met miso en harde kaas",
-        "credit": "Corryn Burtenshaw",
-        "creditUrl": "https://unsplash.com/photos/MT_aSIwT-wU",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "risotto-caprese",
@@ -1965,16 +1848,7 @@
       "palette": [
         "#d4583a",
         "#f2e6cf"
-      ],
-      "image": {
-        "url": "/recipe-images/risotto-caprese.jpg",
-        "thumbUrl": "/recipe-images/risotto-caprese-sm.jpg",
-        "alt": "Sfeerfoto bij Risotto caprese",
-        "credit": "Janosch Jost",
-        "creditUrl": "https://unsplash.com/photos/ylra99CWvSw",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "melanzane-alla-parmigiana",
@@ -2101,16 +1975,7 @@
       "palette": [
         "#6b3f6e",
         "#d4583a"
-      ],
-      "image": {
-        "url": "/recipe-images/melanzane-alla-parmigiana.jpg",
-        "thumbUrl": "/recipe-images/melanzane-alla-parmigiana-sm.jpg",
-        "alt": "Sfeerfoto bij Melanzane alla parmigiana",
-        "credit": "Moira Nazzari",
-        "creditUrl": "https://unsplash.com/photos/Y9iaZNbUHtQ",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "vegetarische-moussaka-linzen",
@@ -2240,16 +2105,7 @@
       "palette": [
         "#7a3f22",
         "#efd08c"
-      ],
-      "image": {
-        "url": "/recipe-images/vegetarische-moussaka-linzen.jpg",
-        "thumbUrl": "/recipe-images/vegetarische-moussaka-linzen-sm.jpg",
-        "alt": "Sfeerfoto bij Vegetarische moussaka met aubergine en linzen",
-        "credit": "Arne Buss",
-        "creditUrl": "https://unsplash.com/photos/ZYFdlqvNWFg",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "wraps-halloumi-gekaramelliseerde-ui",
@@ -2370,16 +2226,7 @@
       "palette": [
         "#a12d3a",
         "#e9c46a"
-      ],
-      "image": {
-        "url": "/recipe-images/wraps-halloumi-gekaramelliseerde-ui.jpg",
-        "thumbUrl": "/recipe-images/wraps-halloumi-gekaramelliseerde-ui-sm.jpg",
-        "alt": "Sfeerfoto bij Wraps met halloumi en gekaramelliseerde ui",
-        "credit": "sheri silver",
-        "creditUrl": "https://unsplash.com/photos/m3dnHi0ueh0",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "harira-linzen-kikkererwten",
@@ -2510,16 +2357,7 @@
       "palette": [
         "#b94529",
         "#d9c7a3"
-      ],
-      "image": {
-        "url": "/recipe-images/harira-linzen-kikkererwten.jpg",
-        "thumbUrl": "/recipe-images/harira-linzen-kikkererwten-sm.jpg",
-        "alt": "Sfeerfoto bij Harira met linzen en geroosterde kikkererwten",
-        "credit": "micheile henderson",
-        "creditUrl": "https://unsplash.com/photos/FhMB8pMge5U",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "tacos-geitenkaas-zwarte-bonen",
@@ -2678,16 +2516,7 @@
       "palette": [
         "#3f4a3a",
         "#e7894a"
-      ],
-      "image": {
-        "url": "/recipe-images/tacos-geitenkaas-zwarte-bonen.jpg",
-        "thumbUrl": "/recipe-images/tacos-geitenkaas-zwarte-bonen-sm.jpg",
-        "alt": "Sfeerfoto bij Taco's met geitenkaas, avocado en zwarte bonen",
-        "credit": "Bakd&Raw by Karolin Baitinger",
-        "creditUrl": "https://unsplash.com/photos/cKOC3xgyKXc",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "caesar-salade-geroosterde-kikkererwten",
@@ -2819,16 +2648,7 @@
       "palette": [
         "#a9c46c",
         "#e9c46a"
-      ],
-      "image": {
-        "url": "/recipe-images/caesar-salade-geroosterde-kikkererwten.jpg",
-        "thumbUrl": "/recipe-images/caesar-salade-geroosterde-kikkererwten-sm.jpg",
-        "alt": "Sfeerfoto bij Caesar salade met geroosterde kikkererwten",
-        "credit": "Tania Melnyczuk",
-        "creditUrl": "https://unsplash.com/photos/xeTv9N2FjXA",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "flammkuchen-mozzarella-courgette",
@@ -2959,16 +2779,7 @@
       "palette": [
         "#e0b14a",
         "#6f9a52"
-      ],
-      "image": {
-        "url": "/recipe-images/flammkuchen-mozzarella-courgette.jpg",
-        "thumbUrl": "/recipe-images/flammkuchen-mozzarella-courgette-sm.jpg",
-        "alt": "Sfeerfoto bij Flammkuchen met mozzarella en courgette",
-        "credit": "Sahand Hoseini",
-        "creditUrl": "https://unsplash.com/photos/BMVAYjPf6mU",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "kikkererwtencurry-sticky-aubergine",
@@ -3123,16 +2934,7 @@
       "palette": [
         "#7a3f22",
         "#e5a23a"
-      ],
-      "image": {
-        "url": "/recipe-images/kikkererwtencurry-sticky-aubergine.jpg",
-        "thumbUrl": "/recipe-images/kikkererwtencurry-sticky-aubergine-sm.jpg",
-        "alt": "Sfeerfoto bij Kikkererwtencurry met pinda's en sticky aubergine",
-        "credit": "Sanket Shah",
-        "creditUrl": "https://unsplash.com/photos/eEWlcfydzQ4",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "spinazie-kokoscurry-spiegelei",
@@ -3273,16 +3075,7 @@
       "palette": [
         "#e7c25a",
         "#4e7a3c"
-      ],
-      "image": {
-        "url": "/recipe-images/spinazie-kokoscurry-spiegelei.jpg",
-        "thumbUrl": "/recipe-images/spinazie-kokoscurry-spiegelei-sm.jpg",
-        "alt": "Sfeerfoto bij Spinazie-kokoscurry met spiegelei",
-        "credit": "You Le",
-        "creditUrl": "https://unsplash.com/photos/JTTxGQaFZKw",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "indonesische-curry-ei-uitjes",
@@ -3425,16 +3218,7 @@
       "palette": [
         "#9c3d22",
         "#e9c46a"
-      ],
-      "image": {
-        "url": "/recipe-images/indonesische-curry-ei-uitjes.jpg",
-        "thumbUrl": "/recipe-images/indonesische-curry-ei-uitjes-sm.jpg",
-        "alt": "Sfeerfoto bij Indonesische stijl curry met ei en gefrituurde uitjes",
-        "credit": "Kalindu Waranga",
-        "creditUrl": "https://unsplash.com/photos/h51fYRG2p30",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "platbroodpizza-champignons-mozzarella",
@@ -3556,16 +3340,7 @@
       "palette": [
         "#c79a5b",
         "#c4482f"
-      ],
-      "image": {
-        "url": "/recipe-images/platbroodpizza-champignons-mozzarella.jpg",
-        "thumbUrl": "/recipe-images/platbroodpizza-champignons-mozzarella-sm.jpg",
-        "alt": "Sfeerfoto bij Platbroodpizza's met champignons en mozzarella",
-        "credit": "Amadeus Moga",
-        "creditUrl": "https://unsplash.com/photos/H5Z8wovS9ic",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "shakshuka-falafel-witte-kaas",
@@ -3686,16 +3461,7 @@
       "palette": [
         "#b94529",
         "#f2d58c"
-      ],
-      "image": {
-        "url": "/recipe-images/shakshuka-falafel-witte-kaas.jpg",
-        "thumbUrl": "/recipe-images/shakshuka-falafel-witte-kaas-sm.jpg",
-        "alt": "Sfeerfoto bij Shakshuka met falafel en witte kaas",
-        "credit": "Yoav Aziz",
-        "creditUrl": "https://unsplash.com/photos/422N7Nwq5XY",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "vegan-pasta-e-fagioli",
@@ -3829,16 +3595,7 @@
       "palette": [
         "#c4482f",
         "#efe4d3"
-      ],
-      "image": {
-        "url": "/recipe-images/vegan-pasta-e-fagioli.jpg",
-        "thumbUrl": "/recipe-images/vegan-pasta-e-fagioli-sm.jpg",
-        "alt": "Sfeerfoto bij Vegan pasta e fagioli",
-        "credit": "Mitili Mitili",
-        "creditUrl": "https://unsplash.com/photos/kaIXZrHA9xI",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "pasta-alla-norma",
@@ -3956,16 +3713,7 @@
       "palette": [
         "#6b3f6e",
         "#c4482f"
-      ],
-      "image": {
-        "url": "/recipe-images/pasta-alla-norma.jpg",
-        "thumbUrl": "/recipe-images/pasta-alla-norma-sm.jpg",
-        "alt": "Sfeerfoto bij Pasta alla norma",
-        "credit": "Artem Beliaikin",
-        "creditUrl": "https://unsplash.com/photos/IpxzngYooAw",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "penne-spinazie-roomsaus",
@@ -4085,16 +3833,7 @@
       "palette": [
         "#4e7a3c",
         "#f1efe6"
-      ],
-      "image": {
-        "url": "/recipe-images/penne-spinazie-roomsaus.jpg",
-        "thumbUrl": "/recipe-images/penne-spinazie-roomsaus-sm.jpg",
-        "alt": "Sfeerfoto bij Penne met spinazie-roomsaus",
-        "credit": "Kajetan Sumila",
-        "creditUrl": "https://unsplash.com/photos/Of5OReGGmO8",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "vegaburger-truffelmayonaise",
@@ -4225,16 +3964,7 @@
       "palette": [
         "#d99a3e",
         "#5a3a22"
-      ],
-      "image": {
-        "url": "/recipe-images/vegaburger-truffelmayonaise.jpg",
-        "thumbUrl": "/recipe-images/vegaburger-truffelmayonaise-sm.jpg",
-        "alt": "Sfeerfoto bij Vegetarische hamburger met truffelmayonaise",
-        "credit": "Ryan Concepcion",
-        "creditUrl": "https://unsplash.com/photos/14L8fUX0GY4",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "stamppot-zoete-aardappel-boerenkool",
@@ -4351,16 +4081,7 @@
       "palette": [
         "#4e6b3a",
         "#e58a2e"
-      ],
-      "image": {
-        "url": "/recipe-images/stamppot-zoete-aardappel-boerenkool.jpg",
-        "thumbUrl": "/recipe-images/stamppot-zoete-aardappel-boerenkool-sm.jpg",
-        "alt": "Sfeerfoto bij Stamppot van zoete aardappel en boerenkool",
-        "credit": "Fr0ggy5",
-        "creditUrl": "https://unsplash.com/photos/3Lv15Be_zNg",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "broccoli-spitskool-stamppot-jus",
@@ -4482,16 +4203,7 @@
       "palette": [
         "#6f9a52",
         "#8e3b26"
-      ],
-      "image": {
-        "url": "/recipe-images/broccoli-spitskool-stamppot-jus.jpg",
-        "thumbUrl": "/recipe-images/broccoli-spitskool-stamppot-jus-sm.jpg",
-        "alt": "Sfeerfoto bij Broccoli-spitskool stamppot met zelfgemaakte jus",
-        "credit": "Gina's Auckland",
-        "creditUrl": "https://unsplash.com/photos/qSZfxgtLXZ0",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "quiche-broccoli-oude-kaas",
@@ -4611,16 +4323,7 @@
       "palette": [
         "#e9c46a",
         "#5b7f4a"
-      ],
-      "image": {
-        "url": "/recipe-images/quiche-broccoli-oude-kaas.jpg",
-        "thumbUrl": "/recipe-images/quiche-broccoli-oude-kaas-sm.jpg",
-        "alt": "Sfeerfoto bij Quiche met broccoli, cherrytomaten en oude kaas",
-        "credit": "Diliara Garifullina",
-        "creditUrl": "https://unsplash.com/photos/Uju0eqW7G7U",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "couscous-halloumi-kikkererwten-aubergine",
@@ -4740,16 +4443,7 @@
       "palette": [
         "#d6a04a",
         "#5b7f4a"
-      ],
-      "image": {
-        "url": "/recipe-images/couscous-halloumi-kikkererwten-aubergine.jpg",
-        "thumbUrl": "/recipe-images/couscous-halloumi-kikkererwten-aubergine-sm.jpg",
-        "alt": "Sfeerfoto bij Couscous met halloumi, kikkererwten en aubergine",
-        "credit": "Emma Miller",
-        "creditUrl": "https://unsplash.com/photos/dadtunlOtjY",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "gevulde-paprikas-harissa-couscous",
@@ -4870,16 +4564,7 @@
       "palette": [
         "#c83b2a",
         "#e7c25a"
-      ],
-      "image": {
-        "url": "/recipe-images/gevulde-paprikas-harissa-couscous.jpg",
-        "thumbUrl": "/recipe-images/gevulde-paprikas-harissa-couscous-sm.jpg",
-        "alt": "Sfeerfoto bij Gevulde paprika's met harissa-couscous en feta",
-        "credit": "Eliezer Sanchez",
-        "creditUrl": "https://unsplash.com/photos/RpFBVB6l44Y",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "romige-tomaat-bonenstoof-rijst",
@@ -5008,16 +4693,7 @@
       "palette": [
         "#c4482f",
         "#6f9a52"
-      ],
-      "image": {
-        "url": "/recipe-images/romige-tomaat-bonenstoof-rijst.jpg",
-        "thumbUrl": "/recipe-images/romige-tomaat-bonenstoof-rijst-sm.jpg",
-        "alt": "Sfeerfoto bij Romige tomaat-bonenstoof met rijst",
-        "credit": "Artur Kornakov",
-        "creditUrl": "https://unsplash.com/photos/kwJhh14nUcs",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "gebakken-rijst-roerei-paksoi",
@@ -5148,16 +4824,7 @@
       "palette": [
         "#e7c25a",
         "#5e8a3f"
-      ],
-      "image": {
-        "url": "/recipe-images/gebakken-rijst-roerei-paksoi.jpg",
-        "thumbUrl": "/recipe-images/gebakken-rijst-roerei-paksoi-sm.jpg",
-        "alt": "Sfeerfoto bij Gebakken rijst met roerei en paksoi",
-        "credit": "herry shani",
-        "creditUrl": "https://unsplash.com/photos/MVMohJBieo4",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "indiase-curry-bloemkool-paneer",
@@ -5294,16 +4961,7 @@
       "palette": [
         "#cf6a2c",
         "#f4e3c1"
-      ],
-      "image": {
-        "url": "/recipe-images/indiase-curry-bloemkool-paneer.jpg",
-        "thumbUrl": "/recipe-images/indiase-curry-bloemkool-paneer-sm.jpg",
-        "alt": "Sfeerfoto bij Indiase curry met bloemkool en paneer",
-        "credit": "Kalyani Akella",
-        "creditUrl": "https://unsplash.com/photos/vgTntT8PmIM",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "vegetarische-stroganoff-rijst",
@@ -5437,16 +5095,7 @@
       "palette": [
         "#9b5a32",
         "#efd08c"
-      ],
-      "image": {
-        "url": "/recipe-images/vegetarische-stroganoff-rijst.jpg",
-        "thumbUrl": "/recipe-images/vegetarische-stroganoff-rijst-sm.jpg",
-        "alt": "Sfeerfoto bij Vegetarische stroganoff met rijst",
-        "credit": "The Design Lady",
-        "creditUrl": "https://unsplash.com/photos/LEBpfkaYb3I",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "stamppot-koreaanse-kruiden-sticky-champignons",
@@ -5572,16 +5221,7 @@
       "palette": [
         "#7a3f22",
         "#a9c46c"
-      ],
-      "image": {
-        "url": "/recipe-images/stamppot-koreaanse-kruiden-sticky-champignons.jpg",
-        "thumbUrl": "/recipe-images/stamppot-koreaanse-kruiden-sticky-champignons-sm.jpg",
-        "alt": "Sfeerfoto bij Stamppot met Koreaanse kruiden en sticky champignons",
-        "credit": "Jonathan Farber",
-        "creditUrl": "https://unsplash.com/photos/hltIeEQC_uQ",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "aubergine-courgette-oven-fusilli",
@@ -5703,16 +5343,7 @@
       "palette": [
         "#5b3a5e",
         "#d8573c"
-      ],
-      "image": {
-        "url": "/recipe-images/aubergine-courgette-oven-fusilli.jpg",
-        "thumbUrl": "/recipe-images/aubergine-courgette-oven-fusilli-sm.jpg",
-        "alt": "Sfeerfoto bij Aubergine en courgette uit de oven",
-        "credit": "Jonathan Pielmayer",
-        "creditUrl": "https://unsplash.com/photos/RKJElwIyCQw",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "pasta-bloemkool-roomsaus-hazelnoten",
@@ -5824,16 +5455,7 @@
       "palette": [
         "#e9dfc6",
         "#5f7f3e"
-      ],
-      "image": {
-        "url": "/recipe-images/pasta-bloemkool-roomsaus-hazelnoten.jpg",
-        "thumbUrl": "/recipe-images/pasta-bloemkool-roomsaus-hazelnoten-sm.jpg",
-        "alt": "Sfeerfoto bij Pasta met bloemkool-roomsaus",
-        "credit": "Louis Hansel",
-        "creditUrl": "https://unsplash.com/photos/B38OoF351cE",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "conchiglie-ratatouille-geitenkaas",
@@ -5966,16 +5588,7 @@
       "palette": [
         "#b8452f",
         "#5d3e62"
-      ],
-      "image": {
-        "url": "/recipe-images/conchiglie-ratatouille-geitenkaas.jpg",
-        "thumbUrl": "/recipe-images/conchiglie-ratatouille-geitenkaas-sm.jpg",
-        "alt": "Sfeerfoto bij Conchiglie met ratatouille en geitenkaas",
-        "credit": "Pixzolo Photography",
-        "creditUrl": "https://unsplash.com/photos/-O3wkh2jZyo",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "farfalle-avocado-pestosaus",
@@ -6073,16 +5686,7 @@
       "palette": [
         "#7fa64a",
         "#d9453b"
-      ],
-      "image": {
-        "url": "/recipe-images/farfalle-avocado-pestosaus.jpg",
-        "thumbUrl": "/recipe-images/farfalle-avocado-pestosaus-sm.jpg",
-        "alt": "Sfeerfoto bij Farfalle in avocado-pestosaus",
-        "credit": "Helen Van",
-        "creditUrl": "https://unsplash.com/photos/2TMqlO-zqNY",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "farfalle-roomsaus-zongedroogde-tomaat-aubergine",
@@ -6206,16 +5810,7 @@
       "palette": [
         "#a2412c",
         "#e3b46b"
-      ],
-      "image": {
-        "url": "/recipe-images/farfalle-roomsaus-zongedroogde-tomaat-aubergine.jpg",
-        "thumbUrl": "/recipe-images/farfalle-roomsaus-zongedroogde-tomaat-aubergine-sm.jpg",
-        "alt": "Sfeerfoto bij Farfalle in roomsaus van zongedroogde tomaten en aubergine",
-        "credit": "Megan Bucknall",
-        "creditUrl": "https://unsplash.com/photos/edyYnPwpcXQ",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "fusilli-portobello-roomsaus",
@@ -6324,16 +5919,7 @@
       "palette": [
         "#6e5640",
         "#e8d9b8"
-      ],
-      "image": {
-        "url": "/recipe-images/fusilli-portobello-roomsaus.jpg",
-        "thumbUrl": "/recipe-images/fusilli-portobello-roomsaus-sm.jpg",
-        "alt": "Sfeerfoto bij Fusilli met portobello-roomsaus",
-        "credit": "engin akyurt",
-        "creditUrl": "https://unsplash.com/photos/o7KD3rwAcVI",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "gebakken-gnocchi-champignons-spinazieroom",
@@ -6443,16 +6029,7 @@
       "palette": [
         "#d9b67a",
         "#3f6b3a"
-      ],
-      "image": {
-        "url": "/recipe-images/gebakken-gnocchi-champignons-spinazieroom.jpg",
-        "thumbUrl": "/recipe-images/gebakken-gnocchi-champignons-spinazieroom-sm.jpg",
-        "alt": "Sfeerfoto bij Gebakken gnocchi met champignons in spinazieroom",
-        "credit": "sehoon ye",
-        "creditUrl": "https://unsplash.com/photos/_kcgO29lqaM",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "gnocchi-blauwekaassaus-courgette-peer",
@@ -6554,16 +6131,7 @@
       "palette": [
         "#c9b58a",
         "#6f8c4a"
-      ],
-      "image": {
-        "url": "/recipe-images/gnocchi-blauwekaassaus-courgette-peer.jpg",
-        "thumbUrl": "/recipe-images/gnocchi-blauwekaassaus-courgette-peer-sm.jpg",
-        "alt": "Sfeerfoto bij Romige gnocchi met blauwe-kaassaus, courgette en peer",
-        "credit": "Bakd&Raw by Karolin Baitinger",
-        "creditUrl": "https://unsplash.com/photos/FnhZXKOgL6M",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "groene-pasta-pesto-broccoli-aardappel",
@@ -6643,16 +6211,7 @@
       "palette": [
         "#4f7d3a",
         "#e4d29a"
-      ],
-      "image": {
-        "url": "/recipe-images/groene-pasta-pesto-broccoli-aardappel.jpg",
-        "thumbUrl": "/recipe-images/groene-pasta-pesto-broccoli-aardappel-sm.jpg",
-        "alt": "Sfeerfoto bij Groene pasta met pesto, broccoli en aardappel",
-        "credit": "Karolina Kołodziejczak",
-        "creditUrl": "https://unsplash.com/photos/gRtIRzDNZQI",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "linguine-witte-kaassaus-zaatar",
@@ -6769,16 +6328,7 @@
       "palette": [
         "#f0ead6",
         "#6a8f3d"
-      ],
-      "image": {
-        "url": "/recipe-images/linguine-witte-kaassaus-zaatar.jpg",
-        "thumbUrl": "/recipe-images/linguine-witte-kaassaus-zaatar-sm.jpg",
-        "alt": "Sfeerfoto bij Linguine in frisse witte-kaassaus met za'atar",
-        "credit": "set.sj",
-        "creditUrl": "https://unsplash.com/photos/oach7GfltKk",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "mediterrane-spaghetti-courgette-feta",
@@ -6892,16 +6442,7 @@
       "palette": [
         "#d23f31",
         "#7d9d4a"
-      ],
-      "image": {
-        "url": "/recipe-images/mediterrane-spaghetti-courgette-feta.jpg",
-        "thumbUrl": "/recipe-images/mediterrane-spaghetti-courgette-feta-sm.jpg",
-        "alt": "Sfeerfoto bij Mediterrane spaghetti met courgette en feta",
-        "credit": "Paish Zaini",
-        "creditUrl": "https://unsplash.com/photos/-9UJTnXpUXM",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "paddenstoelenravioli-blauwekaassaus",
@@ -7046,16 +6587,7 @@
       "palette": [
         "#c8a76b",
         "#3f7a45"
-      ],
-      "image": {
-        "url": "/recipe-images/paddenstoelenravioli-blauwekaassaus.jpg",
-        "thumbUrl": "/recipe-images/paddenstoelenravioli-blauwekaassaus-sm.jpg",
-        "alt": "Sfeerfoto bij Paddenstoelenravioli in blauwekaassaus",
-        "credit": "Yoav Aziz",
-        "creditUrl": "https://unsplash.com/photos/EGRJe6BHG9I",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "pasta-geroosterde-paprikasaus-geitenkaas",
@@ -7168,16 +6700,7 @@
       "palette": [
         "#d2452e",
         "#f2e7d0"
-      ],
-      "image": {
-        "url": "/recipe-images/pasta-geroosterde-paprikasaus-geitenkaas.jpg",
-        "thumbUrl": "/recipe-images/pasta-geroosterde-paprikasaus-geitenkaas-sm.jpg",
-        "alt": "Sfeerfoto bij Pasta met geroosterde-paprikasaus en geitenkaas",
-        "credit": "ABHISHEK HAJARE",
-        "creditUrl": "https://unsplash.com/photos/_3dTLrMwiW8",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "pasta-zelfgemaakte-spinaziepesto",
@@ -7290,16 +6813,7 @@
       "palette": [
         "#3e7b36",
         "#d53a2f"
-      ],
-      "image": {
-        "url": "/recipe-images/pasta-zelfgemaakte-spinaziepesto.jpg",
-        "thumbUrl": "/recipe-images/pasta-zelfgemaakte-spinaziepesto-sm.jpg",
-        "alt": "Sfeerfoto bij Pasta met zelfgemaakte spinaziepesto",
-        "credit": "Eaters Collective",
-        "creditUrl": "https://unsplash.com/photos/12eHC6FxPyg",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "verse-tagliatelle-cherrytomatensaus",
@@ -7405,16 +6919,7 @@
       "palette": [
         "#e7a43a",
         "#c83a2c"
-      ],
-      "image": {
-        "url": "/recipe-images/verse-tagliatelle-cherrytomatensaus.jpg",
-        "thumbUrl": "/recipe-images/verse-tagliatelle-cherrytomatensaus-sm.jpg",
-        "alt": "Sfeerfoto bij Verse tagliatelle met cherrytomatensaus",
-        "credit": "Pratik Gupta",
-        "creditUrl": "https://unsplash.com/photos/gyt0s3wR1YM",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "penne-romige-geitenkaassaus-prei",
@@ -7531,16 +7036,7 @@
       "palette": [
         "#f1ecdf",
         "#7b9b4c"
-      ],
-      "image": {
-        "url": "/recipe-images/penne-romige-geitenkaassaus-prei.jpg",
-        "thumbUrl": "/recipe-images/penne-romige-geitenkaassaus-prei-sm.jpg",
-        "alt": "Sfeerfoto bij Penne met romige geitenkaassaus",
-        "credit": "Nerfee Mirandilla",
-        "creditUrl": "https://unsplash.com/photos/huE4NUt2gq8",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "rigatoni-al-forno-drie-kazen",
@@ -7676,16 +7172,7 @@
       "palette": [
         "#b9402e",
         "#f0d27a"
-      ],
-      "image": {
-        "url": "/recipe-images/rigatoni-al-forno-drie-kazen.jpg",
-        "thumbUrl": "/recipe-images/rigatoni-al-forno-drie-kazen-sm.jpg",
-        "alt": "Sfeerfoto bij Rigatoni al forno met drie soorten kaas",
-        "credit": "irws",
-        "creditUrl": "https://unsplash.com/photos/xkyXo2A1kkg",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "romige-spaghetti-vega-gehakt-mascarpone",
@@ -7822,16 +7309,7 @@
       "palette": [
         "#c4452f",
         "#f3e6cf"
-      ],
-      "image": {
-        "url": "/recipe-images/romige-spaghetti-vega-gehakt-mascarpone.jpg",
-        "thumbUrl": "/recipe-images/romige-spaghetti-vega-gehakt-mascarpone-sm.jpg",
-        "alt": "Sfeerfoto bij Romige spaghetti met veggie gehakt",
-        "credit": "Natalie Behn",
-        "creditUrl": "https://unsplash.com/photos/2eVu7_gBnV0",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "romige-tortelloni-oven-courgette-spinazie",
@@ -7949,16 +7427,7 @@
       "palette": [
         "#e3c27a",
         "#4a7a3e"
-      ],
-      "image": {
-        "url": "/recipe-images/romige-tortelloni-oven-courgette-spinazie.jpg",
-        "thumbUrl": "/recipe-images/romige-tortelloni-oven-courgette-spinazie-sm.jpg",
-        "alt": "Sfeerfoto bij Romige tortelloni uit de oven",
-        "credit": "logan jeffrey",
-        "creditUrl": "https://unsplash.com/photos/QcMm7CtKbM8",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "smokey-conchiglie-burrata",
@@ -8088,16 +7557,7 @@
       "palette": [
         "#b33a2a",
         "#f5f1e6"
-      ],
-      "image": {
-        "url": "/recipe-images/smokey-conchiglie-burrata.jpg",
-        "thumbUrl": "/recipe-images/smokey-conchiglie-burrata-sm.jpg",
-        "alt": "Sfeerfoto bij Smokey conchiglie met burrata en basilicum",
-        "credit": "Brett Wharton",
-        "creditUrl": "https://unsplash.com/photos/m9_uhieWA10",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "spaghetti-al-limone-broccoli",
@@ -8238,16 +7698,7 @@
       "palette": [
         "#f2d64b",
         "#4f7f3b"
-      ],
-      "image": {
-        "url": "/recipe-images/spaghetti-al-limone-broccoli.jpg",
-        "thumbUrl": "/recipe-images/spaghetti-al-limone-broccoli-sm.jpg",
-        "alt": "Sfeerfoto bij Spaghetti al limone in roomsaus",
-        "credit": "Imad 786",
-        "creditUrl": "https://unsplash.com/photos/Ckka_jsngpM",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "vegetarische-penne-bolognese-linzen",
@@ -8390,16 +7841,7 @@
       "palette": [
         "#9e3a26",
         "#e8b86a"
-      ],
-      "image": {
-        "url": "/recipe-images/vegetarische-penne-bolognese-linzen.jpg",
-        "thumbUrl": "/recipe-images/vegetarische-penne-bolognese-linzen-sm.jpg",
-        "alt": "Sfeerfoto bij Vegetarische penne bolognese",
-        "credit": "Nima Naseri",
-        "creditUrl": "https://unsplash.com/photos/QSXPD_7_kuA",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "vegetarische-spaghetti-carbonara-paddenstoelen",
@@ -8509,16 +7951,7 @@
       "palette": [
         "#e9cf8a",
         "#6b5038"
-      ],
-      "image": {
-        "url": "/recipe-images/vegetarische-spaghetti-carbonara-paddenstoelen.jpg",
-        "thumbUrl": "/recipe-images/vegetarische-spaghetti-carbonara-paddenstoelen-sm.jpg",
-        "alt": "Sfeerfoto bij Vegetarische spaghetti carbonara",
-        "credit": "Zoshua Colah",
-        "creditUrl": "https://unsplash.com/photos/G99JLO2lDyQ",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "penne-witlof-paddenstoelenroomsaus",
@@ -8626,16 +8059,7 @@
       "palette": [
         "#e7e1b5",
         "#6a5136"
-      ],
-      "image": {
-        "url": "/recipe-images/penne-witlof-paddenstoelenroomsaus.jpg",
-        "thumbUrl": "/recipe-images/penne-witlof-paddenstoelenroomsaus-sm.jpg",
-        "alt": "Sfeerfoto bij Penne met witlof en paddenstoelenroomsaus",
-        "credit": "Ben Yang",
-        "creditUrl": "https://unsplash.com/photos/g2W3toIbbfs",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "verse-ravioli-ricotta-spinazie-tomatensaus",
@@ -8731,16 +8155,7 @@
       "palette": [
         "#c8402f",
         "#3f7a3c"
-      ],
-      "image": {
-        "url": "/recipe-images/verse-ravioli-ricotta-spinazie-tomatensaus.jpg",
-        "thumbUrl": "/recipe-images/verse-ravioli-ricotta-spinazie-tomatensaus-sm.jpg",
-        "alt": "Sfeerfoto bij Verse ravioli met ricotta en spinazie",
-        "credit": "Arne Buss",
-        "creditUrl": "https://unsplash.com/photos/LcoQUymsMLo",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "tagliatelle-paddenstoelen-salieboter",
@@ -8861,16 +8276,7 @@
       "palette": [
         "#7b5a3a",
         "#d4a64a"
-      ],
-      "image": {
-        "url": "/recipe-images/tagliatelle-paddenstoelen-salieboter.jpg",
-        "thumbUrl": "/recipe-images/tagliatelle-paddenstoelen-salieboter-sm.jpg",
-        "alt": "Sfeerfoto bij Verse tagliatelle met gebakken paddenstoelen",
-        "credit": "Leon Bredella",
-        "creditUrl": "https://unsplash.com/photos/5_5tjqjKNAI",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "aglio-e-olio-risotto-geitenkaas-pistache",
@@ -9011,16 +8417,7 @@
       "palette": [
         "#8e2a4a",
         "#e08a3a"
-      ],
-      "image": {
-        "url": "/recipe-images/aglio-e-olio-risotto-geitenkaas-pistache.jpg",
-        "thumbUrl": "/recipe-images/aglio-e-olio-risotto-geitenkaas-pistache-sm.jpg",
-        "alt": "Sfeerfoto bij Aglio e olio risotto met geitenkaas en pistachenoten",
-        "credit": "Leiliane Fagundes",
-        "creditUrl": "https://unsplash.com/photos/gQM1kZn8oNA",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "champignonrisotto-orzo-truffel-walnoot",
@@ -9140,16 +8537,7 @@
       "palette": [
         "#7b6346",
         "#f0e2c2"
-      ],
-      "image": {
-        "url": "/recipe-images/champignonrisotto-orzo-truffel-walnoot.jpg",
-        "thumbUrl": "/recipe-images/champignonrisotto-orzo-truffel-walnoot-sm.jpg",
-        "alt": "Sfeerfoto bij Champignonrisotto van orzo",
-        "credit": "khloe arledge",
-        "creditUrl": "https://unsplash.com/photos/gg_PV3EvCaM",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "feta-oven-orzo-tapenade",
@@ -9252,16 +8640,7 @@
       "palette": [
         "#d8452f",
         "#f3eee2"
-      ],
-      "image": {
-        "url": "/recipe-images/feta-oven-orzo-tapenade.jpg",
-        "thumbUrl": "/recipe-images/feta-oven-orzo-tapenade-sm.jpg",
-        "alt": "Sfeerfoto bij Feta uit de oven met orzo",
-        "credit": "Roberto Arias",
-        "creditUrl": "https://unsplash.com/photos/q9itiHqVO10",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "orzo-venkel-pistache-spinazie",
@@ -9382,16 +8761,7 @@
       "palette": [
         "#b5c86a",
         "#f4f0e0"
-      ],
-      "image": {
-        "url": "/recipe-images/orzo-venkel-pistache-spinazie.jpg",
-        "thumbUrl": "/recipe-images/orzo-venkel-pistache-spinazie-sm.jpg",
-        "alt": "Sfeerfoto bij Orzo met venkel en pistachenoten",
-        "credit": "Oscar Ramirez",
-        "creditUrl": "https://unsplash.com/photos/dqeiNY6F4Cc",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "orzo-geroosterde-groenten-knoflookbrood",
@@ -9531,16 +8901,7 @@
       "palette": [
         "#c64a2e",
         "#5c3d63"
-      ],
-      "image": {
-        "url": "/recipe-images/orzo-geroosterde-groenten-knoflookbrood.jpg",
-        "thumbUrl": "/recipe-images/orzo-geroosterde-groenten-knoflookbrood-sm.jpg",
-        "alt": "Sfeerfoto bij Orzo met geroosterde groenten en knoflookbrood",
-        "credit": "Amy Martin",
-        "creditUrl": "https://unsplash.com/photos/SbEIB-pg60k",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "parelgerst-risotto-geroosterde-pompoen",
@@ -9656,16 +9017,7 @@
       "palette": [
         "#e0812e",
         "#7d5a3c"
-      ],
-      "image": {
-        "url": "/recipe-images/parelgerst-risotto-geroosterde-pompoen.jpg",
-        "thumbUrl": "/recipe-images/parelgerst-risotto-geroosterde-pompoen-sm.jpg",
-        "alt": "Sfeerfoto bij Parelgerst-risotto met geroosterde pompoen",
-        "credit": "Hanna",
-        "creditUrl": "https://unsplash.com/photos/99snZGfYGn8",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "risotto-geroosterde-cherrytomaten-venkel",
@@ -9795,16 +9147,7 @@
       "palette": [
         "#d43c2f",
         "#c5d27a"
-      ],
-      "image": {
-        "url": "/recipe-images/risotto-geroosterde-cherrytomaten-venkel.jpg",
-        "thumbUrl": "/recipe-images/risotto-geroosterde-cherrytomaten-venkel-sm.jpg",
-        "alt": "Sfeerfoto bij Risotto met geroosterde cherrytomaten en kruidige venkel",
-        "credit": "Molly Keesling",
-        "creditUrl": "https://unsplash.com/photos/tk6_L0jDPsk",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "quinoa-risotto-feta-citroen",
@@ -9919,16 +9262,7 @@
       "palette": [
         "#e7d9a6",
         "#3d7a3a"
-      ],
-      "image": {
-        "url": "/recipe-images/quinoa-risotto-feta-citroen.jpg",
-        "thumbUrl": "/recipe-images/quinoa-risotto-feta-citroen-sm.jpg",
-        "alt": "Sfeerfoto bij Quinoa-risotto met feta en citroen",
-        "credit": "Sandie Clarke",
-        "creditUrl": "https://unsplash.com/photos/lGQvuvGlp0s",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "romige-orzo-oven-broccoli",
@@ -10059,16 +9393,7 @@
       "palette": [
         "#e8c36c",
         "#447a3a"
-      ],
-      "image": {
-        "url": "/recipe-images/romige-orzo-oven-broccoli.jpg",
-        "thumbUrl": "/recipe-images/romige-orzo-oven-broccoli-sm.jpg",
-        "alt": "Sfeerfoto bij Romige orzo uit de oven met broccoli",
-        "credit": "Megan Bucknall",
-        "creditUrl": "https://unsplash.com/photos/WCm3nrbzmCY",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "tomatenrisotto-kokosmelk-basilicum",
@@ -10194,16 +9519,7 @@
       "palette": [
         "#cf4330",
         "#f4ead8"
-      ],
-      "image": {
-        "url": "/recipe-images/tomatenrisotto-kokosmelk-basilicum.jpg",
-        "thumbUrl": "/recipe-images/tomatenrisotto-kokosmelk-basilicum-sm.jpg",
-        "alt": "Sfeerfoto bij Tomatenrisotto met kokosmelk en basilicum",
-        "credit": "Raamin ka",
-        "creditUrl": "https://unsplash.com/photos/uiANBkv4YhQ",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "veggie-bolognese-risotto-mascarpone",
@@ -10339,16 +9655,7 @@
       "palette": [
         "#a8392a",
         "#efd9a6"
-      ],
-      "image": {
-        "url": "/recipe-images/veggie-bolognese-risotto-mascarpone.jpg",
-        "thumbUrl": "/recipe-images/veggie-bolognese-risotto-mascarpone-sm.jpg",
-        "alt": "Sfeerfoto bij Veggie bolognese-stijl risotto",
-        "credit": "Corinne Kutz",
-        "creditUrl": "https://unsplash.com/photos/-td2nrQUHG8",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "groentelasagne-mascarpone-basilicum",
@@ -10475,16 +9782,7 @@
       "palette": [
         "#c94a2f",
         "#f2dfb4"
-      ],
-      "image": {
-        "url": "/recipe-images/groentelasagne-mascarpone-basilicum.jpg",
-        "thumbUrl": "/recipe-images/groentelasagne-mascarpone-basilicum-sm.jpg",
-        "alt": "Sfeerfoto bij Groentelasagne met vers basilicum",
-        "credit": "Elena Leya",
-        "creditUrl": "https://unsplash.com/photos/MZLVQdTCUgQ",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "pompoenlasagne-drie-kazen-boerenkool",
@@ -10637,16 +9935,7 @@
       "palette": [
         "#df8a2f",
         "#3f5f35"
-      ],
-      "image": {
-        "url": "/recipe-images/pompoenlasagne-drie-kazen-boerenkool.jpg",
-        "thumbUrl": "/recipe-images/pompoenlasagne-drie-kazen-boerenkool-sm.jpg",
-        "alt": "Sfeerfoto bij Pompoenlasagne met drie kazen",
-        "credit": "Stefen Tan",
-        "creditUrl": "https://unsplash.com/photos/cxm7rCXRwNI",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "romige-lasagne-vega-gehakt-champignons",
@@ -10773,16 +10062,7 @@
       "palette": [
         "#e5cfa2",
         "#6b4f37"
-      ],
-      "image": {
-        "url": "/recipe-images/romige-lasagne-vega-gehakt-champignons.jpg",
-        "thumbUrl": "/recipe-images/romige-lasagne-vega-gehakt-champignons-sm.jpg",
-        "alt": "Sfeerfoto bij Romige lasagne met veggie gehakt en champignons",
-        "credit": "David Trinks",
-        "creditUrl": "https://unsplash.com/photos/141tlzcHIwI",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "linzenschotel-vega-gehakt-aubergine",
@@ -10911,16 +10191,7 @@
       "palette": [
         "#5a3a5c",
         "#d9a24a"
-      ],
-      "image": {
-        "url": "/recipe-images/linzenschotel-vega-gehakt-aubergine.jpg",
-        "thumbUrl": "/recipe-images/linzenschotel-vega-gehakt-aubergine-sm.jpg",
-        "alt": "Sfeerfoto bij Cheesy linzenschotel met veggie gehakt en aubergine",
-        "credit": "Benjamin Chambon",
-        "creditUrl": "https://unsplash.com/photos/EPwMA-dJmKg",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "cheesy-pastaschotel-pompoen-gremolata",
@@ -11067,16 +10338,7 @@
       "palette": [
         "#e5892f",
         "#f5e3a4"
-      ],
-      "image": {
-        "url": "/recipe-images/cheesy-pastaschotel-pompoen-gremolata.jpg",
-        "thumbUrl": "/recipe-images/cheesy-pastaschotel-pompoen-gremolata-sm.jpg",
-        "alt": "Sfeerfoto bij Cheesy pastaschotel met pompoen",
-        "credit": "Blake Wisz",
-        "creditUrl": "https://unsplash.com/photos/ieLq0awjIw8",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "romige-spaghetti-paddenstoelen-truffelolie",
@@ -11198,16 +10460,7 @@
       "palette": [
         "#6f5640",
         "#e6dcc4"
-      ],
-      "image": {
-        "url": "/recipe-images/romige-spaghetti-paddenstoelen-truffelolie.jpg",
-        "thumbUrl": "/recipe-images/romige-spaghetti-paddenstoelen-truffelolie-sm.jpg",
-        "alt": "Sfeerfoto bij Romige spaghetti met paddenstoelen en truffelolie",
-        "credit": "Jean-claude Attipoe",
-        "creditUrl": "https://unsplash.com/photos/QD9A1O2reYY",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "griekse-ovenschotel-groenten-ei-feta",
@@ -11338,16 +10591,7 @@
       "palette": [
         "#e7b54a",
         "#c8422f"
-      ],
-      "image": {
-        "url": "/recipe-images/griekse-ovenschotel-groenten-ei-feta.jpg",
-        "thumbUrl": "/recipe-images/griekse-ovenschotel-groenten-ei-feta-sm.jpg",
-        "alt": "Sfeerfoto bij Ovenschotel met groenten, ei en feta",
-        "credit": "Ruyan Ayten",
-        "creditUrl": "https://unsplash.com/photos/UWViqyCrG3s",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "romige-ovenschotel-aardappel-snijbonen",
@@ -11460,16 +10704,7 @@
       "palette": [
         "#e9d49a",
         "#4f7a3a"
-      ],
-      "image": {
-        "url": "/recipe-images/romige-ovenschotel-aardappel-snijbonen.jpg",
-        "thumbUrl": "/recipe-images/romige-ovenschotel-aardappel-snijbonen-sm.jpg",
-        "alt": "Sfeerfoto bij Romige ovenschotel met aardappelschijfjes en snijbonen",
-        "credit": "Some Tale",
-        "creditUrl": "https://unsplash.com/photos/lqRfdLcZm_w",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "tex-mex-ovenschotel-zoete-aardappel-bonen",
@@ -11597,16 +10832,7 @@
       "palette": [
         "#e07b2b",
         "#3e6f3a"
-      ],
-      "image": {
-        "url": "/recipe-images/tex-mex-ovenschotel-zoete-aardappel-bonen.jpg",
-        "thumbUrl": "/recipe-images/tex-mex-ovenschotel-zoete-aardappel-bonen-sm.jpg",
-        "alt": "Sfeerfoto bij Tex-Mex ovenschotel met zoete aardappel",
-        "credit": "Svitlana",
-        "creditUrl": "https://unsplash.com/photos/VAbBclifmvY",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "griekse-schotel-tomaat-feta-kappertjes",
@@ -11722,16 +10948,7 @@
       "palette": [
         "#d23d2e",
         "#f3efe3"
-      ],
-      "image": {
-        "url": "/recipe-images/griekse-schotel-tomaat-feta-kappertjes.jpg",
-        "thumbUrl": "/recipe-images/griekse-schotel-tomaat-feta-kappertjes-sm.jpg",
-        "alt": "Sfeerfoto bij Vegetarische Griekse schotel",
-        "credit": "Helgi Olgeirsson",
-        "creditUrl": "https://unsplash.com/photos/iM4pw-3hR74",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "aubergine-curry-gele-rijst",
@@ -11876,16 +11093,7 @@
       "palette": [
         "#e3a52a",
         "#5b3b5f"
-      ],
-      "image": {
-        "url": "/recipe-images/aubergine-curry-gele-rijst.jpg",
-        "thumbUrl": "/recipe-images/aubergine-curry-gele-rijst-sm.jpg",
-        "alt": "Sfeerfoto bij Aubergine-curry met gele rijst",
-        "credit": "Zoshua Colah",
-        "creditUrl": "https://unsplash.com/photos/i0Dd1oxMz6c",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "curry-aardappel-bloemkool-naan",
@@ -12007,16 +11215,7 @@
       "palette": [
         "#e2a93a",
         "#f1e6c8"
-      ],
-      "image": {
-        "url": "/recipe-images/curry-aardappel-bloemkool-naan.jpg",
-        "thumbUrl": "/recipe-images/curry-aardappel-bloemkool-naan-sm.jpg",
-        "alt": "Sfeerfoto bij Curry met aardappel en bloemkool",
-        "credit": "Anil Sharma",
-        "creditUrl": "https://unsplash.com/photos/VhKL_ftnDTw",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "dahl-appel-gember-frisse-salsa",
@@ -12158,16 +11357,7 @@
       "palette": [
         "#e0a23a",
         "#6c9a4a"
-      ],
-      "image": {
-        "url": "/recipe-images/dahl-appel-gember-frisse-salsa.jpg",
-        "thumbUrl": "/recipe-images/dahl-appel-gember-frisse-salsa-sm.jpg",
-        "alt": "Sfeerfoto bij Dahl met een frisse salsa en naanbrood",
-        "credit": "VD Photography",
-        "creditUrl": "https://unsplash.com/photos/WM0qTXnH41Q",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "shiro-wat-kikkererwtencurry-roti",
@@ -12301,16 +11491,7 @@
       "palette": [
         "#b6492a",
         "#3d6b37"
-      ],
-      "image": {
-        "url": "/recipe-images/shiro-wat-kikkererwtencurry-roti.jpg",
-        "thumbUrl": "/recipe-images/shiro-wat-kikkererwtencurry-roti-sm.jpg",
-        "alt": "Sfeerfoto bij Ethiopische shiro wat: kikkererwtencurry met roti",
-        "credit": "Daniela",
-        "creditUrl": "https://unsplash.com/photos/RELOvb0rrCE",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "gele-curry-spiegelei-geroosterde-groenten",
@@ -12441,16 +11622,7 @@
       "palette": [
         "#e3b23c",
         "#6f8f3e"
-      ],
-      "image": {
-        "url": "/recipe-images/gele-curry-spiegelei-geroosterde-groenten.jpg",
-        "thumbUrl": "/recipe-images/gele-curry-spiegelei-geroosterde-groenten-sm.jpg",
-        "alt": "Sfeerfoto bij Gele curry met spiegelei en geroosterde groenten",
-        "credit": "Mahadev Ittina",
-        "creditUrl": "https://unsplash.com/photos/thrL1vpNO9U",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "indiase-linzenstoof-spinaziesalade",
@@ -12600,16 +11772,7 @@
       "palette": [
         "#b8652a",
         "#4e7d3a"
-      ],
-      "image": {
-        "url": "/recipe-images/indiase-linzenstoof-spinaziesalade.jpg",
-        "thumbUrl": "/recipe-images/indiase-linzenstoof-spinaziesalade-sm.jpg",
-        "alt": "Sfeerfoto bij Indiase linzenstoof",
-        "credit": "Paul",
-        "creditUrl": "https://unsplash.com/photos/93L024xGEUM",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "knapperige-paneer-rode-curry-pompoensoep",
@@ -12724,16 +11887,7 @@
       "palette": [
         "#e2702a",
         "#f2ddb0"
-      ],
-      "image": {
-        "url": "/recipe-images/knapperige-paneer-rode-curry-pompoensoep.jpg",
-        "thumbUrl": "/recipe-images/knapperige-paneer-rode-curry-pompoensoep-sm.jpg",
-        "alt": "Sfeerfoto bij Knapperige paneer met rode curry-pompoensoep",
-        "credit": "Cala",
-        "creditUrl": "https://unsplash.com/photos/w6ftFbPCs9I",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "paneer-currykruiden-knoflookrijst-spinazie",
@@ -12856,16 +12010,7 @@
       "palette": [
         "#3f7a3a",
         "#f1e1a8"
-      ],
-      "image": {
-        "url": "/recipe-images/paneer-currykruiden-knoflookrijst-spinazie.jpg",
-        "thumbUrl": "/recipe-images/paneer-currykruiden-knoflookrijst-spinazie-sm.jpg",
-        "alt": "Sfeerfoto bij Paneer met currykruiden",
-        "credit": "Kanwardeep Kaur",
-        "creditUrl": "https://unsplash.com/photos/jTv_cWxEtFs",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "pittige-vega-kip-tikka-masala",
@@ -13007,16 +12152,7 @@
       "palette": [
         "#c8482c",
         "#f0c66a"
-      ],
-      "image": {
-        "url": "/recipe-images/pittige-vega-kip-tikka-masala.jpg",
-        "thumbUrl": "/recipe-images/pittige-vega-kip-tikka-masala-sm.jpg",
-        "alt": "Sfeerfoto bij Pittige vegetarische kip tikka masala",
-        "credit": "shibani Mishra",
-        "creditUrl": "https://unsplash.com/photos/PPgBVHj0ecQ",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "rode-curry-bloemkool-feta-linzen",
@@ -13135,16 +12271,7 @@
       "palette": [
         "#c7432f",
         "#f2ece0"
-      ],
-      "image": {
-        "url": "/recipe-images/rode-curry-bloemkool-feta-linzen.jpg",
-        "thumbUrl": "/recipe-images/rode-curry-bloemkool-feta-linzen-sm.jpg",
-        "alt": "Sfeerfoto bij Rode curry met bloemkool en feta",
-        "credit": "Zoshua Colah",
-        "creditUrl": "https://unsplash.com/photos/4ZyLEI4y3-0",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "tikka-masala-flespompoen-mangochutney",
@@ -13265,16 +12392,7 @@
       "palette": [
         "#e0792c",
         "#6b8f3a"
-      ],
-      "image": {
-        "url": "/recipe-images/tikka-masala-flespompoen-mangochutney.jpg",
-        "thumbUrl": "/recipe-images/tikka-masala-flespompoen-mangochutney-sm.jpg",
-        "alt": "Sfeerfoto bij Tikka masala met flespompoen en mangochutney",
-        "credit": "charlesdeluvio",
-        "creditUrl": "https://unsplash.com/photos/PqsImnjuElM",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "vegan-katsu-curry-schnitzel",
@@ -13414,16 +12532,7 @@
       "palette": [
         "#c9902f",
         "#4d3a2a"
-      ],
-      "image": {
-        "url": "/recipe-images/vegan-katsu-curry-schnitzel.jpg",
-        "thumbUrl": "/recipe-images/vegan-katsu-curry-schnitzel-sm.jpg",
-        "alt": "Sfeerfoto bij Vegan curry met knapperige schnitzel en rijst",
-        "credit": "Puifai Sutawet",
-        "creditUrl": "https://unsplash.com/photos/4yTD16MMnFo",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "vegan-massaman-curry",
@@ -13569,16 +12678,7 @@
       "palette": [
         "#c5822e",
         "#f0dcb0"
-      ],
-      "image": {
-        "url": "/recipe-images/vegan-massaman-curry.jpg",
-        "thumbUrl": "/recipe-images/vegan-massaman-curry-sm.jpg",
-        "alt": "Sfeerfoto bij Vegan massaman curry",
-        "credit": "Zoshua Colah",
-        "creditUrl": "https://unsplash.com/photos/PEaeoEHpKlo",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "korma-curry-geroosterde-bloemkool",
@@ -13706,16 +12806,7 @@
       "palette": [
         "#e8c87a",
         "#c66a2e"
-      ],
-      "image": {
-        "url": "/recipe-images/korma-curry-geroosterde-bloemkool.jpg",
-        "thumbUrl": "/recipe-images/korma-curry-geroosterde-bloemkool-sm.jpg",
-        "alt": "Sfeerfoto bij Vegetarische korma curry met geroosterde bloemkoolroosjes",
-        "credit": "Markus Winkler",
-        "creditUrl": "https://unsplash.com/photos/1xsOZ-wzl3I",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "bami-goreng-vega-runderstukjes",
@@ -13831,16 +12922,7 @@
       "palette": [
         "#b5672c",
         "#e8c35c"
-      ],
-      "image": {
-        "url": "/recipe-images/bami-goreng-vega-runderstukjes.jpg",
-        "thumbUrl": "/recipe-images/bami-goreng-vega-runderstukjes-sm.jpg",
-        "alt": "Sfeerfoto bij Bami goreng met vegetarische runderstukjes",
-        "credit": "lili liu",
-        "creditUrl": "https://unsplash.com/photos/ycBYGVebHlE",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "bao-buns-gochujang-tofu",
@@ -13976,16 +13058,7 @@
       "palette": [
         "#c23b2c",
         "#f3ead7"
-      ],
-      "image": {
-        "url": "/recipe-images/bao-buns-gochujang-tofu.jpg",
-        "thumbUrl": "/recipe-images/bao-buns-gochujang-tofu-sm.jpg",
-        "alt": "Sfeerfoto bij Bao buns met gochujang-geglaceerde tofu",
-        "credit": "Mathias Reding",
-        "creditUrl": "https://unsplash.com/photos/c3U4xmOSWc8",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "tofu-soja-honing-knoflook-sperziebonen",
@@ -14101,16 +13174,7 @@
       "palette": [
         "#8c4f22",
         "#3f7b3a"
-      ],
-      "image": {
-        "url": "/recipe-images/tofu-soja-honing-knoflook-sperziebonen.jpg",
-        "thumbUrl": "/recipe-images/tofu-soja-honing-knoflook-sperziebonen-sm.jpg",
-        "alt": "Sfeerfoto bij Tofu in soja-honingmarinade",
-        "credit": "Declan Sun",
-        "creditUrl": "https://unsplash.com/photos/MgZb2-WyOi4",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "gado-gado-sperziebonen-pindasaus",
@@ -14226,16 +13290,7 @@
       "palette": [
         "#b77a33",
         "#5a8a3c"
-      ],
-      "image": {
-        "url": "/recipe-images/gado-gado-sperziebonen-pindasaus.jpg",
-        "thumbUrl": "/recipe-images/gado-gado-sperziebonen-pindasaus-sm.jpg",
-        "alt": "Sfeerfoto bij Gado gado met sperziebonen en kokos-pindasaus",
-        "credit": "Aris Dwiyanto",
-        "creditUrl": "https://unsplash.com/photos/CHf6G4x9Tlg",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "gebakken-ei-sticky-aubergine-stirfry",
@@ -14380,16 +13435,7 @@
       "palette": [
         "#5c3760",
         "#e1b24a"
-      ],
-      "image": {
-        "url": "/recipe-images/gebakken-ei-sticky-aubergine-stirfry.jpg",
-        "thumbUrl": "/recipe-images/gebakken-ei-sticky-aubergine-stirfry-sm.jpg",
-        "alt": "Sfeerfoto bij Gebakken ei met sweet & sticky aubergine-stirfry",
-        "credit": "Aveedibya Dey",
-        "creditUrl": "https://unsplash.com/photos/IhzS6pOVrRE",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "miso-aubergine-spiegelei-bruine-rijst",
@@ -14529,16 +13575,7 @@
       "palette": [
         "#4f2f4f",
         "#d9a23a"
-      ],
-      "image": {
-        "url": "/recipe-images/miso-aubergine-spiegelei-bruine-rijst.jpg",
-        "thumbUrl": "/recipe-images/miso-aubergine-spiegelei-bruine-rijst-sm.jpg",
-        "alt": "Sfeerfoto bij Japans geïnspireerde miso-aubergine met spiegelei",
-        "credit": "Jason Leung",
-        "creditUrl": "https://unsplash.com/photos/D11QmKq_e34",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "koreaanse-gefrituurde-bloemkool-gochujang",
@@ -14688,16 +13725,7 @@
       "palette": [
         "#c3372a",
         "#e9d8a8"
-      ],
-      "image": {
-        "url": "/recipe-images/koreaanse-gefrituurde-bloemkool-gochujang.jpg",
-        "thumbUrl": "/recipe-images/koreaanse-gefrituurde-bloemkool-gochujang-sm.jpg",
-        "alt": "Sfeerfoto bij Koreaanse stijl gefrituurde bloemkool in pittige gochujangsaus",
-        "credit": "Crunch",
-        "creditUrl": "https://unsplash.com/photos/fJc41-CtN_0",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "miso-ramen-peultjes-gekookt-ei",
@@ -14824,16 +13852,7 @@
       "palette": [
         "#d9a94a",
         "#6b8f3a"
-      ],
-      "image": {
-        "url": "/recipe-images/miso-ramen-peultjes-gekookt-ei.jpg",
-        "thumbUrl": "/recipe-images/miso-ramen-peultjes-gekookt-ei-sm.jpg",
-        "alt": "Sfeerfoto bij Miso-ramen met peultjes en een gekookt ei",
-        "credit": "Cody Chan",
-        "creditUrl": "https://unsplash.com/photos/GXhmQt6MFX8",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "nasi-goreng-roerei-zoetzure-tomatensaus",
@@ -14966,16 +13985,7 @@
       "palette": [
         "#b8692a",
         "#d23f2e"
-      ],
-      "image": {
-        "url": "/recipe-images/nasi-goreng-roerei-zoetzure-tomatensaus.jpg",
-        "thumbUrl": "/recipe-images/nasi-goreng-roerei-zoetzure-tomatensaus-sm.jpg",
-        "alt": "Sfeerfoto bij Nasi goreng met roerei en zoetzure tomatensaus",
-        "credit": "Jay Nlper",
-        "creditUrl": "https://unsplash.com/photos/XciY4hwqnNk",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "pokebowl-gemarineerde-tofu",
@@ -15102,16 +14112,7 @@
       "palette": [
         "#e5a4a8",
         "#5d8f3e"
-      ],
-      "image": {
-        "url": "/recipe-images/pokebowl-gemarineerde-tofu.jpg",
-        "thumbUrl": "/recipe-images/pokebowl-gemarineerde-tofu-sm.jpg",
-        "alt": "Sfeerfoto bij Pokébowl met gemarineerde tofu en rijst",
-        "credit": "XinYing Lin",
-        "creditUrl": "https://unsplash.com/photos/_VWg1YZNDnM",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "laksa-kokossoep-pindas-champignons",
@@ -15231,16 +14232,7 @@
       "palette": [
         "#e0902f",
         "#f4e2b8"
-      ],
-      "image": {
-        "url": "/recipe-images/laksa-kokossoep-pindas-champignons.jpg",
-        "thumbUrl": "/recipe-images/laksa-kokossoep-pindas-champignons-sm.jpg",
-        "alt": "Sfeerfoto bij Romige laksa-stijl kokossoep met pinda's",
-        "credit": "Max Griss",
-        "creditUrl": "https://unsplash.com/photos/otLqpb9LK70",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "stirfry-sticky-paddenstoelen-sriracha-mayo",
@@ -15361,16 +14353,7 @@
       "palette": [
         "#7a5232",
         "#e66a3a"
-      ],
-      "image": {
-        "url": "/recipe-images/stirfry-sticky-paddenstoelen-sriracha-mayo.jpg",
-        "thumbUrl": "/recipe-images/stirfry-sticky-paddenstoelen-sriracha-mayo-sm.jpg",
-        "alt": "Sfeerfoto bij Stir-fry met sticky paddenstoelen en sriracha-mayo",
-        "credit": "Lottie Griffiths",
-        "creditUrl": "https://unsplash.com/photos/6EO9G_cOCi0",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "tempehbowl-gebakken-uitjes-pindadressing",
@@ -15502,16 +14485,7 @@
       "palette": [
         "#7c3a5a",
         "#c48a3e"
-      ],
-      "image": {
-        "url": "/recipe-images/tempehbowl-gebakken-uitjes-pindadressing.jpg",
-        "thumbUrl": "/recipe-images/tempehbowl-gebakken-uitjes-pindadressing-sm.jpg",
-        "alt": "Sfeerfoto bij Tempehbowl met zelfgemaakte gebakken uitjes en rijst",
-        "credit": "Caroline Green",
-        "creditUrl": "https://unsplash.com/photos/Pqt1yIF-Fw0",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "vegan-pho-portobello-noedelsoep",
@@ -15653,16 +14627,7 @@
       "palette": [
         "#9a6a3c",
         "#5e9a4a"
-      ],
-      "image": {
-        "url": "/recipe-images/vegan-pho-portobello-noedelsoep.jpg",
-        "thumbUrl": "/recipe-images/vegan-pho-portobello-noedelsoep-sm.jpg",
-        "alt": "Sfeerfoto bij Vegan pho-stijl portobello noedelsoep",
-        "credit": "Mae Mu",
-        "creditUrl": "https://unsplash.com/photos/H5Hj8QV2Tx4",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "bulgogiburger-kimchisaus-rijst-groenten",
@@ -15770,16 +14735,7 @@
       "palette": [
         "#7b3324",
         "#4f8a3c"
-      ],
-      "image": {
-        "url": "/recipe-images/bulgogiburger-kimchisaus-rijst-groenten.jpg",
-        "thumbUrl": "/recipe-images/bulgogiburger-kimchisaus-rijst-groenten-sm.jpg",
-        "alt": "Sfeerfoto bij Vegetarische bulgogiburger met pittige kimchisaus",
-        "credit": "Cristian Andronic",
-        "creditUrl": "https://unsplash.com/photos/nWZVumeLITs",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "veggie-bibimbap-gepocheerd-ei",
@@ -15916,16 +14872,7 @@
       "palette": [
         "#d0482c",
         "#4e7f3b"
-      ],
-      "image": {
-        "url": "/recipe-images/veggie-bibimbap-gepocheerd-ei.jpg",
-        "thumbUrl": "/recipe-images/veggie-bibimbap-gepocheerd-ei-sm.jpg",
-        "alt": "Sfeerfoto bij Veggie bibimbapbowl met gepocheerd ei",
-        "credit": "Nikolay Smeh",
-        "creditUrl": "https://unsplash.com/photos/gPpbFaEkl00",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "humita-empanadas-mais-kaas",
@@ -16075,16 +15022,7 @@
       "palette": [
         "#e7b440",
         "#cf5a2e"
-      ],
-      "image": {
-        "url": "/recipe-images/humita-empanadas-mais-kaas.jpg",
-        "thumbUrl": "/recipe-images/humita-empanadas-mais-kaas-sm.jpg",
-        "alt": "Sfeerfoto bij Argentijns geïnspireerde humita-empanada's",
-        "credit": "Anton",
-        "creditUrl": "https://unsplash.com/photos/kJ6myhO23PI",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "burritobowl-tomatenrijst-tortillachips",
@@ -16217,16 +15155,7 @@
       "palette": [
         "#c9452e",
         "#e9c33a"
-      ],
-      "image": {
-        "url": "/recipe-images/burritobowl-tomatenrijst-tortillachips.jpg",
-        "thumbUrl": "/recipe-images/burritobowl-tomatenrijst-tortillachips-sm.jpg",
-        "alt": "Sfeerfoto bij Burritobowl met tomatenrijst",
-        "credit": "Hermes Rivera",
-        "creditUrl": "https://unsplash.com/photos/dZuHkZwryyI",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "cheesy-tacos-chili-sin-carne-guacamole",
@@ -16355,16 +15284,7 @@
       "palette": [
         "#b5452d",
         "#7aa646"
-      ],
-      "image": {
-        "url": "/recipe-images/cheesy-tacos-chili-sin-carne-guacamole.jpg",
-        "thumbUrl": "/recipe-images/cheesy-tacos-chili-sin-carne-guacamole-sm.jpg",
-        "alt": "Sfeerfoto bij Cheesy taco's met chili sin carne en guacamole",
-        "credit": "Spencer Davis",
-        "creditUrl": "https://unsplash.com/photos/hs2076lrvKQ",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "chili-sin-carne-krokante-kaaslaag",
@@ -16496,16 +15416,7 @@
       "palette": [
         "#9e3324",
         "#e9b23f"
-      ],
-      "image": {
-        "url": "/recipe-images/chili-sin-carne-krokante-kaaslaag.jpg",
-        "thumbUrl": "/recipe-images/chili-sin-carne-krokante-kaaslaag-sm.jpg",
-        "alt": "Sfeerfoto bij Chili sin carne met een krokant laagje kaas uit de oven",
-        "credit": "Svitlana",
-        "creditUrl": "https://unsplash.com/photos/x4hFcY7N6Zg",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "enchiladas-pompoen-kaas-walnootsalade",
@@ -16626,16 +15537,7 @@
       "palette": [
         "#e0802c",
         "#f0e2bf"
-      ],
-      "image": {
-        "url": "/recipe-images/enchiladas-pompoen-kaas-walnootsalade.jpg",
-        "thumbUrl": "/recipe-images/enchiladas-pompoen-kaas-walnootsalade-sm.jpg",
-        "alt": "Sfeerfoto bij Enchilada's met pompoen en kaas",
-        "credit": "Aleksandra Gencheva",
-        "creditUrl": "https://unsplash.com/photos/4vB9GNWnmbM",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "huevos-rancheros-witte-bonen-avocado",
@@ -16754,16 +15656,7 @@
       "palette": [
         "#c8432d",
         "#86a84b"
-      ],
-      "image": {
-        "url": "/recipe-images/huevos-rancheros-witte-bonen-avocado.jpg",
-        "thumbUrl": "/recipe-images/huevos-rancheros-witte-bonen-avocado-sm.jpg",
-        "alt": "Sfeerfoto bij Huevos rancheros met cannellinibonen en avocado",
-        "credit": "Alexandra Mendívil",
-        "creditUrl": "https://unsplash.com/photos/5sD2TgDZOxA",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "loaded-vegetarische-nachos",
@@ -16887,16 +15780,7 @@
       "palette": [
         "#e2a63a",
         "#3a2f2a"
-      ],
-      "image": {
-        "url": "/recipe-images/loaded-vegetarische-nachos.jpg",
-        "thumbUrl": "/recipe-images/loaded-vegetarische-nachos-sm.jpg",
-        "alt": "Sfeerfoto bij Loaded vegetarische nacho's",
-        "credit": "Pranav Kumar Jain",
-        "creditUrl": "https://unsplash.com/photos/DeuBE4NBl8s",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "mexicaanse-linzenstoof-tortillachips",
@@ -17016,16 +15900,7 @@
       "palette": [
         "#a8452a",
         "#f0c44a"
-      ],
-      "image": {
-        "url": "/recipe-images/mexicaanse-linzenstoof-tortillachips.jpg",
-        "thumbUrl": "/recipe-images/mexicaanse-linzenstoof-tortillachips-sm.jpg",
-        "alt": "Sfeerfoto bij Mexicaans gekruide linzenstoof met tortillachips",
-        "credit": "Holly Spangler",
-        "creditUrl": "https://unsplash.com/photos/lrtfNWl3dsE",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "orecchiette-zelfgemaakte-vegan-pesto",
@@ -17152,16 +16027,7 @@
       "palette": [
         "#4f8a3a",
         "#d64a32"
-      ],
-      "image": {
-        "url": "/recipe-images/orecchiette-zelfgemaakte-vegan-pesto.jpg",
-        "thumbUrl": "/recipe-images/orecchiette-zelfgemaakte-vegan-pesto-sm.jpg",
-        "alt": "Sfeerfoto bij Orecchiette met een zelfgemaakte vegan pesto",
-        "credit": "Nerfee Mirandilla",
-        "creditUrl": "https://unsplash.com/photos/cBrhiz8XHAs",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "quesadilla-paddenstoelen-paprika-avocadodip",
@@ -17277,16 +16143,7 @@
       "palette": [
         "#e3b04a",
         "#6e8a3c"
-      ],
-      "image": {
-        "url": "/recipe-images/quesadilla-paddenstoelen-paprika-avocadodip.jpg",
-        "thumbUrl": "/recipe-images/quesadilla-paddenstoelen-paprika-avocadodip-sm.jpg",
-        "alt": "Sfeerfoto bij Quesadilla met paddenstoelen en paprika",
-        "credit": "Abdullah Guc",
-        "creditUrl": "https://unsplash.com/photos/NTZpME8URX8",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "tomaten-bonensoep-zelfgemaakte-nachos",
@@ -17414,16 +16271,7 @@
       "palette": [
         "#b8392a",
         "#2e2b28"
-      ],
-      "image": {
-        "url": "/recipe-images/tomaten-bonensoep-zelfgemaakte-nachos.jpg",
-        "thumbUrl": "/recipe-images/tomaten-bonensoep-zelfgemaakte-nachos-sm.jpg",
-        "alt": "Sfeerfoto bij Tomaten-bonensoep met zelfgemaakte nacho's",
-        "credit": "Kae Ng",
-        "creditUrl": "https://unsplash.com/photos/9b_UDAe0XVQ",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "zwartebonentacos-avocadosalsa",
@@ -17551,16 +16399,7 @@
       "palette": [
         "#2f2a2a",
         "#8cae4a"
-      ],
-      "image": {
-        "url": "/recipe-images/zwartebonentacos-avocadosalsa.jpg",
-        "thumbUrl": "/recipe-images/zwartebonentacos-avocadosalsa-sm.jpg",
-        "alt": "Sfeerfoto bij Zwartebonentaco's met romige avocadosalsa",
-        "credit": "Quin Engle",
-        "creditUrl": "https://unsplash.com/photos/hAFCfzaeVJg",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "aubergine-oven-feta-granaatappel-pittenrijst",
@@ -17676,16 +16515,7 @@
       "palette": [
         "#5b2f53",
         "#c9324b"
-      ],
-      "image": {
-        "url": "/recipe-images/aubergine-oven-feta-granaatappel-pittenrijst.jpg",
-        "thumbUrl": "/recipe-images/aubergine-oven-feta-granaatappel-pittenrijst-sm.jpg",
-        "alt": "Sfeerfoto bij Aubergine uit de oven met feta en granaatappelpitjes",
-        "credit": "Alex Lvrs",
-        "creditUrl": "https://unsplash.com/photos/0ly_-joW_7Q",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "baba-ganoush-bowl-couscous-feta",
@@ -17817,16 +16647,7 @@
       "palette": [
         "#7b6a5a",
         "#d6532f"
-      ],
-      "image": {
-        "url": "/recipe-images/baba-ganoush-bowl-couscous-feta.jpg",
-        "thumbUrl": "/recipe-images/baba-ganoush-bowl-couscous-feta-sm.jpg",
-        "alt": "Sfeerfoto bij Baba ganoush bowl met couscous en feta",
-        "credit": "Amy Vann",
-        "creditUrl": "https://unsplash.com/photos/k53TaqYkG-U",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "bulgurbowl-tzatziki-krokante-kikkererwten",
@@ -17947,16 +16768,7 @@
       "palette": [
         "#c78a3a",
         "#6c9a4c"
-      ],
-      "image": {
-        "url": "/recipe-images/bulgurbowl-tzatziki-krokante-kikkererwten.jpg",
-        "thumbUrl": "/recipe-images/bulgurbowl-tzatziki-krokante-kikkererwten-sm.jpg",
-        "alt": "Sfeerfoto bij Bulgurbowl met tzatziki en krokante kikkererwten",
-        "credit": "Zoshua Colah",
-        "creditUrl": "https://unsplash.com/photos/3jLoOyaleKg",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "bulgur-spinazie-harissa-geroosterde-wortel",
@@ -18076,16 +16888,7 @@
       "palette": [
         "#de6f2a",
         "#3f7a3a"
-      ],
-      "image": {
-        "url": "/recipe-images/bulgur-spinazie-harissa-geroosterde-wortel.jpg",
-        "thumbUrl": "/recipe-images/bulgur-spinazie-harissa-geroosterde-wortel-sm.jpg",
-        "alt": "Sfeerfoto bij Bulgur met spinazie en harissa",
-        "credit": "Anna Przepiorka",
-        "creditUrl": "https://unsplash.com/photos/GDsNK33sb_A",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "falafel-geroosterde-groenten-dille-yoghurt",
@@ -18231,16 +17034,7 @@
       "palette": [
         "#c98a3a",
         "#6e9a52"
-      ],
-      "image": {
-        "url": "/recipe-images/falafel-geroosterde-groenten-dille-yoghurt.jpg",
-        "thumbUrl": "/recipe-images/falafel-geroosterde-groenten-dille-yoghurt-sm.jpg",
-        "alt": "Sfeerfoto bij Falafel en geroosterde groenten met Midden-Oosterse kruiden",
-        "credit": "Christina Rumpf",
-        "creditUrl": "https://unsplash.com/photos/gUU4MF87Ipw",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "falafel-zhoug-witte-kaas-krieltjes",
@@ -18368,16 +17162,7 @@
       "palette": [
         "#4f8f3a",
         "#d36a32"
-      ],
-      "image": {
-        "url": "/recipe-images/falafel-zhoug-witte-kaas-krieltjes.jpg",
-        "thumbUrl": "/recipe-images/falafel-zhoug-witte-kaas-krieltjes-sm.jpg",
-        "alt": "Sfeerfoto bij Falafel met zhoug en witte kaas",
-        "credit": "Chez Le Libanais",
-        "creditUrl": "https://unsplash.com/photos/9oepWGu1bSQ",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "geroosterde-groenten-zelfgemaakte-hummus-tabouleh",
@@ -18519,16 +17304,7 @@
       "palette": [
         "#d9b878",
         "#c4442e"
-      ],
-      "image": {
-        "url": "/recipe-images/geroosterde-groenten-zelfgemaakte-hummus-tabouleh.jpg",
-        "thumbUrl": "/recipe-images/geroosterde-groenten-zelfgemaakte-hummus-tabouleh-sm.jpg",
-        "alt": "Sfeerfoto bij Geroosterde groenten met zelfgemaakte hummus",
-        "credit": "Imad 786",
-        "creditUrl": "https://unsplash.com/photos/eeDn5tqeWCc",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "groene-shakshuka-linzen-spinazie",
@@ -18650,16 +17426,7 @@
       "palette": [
         "#3c7a3a",
         "#f3efdf"
-      ],
-      "image": {
-        "url": "/recipe-images/groene-shakshuka-linzen-spinazie.jpg",
-        "thumbUrl": "/recipe-images/groene-shakshuka-linzen-spinazie-sm.jpg",
-        "alt": "Sfeerfoto bij Groene shakshuka met linzen en spinazie",
-        "credit": "David B Townsend",
-        "creditUrl": "https://unsplash.com/photos/lJLXlh7KT38",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "lahmacun-vega-gehakt-knoflooksaus",
@@ -18785,16 +17552,7 @@
       "palette": [
         "#b8402c",
         "#7a9b4a"
-      ],
-      "image": {
-        "url": "/recipe-images/lahmacun-vega-gehakt-knoflooksaus.jpg",
-        "thumbUrl": "/recipe-images/lahmacun-vega-gehakt-knoflooksaus-sm.jpg",
-        "alt": "Sfeerfoto bij Lahmacun met vegan gehakt",
-        "credit": "Adhitya Sibikumar",
-        "creditUrl": "https://unsplash.com/photos/ZL2CkcaaLL0",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "marokkaanse-stoof-witte-kaas-dadels",
@@ -18926,16 +17684,7 @@
       "palette": [
         "#c7682c",
         "#f1ead3"
-      ],
-      "image": {
-        "url": "/recipe-images/marokkaanse-stoof-witte-kaas-dadels.jpg",
-        "thumbUrl": "/recipe-images/marokkaanse-stoof-witte-kaas-dadels-sm.jpg",
-        "alt": "Sfeerfoto bij Marokkaans geïnspireerde stoof met witte kaas",
-        "credit": "Denis",
-        "creditUrl": "https://unsplash.com/photos/ttl1XoB2MjM",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "midden-oosterse-tomaten-kikkererwten-naan",
@@ -19057,16 +17806,7 @@
       "palette": [
         "#d0412e",
         "#eee6d2"
-      ],
-      "image": {
-        "url": "/recipe-images/midden-oosterse-tomaten-kikkererwten-naan.jpg",
-        "thumbUrl": "/recipe-images/midden-oosterse-tomaten-kikkererwten-naan-sm.jpg",
-        "alt": "Sfeerfoto bij Midden-Oosters gekruide tomaten met kikkererwten",
-        "credit": "Markus McKay",
-        "creditUrl": "https://unsplash.com/photos/qLA_D-IVpQ0",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "mujaddara-harissa-komkommeryoghurt",
@@ -19221,16 +17961,7 @@
       "palette": [
         "#a86a34",
         "#d23f2e"
-      ],
-      "image": {
-        "url": "/recipe-images/mujaddara-harissa-komkommeryoghurt.jpg",
-        "thumbUrl": "/recipe-images/mujaddara-harissa-komkommeryoghurt-sm.jpg",
-        "alt": "Sfeerfoto bij Mujaddara met harissa, cherrytomaten en komkommeryoghurt",
-        "credit": "حامد طه",
-        "creditUrl": "https://unsplash.com/photos/v6iwEmqTYFI",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "sabich-gegrilde-aubergine-ei-hummus",
@@ -19349,16 +18080,7 @@
       "palette": [
         "#5d3a5c",
         "#f2c94a"
-      ],
-      "image": {
-        "url": "/recipe-images/sabich-gegrilde-aubergine-ei-hummus.jpg",
-        "thumbUrl": "/recipe-images/sabich-gegrilde-aubergine-ei-hummus-sm.jpg",
-        "alt": "Sfeerfoto bij Sabich met gegrilde aubergine, ei en hummus",
-        "credit": "Crunch",
-        "creditUrl": "https://unsplash.com/photos/LuKVNruz9sw",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "sticky-aubergine-harissa-zaatar-pita",
@@ -19500,16 +18222,7 @@
       "palette": [
         "#6b2f4e",
         "#c8452e"
-      ],
-      "image": {
-        "url": "/recipe-images/sticky-aubergine-harissa-zaatar-pita.jpg",
-        "thumbUrl": "/recipe-images/sticky-aubergine-harissa-zaatar-pita-sm.jpg",
-        "alt": "Sfeerfoto bij Sticky aubergine met harissa en knapperige za'atar-pita",
-        "credit": "jack shingai",
-        "creditUrl": "https://unsplash.com/photos/uHYOKEosqmk",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "wraps-baba-ganoush-gekaramelliseerde-ui",
@@ -19634,16 +18347,7 @@
       "palette": [
         "#7c3f6b",
         "#e3c483"
-      ],
-      "image": {
-        "url": "/recipe-images/wraps-baba-ganoush-gekaramelliseerde-ui.jpg",
-        "thumbUrl": "/recipe-images/wraps-baba-ganoush-gekaramelliseerde-ui-sm.jpg",
-        "alt": "Sfeerfoto bij Wraps met baba ganoush en gekaramelliseerde ui",
-        "credit": "Gaby Aziz",
-        "creditUrl": "https://unsplash.com/photos/gBqlz19UlnI",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "bbq-halloumiburger-ananassaus",
@@ -19794,16 +18498,7 @@
       "palette": [
         "#e3a12c",
         "#a33a2a"
-      ],
-      "image": {
-        "url": "/recipe-images/bbq-halloumiburger-ananassaus.jpg",
-        "thumbUrl": "/recipe-images/bbq-halloumiburger-ananassaus-sm.jpg",
-        "alt": "Sfeerfoto bij BBQ halloumiburger met pittige ananassaus",
-        "credit": "Emma Miller",
-        "creditUrl": "https://unsplash.com/photos/eY-qkhWe6Gc",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "broodje-hoisin-aubergine-frieten",
@@ -19938,16 +18633,7 @@
       "palette": [
         "#4f2c3f",
         "#e2a74a"
-      ],
-      "image": {
-        "url": "/recipe-images/broodje-hoisin-aubergine-frieten.jpg",
-        "thumbUrl": "/recipe-images/broodje-hoisin-aubergine-frieten-sm.jpg",
-        "alt": "Sfeerfoto bij Broodje hoisin-aubergine met frieten",
-        "credit": "EVERYDAY PaRIS",
-        "creditUrl": "https://unsplash.com/photos/aSQ9fB61Qfs",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "gepaneerde-portobello-gebakken-aardappel-uienchutney",
@@ -20072,16 +18758,7 @@
       "palette": [
         "#c79a4e",
         "#6b4d36"
-      ],
-      "image": {
-        "url": "/recipe-images/gepaneerde-portobello-gebakken-aardappel-uienchutney.jpg",
-        "thumbUrl": "/recipe-images/gepaneerde-portobello-gebakken-aardappel-uienchutney-sm.jpg",
-        "alt": "Sfeerfoto bij Gepaneerde portobello met gebakken aardappel",
-        "credit": "Samuel Agyeman-Duah",
-        "creditUrl": "https://unsplash.com/photos/TLjdMnEuZ5A",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "kapsalon-vegetarische-shoarma",
@@ -20192,16 +18869,7 @@
       "palette": [
         "#e0b54a",
         "#8a4a2a"
-      ],
-      "image": {
-        "url": "/recipe-images/kapsalon-vegetarische-shoarma.jpg",
-        "thumbUrl": "/recipe-images/kapsalon-vegetarische-shoarma-sm.jpg",
-        "alt": "Sfeerfoto bij Kapsalon met vegetarische shoarma",
-        "credit": "Michael Kahn",
-        "creditUrl": "https://unsplash.com/photos/VPLQUtiQPV8",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "krokante-vegaburger-honing-mosterdsaus",
@@ -20332,16 +19000,7 @@
       "palette": [
         "#d9a43a",
         "#6e8f3c"
-      ],
-      "image": {
-        "url": "/recipe-images/krokante-vegaburger-honing-mosterdsaus.jpg",
-        "thumbUrl": "/recipe-images/krokante-vegaburger-honing-mosterdsaus-sm.jpg",
-        "alt": "Sfeerfoto bij Krokante vegetarische burger met honing-mosterdsaus",
-        "credit": "Anthony Espinosa",
-        "creditUrl": "https://unsplash.com/photos/pYQSM-p_0_c",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "plantbased-burger-bbq-frietjes-maiskolf",
@@ -20455,16 +19114,7 @@
       "palette": [
         "#e5b33a",
         "#7a3f2a"
-      ],
-      "image": {
-        "url": "/recipe-images/plantbased-burger-bbq-frietjes-maiskolf.jpg",
-        "thumbUrl": "/recipe-images/plantbased-burger-bbq-frietjes-maiskolf-sm.jpg",
-        "alt": "Sfeerfoto bij Plant-based burger met BBQ-frietjes",
-        "credit": "Ophélie Bonavita",
-        "creditUrl": "https://unsplash.com/photos/SkepBin6CIc",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "vegaburger-gebakken-ui-champignons",
@@ -20577,16 +19227,7 @@
       "palette": [
         "#7a5a3a",
         "#e3b75a"
-      ],
-      "image": {
-        "url": "/recipe-images/vegaburger-gebakken-ui-champignons.jpg",
-        "thumbUrl": "/recipe-images/vegaburger-gebakken-ui-champignons-sm.jpg",
-        "alt": "Sfeerfoto bij Vegetarische hamburger met gebakken ui en champignons",
-        "credit": "Zoshua Colah",
-        "creditUrl": "https://unsplash.com/photos/mBdGdycNse8",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "vegetarische-schnitzel-parmigiana-spaghetti",
@@ -20715,16 +19356,7 @@
       "palette": [
         "#c23d2c",
         "#e6c66a"
-      ],
-      "image": {
-        "url": "/recipe-images/vegetarische-schnitzel-parmigiana-spaghetti.jpg",
-        "thumbUrl": "/recipe-images/vegetarische-schnitzel-parmigiana-spaghetti-sm.jpg",
-        "alt": "Sfeerfoto bij Vegetarische schnitzel parmigiana",
-        "credit": "Vinn Koonyosying",
-        "creditUrl": "https://unsplash.com/photos/PLyJqEJVre0",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "groenteburger-limoenmayonaise-zoete-aardappel",
@@ -20834,16 +19466,7 @@
       "palette": [
         "#e0782c",
         "#7aa24a"
-      ],
-      "image": {
-        "url": "/recipe-images/groenteburger-limoenmayonaise-zoete-aardappel.jpg",
-        "thumbUrl": "/recipe-images/groenteburger-limoenmayonaise-zoete-aardappel-sm.jpg",
-        "alt": "Sfeerfoto bij Wortel-pompoenburger met limoenmayonaise",
-        "credit": "David Trinks",
-        "creditUrl": "https://unsplash.com/photos/EuET7ZThg0c",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "zelfgemaakte-burger-zwarte-bonen-portobello",
@@ -20976,16 +19599,7 @@
       "palette": [
         "#3a2c28",
         "#e08a3a"
-      ],
-      "image": {
-        "url": "/recipe-images/zelfgemaakte-burger-zwarte-bonen-portobello.jpg",
-        "thumbUrl": "/recipe-images/zelfgemaakte-burger-zwarte-bonen-portobello-sm.jpg",
-        "alt": "Sfeerfoto bij Zelfgemaakte burger van zwarte bonen en portobello",
-        "credit": "Zoshua Colah",
-        "creditUrl": "https://unsplash.com/photos/l0d-8uG1dhs",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "wraps-vega-kipstukjes-pinda-koolsla",
@@ -21103,16 +19717,7 @@
       "palette": [
         "#c05a8a",
         "#e8c25a"
-      ],
-      "image": {
-        "url": "/recipe-images/wraps-vega-kipstukjes-pinda-koolsla.jpg",
-        "thumbUrl": "/recipe-images/wraps-vega-kipstukjes-pinda-koolsla-sm.jpg",
-        "alt": "Sfeerfoto bij Wraps met vegetarische kipstukjes",
-        "credit": "Michu Đăng Quang",
-        "creditUrl": "https://unsplash.com/photos/7O9lUwmU5mA",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "kaasschnitzel-gekaramelliseerde-witlof-puree",
@@ -21245,16 +19850,7 @@
       "palette": [
         "#e9dc9a",
         "#9a5f2e"
-      ],
-      "image": {
-        "url": "/recipe-images/kaasschnitzel-gekaramelliseerde-witlof-puree.jpg",
-        "thumbUrl": "/recipe-images/kaasschnitzel-gekaramelliseerde-witlof-puree-sm.jpg",
-        "alt": "Sfeerfoto bij Kaasschnitzel met gekaramelliseerde witlof",
-        "credit": "Kat von Wood",
-        "creditUrl": "https://unsplash.com/photos/mqGpsMcCE6k",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "brie-bladerdeeg-appel-krieltjessalade",
@@ -21385,16 +19981,7 @@
       "palette": [
         "#e9c37a",
         "#7a9a4a"
-      ],
-      "image": {
-        "url": "/recipe-images/brie-bladerdeeg-appel-krieltjessalade.jpg",
-        "thumbUrl": "/recipe-images/brie-bladerdeeg-appel-krieltjessalade-sm.jpg",
-        "alt": "Sfeerfoto bij Brie in bladerdeeg met appel en gekaramelliseerde ui",
-        "credit": "Boshoku",
-        "creditUrl": "https://unsplash.com/photos/pMdwJTeCboc",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "filodeegtaart-spinazie-feta",
@@ -21519,16 +20106,7 @@
       "palette": [
         "#3f7a3a",
         "#e8c97a"
-      ],
-      "image": {
-        "url": "/recipe-images/filodeegtaart-spinazie-feta.jpg",
-        "thumbUrl": "/recipe-images/filodeegtaart-spinazie-feta-sm.jpg",
-        "alt": "Sfeerfoto bij Filodeegtaart met spinazie en feta",
-        "credit": "Hanna Balan",
-        "creditUrl": "https://unsplash.com/photos/n01QREI1ZPQ",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "flammkuchen-bbq-pompoen-fetasaus",
@@ -21651,16 +20229,7 @@
       "palette": [
         "#e0782c",
         "#7a3a2a"
-      ],
-      "image": {
-        "url": "/recipe-images/flammkuchen-bbq-pompoen-fetasaus.jpg",
-        "thumbUrl": "/recipe-images/flammkuchen-bbq-pompoen-fetasaus-sm.jpg",
-        "alt": "Sfeerfoto bij Flammkuchen met BBQ-saus en pompoen",
-        "credit": "Filipp Romanovski",
-        "creditUrl": "https://unsplash.com/photos/RK0Q3Ryt8Ek",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "galette-geitenkaas-rode-biet",
@@ -21781,16 +20350,7 @@
       "palette": [
         "#8a2a4a",
         "#e8b06a"
-      ],
-      "image": {
-        "url": "/recipe-images/galette-geitenkaas-rode-biet.jpg",
-        "thumbUrl": "/recipe-images/galette-geitenkaas-rode-biet-sm.jpg",
-        "alt": "Sfeerfoto bij Galette met geitenkaas en rode biet",
-        "credit": "Meelika Marzzarella",
-        "creditUrl": "https://unsplash.com/photos/K_fOJoip_KI",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "geitenkaasplaattaart-gekaramelliseerde-ui",
@@ -21916,16 +20476,7 @@
       "palette": [
         "#e7c98a",
         "#7a9b4c"
-      ],
-      "image": {
-        "url": "/recipe-images/geitenkaasplaattaart-gekaramelliseerde-ui.jpg",
-        "thumbUrl": "/recipe-images/geitenkaasplaattaart-gekaramelliseerde-ui-sm.jpg",
-        "alt": "Sfeerfoto bij Geitenkaasplaattaart met gekaramelliseerde ui",
-        "credit": "Jason Leung",
-        "creditUrl": "https://unsplash.com/photos/cik4Mj2OXDE",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "griekse-platbroodpizza-witte-kaas-olijven",
@@ -22054,16 +20605,7 @@
       "palette": [
         "#2f5f9a",
         "#f3efe3"
-      ],
-      "image": {
-        "url": "/recipe-images/griekse-platbroodpizza-witte-kaas-olijven.jpg",
-        "thumbUrl": "/recipe-images/griekse-platbroodpizza-witte-kaas-olijven-sm.jpg",
-        "alt": "Sfeerfoto bij Griekse platbroodpizza",
-        "credit": "engin akyurt",
-        "creditUrl": "https://unsplash.com/photos/Kv6TYFU-Jz4",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "naanpizza-gegrilde-groenten-tahinsaus",
@@ -22190,16 +20732,7 @@
       "palette": [
         "#e3b250",
         "#5b3a5c"
-      ],
-      "image": {
-        "url": "/recipe-images/naanpizza-gegrilde-groenten-tahinsaus.jpg",
-        "thumbUrl": "/recipe-images/naanpizza-gegrilde-groenten-tahinsaus-sm.jpg",
-        "alt": "Sfeerfoto bij Naanpizza met gegrilde groenten en tahinsaus",
-        "credit": "Sven Brandsma",
-        "creditUrl": "https://unsplash.com/photos/x9ZU3rhliv4",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "pizza-bianca-platbrood-champignons",
@@ -22311,16 +20844,7 @@
       "palette": [
         "#efe6d0",
         "#6f5640"
-      ],
-      "image": {
-        "url": "/recipe-images/pizza-bianca-platbrood-champignons.jpg",
-        "thumbUrl": "/recipe-images/pizza-bianca-platbrood-champignons-sm.jpg",
-        "alt": "Sfeerfoto bij Pizza bianca op platbrood met champignons",
-        "credit": "Cosmin Ursea",
-        "creditUrl": "https://unsplash.com/photos/DV4PPieOHaE",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "pizza-portobellos-krieltjes",
@@ -22441,16 +20965,7 @@
       "palette": [
         "#c3412e",
         "#6a5038"
-      ],
-      "image": {
-        "url": "/recipe-images/pizza-portobellos-krieltjes.jpg",
-        "thumbUrl": "/recipe-images/pizza-portobellos-krieltjes-sm.jpg",
-        "alt": "Sfeerfoto bij Pizza-portobello's",
-        "credit": "Zoshua Colah",
-        "creditUrl": "https://unsplash.com/photos/37gEJNc9CN0",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "plaattaart-champignons-prei-ricotta",
@@ -22559,16 +21074,7 @@
       "palette": [
         "#e3d3a0",
         "#5b7a3a"
-      ],
-      "image": {
-        "url": "/recipe-images/plaattaart-champignons-prei-ricotta.jpg",
-        "thumbUrl": "/recipe-images/plaattaart-champignons-prei-ricotta-sm.jpg",
-        "alt": "Sfeerfoto bij Plaattaart met champignons en prei",
-        "credit": "Pinaak Kumar",
-        "creditUrl": "https://unsplash.com/photos/nLyXjfMu5cc",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "platbroodpizza-funghi-mozzarella",
@@ -22681,16 +21187,7 @@
       "palette": [
         "#c4442f",
         "#f2ede2"
-      ],
-      "image": {
-        "url": "/recipe-images/platbroodpizza-funghi-mozzarella.jpg",
-        "thumbUrl": "/recipe-images/platbroodpizza-funghi-mozzarella-sm.jpg",
-        "alt": "Sfeerfoto bij Platbroodpizza funghi met buffelmozzarella",
-        "credit": "Usman Yousaf",
-        "creditUrl": "https://unsplash.com/photos/NigBtHuQjVc",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "quiche-spruitjes-blauwe-kaas",
@@ -22797,16 +21294,7 @@
       "palette": [
         "#5f7d3a",
         "#c8b48a"
-      ],
-      "image": {
-        "url": "/recipe-images/quiche-spruitjes-blauwe-kaas.jpg",
-        "thumbUrl": "/recipe-images/quiche-spruitjes-blauwe-kaas-sm.jpg",
-        "alt": "Sfeerfoto bij Quiche met spruitjes en blauwe kaas",
-        "credit": "Taylor Walling",
-        "creditUrl": "https://unsplash.com/photos/t_cbBvwE3aQ",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "quiche-courgette-oude-kaas",
@@ -22930,16 +21418,7 @@
       "palette": [
         "#5a8a3c",
         "#e9c86a"
-      ],
-      "image": {
-        "url": "/recipe-images/quiche-courgette-oude-kaas.jpg",
-        "thumbUrl": "/recipe-images/quiche-courgette-oude-kaas-sm.jpg",
-        "alt": "Sfeerfoto bij Quiche met courgette en oude kaas",
-        "credit": "Franco Antonio Giovanella",
-        "creditUrl": "https://unsplash.com/photos/dUGwCyeqnGo",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "courgette-preisoep-pesto-bruschetta",
@@ -23056,16 +21535,7 @@
       "palette": [
         "#6f9a3e",
         "#efe8cf"
-      ],
-      "image": {
-        "url": "/recipe-images/courgette-preisoep-pesto-bruschetta.jpg",
-        "thumbUrl": "/recipe-images/courgette-preisoep-pesto-bruschetta-sm.jpg",
-        "alt": "Sfeerfoto bij Courgette-preisoep met pesto-bruschetta's",
-        "credit": "Bakd&Raw by Karolin Baitinger",
-        "creditUrl": "https://unsplash.com/photos/fcrCj9CkqiQ",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "drie-tomatensoep-kaascroutons",
@@ -23182,16 +21652,7 @@
       "palette": [
         "#c8352a",
         "#f0d27a"
-      ],
-      "image": {
-        "url": "/recipe-images/drie-tomatensoep-kaascroutons.jpg",
-        "thumbUrl": "/recipe-images/drie-tomatensoep-kaascroutons-sm.jpg",
-        "alt": "Sfeerfoto bij Drie-tomatensoep met zelfgemaakte kaascroutons",
-        "credit": "sunorwind",
-        "creditUrl": "https://unsplash.com/photos/tBmjStHPryo",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "franse-uiensoep-gegratineerd",
@@ -23304,16 +21765,7 @@
       "palette": [
         "#b07a3a",
         "#efd99a"
-      ],
-      "image": {
-        "url": "/recipe-images/franse-uiensoep-gegratineerd.jpg",
-        "thumbUrl": "/recipe-images/franse-uiensoep-gegratineerd-sm.jpg",
-        "alt": "Sfeerfoto bij Franse uiensoep met gegratineerd stokbrood",
-        "credit": "sheri silver",
-        "creditUrl": "https://unsplash.com/photos/FjxEnioTNs0",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "geroosterde-tomaat-paprikasoep-broodstengels",
@@ -23430,16 +21882,7 @@
       "palette": [
         "#d13b2b",
         "#f3ddb0"
-      ],
-      "image": {
-        "url": "/recipe-images/geroosterde-tomaat-paprikasoep-broodstengels.jpg",
-        "thumbUrl": "/recipe-images/geroosterde-tomaat-paprikasoep-broodstengels-sm.jpg",
-        "alt": "Sfeerfoto bij Geroosterde tomaat-paprikasoep",
-        "credit": "Max Griss",
-        "creditUrl": "https://unsplash.com/photos/xVgE_mCA8fk",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "goedgevulde-minestrone-farfalle",
@@ -23581,16 +22024,7 @@
       "palette": [
         "#c4502e",
         "#6c8f3c"
-      ],
-      "image": {
-        "url": "/recipe-images/goedgevulde-minestrone-farfalle.jpg",
-        "thumbUrl": "/recipe-images/goedgevulde-minestrone-farfalle-sm.jpg",
-        "alt": "Sfeerfoto bij Goedgevulde minestrone",
-        "credit": "Nathan Dumlao",
-        "creditUrl": "https://unsplash.com/photos/5eROVOJW2bA",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "italiaanse-tortellonisoep-spinazie",
@@ -23708,16 +22142,7 @@
       "palette": [
         "#c3402d",
         "#3f7a3a"
-      ],
-      "image": {
-        "url": "/recipe-images/italiaanse-tortellonisoep-spinazie.jpg",
-        "thumbUrl": "/recipe-images/italiaanse-tortellonisoep-spinazie-sm.jpg",
-        "alt": "Sfeerfoto bij Italiaanse stijl tortellonisoep met spinazie",
-        "credit": "Alexandra Tran",
-        "creditUrl": "https://unsplash.com/photos/MELoPfq2yAs",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "pompoen-pindasoep-platbrood-ei",
@@ -23827,16 +22252,7 @@
       "palette": [
         "#e27f2c",
         "#b0742e"
-      ],
-      "image": {
-        "url": "/recipe-images/pompoen-pindasoep-platbrood-ei.jpg",
-        "thumbUrl": "/recipe-images/pompoen-pindasoep-platbrood-ei-sm.jpg",
-        "alt": "Sfeerfoto bij Koninklijke pompoen-pindasoep",
-        "credit": "nrd",
-        "creditUrl": "https://unsplash.com/photos/THNCkodqf5U",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "peruaanse-aardappelsoep-feta",
@@ -23967,16 +22383,7 @@
       "palette": [
         "#e7a03a",
         "#f2efe4"
-      ],
-      "image": {
-        "url": "/recipe-images/peruaanse-aardappelsoep-feta.jpg",
-        "thumbUrl": "/recipe-images/peruaanse-aardappelsoep-feta-sm.jpg",
-        "alt": "Sfeerfoto bij Peruaanse aardappelsoep met feta",
-        "credit": "Thembi Johnson",
-        "creditUrl": "https://unsplash.com/photos/rDTTH5vDTOA",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "pompoensoep-salie-beurre-noisette-croutons",
@@ -24112,16 +22519,7 @@
       "palette": [
         "#e5832e",
         "#7a5a3a"
-      ],
-      "image": {
-        "url": "/recipe-images/pompoensoep-salie-beurre-noisette-croutons.jpg",
-        "thumbUrl": "/recipe-images/pompoensoep-salie-beurre-noisette-croutons-sm.jpg",
-        "alt": "Sfeerfoto bij Pompoensoep met beurre noisette met salie",
-        "credit": "Jade Aucamp",
-        "creditUrl": "https://unsplash.com/photos/OMcrCX6wDpU",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "zoete-aardappelsoep-kokosmelk-kidneybonen",
@@ -24243,16 +22641,7 @@
       "palette": [
         "#e0742c",
         "#8a2f2a"
-      ],
-      "image": {
-        "url": "/recipe-images/zoete-aardappelsoep-kokosmelk-kidneybonen.jpg",
-        "thumbUrl": "/recipe-images/zoete-aardappelsoep-kokosmelk-kidneybonen-sm.jpg",
-        "alt": "Sfeerfoto bij Zoete-aardappelsoep met kokosmelk",
-        "credit": "Hanna Balan",
-        "creditUrl": "https://unsplash.com/photos/S0aApSK9i18",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "aardappelpuree-zachtgekookt-ei-broccoli-erwten",
@@ -24363,16 +22752,7 @@
       "palette": [
         "#efd88a",
         "#4f8a3c"
-      ],
-      "image": {
-        "url": "/recipe-images/aardappelpuree-zachtgekookt-ei-broccoli-erwten.jpg",
-        "thumbUrl": "/recipe-images/aardappelpuree-zachtgekookt-ei-broccoli-erwten-sm.jpg",
-        "alt": "Sfeerfoto bij Aardappelpuree met zachtgekookt ei",
-        "credit": "Stephanie Sarlos",
-        "creditUrl": "https://unsplash.com/photos/yWZuWcJLwak",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "aardappelroerbak-spiegelei-kaas-champignons",
@@ -24499,16 +22879,7 @@
       "palette": [
         "#e0b04a",
         "#5a7a3a"
-      ],
-      "image": {
-        "url": "/recipe-images/aardappelroerbak-spiegelei-kaas-champignons.jpg",
-        "thumbUrl": "/recipe-images/aardappelroerbak-spiegelei-kaas-champignons-sm.jpg",
-        "alt": "Sfeerfoto bij Aardappelroerbak met spiegelei en kaas",
-        "credit": "Megan Bucknall",
-        "creditUrl": "https://unsplash.com/photos/hzxxLzqaEjU",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "witlofgratin-appel-walnoten-brie",
@@ -24645,16 +23016,7 @@
       "palette": [
         "#e5df9a",
         "#8a5a2e"
-      ],
-      "image": {
-        "url": "/recipe-images/witlofgratin-appel-walnoten-brie.jpg",
-        "thumbUrl": "/recipe-images/witlofgratin-appel-walnoten-brie-sm.jpg",
-        "alt": "Sfeerfoto bij Belgische klassieker: witlofgratin met appel en walnoten",
-        "credit": "Tomoyo S",
-        "creditUrl": "https://unsplash.com/photos/kBjeHBwyJ_Q",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "cheesy-aardappelen-kruidige-yoghurtsaus",
@@ -24779,16 +23141,7 @@
       "palette": [
         "#e5b64e",
         "#4e7f3c"
-      ],
-      "image": {
-        "url": "/recipe-images/cheesy-aardappelen-kruidige-yoghurtsaus.jpg",
-        "thumbUrl": "/recipe-images/cheesy-aardappelen-kruidige-yoghurtsaus-sm.jpg",
-        "alt": "Sfeerfoto bij Cheesy aardappelen met kruidige yoghurtsaus",
-        "credit": "Alpha Perspective",
-        "creditUrl": "https://unsplash.com/photos/Epim2rzorz8",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "frittata-cherrytomaten-feta-courgette",
@@ -24914,16 +23267,7 @@
       "palette": [
         "#f0cc5a",
         "#d43b2e"
-      ],
-      "image": {
-        "url": "/recipe-images/frittata-cherrytomaten-feta-courgette.jpg",
-        "thumbUrl": "/recipe-images/frittata-cherrytomaten-feta-courgette-sm.jpg",
-        "alt": "Sfeerfoto bij Frittata met cherrytomaten en feta",
-        "credit": "Caroline Vass",
-        "creditUrl": "https://unsplash.com/photos/C2HUZQPZazw",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "geitenkaas-oven-uiensaus-wortel-spinaziestamppot",
@@ -25052,16 +23396,7 @@
       "palette": [
         "#e98a2e",
         "#f1ebdb"
-      ],
-      "image": {
-        "url": "/recipe-images/geitenkaas-oven-uiensaus-wortel-spinaziestamppot.jpg",
-        "thumbUrl": "/recipe-images/geitenkaas-oven-uiensaus-wortel-spinaziestamppot-sm.jpg",
-        "alt": "Sfeerfoto bij Geitenkaas uit de oven met uiensaus",
-        "credit": "You Le",
-        "creditUrl": "https://unsplash.com/photos/l-mqDIEwcKk",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "geroosterde-bloemkool-champignonroomsaus",
@@ -25185,16 +23520,7 @@
       "palette": [
         "#efe3c2",
         "#6c5038"
-      ],
-      "image": {
-        "url": "/recipe-images/geroosterde-bloemkool-champignonroomsaus.jpg",
-        "thumbUrl": "/recipe-images/geroosterde-bloemkool-champignonroomsaus-sm.jpg",
-        "alt": "Sfeerfoto bij Geroosterde bloemkool met champignonroomsaus",
-        "credit": "Alexandra Tran",
-        "creditUrl": "https://unsplash.com/photos/zv9UJYF209M",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "pompoen-aardappelstamppot-blauwe-kaas-salie",
@@ -25301,16 +23627,7 @@
       "palette": [
         "#e1862e",
         "#4a6a3a"
-      ],
-      "image": {
-        "url": "/recipe-images/pompoen-aardappelstamppot-blauwe-kaas-salie.jpg",
-        "thumbUrl": "/recipe-images/pompoen-aardappelstamppot-blauwe-kaas-salie-sm.jpg",
-        "alt": "Sfeerfoto bij Pompoen-aardappelstamppot met blauwe kaas",
-        "credit": "Imad 786",
-        "creditUrl": "https://unsplash.com/photos/LA0nKKY-SFo",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "rijkgevulde-boerenomelet",
@@ -25444,16 +23761,7 @@
       "palette": [
         "#f0c84a",
         "#c63c2c"
-      ],
-      "image": {
-        "url": "/recipe-images/rijkgevulde-boerenomelet.jpg",
-        "thumbUrl": "/recipe-images/rijkgevulde-boerenomelet-sm.jpg",
-        "alt": "Sfeerfoto bij Rijkgevulde boerenomelet",
-        "credit": "blackieshoot",
-        "creditUrl": "https://unsplash.com/photos/z4CQtd07u5k",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "stamppot-pastinaak-zoete-aardappel-pecan",
@@ -25570,16 +23878,7 @@
       "palette": [
         "#e3a24a",
         "#5b7f3a"
-      ],
-      "image": {
-        "url": "/recipe-images/stamppot-pastinaak-zoete-aardappel-pecan.jpg",
-        "thumbUrl": "/recipe-images/stamppot-pastinaak-zoete-aardappel-pecan-sm.jpg",
-        "alt": "Sfeerfoto bij Stamppot van pastinaak en bataat",
-        "credit": "Khanh Nguyen",
-        "creditUrl": "https://unsplash.com/photos/VrLiKaibU3I",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "groentepaella-knapperige-halloumi",
@@ -25703,16 +24002,7 @@
       "palette": [
         "#e8b42c",
         "#c4402e"
-      ],
-      "image": {
-        "url": "/recipe-images/groentepaella-knapperige-halloumi.jpg",
-        "thumbUrl": "/recipe-images/groentepaella-knapperige-halloumi-sm.jpg",
-        "alt": "Sfeerfoto bij Groentepaella met knapperige halloumi",
-        "credit": "Antonella Vilardo",
-        "creditUrl": "https://unsplash.com/photos/xqYcsUcxGvI",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "geitenkaas-linzensalade-cranberrydressing",
@@ -25840,16 +24130,7 @@
       "palette": [
         "#9c2f3e",
         "#e5a03a"
-      ],
-      "image": {
-        "url": "/recipe-images/geitenkaas-linzensalade-cranberrydressing.jpg",
-        "thumbUrl": "/recipe-images/geitenkaas-linzensalade-cranberrydressing-sm.jpg",
-        "alt": "Sfeerfoto bij Geitenkaas op linzensalade met cranberrydressing",
-        "credit": "Kashish Lamba",
-        "creditUrl": "https://unsplash.com/photos/3_1MgIxSHD0",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "geitenkaassalade-crostini-cranberry-appel",
@@ -25977,16 +24258,7 @@
       "palette": [
         "#f2ecdc",
         "#a8344a"
-      ],
-      "image": {
-        "url": "/recipe-images/geitenkaassalade-crostini-cranberry-appel.jpg",
-        "thumbUrl": "/recipe-images/geitenkaassalade-crostini-cranberry-appel-sm.jpg",
-        "alt": "Sfeerfoto bij Geitenkaassalade met crostini",
-        "credit": "Robby McCullough",
-        "creditUrl": "https://unsplash.com/photos/sgMCfeKXLFs",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "green-goddess-salade-parelcouscous-burrata",
@@ -26107,16 +24379,7 @@
       "palette": [
         "#6aa04a",
         "#f5f1e6"
-      ],
-      "image": {
-        "url": "/recipe-images/green-goddess-salade-parelcouscous-burrata.jpg",
-        "thumbUrl": "/recipe-images/green-goddess-salade-parelcouscous-burrata-sm.jpg",
-        "alt": "Sfeerfoto bij Green goddess salade met parelcouscous en burrata",
-        "credit": "Pinar Kucuk",
-        "creditUrl": "https://unsplash.com/photos/rq0GMrnLj8c",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "maaltijdsalade-bulgur-halloumi-koolrabi",
@@ -26232,16 +24495,7 @@
       "palette": [
         "#c9d88a",
         "#d8a24a"
-      ],
-      "image": {
-        "url": "/recipe-images/maaltijdsalade-bulgur-halloumi-koolrabi.jpg",
-        "thumbUrl": "/recipe-images/maaltijdsalade-bulgur-halloumi-koolrabi-sm.jpg",
-        "alt": "Sfeerfoto bij Maaltijdsalade met bulgur en halloumi",
-        "credit": "Frames For Your Heart",
-        "creditUrl": "https://unsplash.com/photos/J5eOPeFqcuY",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "parelcouscoussalade-perzik-romige-feta",
@@ -26372,16 +24626,7 @@
       "palette": [
         "#f0a35a",
         "#6e9a4a"
-      ],
-      "image": {
-        "url": "/recipe-images/parelcouscoussalade-perzik-romige-feta.jpg",
-        "thumbUrl": "/recipe-images/parelcouscoussalade-perzik-romige-feta-sm.jpg",
-        "alt": "Sfeerfoto bij Parelcouscoussalade met perzik en romige feta",
-        "credit": "Meg von Haartman",
-        "creditUrl": "https://unsplash.com/photos/QUzdvBGMEVk",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "salade-peer-blauwe-kaas-walnoot-krieltjes",
@@ -26497,16 +24742,7 @@
       "palette": [
         "#c8b46a",
         "#4f7a3c"
-      ],
-      "image": {
-        "url": "/recipe-images/salade-peer-blauwe-kaas-walnoot-krieltjes.jpg",
-        "thumbUrl": "/recipe-images/salade-peer-blauwe-kaas-walnoot-krieltjes-sm.jpg",
-        "alt": "Sfeerfoto bij Salade met peer, pittige blauwe kaas en walnoot",
-        "credit": "Ionela Mat",
-        "creditUrl": "https://unsplash.com/photos/7PM5QplIkvM",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "pittig-spiegelei-kimchisaus-gemberrijst",
@@ -26619,16 +24855,7 @@
       "palette": [
         "#c6362a",
         "#f0c95a"
-      ],
-      "image": {
-        "url": "/recipe-images/pittig-spiegelei-kimchisaus-gemberrijst.jpg",
-        "thumbUrl": "/recipe-images/pittig-spiegelei-kimchisaus-gemberrijst-sm.jpg",
-        "alt": "Sfeerfoto bij Pittig spiegelei in kimchisaus",
-        "credit": "Emanuel Ekström",
-        "creditUrl": "https://unsplash.com/photos/1C_RSVhy32Y",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "warme-bulgursalade-pompoen-geroosterde-feta",
@@ -26759,16 +24986,7 @@
       "palette": [
         "#e38a2e",
         "#d23f2e"
-      ],
-      "image": {
-        "url": "/recipe-images/warme-bulgursalade-pompoen-geroosterde-feta.jpg",
-        "thumbUrl": "/recipe-images/warme-bulgursalade-pompoen-geroosterde-feta-sm.jpg",
-        "alt": "Sfeerfoto bij Warme bulgursalade met pompoen",
-        "credit": "Alice Brie",
-        "creditUrl": "https://unsplash.com/photos/tx5RfqTYOao",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "roerbak-vega-kip-noedels-zoete-saus",
@@ -26877,16 +25095,7 @@
       "palette": [
         "#c78a3a",
         "#5e8f3e"
-      ],
-      "image": {
-        "url": "/recipe-images/roerbak-vega-kip-noedels-zoete-saus.jpg",
-        "thumbUrl": "/recipe-images/roerbak-vega-kip-noedels-zoete-saus-sm.jpg",
-        "alt": "Sfeerfoto bij Roerbak met vega kip, noedels en zoete Aziatische saus",
-        "credit": "Ryan Kwok",
-        "creditUrl": "https://unsplash.com/photos/H6iSwrAOMG0",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "gevulde-flespompoen-parelcouscous-brie",
@@ -27055,16 +25264,7 @@
       "palette": [
         "#e3862e",
         "#8a2a3a"
-      ],
-      "image": {
-        "url": "/recipe-images/gevulde-flespompoen-parelcouscous-brie.jpg",
-        "thumbUrl": "/recipe-images/gevulde-flespompoen-parelcouscous-brie-sm.jpg",
-        "alt": "Sfeerfoto bij Flespompoen gevuld met parelcouscous, brie en walnoten",
-        "credit": "Yana Gorbunova",
-        "creditUrl": "https://unsplash.com/photos/3fNZEQ1dE1U",
-        "license": "Unsplash License",
-        "illustrative": true
-      }
+      ]
     }
   ]
 }

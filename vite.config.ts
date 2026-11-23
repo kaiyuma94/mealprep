@@ -29,13 +29,6 @@ export default defineConfig({
       workbox: {
         globPatterns: ['**/*.{js,css,html,svg,png,json,woff2}'],
         navigateFallback: '/index.html',
-        runtimeCaching: [
-          {
-            urlPattern: ({ url }) => url.pathname.startsWith('/recipe-images/'),
-            handler: 'CacheFirst',
-            options: { cacheName: 'recipe-images', expiration: { maxEntries: 200 } },
-          },
-        ],
       },
     }),
   ],

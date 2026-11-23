@@ -34,12 +34,7 @@ if (!flags.includes('--write')) {
 
 const catalog = JSON.parse(readFileSync(catalogPath, 'utf8')) as { format: string; schemaVersion: number; recipes: Recipe[] };
 const byId = new Map(catalog.recipes.map((r) => [r.id, r]));
-for (const r of result.recipes) {
-  // Keep a photo attached earlier (npm run photos:apply) when re-importing.
-  const prev = byId.get(r.id);
-  if (!r.image && prev?.image) r.image = prev.image;
-  byId.set(r.id, r);
-}
+for (const r of result.recipes) byId.set(r.id, r);
 const next = { ...catalog, recipes: [...byId.values()] };
 const check = validateRecipeCatalog(next, ingredients);
 if (check.issues.some((i) => i.severity === 'error')) {
