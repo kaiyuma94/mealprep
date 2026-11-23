@@ -1,23 +1,15 @@
 import { Minus, Plus, X } from 'lucide-react';
 import { useEffect, useRef, useState, type ButtonHTMLAttributes, type ReactNode } from 'react';
-import { hashString, mulberry32 } from '../lib/selection';
 import type { Recipe } from '../types';
+import { DishCover, tint } from './DishCover';
 
 export const cx = (...xs: unknown[]) => xs.filter((x): x is string => typeof x === 'string' && x.length > 0).join(' ');
 
 // ---------- Recipe cover ----------
 
-function tint(hex: string, amount: number): string {
-  const n = parseInt(hex.slice(1), 16);
-  const mix = (c: number) => Math.round(c + (255 - c) * amount);
-  const r = mix((n >> 16) & 255), g = mix((n >> 8) & 255), b = mix(n & 255);
-  return `rgb(${r},${g},${b})`;
-}
-
 /**
- * Licensed photo when available (small or large variant), otherwise — or when
- * the photo can't load, e.g. offline — a deterministic top-down "plate"
- * illustration built from the recipe's palette.
+ * A recipe's own photo when it has one, otherwise — or when the photo can't
+ * load — an illustrated cover shaped after the kind of dish.
  */
 export function RecipeCover({
   recipe,
@@ -52,54 +44,7 @@ export function RecipeCover({
       </div>
     );
   }
-  return <IllustratedCover recipe={recipe} className={className} rounded={rounded} />;
-}
-
-function IllustratedCover({ recipe, className, rounded }: { recipe: Recipe; className?: string; rounded: string }) {
-  const [a, b] = recipe.palette ?? ['#c9a27e', '#5b7f4a'];
-  const rng = mulberry32(hashString(recipe.id));
-  const blobs = Array.from({ length: 9 }, (_, i) => {
-    const angle = rng() * Math.PI * 2;
-    const dist = 8 + rng() * 22;
-    return {
-      cx: 100 + Math.cos(angle) * dist,
-      cy: 75 + Math.sin(angle) * dist * 0.9,
-      rx: 7 + rng() * 9,
-      ry: 5 + rng() * 7,
-      rot: rng() * 180,
-      fill: i % 3 === 0 ? b : i % 3 === 1 ? tint(b, 0.35) : tint(a, 0.15),
-    };
-  });
-  const leaves = Array.from({ length: 5 }, () => ({ x: 70 + rng() * 60, y: 50 + rng() * 50, r: rng() * 180 }));
-  const plateX = 100 + (rng() - 0.5) * 30;
-  return (
-    <div className={cx('relative overflow-hidden', rounded, className)} style={{ background: tint(a, 0.72) }} aria-hidden>
-      <svg viewBox="0 0 200 150" preserveAspectRatio="xMidYMid slice" className="h-full w-full">
-        <defs>
-          <radialGradient id={`plate-${recipe.id}`} cx="45%" cy="40%" r="60%">
-            <stop offset="0%" stopColor="#fffdf8" />
-            <stop offset="100%" stopColor="#efe6d6" />
-          </radialGradient>
-          <filter id={`sh-${recipe.id}`} x="-30%" y="-30%" width="160%" height="160%">
-            <feDropShadow dx="2" dy="5" stdDeviation="5" floodColor="#2a2420" floodOpacity="0.18" />
-          </filter>
-        </defs>
-        <circle cx={plateX + 70} cy={20} r={34} fill={tint(a, 0.55)} opacity="0.5" />
-        <circle cx={plateX - 82} cy={138} r={26} fill={tint(b, 0.5)} opacity="0.45" />
-        <g transform={`translate(${plateX - 100} 0)`}>
-          <circle cx="100" cy="75" r="56" fill={`url(#plate-${recipe.id})`} filter={`url(#sh-${recipe.id})`} />
-          <circle cx="100" cy="75" r="44" fill={a} />
-          <circle cx="100" cy="75" r="44" fill="none" stroke={tint(a, 0.25)} strokeWidth="2" opacity="0.6" />
-          {blobs.map((bl, i) => (
-            <ellipse key={i} cx={bl.cx} cy={bl.cy} rx={bl.rx} ry={bl.ry} fill={bl.fill} transform={`rotate(${bl.rot} ${bl.cx} ${bl.cy})`} opacity="0.95" />
-          ))}
-          {leaves.map((l, i) => (
-            <path key={i} d="M0 0 C 3 -4, 8 -4, 10 0 C 8 4, 3 4, 0 0 Z" fill="#6f9a52" transform={`translate(${l.x} ${l.y}) rotate(${l.r}) scale(0.9)`} />
-          ))}
-        </g>
-      </svg>
-    </div>
-  );
+  return <DishCover recipe={recipe} className={className} rounded={rounded} />;
 }
 
 // ---------- Primitives ----------

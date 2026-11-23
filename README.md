@@ -30,7 +30,7 @@ The recipe sources live in `recipes-src/` in the human-friendly import format an
 
 ### Covers
 
-Recipes show an illustrated cover: a top-down "plate" drawn from each recipe's own two-colour `palette`. No photos are bundled, which keeps the app small and fully offline.
+Recipes show an illustrated top-down cover in their own two-colour `palette`. Its shape follows the kind of dish (soup, noodles, pasta, risotto/grains, curry with rice, stamppot, salad, bowl, pan, oven dish, pizza, tart, wrap, burger, or a plain plate), worked out from the recipe id and tags in `src/lib/dish.ts`. No photos are bundled, which keeps the app small and fully offline.
 
 The app still supports an optional `image` per recipe (with url, alt, credit and license; local files go in `public/` and are checked by `npm run validate:recipes`), for adding your own photo of a dish later.
 
