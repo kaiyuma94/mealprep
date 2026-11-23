@@ -3,13 +3,13 @@ import { Link } from 'react-router-dom';
 import { RecipeCard } from '../components/RecipeCard';
 import { MealTargetCard, SundayToggle, weekRelation } from '../components/WeekControls';
 import { PageHeader } from '../components/ui';
-import { RECIPE_MAP, RECIPES } from '../data/catalog';
 import { db } from '../db/db';
 import { replaceSelectionSlot } from '../db/repo';
 import { BUCKET_LABELS } from '../lib/selection';
 import { weekRangeLabel } from '../lib/week';
 import { useCookedIds, usePlan, usePlanActions, useRecipeStates, useSelection, useToast, useWeek } from '../state/hooks';
 import type { SuggestionBucket } from '../types';
+import { useCatalog } from '../state/catalog';
 
 export function Discover() {
   const { activeWeek, currentWeek, planningWeek } = useWeek();
@@ -19,6 +19,7 @@ export function Discover() {
   const cooked = useCookedIds();
   const { toggle } = usePlanActions(activeWeek);
   const toast = useToast();
+  const { recipes, recipeMap } = useCatalog();
   const planned = new Set(plan?.meals.map((m) => m.recipeId));
 
   const groups: { bucket: SuggestionBucket; items: { index: number; recipeId: string }[] }[] = [];
@@ -60,7 +61,7 @@ export function Discover() {
           </div>
           <div className="grid grid-cols-2 gap-x-3 gap-y-6 sm:grid-cols-3">
             {g.items.map(({ index, recipeId }) => {
-              const r = RECIPE_MAP.get(recipeId);
+              const r = recipeMap.get(recipeId);
               if (!r) return null;
               return (
                 <RecipeCard
@@ -72,7 +73,7 @@ export function Discover() {
                   onToggle={() => toggle(r.id)}
                   onReplace={async () => {
                     const before = selection!.slots[index].recipeId;
-                    const next = await replaceSelectionSlot(db, activeWeek, index, RECIPES);
+                    const next = await replaceSelectionSlot(db, activeWeek, index, recipes);
                     if (next.slots[index].recipeId === before) toast({ message: 'Geen andere suggesties meer deze week' });
                   }}
                 />
@@ -85,7 +86,7 @@ export function Discover() {
       <div className="mx-5 mt-10 rounded-[22px] border border-dashed border-cream-300 p-5 text-center">
         <p className="text-sm text-ink-500">Zit er niets tussen?</p>
         <Link to="/search" className="mt-1 inline-flex items-center gap-1 font-semibold text-herb-700">
-          Bekijk alle {RECIPES.length} recepten <ArrowRight size={16} />
+          Bekijk alle {recipes.length} recepten <ArrowRight size={16} />
         </Link>
       </div>
     </div>

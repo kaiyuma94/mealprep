@@ -1,12 +1,11 @@
-import { SearchX, Search as SearchIcon, X } from 'lucide-react';
+import { Plus, SearchX, Search as SearchIcon, X } from 'lucide-react';
 import { useMemo, useState } from 'react';
+import { Link } from 'react-router-dom';
 import { RecipeCard } from '../components/RecipeCard';
 import { Chip, EmptyState, PageHeader } from '../components/ui';
-import { CUISINES, INGREDIENT_MAP, RECIPES } from '../data/catalog';
 import { buildSearchIndex, searchRecipes, type DurationFilter, type SearchFilters, type StatusFilter } from '../lib/search';
+import { useCatalog } from '../state/catalog';
 import { useCookedIds, usePlan, usePlanActions, useRecipeStates, useWeek } from '../state/hooks';
-
-const INDEX = buildSearchIndex(RECIPES, INGREDIENT_MAP);
 
 const DURATIONS: { id: DurationFilter; label: string }[] = [
   { id: 'quick', label: '≤ 25 min' },
@@ -15,6 +14,7 @@ const DURATIONS: { id: DurationFilter; label: string }[] = [
 ];
 const STATUSES: { id: StatusFilter; label: string }[] = [
   { id: 'favorites', label: '♥ Favorieten' },
+  { id: 'own', label: 'Eigen recepten' },
   { id: 'cooked', label: 'Eerder gekookt' },
   { id: 'new', label: 'Nog niet gekookt' },
 ];
@@ -25,6 +25,8 @@ export function Search() {
   const states = useRecipeStates();
   const cooked = useCookedIds();
   const { toggle } = usePlanActions(activeWeek);
+  const { recipes, ingredientMap, cuisines, custom } = useCatalog();
+  const index = useMemo(() => buildSearchIndex(recipes, ingredientMap), [recipes, ingredientMap]);
   const [f, setF] = useState<SearchFilters>(() => {
     try {
       const saved = sessionStorage.getItem('wm-search');
@@ -47,13 +49,25 @@ export function Search() {
 
   const favorites = useMemo(() => new Set([...states.values()].filter((s) => s.favorite).map((s) => s.recipeId)), [states]);
   const disliked = useMemo(() => new Set([...states.values()].filter((s) => s.disliked).map((s) => s.recipeId)), [states]);
-  const results = useMemo(() => searchRecipes(RECIPES, INDEX, f, { favorites, cooked, disliked }), [f, favorites, cooked, disliked]);
+  // The own-recipes filter only exists while there are own recipes (e.g. not after deleting the last one).
+  const active = useMemo(() => (f.status === 'own' && custom.size === 0 ? { ...f, status: null } : f), [f, custom.size]);
+  const results = useMemo(() => searchRecipes(recipes, index, active, { favorites, cooked, disliked }), [recipes, index, active, favorites, cooked, disliked]);
   const planned = new Set(plan?.meals.map((m) => m.recipeId));
-  const anyFilter = f.query || f.duration !== 'any' || f.cuisine || f.status;
+  const anyFilter = active.query || active.duration !== 'any' || active.cuisine || active.status;
 
   return (
     <div>
-      <PageHeader title="Recept zoeken" />
+      <PageHeader
+        title="Recept zoeken"
+        right={
+          <Link
+            to="/recipe/new"
+            className="inline-flex min-h-[36px] shrink-0 items-center gap-1.5 rounded-full bg-herb-600 px-3.5 text-sm font-semibold text-white shadow-card active:scale-[0.97]"
+          >
+            <Plus size={16} /> Eigen recept
+          </Link>
+        }
+      />
       <div className="sticky top-0 z-30 bg-cream-100/95 px-5 pb-3 pt-1 backdrop-blur">
         <label className="flex h-12 items-center gap-2 rounded-2xl bg-white px-4 shadow-card ring-1 ring-cream-200 focus-within:ring-2 focus-within:ring-herb-500">
           <SearchIcon size={18} className="text-ink-500" />
@@ -72,7 +86,7 @@ export function Search() {
           )}
         </label>
         <div className="-mx-5 mt-3 flex gap-2 overflow-x-auto px-5 pb-1 [scrollbar-width:none]">
-          {STATUSES.map((s) => (
+          {STATUSES.filter((s) => s.id !== 'own' || custom.size > 0).map((s) => (
             <Chip key={s.id} active={f.status === s.id} onClick={() => update({ status: f.status === s.id ? null : s.id })}>
               {s.label}
             </Chip>
@@ -85,7 +99,7 @@ export function Search() {
           ))}
         </div>
         <div className="-mx-5 mt-2 flex gap-2 overflow-x-auto px-5 pb-1 [scrollbar-width:none]">
-          {CUISINES.map((c) => (
+          {cuisines.map((c) => (
             <Chip key={c} active={f.cuisine === c} onClick={() => update({ cuisine: f.cuisine === c ? null : c })}>
               {c}
             </Chip>

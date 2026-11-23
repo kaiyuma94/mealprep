@@ -1,8 +1,8 @@
-import type { CookingHistory, RecipeUserState, ShoppingState, UserPreferences, WeeklyMealPlan, WeeklySelection } from '../types';
+import type { CookingHistory, CustomRecipeRecord, RecipeUserState, ShoppingState, UserPreferences, WeeklyMealPlan, WeeklySelection } from '../types';
 import { migrateSupermarket, type WeekmenuDB } from './db';
 
 export const BACKUP_FORMAT = 'weekmenu-backup';
-export const BACKUP_VERSION = 2;
+export const BACKUP_VERSION = 3;
 
 export interface BackupData {
   preferences: UserPreferences[];
@@ -11,6 +11,8 @@ export interface BackupData {
   selections: WeeklySelection[];
   history: CookingHistory[];
   shopping: ShoppingState[];
+  /** The user's own recipes (since backup version 3). */
+  customRecipes: CustomRecipeRecord[];
 }
 
 export interface BackupFile {
@@ -21,19 +23,20 @@ export interface BackupFile {
 }
 
 export async function exportBackup(db: WeekmenuDB): Promise<BackupFile> {
-  const [preferences, recipeState, plans, selections, history, shopping] = await Promise.all([
+  const [preferences, recipeState, plans, selections, history, shopping, customRecipes] = await Promise.all([
     db.preferences.toArray(),
     db.recipeState.toArray(),
     db.plans.toArray(),
     db.selections.toArray(),
     db.history.toArray(),
     db.shopping.toArray(),
+    db.customRecipes.toArray(),
   ]);
   return {
     format: BACKUP_FORMAT,
     version: BACKUP_VERSION,
     exportedAt: new Date().toISOString(),
-    data: { preferences, recipeState, plans, selections, history, shopping },
+    data: { preferences, recipeState, plans, selections, history, shopping, customRecipes },
   };
 }
 
@@ -53,6 +56,8 @@ const MIGRATIONS: Record<number, Migration> = {
       ? d.preferences.map((p: Record<string, unknown>) => ({ ...p, supermarket: migrateSupermarket(p.supermarket) }))
       : d.preferences,
   }),
+  // v2 → v3: own recipes arrived; older backups simply have none.
+  2: (d) => ({ ...d, customRecipes: [] }),
 };
 
 /** Validates and upgrades a parsed backup file to the current version. */
@@ -83,12 +88,24 @@ export function migrateBackup(raw: unknown): BackupFile {
     selections: arr('selections'),
     history: arr('history'),
     shopping: arr('shopping'),
+    customRecipes: arr('customRecipes'),
   };
   for (const p of result.plans) {
     if (typeof p?.weekKey !== 'string' || !Array.isArray(p.meals)) throw new BackupError('De back-up bevat een ongeldig weekmenu.');
   }
   for (const h of result.history) {
     if (typeof h?.recipeId !== 'string' || typeof h.weekKey !== 'string') throw new BackupError('De back-up bevat een ongeldige kookgeschiedenis.');
+  }
+  for (const c of result.customRecipes) {
+    const ok =
+      typeof c?.id === 'string' &&
+      c.recipe?.id === c.id &&
+      typeof c.recipe.title === 'string' &&
+      Array.isArray(c.recipe.ingredients) &&
+      Array.isArray(c.recipe.steps) &&
+      Array.isArray(c.extraIngredients) &&
+      Array.isArray(c.ingredientLines);
+    if (!ok) throw new BackupError('De back-up bevat een ongeldig eigen recept.');
   }
   return { format: BACKUP_FORMAT, version: BACKUP_VERSION, exportedAt: String(file.exportedAt ?? ''), data: result };
 }
@@ -97,10 +114,10 @@ export function migrateBackup(raw: unknown): BackupFile {
 export async function importBackup(db: WeekmenuDB, raw: unknown): Promise<BackupFile> {
   const backup = migrateBackup(raw);
   const d = backup.data;
-  await db.transaction('rw', [db.preferences, db.recipeState, db.plans, db.selections, db.history, db.shopping], async () => {
+  await db.transaction('rw', [db.preferences, db.recipeState, db.plans, db.selections, db.history, db.shopping, db.customRecipes], async () => {
     await Promise.all([
       db.preferences.clear(), db.recipeState.clear(), db.plans.clear(),
-      db.selections.clear(), db.history.clear(), db.shopping.clear(),
+      db.selections.clear(), db.history.clear(), db.shopping.clear(), db.customRecipes.clear(),
     ]);
     await db.preferences.bulkPut(d.preferences);
     await db.recipeState.bulkPut(d.recipeState);
@@ -108,6 +125,7 @@ export async function importBackup(db: WeekmenuDB, raw: unknown): Promise<Backup
     await db.selections.bulkPut(d.selections);
     await db.history.bulkPut(d.history);
     await db.shopping.bulkPut(d.shopping);
+    await db.customRecipes.bulkPut(d.customRecipes);
   });
   return backup;
 }

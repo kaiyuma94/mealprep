@@ -141,6 +141,44 @@ export interface Recipe {
   image?: RecipeImage;
   /** Two hex colours used for the illustrated cover when there is no photo. */
   palette?: [string, string];
+  /** Shape of the illustrated cover. Worked out from the name when absent. */
+  dish?: DishShape;
+}
+
+/** The kind of dish, used to draw a recognisable illustrated cover. */
+export type DishShape =
+  | 'soup'
+  | 'noodles'
+  | 'pasta'
+  | 'grains'
+  | 'curry'
+  | 'stamppot'
+  | 'salad'
+  | 'bowl'
+  | 'pan'
+  | 'ovendish'
+  | 'pizza'
+  | 'tart'
+  | 'wrap'
+  | 'burger'
+  | 'plate';
+
+/** An ingredient line as typed in the recipe form, kept so editing shows it unchanged. */
+export interface IngredientLineDraft {
+  text: string;
+  /** Don't match it to a known ingredient; keep it as the user's own item. */
+  custom?: boolean;
+}
+
+/** A recipe the user wrote in the app. Lives only on this device (and in backups). */
+export interface CustomRecipeRecord {
+  id: string;
+  recipe: Recipe;
+  /** Ingredients that aren't in the catalogue, created for this recipe. */
+  extraIngredients: Ingredient[];
+  ingredientLines: IngredientLineDraft[];
+  createdAt: number;
+  updatedAt: number;
 }
 
 export const RECIPE_SCHEMA_VERSION = 1;

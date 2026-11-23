@@ -1,4 +1,5 @@
 import type {
+  CustomRecipeRecord,
   ManualShoppingItem,
   Recipe,
   RecipeUserState,
@@ -202,4 +203,26 @@ export function clearChecks(db: WeekmenuDB, weekKey: WeekKey) {
     overrides: Object.fromEntries(Object.entries(s.overrides).map(([k, o]) => [k, { ...o, checked: false }])),
     manualItems: s.manualItems.map((m) => ({ ...m, checked: false })),
   }));
+}
+
+// ---------- Own recipes ----------
+
+export async function saveCustomRecipe(db: WeekmenuDB, record: CustomRecipeRecord): Promise<void> {
+  await db.customRecipes.put(record);
+}
+
+/**
+ * Deletes one of the user's own recipes. It's also taken out of the menus of
+ * `fromWeek` and later, so no planned meal points to it; past weeks and the
+ * cooking history are left as they were.
+ */
+export async function deleteCustomRecipe(db: WeekmenuDB, recipeId: string, fromWeek: WeekKey): Promise<void> {
+  await db.transaction('rw', db.customRecipes, db.plans, async () => {
+    await db.customRecipes.delete(recipeId);
+    const plans = await db.plans.where('weekKey').aboveOrEqual(fromWeek).toArray();
+    for (const p of plans) {
+      if (!p.meals.some((m) => m.recipeId === recipeId)) continue;
+      await db.plans.put({ ...p, meals: p.meals.filter((m) => m.recipeId !== recipeId), updatedAt: Date.now() });
+    }
+  });
 }

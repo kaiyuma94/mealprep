@@ -1,7 +1,7 @@
 import type { Ingredient, Recipe } from '../types';
 
 export type DurationFilter = 'any' | 'quick' | 'medium' | 'long';
-export type StatusFilter = 'favorites' | 'cooked' | 'new';
+export type StatusFilter = 'favorites' | 'cooked' | 'new' | 'own';
 
 export interface SearchFilters {
   query: string;
@@ -47,6 +47,7 @@ export function searchRecipes(
     if (f.status === 'favorites' && !user.favorites.has(r.id)) continue;
     if (f.status === 'cooked' && !user.cooked.has(r.id)) continue;
     if (f.status === 'new' && user.cooked.has(r.id)) continue;
+    if (f.status === 'own' && r.source.type !== 'personal') continue;
     const idx = index.get(r.id)!;
     let score = 0;
     let ok = true;

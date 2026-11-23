@@ -1,5 +1,5 @@
 import Dexie, { type Table } from 'dexie';
-import type { CookingHistory, RecipeUserState, ShoppingState, UserPreferences, WeeklyMealPlan, WeeklySelection } from '../types';
+import type { CookingHistory, CustomRecipeRecord, RecipeUserState, ShoppingState, UserPreferences, WeeklyMealPlan, WeeklySelection } from '../types';
 
 /**
  * IndexedDB schema.
@@ -9,7 +9,7 @@ import type { CookingHistory, RecipeUserState, ShoppingState, UserPreferences, W
  * runs the upgrade chain automatically for users on older versions.
  * Keep BACKUP_VERSION (backup.ts) in step when the persisted shape changes.
  */
-export const DB_VERSION = 2;
+export const DB_VERSION = 3;
 
 export class WeekmenuDB extends Dexie {
   preferences!: Table<UserPreferences, string>;
@@ -18,6 +18,7 @@ export class WeekmenuDB extends Dexie {
   selections!: Table<WeeklySelection, string>;
   history!: Table<CookingHistory, number>;
   shopping!: Table<ShoppingState, string>;
+  customRecipes!: Table<CustomRecipeRecord, string>;
 
   constructor(name = 'weekmenu') {
     super(name);
@@ -40,6 +41,8 @@ export class WeekmenuDB extends Dexie {
             p.supermarket = migrateSupermarket(p.supermarket);
           }),
       );
+    // v3: recipes the user writes in the app.
+    this.version(3).stores({ customRecipes: 'id' });
   }
 }
 

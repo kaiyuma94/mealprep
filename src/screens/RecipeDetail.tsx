@@ -1,21 +1,24 @@
-import { ArrowLeft, Check, ChefHat, Clock, ExternalLink, Flame, Heart, Plus, Share2, ThumbsDown, Timer } from 'lucide-react';
+import { ArrowLeft, Check, ChefHat, Clock, ExternalLink, Flame, Heart, Pencil, Plus, Share2, ThumbsDown, Timer, Trash2, Users } from 'lucide-react';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import { Button, cx, EmptyState, IconButton, RecipeCover, Stepper } from '../components/ui';
-import { INGREDIENT_MAP, RECIPE_MAP } from '../data/catalog';
 import { db } from '../db/db';
-import { mutatePlan, updateRecipeState } from '../db/repo';
+import { deleteCustomRecipe, mutatePlan, updateRecipeState } from '../db/repo';
 import { MAX_SERVINGS, MIN_SERVINGS, setServings } from '../lib/plan';
+import { isCustomRecipe } from '../lib/customRecipe';
 import { recipeToText } from '../lib/share';
 import { formatQuantity, ingredientLabel, scaleAmount } from '../lib/units';
 import { usePlan, usePlanActions, usePreferences, useRecipeStates, useShare, useToast, useWeek } from '../state/hooks';
 import type { Recipe } from '../types';
+import { useCatalog } from '../state/catalog';
 
 const DIFFICULTY: Record<Recipe['difficulty'], string> = { easy: 'makkelijk', medium: 'gemiddeld', hard: 'uitdagend' };
 
 export function RecipeDetail() {
   const { id } = useParams();
-  const recipe = id ? RECIPE_MAP.get(id) : undefined;
+  const { recipeMap, loaded } = useCatalog();
+  const recipe = id ? recipeMap.get(id) : undefined;
+  if (!recipe && !loaded) return null;
   if (!recipe) {
     return (
       <EmptyState icon={<ChefHat size={28} />} title="Recept niet gevonden">
@@ -30,7 +33,10 @@ function RecipeView({ recipe }: { recipe: Recipe }) {
   const navigate = useNavigate();
   const toast = useToast();
   const share = useShare();
-  const { activeWeek } = useWeek();
+  const { ingredientMap } = useCatalog();
+  const own = isCustomRecipe(recipe);
+  const { activeWeek, currentWeek } = useWeek();
+  const [confirmDelete, setConfirmDelete] = useState(false);
   const plan = usePlan(activeWeek);
   const prefs = usePreferences();
   const states = useRecipeStates();
@@ -56,9 +62,14 @@ function RecipeView({ recipe }: { recipe: Recipe }) {
             <ArrowLeft size={20} />
           </IconButton>
           <div className="flex gap-2">
+            {own && (
+              <IconButton label="Recept bewerken" onClick={() => navigate(`/recipe/${recipe.id}/edit`)} className="bg-white/90 shadow-card backdrop-blur">
+                <Pencil size={19} />
+              </IconButton>
+            )}
             <IconButton
               label="Recept delen, bijvoorbeeld via WhatsApp"
-              onClick={() => share(recipe.title, recipeToText(recipe, servings, INGREDIENT_MAP, window.location.origin), 'Recept gekopieerd')}
+              onClick={() => share(recipe.title, recipeToText(recipe, servings, ingredientMap, window.location.origin), 'Recept gekopieerd')}
               className="bg-white/90 shadow-card backdrop-blur"
             >
               <Share2 size={20} />
@@ -79,11 +90,20 @@ function RecipeView({ recipe }: { recipe: Recipe }) {
         <div className="text-[13px] font-medium uppercase tracking-wider text-herb-700">{recipe.cuisine}</div>
         <h1 className="mt-1 font-display text-[28px] font-semibold leading-tight">{recipe.title}</h1>
         {recipe.subtitle && <p className="mt-0.5 text-ink-500">{recipe.subtitle}</p>}
-        <p className="mt-3 text-[15px] leading-relaxed text-ink-700">{recipe.description}</p>
+        {recipe.description && <p className="mt-3 text-[15px] leading-relaxed text-ink-700">{recipe.description}</p>}
 
         <dl className="mt-5 grid grid-cols-3 divide-x divide-cream-200 rounded-[22px] bg-white py-3 text-center shadow-card">
-          <Fact icon={<Clock size={16} />} label="Voorbereiden" value={`${recipe.prepMinutes} min`} />
-          <Fact icon={<Flame size={16} />} label="Koken" value={`${recipe.cookMinutes} min`} />
+          {recipe.cookMinutes > 0 ? (
+            <>
+              <Fact icon={<Clock size={16} />} label="Voorbereiden" value={`${recipe.prepMinutes} min`} />
+              <Fact icon={<Flame size={16} />} label="Koken" value={`${recipe.cookMinutes} min`} />
+            </>
+          ) : (
+            <>
+              <Fact icon={<Clock size={16} />} label="Tijd" value={`${recipe.prepMinutes} min`} />
+              <Fact icon={<Users size={16} />} label="Personen" value={`${recipe.baseServings}`} />
+            </>
+          )}
           <Fact icon={<ChefHat size={16} />} label="Niveau" value={DIFFICULTY[recipe.difficulty]} />
         </dl>
 
@@ -148,7 +168,7 @@ function RecipeView({ recipe }: { recipe: Recipe }) {
                 {recipe.source.license && <> · {recipe.source.license}</>}
               </>
             )}
-            {recipe.source.type === 'personal' && <>Eigen recept · {recipe.source.name}</>}
+            {recipe.source.type === 'personal' && <>Je eigen recept. Het staat alleen op dit apparaat (en in je back-up).</>}
           </p>
           {recipe.image && (
             <p className="mt-2">
@@ -173,6 +193,33 @@ function RecipeView({ recipe }: { recipe: Recipe }) {
           >
             <ThumbsDown size={15} /> {state?.disliked ? '“Niets voor ons” · ongedaan maken' : 'Niets voor ons'}
           </button>
+          {own && (
+            <div className="mt-3 border-t border-cream-300/60 pt-3">
+              {confirmDelete ? (
+                <div className="flex flex-wrap items-center gap-2">
+                  <span className="text-ink-700">Recept verwijderen?{meal ? ' Het gaat ook uit je weekmenu.' : ''} Dit kan niet ongedaan worden.</span>
+                  <Button
+                    size="sm"
+                    variant="danger"
+                    onClick={async () => {
+                      await deleteCustomRecipe(db, recipe.id, currentWeek);
+                      toast({ message: 'Recept verwijderd' });
+                      navigate('/search', { replace: true });
+                    }}
+                  >
+                    Ja, verwijderen
+                  </Button>
+                  <Button size="sm" variant="ghost" onClick={() => setConfirmDelete(false)}>
+                    Nee
+                  </Button>
+                </div>
+              ) : (
+                <button className="inline-flex items-center gap-1.5 font-medium text-ink-500 hover:text-tomato-600" onClick={() => setConfirmDelete(true)}>
+                  <Trash2 size={15} /> Recept verwijderen
+                </button>
+              )}
+            </div>
+          )}
         </section>
       </div>
 
@@ -210,10 +257,11 @@ function Fact({ icon, label, value }: { icon: React.ReactNode; label: string; va
 }
 
 export function IngredientList({ recipe, servings, pantry, large }: { recipe: Recipe; servings: number; pantry: Set<string>; large?: boolean }) {
+  const { ingredientMap } = useCatalog();
   return (
     <ul className={cx('divide-y rounded-[22px]', large ? 'divide-white/10' : 'divide-cream-200 bg-white px-4 shadow-card')}>
       {recipe.ingredients.map((ri) => {
-        const ing = INGREDIENT_MAP.get(ri.ingredientId);
+        const ing = ingredientMap.get(ri.ingredientId);
         if (!ing) return null;
         const amount = scaleAmount(ri.amount, recipe.baseServings, servings);
         const qty = amount === null ? '' : formatQuantity(amount, ri.unit);

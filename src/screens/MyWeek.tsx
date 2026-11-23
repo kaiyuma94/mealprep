@@ -2,12 +2,12 @@ import { CalendarPlus, Check, ChefHat, CircleCheck, Plus, Settings, Share2, Shop
 import { Link, useNavigate } from 'react-router-dom';
 import { MealTargetCard, SundayToggle, WeekNavigator } from '../components/WeekControls';
 import { Button, cx, IconButton, PageHeader, RecipeCover, Stepper } from '../components/ui';
-import { RECIPE_MAP } from '../data/catalog';
 import { db } from '../db/db';
 import { markCooked, mutatePlan, savePlan, unmarkCooked } from '../db/repo';
 import { MAX_SERVINGS, MIN_SERVINGS, removeMeal, setServings } from '../lib/plan';
 import { weekMenuToText } from '../lib/share';
 import { usePlan, useShare, useToast, useWeek } from '../state/hooks';
+import { useCatalog } from '../state/catalog';
 
 export function MyWeek() {
   const { activeWeek } = useWeek();
@@ -15,6 +15,7 @@ export function MyWeek() {
   const navigate = useNavigate();
   const toast = useToast();
   const share = useShare();
+  const { recipeMap } = useCatalog();
   if (!plan) return null;
   const empty = Math.max(0, plan.mealTarget - plan.meals.length);
   const cookedCount = plan.meals.filter((m) => m.cookedAt).length;
@@ -29,7 +30,7 @@ export function MyWeek() {
               <IconButton
                 label="Weekmenu delen, bijvoorbeeld via WhatsApp"
                 className="text-ink-500 hover:bg-cream-200"
-                onClick={() => share('Weekmenu', weekMenuToText(plan, RECIPE_MAP, window.location.origin), 'Weekmenu gekopieerd')}
+                onClick={() => share('Weekmenu', weekMenuToText(plan, recipeMap, window.location.origin), 'Weekmenu gekopieerd')}
               >
                 <Share2 size={21} />
               </IconButton>
@@ -59,7 +60,7 @@ export function MyWeek() {
         </div>
         <ul className="flex flex-col gap-3">
           {plan.meals.map((m) => {
-            const r = RECIPE_MAP.get(m.recipeId);
+            const r = recipeMap.get(m.recipeId);
             return (
               <li key={m.recipeId} className={cx('rounded-[26px] bg-white p-3 shadow-card animate-rise', m.cookedAt && 'opacity-80')}>
                 <div className="flex gap-3">

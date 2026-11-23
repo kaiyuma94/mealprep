@@ -4,7 +4,6 @@ import { useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Button, cx, EmptyState, IconButton, PageHeader, ProgressBar, Sheet } from '../components/ui';
 import { SundayToggle, weekRelation } from '../components/WeekControls';
-import { INGREDIENT_MAP, RECIPE_MAP } from '../data/catalog';
 import { db } from '../db/db';
 import { addManualItem, clearChecks, removeManualItem, setOverride, updateManualItem, updatePreferences } from '../db/repo';
 import { SECTION_LABELS, STORE_SECTION_ORDER, STORES, storeName, storeShort } from '../lib/sections';
@@ -12,6 +11,7 @@ import { buildShoppingList, groupBySection, shoppingListToText } from '../lib/sh
 import { weekRangeLabel } from '../lib/week';
 import { usePlan, usePreferences, useShare, useWeek } from '../state/hooks';
 import type { ShoppingItem, StoreId, SupermarketSection } from '../types';
+import { useCatalog } from '../state/catalog';
 
 export function ShoppingList() {
   const { activeWeek, currentWeek, planningWeek } = useWeek();
@@ -19,6 +19,7 @@ export function ShoppingList() {
   const prefs = usePreferences();
   const store = prefs.supermarket;
   const state = useLiveQuery(() => db.shopping.get(activeWeek), [activeWeek]);
+  const { recipeMap, ingredientMap } = useCatalog();
   const [editing, setEditing] = useState<ShoppingItem | null>(null);
   const [adding, setAdding] = useState(false);
   const [showStock, setShowStock] = useState(false);
@@ -29,14 +30,14 @@ export function ShoppingList() {
         ? buildShoppingList({
             weekKey: activeWeek,
             meals: plan.meals,
-            recipes: RECIPE_MAP,
-            ingredients: INGREDIENT_MAP,
+            recipes: recipeMap,
+            ingredients: ingredientMap,
             pantry: new Set(prefs.pantryItems),
             state,
             store,
           })
         : [],
-    [plan, prefs.pantryItems, state, activeWeek, store],
+    [plan, prefs.pantryItems, state, activeWeek, store, recipeMap, ingredientMap],
   );
   const toBuy = items.filter((i) => !i.inStock);
   const inStock = items.filter((i) => i.inStock);
@@ -243,7 +244,8 @@ const field =
 
 function ItemSheet({ item, weekKey, onClose }: { item: ShoppingItem; weekKey: string; onClose: () => void }) {
   const [qty, setQty] = useState(item.edited || item.manual ? item.required : '');
-  const ing = item.ingredientId ? INGREDIENT_MAP.get(item.ingredientId) : undefined;
+  const { ingredientMap } = useCatalog();
+  const ing = item.ingredientId ? ingredientMap.get(item.ingredientId) : undefined;
   const done = (p: Promise<unknown>) => p.then(onClose);
 
   if (item.manual) {

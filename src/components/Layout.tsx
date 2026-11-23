@@ -1,5 +1,6 @@
 import { CalendarHeart, Compass, Search, ShoppingBasket } from 'lucide-react';
-import { NavLink, Outlet } from 'react-router-dom';
+import { useEffect } from 'react';
+import { NavLink, Outlet, useLocation, useNavigationType } from 'react-router-dom';
 import { usePlan, useWeek } from '../state/hooks';
 import { FullPlanDialog } from './dialogs';
 import { cx } from './ui';
@@ -14,6 +15,12 @@ const tabs = [
 export function Layout() {
   const { activeWeek } = useWeek();
   const plan = usePlan(activeWeek);
+  const { pathname } = useLocation();
+  const navType = useNavigationType();
+  useEffect(() => {
+    // A new page starts at the top; going back keeps where you were.
+    if (navType !== 'POP') window.scrollTo(0, 0);
+  }, [pathname, navType]);
   return (
     <div className="min-h-screen bg-cream-100 text-ink-900 md:flex">
       {/* Desktop side rail */}

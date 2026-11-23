@@ -3,7 +3,6 @@ import { ArrowLeft, Download, Upload, X } from 'lucide-react';
 import { useMemo, useRef, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Button, Chip, cx, PageHeader, Stepper, TargetPicker } from '../components/ui';
-import { INGREDIENT_MAP, INGREDIENTS, RECIPE_MAP, RECIPES } from '../data/catalog';
 import { db } from '../db/db';
 import { BackupError, exportBackup, importBackup } from '../db/backup';
 import { updatePreferences, updateRecipeState } from '../db/repo';
@@ -11,12 +10,14 @@ import { MAX_SERVINGS, MIN_SERVINGS } from '../lib/plan';
 import { fold } from '../lib/search';
 import { STORES } from '../lib/sections';
 import { usePreferences, useRecipeStates, useToast } from '../state/hooks';
+import { useCatalog } from '../state/catalog';
 
 export function Settings() {
   const navigate = useNavigate();
   const prefs = usePreferences();
   const states = useRecipeStates();
   const toast = useToast();
+  const { ingredients, ingredientMap, recipeMap, builtInCount, custom } = useCatalog();
   const history = useLiveQuery(() => db.history.orderBy('cookedAt').reverse().limit(8).toArray(), []);
   const historyCount = useLiveQuery(() => db.history.count(), []);
   const [q, setQ] = useState('');
@@ -27,8 +28,8 @@ export function Settings() {
   const matches = useMemo(() => {
     const t = fold(q.trim());
     if (!t) return [];
-    return INGREDIENTS.filter((i) => !pantry.has(i.id) && (fold(i.name).includes(t) || i.aliases?.some((a) => fold(a).includes(t)))).slice(0, 8);
-  }, [q, prefs.pantryItems]);
+    return ingredients.filter((i) => !pantry.has(i.id) && (fold(i.name).includes(t) || i.aliases?.some((a) => fold(a).includes(t)))).slice(0, 8);
+  }, [q, prefs.pantryItems, ingredients]);
 
   const doExport = async () => {
     const data = await exportBackup(db);
@@ -105,9 +106,9 @@ export function Settings() {
                 key={id}
                 active
                 onClick={() => updatePreferences(db, { pantryItems: prefs.pantryItems.filter((x) => x !== id) })}
-                aria-label={`${INGREDIENT_MAP.get(id)?.name ?? id} verwijderen`}
+                aria-label={`${ingredientMap.get(id)?.name ?? id} verwijderen`}
               >
-                {INGREDIENT_MAP.get(id)?.name ?? id} <X size={14} />
+                {ingredientMap.get(id)?.name ?? id} <X size={14} />
               </Chip>
             ))}
           </div>
@@ -142,7 +143,7 @@ export function Settings() {
               {history.map((h) => (
                 <li key={h.id} className="flex justify-between py-2 text-[15px]">
                   <Link to={`/recipe/${h.recipeId}`} className="truncate">
-                    {RECIPE_MAP.get(h.recipeId)?.title ?? 'Recept niet meer beschikbaar'}
+                    {recipeMap.get(h.recipeId)?.title ?? 'Recept niet meer beschikbaar'}
                   </Link>
                   <span className="ml-3 shrink-0 text-sm text-ink-500">{new Date(h.cookedAt).toLocaleDateString('nl-NL', { day: 'numeric', month: 'short' })}</span>
                 </li>
@@ -158,7 +159,7 @@ export function Settings() {
             <div className="mt-3 flex flex-wrap gap-2">
               {disliked.map((s) => (
                 <Chip key={s.recipeId} onClick={() => updateRecipeState(db, s.recipeId, { disliked: false })}>
-                  {RECIPE_MAP.get(s.recipeId)?.title ?? s.recipeId} <X size={14} />
+                  {recipeMap.get(s.recipeId)?.title ?? s.recipeId} <X size={14} />
                 </Chip>
               ))}
             </div>
@@ -191,7 +192,7 @@ export function Settings() {
 
         <section className="px-1 text-xs leading-relaxed text-ink-500">
           <p>
-            Weekmenu bevat {RECIPES.length} vegetarische recepten, geïnspireerd op gerechten van HelloFresh: naam en ingrediënten zijn gebaseerd op het origineel, de
+            Weekmenu bevat {builtInCount} vegetarische recepten{custom.size > 0 ? ` (plus ${custom.size} eigen)` : ''}, geïnspireerd op gerechten van HelloFresh: naam en ingrediënten zijn gebaseerd op het origineel, de
             bereidingswijze is in eigen woorden geschreven. Alleen voor persoonlijk gebruik; niet verbonden aan HelloFresh. Looproutes, verpakkingen en
             ‘mogelijk lastig te vinden’-hints zijn indicatief en geen actuele voorraadinformatie.
           </p>

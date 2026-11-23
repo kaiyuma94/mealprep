@@ -2,12 +2,12 @@ import { ChevronLeft, ChevronRight, Heart, ListChecks, PartyPopper, Timer, X } f
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { useNavigate, useParams, useSearchParams } from 'react-router-dom';
 import { cx } from '../components/ui';
-import { RECIPE_MAP } from '../data/catalog';
 import { db } from '../db/db';
 import { markCooked, updateRecipeState } from '../db/repo';
 import { clampServings } from '../lib/plan';
 import { usePreferences, useRecipeStates, useWeek } from '../state/hooks';
 import { IngredientList } from './RecipeDetail';
+import { useCatalog } from '../state/catalog';
 
 function useWakeLock() {
   useEffect(() => {
@@ -110,7 +110,8 @@ export function CookingMode() {
   const { id } = useParams();
   const [params] = useSearchParams();
   const navigate = useNavigate();
-  const recipe = id ? RECIPE_MAP.get(id) : undefined;
+  const { recipeMap } = useCatalog();
+  const recipe = id ? recipeMap.get(id) : undefined;
   const prefs = usePreferences();
   const states = useRecipeStates();
   const { activeWeek, currentWeek } = useWeek();

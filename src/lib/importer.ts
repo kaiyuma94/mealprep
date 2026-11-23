@@ -1,8 +1,8 @@
 /**
  * Converts recipes in the human-friendly import format (ingredient names,
  * free-form units) into catalog recipes with canonical ingredient IDs.
- * Pure functions — used by scripts/import-recipes.ts and the tests, never by
- * the frontend bundle.
+ * Pure functions, used by scripts/import-recipes.ts and, for the line parser,
+ * by the in-app recipe form (src/lib/customRecipe.ts).
  */
 import type { CookingStep, Difficulty, Ingredient, Recipe, RecipeIngredient, RecipeSource, Unit } from '../types';
 import { RECIPE_SCHEMA_VERSION } from '../types';

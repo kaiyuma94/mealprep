@@ -2,8 +2,10 @@ import Dexie from 'dexie';
 import { beforeEach, describe, expect, it } from 'vitest';
 import { RECIPES } from '../src/data/catalog';
 import { WeekmenuDB } from '../src/db/db';
-import { BackupError, exportBackup, importBackup, migrateBackup } from '../src/db/backup';
-import { addManualItem, ensureSelection, getPlan, getPreferences, markCooked, mutatePlan, replaceSelectionSlot, savePlan, setOverride, unmarkCooked, updateRecipeState } from '../src/db/repo';
+import { BACKUP_VERSION, BackupError, exportBackup, importBackup, migrateBackup } from '../src/db/backup';
+import { addManualItem, deleteCustomRecipe, ensureSelection, getPlan, getPreferences, markCooked, mutatePlan, replaceSelectionSlot, saveCustomRecipe, savePlan, setOverride, unmarkCooked, updateRecipeState } from '../src/db/repo';
+import { INGREDIENTS } from '../src/data/catalog';
+import { buildCustomRecipe, emptyForm } from '../src/lib/customRecipe';
 import { addMeal } from '../src/lib/plan';
 
 let db: WeekmenuDB;
@@ -98,16 +100,17 @@ describe('persistence', () => {
     expect((await getPlan(db, '2026-W48')).mealTarget).toBe(5);
   });
 
-  it('migrates a v1 backup (supermarket "lidl-nl") to v2', async () => {
+  it('migrates a v1 backup (supermarket "lidl-nl") to the current version', async () => {
     const v1 = { format: 'weekmenu-backup', version: 1, exportedAt: '', data: { preferences: [{ id: 'me', defaultServings: 2, defaultMealTarget: 4, supermarket: 'lidl-nl', pantryItems: [], updatedAt: 0 }] } };
     const b = migrateBackup(v1);
-    expect(b.version).toBe(2);
+    expect(b.version).toBe(BACKUP_VERSION);
     expect(b.data.preferences[0].supermarket).toBe('lidl');
+    expect(b.data.customRecipes).toEqual([]);
     await importBackup(db, v1);
     expect((await getPreferences(db)).supermarket).toBe('lidl');
   });
 
-  it('upgrades an existing v1 IndexedDB to v2', async () => {
+  it('upgrades an existing v1 IndexedDB to the current version', async () => {
     const name = `upgrade-${n++}`;
     const old = new Dexie(name);
     old.version(1).stores({ preferences: 'id', recipeState: 'recipeId', plans: 'weekKey', selections: 'weekKey', history: '++id, recipeId, weekKey, cookedAt', shopping: 'weekKey' });
@@ -118,11 +121,47 @@ describe('persistence', () => {
     const prefs = await getPreferences(upgraded);
     expect(prefs).toMatchObject({ supermarket: 'lidl', defaultServings: 3, defaultMealTarget: 5 });
     expect((await getPlan(upgraded, '2026-W48')).mealTarget).toBe(5);
-    expect(upgraded.verno).toBe(2);
+    expect(upgraded.verno).toBe(3);
+    expect(await upgraded.customRecipes.count()).toBe(0);
   });
 
   it('accepts partial backups (missing tables become empty)', () => {
     const b = migrateBackup({ format: 'weekmenu-backup', version: 1, data: { plans: [] } });
     expect(b.data.history).toEqual([]);
+  });
+
+  const ownRecipe = () =>
+    buildCustomRecipe(
+      { ...emptyForm(), title: 'Oma’s linzensoep', ingredients: [{ text: '200 g rode linzen' }, { text: '1 pot zelfgemaakte bouillon' }], steps: ['Kook alles 20 minuten.'] },
+      INGREDIENTS,
+      { taken: () => false, now: 1 },
+    );
+
+  it('keeps own recipes in backups, and a v2 backup restores with none', async () => {
+    const record = ownRecipe();
+    await saveCustomRecipe(db, record);
+    const backup = JSON.parse(JSON.stringify(await exportBackup(db)));
+    expect(backup.version).toBe(3);
+    const fresh = new WeekmenuDB(`restore-${n++}`);
+    await importBackup(fresh, backup);
+    expect(await fresh.customRecipes.toArray()).toEqual([record]);
+
+    await importBackup(fresh, { format: 'weekmenu-backup', version: 2, data: { plans: [] } });
+    expect(await fresh.customRecipes.count()).toBe(0);
+  });
+
+  it('rejects a backup with a damaged own recipe', () => {
+    expect(() => migrateBackup({ format: 'weekmenu-backup', version: 3, data: { customRecipes: [{ id: 'eigen-x', recipe: { id: 'iets-anders' } }] } })).toThrow(/eigen recept/);
+  });
+
+  it('deleting an own recipe takes it off this and later menus, not past ones', async () => {
+    const record = ownRecipe();
+    await saveCustomRecipe(db, record);
+    for (const w of ['2026-W47', '2026-W48', '2026-W49']) await savePlan(db, addMeal(await getPlan(db, w), record.id).plan);
+    await deleteCustomRecipe(db, record.id, '2026-W48');
+    expect(await db.customRecipes.count()).toBe(0);
+    expect((await getPlan(db, '2026-W47')).meals.map((m) => m.recipeId)).toEqual([record.id]);
+    expect((await getPlan(db, '2026-W48')).meals).toEqual([]);
+    expect((await getPlan(db, '2026-W49')).meals).toEqual([]);
   });
 });

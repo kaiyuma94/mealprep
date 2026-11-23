@@ -1,17 +1,18 @@
 import { useState } from 'react';
-import { RECIPE_MAP } from '../data/catalog';
 import { MAX_MEALS } from '../lib/plan';
 import { resolveFullPlan, usePlanPrompt, useToast } from '../state/hooks';
 import type { WeeklyMealPlan } from '../types';
 import { Button, cx, RecipeCover, Sheet } from './ui';
+import { useCatalog } from '../state/catalog';
 
 /** Shown when adding a recipe to a week that is already full. */
 export function FullPlanDialog() {
   const { prompt, setPrompt } = usePlanPrompt();
   const toast = useToast();
   const [swapOut, setSwapOut] = useState<string | null>(null);
+  const { recipeMap } = useCatalog();
   if (!prompt) return null;
-  const recipe = RECIPE_MAP.get(prompt.recipeId);
+  const recipe = recipeMap.get(prompt.recipeId);
   const close = () => {
     setPrompt(null);
     setSwapOut(null);
@@ -52,10 +53,11 @@ export function FullPlanDialog() {
 }
 
 export function MealPicker({ meals, selected, onToggle }: { meals: string[]; selected: string[]; onToggle: (id: string) => void }) {
+  const { recipeMap } = useCatalog();
   return (
     <ul className="flex flex-col gap-2">
       {meals.map((id) => {
-        const r = RECIPE_MAP.get(id);
+        const r = recipeMap.get(id);
         const on = selected.includes(id);
         return (
           <li key={id}>

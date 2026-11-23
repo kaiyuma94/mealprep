@@ -13,6 +13,7 @@ No account, no server, no paid APIs. Everything lives on your device in IndexedD
 - **Recipe detail** – adjustable servings, scaled ingredients, full method, personal notes, favourite / "not for us", and source attribution.
 - **Cooking mode** – large text, swipe or arrow-key navigation, step timers that keep running between steps, an ingredients overlay, and screen wake-lock.
 - **Shopping list** – merged by canonical ingredient, units converted, scaled per meal. It shows what you *need* next to what to *buy* (typical Dutch pack sizes), grouped by aisle in the walking order of the selected store (Lidl, AH or Jumbo). Items that may be hard to find at that store are flagged with an alternative store ("mogelijk lastig bij Lidl, anders AH of Jumbo"). Pantry items are pre-marked "al in huis". You can also pick substitutions, add or edit items, and tick items off. Your ticks, edits and manual items survive changes to the menu.
+- **Own recipes** – "Eigen recept" on the search page opens a simple form: a name, ingredients added one line at a time with a + button ("200 g champignons", "naar smaak zout"; pasting a list adds every line), and the steps. While you type, each ingredient shows whether it was recognised. Recognised ones merge with the rest of the shopping list, and anything unknown becomes your own item under *Overig*. The cover is picked automatically from the name and ingredients, or you choose a dish shape and colour yourself. Servings (2), time (30 min) and cuisine have defaults. Own recipes appear in suggestions, search (with an "Eigen recepten" filter), the week, the shopping list and cooking mode. They can be edited or deleted, live only on the device, and are part of the backup.
 - **Sharing** – a Delen button on the shopping list, the week menu and every recipe opens the phone's own share menu (WhatsApp, Messages, Mail, …) with a ready-made Dutch text, including links back to the recipes. It uses the browser's built-in share function: no accounts, no API, nothing is sent until you press send. Where there is no share menu (some desktop browsers), the text is copied instead.
 - **History & backup** – favourites, dislikes, notes, cooking history, pantry and shopping progress persist. Export and restore everything as a JSON file.
 
@@ -95,7 +96,7 @@ Ingredients are matched to canonical IDs through names, plurals and aliases in `
 
 ## Testing
 
-`npm test` runs 133 tests covering:
+`npm test` runs 152 tests covering:
 
 - ISO week numbers, year rollover, and Sunday / midnight boundaries in Europe/Amsterdam (CET and CEST)
 - Deterministic weekly selection, bucket composition, cold start, cuisine diversity, single-card replacement
@@ -106,6 +107,7 @@ Ingredients are matched to canonical IDs through names, plurals and aliases in `
 - IndexedDB persistence, the v1 → v2 database upgrade, backup export/restore and migration, and invalid or future backup rejection
 - Recipe and import validation with missing or incomplete data, plus the plain ingredient-line parser
 - Sharing via the share menu, the copy fallback and a closed share menu, plus the texts for the week menu and a scaled recipe
+- Own recipes: reading ingredient lines, matching them to known ingredients (also without leading adjectives), unknown items under Overig, ids, editing round trips, the automatic cover, merging into the catalogue (skipping damaged ones), search, and deleting them from current and future menus
 - Every recipe using an illustrated cover (its own palette), with no bundled photos
 
 ## Architecture
@@ -121,12 +123,15 @@ src/
     units.ts          Conversion, scaling, formatting
     shopping.ts       Aggregation, packaging, overrides, store hints, text export
     share.ts          Share menu / copy fallback, week menu and recipe texts
+    customRecipe.ts   The recipe form: ingredient lines, matching, building an own recipe
+    catalogMerge.ts   Built-in recipes plus own recipes as one catalogue
     sections.ts       Supermarkets (Lidl, AH, Jumbo) and their aisle order
     search.ts         Recipe search & filters
     validation.ts     Catalogue validation
     importer.ts       Import-format conversion (used by scripts only)
   db/                 Dexie schema, repository functions, backup/migrations
   state/hooks.tsx     React context + live queries
+  state/catalog.tsx   The combined catalogue (built-in + own recipes), live from IndexedDB
   components/         UI primitives, cards, dialogs, layout
   screens/            Discover, Search, My Week, Shopping list, Recipe, Cooking mode, Settings
 recipes-src/          Recipe sources (import format, plain Dutch ingredient lines)
@@ -134,6 +139,6 @@ scripts/              validate-recipes, import-recipes, make-icons
 tests/                Vitest suites
 ```
 
-**Persistence & migrations.** IndexedDB is versioned through Dexie (`src/db/db.ts`). Never edit a released `version(n)` block. Add `version(n+1)` with an `upgrade()` instead. Version 2 is an example: it converted the stored supermarket `'lidl-nl'` to `'lidl'` when multi-store support arrived. Backups carry a format version (now 2), and `migrateBackup()` in `src/db/backup.ts` upgrades older files step by step and rejects files from newer app versions.
+**Persistence & migrations.** IndexedDB is versioned through Dexie (`src/db/db.ts`). Never edit a released `version(n)` block. Add `version(n+1)` with an `upgrade()` instead. Version 2 converted the stored supermarket `'lidl-nl'` to `'lidl'` when multi-store support arrived, and version 3 added the `customRecipes` table for own recipes. Backups carry a format version (now 3), and `migrateBackup()` in `src/db/backup.ts` upgrades older files step by step and rejects files from newer app versions.
 
 **Consistency.** Every change to a weekly plan goes through `mutatePlan()`, an IndexedDB read-modify-write transaction, so quick successive taps can't overwrite each other.

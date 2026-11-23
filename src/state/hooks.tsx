@@ -1,12 +1,12 @@
 import { useLiveQuery } from 'dexie-react-hooks';
 import { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from 'react';
-import { RECIPES } from '../data/catalog';
 import { db } from '../db/db';
 import { defaultPreferences, ensureSelection, getPlan, mutatePlan } from '../db/repo';
 import { addMeal, addMealRaisingTarget, MAX_MEALS, removeMeal, swapMeal } from '../lib/plan';
 import { shareText } from '../lib/share';
 import { currentWeek, isSundayInAmsterdam, planningWeek } from '../lib/week';
 import type { RecipeUserState, UserPreferences, WeekKey, WeeklyMealPlan, WeeklySelection } from '../types';
+import { useCatalog } from './catalog';
 
 // ---------- Week context ----------
 
@@ -65,10 +65,12 @@ export function useCookedIds(): Set<string> {
 
 export function useSelection(weekKey: WeekKey): WeeklySelection | undefined {
   const stored = useLiveQuery(() => db.selections.get(weekKey), [weekKey]);
+  const { recipes, loaded } = useCatalog();
   useEffect(() => {
-    // Generate on first visit to a week.
-    void ensureSelection(db, weekKey, RECIPES);
-  }, [weekKey]);
+    // Generate on first visit to a week, once the user's own recipes are known
+    // (an incomplete list would make a stored selection look invalid).
+    if (loaded) void ensureSelection(db, weekKey, recipes);
+  }, [weekKey, recipes, loaded]);
   return stored;
 }
 
