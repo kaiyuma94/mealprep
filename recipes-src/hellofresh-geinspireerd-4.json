@@ -1,0 +1,1187 @@
+{
+  "format": "weekmenu-recipe-import",
+  "source": {
+    "type": "inspired",
+    "name": "HelloFresh",
+    "note": "Gerecht en ingrediënten gebaseerd op een HelloFresh-recept; bereidingswijze in eigen woorden. Alleen voor persoonlijk gebruik."
+  },
+  "recipes": [
+    {
+      "id": "spaghetti-al-limone-broccoli",
+      "title": "Spaghetti al limone in roomsaus",
+      "subtitle": "met broccoli, courgette en een knapperige kaaskruimel",
+      "description": "Frisse citroenroomsaus met groene groenten, getopt met krokante panko met kaas.",
+      "cuisine": "Italiaans",
+      "tags": [
+        "pasta",
+        "comfort"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 25,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#f2d64b",
+        "#4f7f3b"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/spaghetti-al-limone-in-roomsaus-624eaed1816c53674314618a",
+      "ingredients": [
+        "180 g spaghetti",
+        "200 g broccoli",
+        "½ courgette",
+        "1 sjalot",
+        "1 teen knoflook",
+        "½ rode peper",
+        "1 citroen",
+        "150 ml kookroom",
+        "½ groentebouillonblokje",
+        "50 g geraspte oude kaas",
+        "20 g harde kaas",
+        "50 g panko",
+        "5 g basilicum",
+        "5 g verse tijm",
+        "1 el roomboter",
+        "1 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Smelt de boter in een koekenpan en rooster de panko goudbruin. Meng van het vuur af met de harde kaas en wat citroenrasp en zet apart.",
+          "timerMinutes": 4
+        },
+        {
+          "text": "Kook de spaghetti beetgaar; voeg de laatste 4 minuten de broccoliroosjes toe.",
+          "timerMinutes": 10
+        },
+        {
+          "text": "Snipper de sjalot, pers de knoflook, hak de peper fijn en snijd de courgette in kleine blokjes. Fruit ze 4 minuten in de olie."
+        },
+        {
+          "text": "Los het bouillonblokje op in 100 ml heet water. Voeg met de kookroom, de rest van de citroenrasp en een flinke kneep citroensap toe en laat 3 minuten zacht koken.",
+          "timerMinutes": 3
+        },
+        {
+          "text": "Roer de geraspte kaas en de tijmblaadjes door de saus en schep pasta en broccoli erdoor. Breng op smaak."
+        },
+        {
+          "text": "Serveer met de kaaskruimel en gescheurde basilicum."
+        }
+      ]
+    },
+    {
+      "id": "vegetarische-penne-bolognese-linzen",
+      "title": "Vegetarische penne bolognese",
+      "subtitle": "met linzen, basilicum en harde kaas",
+      "description": "Een langzaam gestoofde bolognese van rode linzen met soffritto, verse kruiden en tomaat.",
+      "cuisine": "Italiaans",
+      "tags": [
+        "pasta",
+        "comfort",
+        "eiwitrijk",
+        "budget"
+      ],
+      "prepMinutes": 15,
+      "cookMinutes": 35,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#9e3a26",
+        "#e8b86a"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/vegetarische-penne-bolognese-60b788bf228fc261652354a3",
+      "ingredients": [
+        "180 g penne",
+        "50 g rode linzen",
+        "1 ui",
+        "3 tenen knoflook",
+        "1 wortel",
+        "2 stengels bleekselderij",
+        "35 g tomatenpuree",
+        "400 g tomatenblokjes",
+        "200 g passata",
+        "1 laurierblad",
+        "5 g rozemarijn",
+        "5 g verse tijm",
+        "2 el rodewijnazijn",
+        "10 g basilicum",
+        "50 g harde kaas",
+        "2 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Snijd ui, wortel en bleekselderij in hele kleine blokjes en pers de knoflook. Ris de blaadjes van rozemarijn en tijm en hak ze fijn."
+        },
+        {
+          "text": "Fruit de groenten met de kruiden 6 minuten in de olie tot ze zacht zijn. Roer de tomatenpuree erdoor en bak 1 minuut.",
+          "timerMinutes": 6
+        },
+        {
+          "text": "Blus af met de azijn, voeg tomatenblokjes, passata, laurier, de gespoelde linzen en 150 ml water toe. Laat met de deksel op een kier zacht stoven tot de linzen gaar zijn; roer af en toe.",
+          "timerMinutes": 25
+        },
+        {
+          "text": "Kook intussen de penne beetgaar.",
+          "timerMinutes": 11
+        },
+        {
+          "text": "Vis het laurierblad eruit, breng de saus op smaak en schep de pasta erdoor."
+        },
+        {
+          "text": "Serveer met de harde kaas en basilicum."
+        }
+      ]
+    },
+    {
+      "id": "vegetarische-spaghetti-carbonara-paddenstoelen",
+      "title": "Vegetarische spaghetti carbonara",
+      "subtitle": "met paddenstoelen en verse peterselie",
+      "description": "Romige carbonara op basis van ei en kaas, met goudbruin gebakken paddenstoelen in plaats van spek.",
+      "cuisine": "Italiaans",
+      "tags": [
+        "snel",
+        "pasta"
+      ],
+      "prepMinutes": 5,
+      "cookMinutes": 15,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#e9cf8a",
+        "#6b5038"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/vegetarische-spaghetti-carbonara-5d8b75a70ae106500e36a78a",
+      "ingredients": [
+        "180 g spaghetti",
+        "350 g gemengde paddenstoelen",
+        "1 sjalot",
+        "2 tenen knoflook",
+        "2 eieren",
+        "75 g harde kaas",
+        "25 g panko",
+        "10 g peterselie",
+        "2 tl balsamicoazijn",
+        "2 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Kook de spaghetti beetgaar en bewaar een kopje kookwater.",
+          "timerMinutes": 10
+        },
+        {
+          "text": "Rooster de panko in een droge pan goudbruin en zet apart."
+        },
+        {
+          "text": "Bak de paddenstoelen in de olie op hoog vuur goudbruin. Voeg de gesnipperde sjalot en geperste knoflook toe, bak 2 minuten en blus af met de balsamico.",
+          "timerMinutes": 7
+        },
+        {
+          "text": "Klop de eieren los met driekwart van de kaas en veel zwarte peper."
+        },
+        {
+          "text": "Haal de pan van het vuur, schep de hete spaghetti door de paddenstoelen en roer snel het eimengsel en een scheut kookwater erdoor tot een romige saus. Niet meer verhitten, anders schift het ei."
+        },
+        {
+          "text": "Serveer met de panko, de rest van de kaas en gehakte peterselie."
+        }
+      ]
+    },
+    {
+      "id": "penne-witlof-paddenstoelenroomsaus",
+      "title": "Penne met witlof en paddenstoelenroomsaus",
+      "subtitle": "met verse krulpeterselie",
+      "description": "Gekaramelliseerd witlof en paddenstoelen in een romige saus: snel, Belgisch geïnspireerd comfortfood.",
+      "cuisine": "Belgisch",
+      "tags": [
+        "snel",
+        "pasta",
+        "comfort"
+      ],
+      "prepMinutes": 5,
+      "cookMinutes": 15,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#e7e1b5",
+        "#6a5136"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/penne-met-witlof-en-paddenstoelenroomsaus-5e8ddeb5b8ad5005303eed03",
+      "ingredients": [
+        "180 g penne",
+        "2 witlof",
+        "175 g gemengde paddenstoelen",
+        "1 ui",
+        "1 teen knoflook",
+        "200 ml kookroom",
+        "½ groentebouillonblokje",
+        "2 el rodewijnazijn",
+        "5 g peterselie",
+        "2 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Kook de penne beetgaar.",
+          "timerMinutes": 11
+        },
+        {
+          "text": "Halveer het witlof, snijd het harde kontje eruit en snijd in repen. Snipper de ui en pers de knoflook."
+        },
+        {
+          "text": "Bak de paddenstoelen 4 minuten in 1 el olie op hoog vuur. Voeg ui, knoflook en witlof met de rest van de olie toe en bak 5 minuten tot het witlof licht karamelliseert.",
+          "timerMinutes": 9
+        },
+        {
+          "text": "Blus af met de azijn, voeg de kookroom en het verkruimelde bouillonblokje toe en laat 2 minuten inkoken."
+        },
+        {
+          "text": "Schep de penne erdoor, breng op smaak en serveer met gehakte peterselie."
+        }
+      ]
+    },
+    {
+      "id": "verse-ravioli-ricotta-spinazie-tomatensaus",
+      "title": "Verse ravioli met ricotta en spinazie",
+      "subtitle": "in spinazie-tomatensaus",
+      "description": "Gevulde verse pasta in een snelle tomatensaus met veel spinazie: binnen twintig minuten op tafel.",
+      "cuisine": "Italiaans",
+      "tags": [
+        "snel"
+      ],
+      "prepMinutes": 5,
+      "cookMinutes": 12,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#c8402f",
+        "#3f7a3c"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/verse-ravioli-met-ricotta-en-spinazie-5ca7588fe3f339230e7d2623",
+      "ingredients": [
+        "250 g verse ravioli",
+        "2 tenen knoflook",
+        "400 g cherrytomaten in blik",
+        "2 tl balsamicoazijn",
+        "1 tl suiker",
+        "200 g spinazie",
+        "50 g harde kaas",
+        "2 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Bak de geperste knoflook 1 minuut in ½ el olie. Voeg de cherrytomaten met hun saus, de helft van de balsamico, de suiker en 50 ml water toe en laat 10 minuten zachtjes koken.",
+          "timerMinutes": 10
+        },
+        {
+          "text": "Kook de ravioli in ruim water gaar en giet voorzichtig af.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Rasp de kaas. Meng een derde van de spinazie met de rest van de balsamico en olie tot een salade."
+        },
+        {
+          "text": "Roer de rest van de spinazie door de tomatensaus tot hij slinkt en breng op smaak."
+        },
+        {
+          "text": "Verdeel ravioli en saus over de borden, bestrooi met kaas en serveer met de spinaziesalade."
+        }
+      ]
+    },
+    {
+      "id": "tagliatelle-paddenstoelen-salieboter",
+      "title": "Verse tagliatelle met gebakken paddenstoelen",
+      "subtitle": "met salieboter, zongedroogde tomaten en rucola",
+      "description": "Bruine boter met krokante salie, goudbruine champignons en portobello door verse pasta.",
+      "cuisine": "Italiaans",
+      "tags": [
+        "snel",
+        "pasta"
+      ],
+      "prepMinutes": 5,
+      "cookMinutes": 15,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#7b5a3a",
+        "#d4a64a"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/verse-tagliatelle-met-gebakken-paddenstoelen-605b5390b2e11c1de4413fbb",
+      "ingredients": [
+        "250 g verse tagliatelle",
+        "250 g champignons",
+        "1 portobello",
+        "1 sjalot",
+        "1 teen knoflook",
+        "10 g salie",
+        "60 g zongedroogde tomaten",
+        "10 g zonnebloempitten",
+        "40 g rucola",
+        "2 tl wittewijnazijn",
+        "50 g roomboter",
+        "1 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Rooster de zonnebloempitten in een droge pan en zet apart."
+        },
+        {
+          "text": "Snijd champignons en portobello in plakjes, snipper de sjalot en pers de knoflook. Bak de paddenstoelen in de olie op hoog vuur goudbruin, voeg sjalot en knoflook toe en bak 2 minuten mee. Blus af met de azijn.",
+          "timerMinutes": 8
+        },
+        {
+          "text": "Smelt de boter in een kleine pan en bak de salieblaadjes tot de boter nootachtig bruin ruikt en de salie knapperig is.",
+          "timerMinutes": 3
+        },
+        {
+          "text": "Kook de tagliatelle volgens de verpakking en giet af, maar bewaar een scheut kookwater.",
+          "timerMinutes": 3
+        },
+        {
+          "text": "Meng pasta, paddenstoelen, reepjes zongedroogde tomaat en de salieboter met wat kookwater. Breng op smaak."
+        },
+        {
+          "text": "Serveer met de rucola en zonnebloempitten."
+        }
+      ]
+    },
+    {
+      "id": "aglio-e-olio-risotto-geitenkaas-pistache",
+      "title": "Aglio e olio risotto met geitenkaas en pistachenoten",
+      "subtitle": "met geroosterde biet en wortel, spinazie en citroen",
+      "description": "Een risotto met knoflook, chili en olijfolie, met honingzoete geroosterde biet en wortel en romige geitenkaas.",
+      "cuisine": "Italiaans",
+      "tags": [
+        "oven",
+        "weekend"
+      ],
+      "prepMinutes": 15,
+      "cookMinutes": 30,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#8e2a4a",
+        "#e08a3a"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/aglio-e-olio-risotto-met-geitenkaas-en-pistachenoten-6a2c1b5391ca82626ceed5eb",
+      "ingredients": [
+        "150 g risottorijst",
+        "250 g gekookte rode bieten",
+        "1 wortel",
+        "1 ui",
+        "2 tenen knoflook",
+        "½ rode peper",
+        "100 g spinazie",
+        "1 citroen",
+        "100 g zachte geitenkaas",
+        "20 g pistachenoten",
+        "5 g basilicum",
+        "½ tl tijm",
+        "1 groentebouillonblokje",
+        "2 tl honing",
+        "2 tl balsamicoazijn",
+        "4 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 200 °C en los het bouillonblokje op in 800 ml heet water. Snijd biet en wortel in grove stukken, leg ze op een bakplaat met bakpapier, besprenkel met een scheut olie en de balsamico en rooster ze.",
+          "timerMinutes": 28
+        },
+        {
+          "text": "Snijd de knoflook in dunne plakjes en de peper fijn; verwarm ze heel zacht in 2 el olie tot de knoflook net kleurt. Dit is je aglio e olio."
+        },
+        {
+          "text": "Fruit de gesnipperde ui 1 minuut in een scheut olie, voeg de rijst toe en bak 1 minuut. Voeg soeplepel voor soeplepel bouillon toe en laat de rijst die al roerend opnemen tot hij romig en beetgaar is.",
+          "timerMinutes": 22
+        },
+        {
+          "text": "Leg de geitenkaas de laatste 5 minuten op de bakplaat bij de groenten, besprenkel met honing en strooi de tijm erover. Bak tot hij goudbruin is.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Rasp de citroen, snijd hem in partjes en hak de pistachenoten grof. Scheur spinazie en basilicum boven de risotto en roer erdoor, samen met de aglio e olio."
+        },
+        {
+          "text": "Serveer de risotto met de geroosterde groenten en de geitenkaas, bestrooid met citroenrasp en pistache, en citroenpartjes erbij."
+        }
+      ]
+    },
+    {
+      "id": "champignonrisotto-orzo-truffel-walnoot",
+      "title": "Champignonrisotto van orzo",
+      "subtitle": "met truffelolie, courgette, walnoten en harde kaas",
+      "description": "Orzo gegaard als risotto met champignons en courgette, afgemaakt met een vleugje truffel.",
+      "cuisine": "Italiaans",
+      "tags": [
+        "eenpans",
+        "comfort"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 20,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#7b6346",
+        "#f0e2c2"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/champignonrisotto-van-orzo-66b33c9d65c5bf01517d39e9",
+      "ingredients": [
+        "150 g orzo",
+        "250 g champignons",
+        "1 courgette",
+        "1 ui",
+        "3 bosuien",
+        "1 teen knoflook",
+        "1 groentebouillonblokje",
+        "40 g walnoten",
+        "40 g harde kaas",
+        "2 tl truffelolie",
+        "1 el roomboter",
+        "1 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Los het bouillonblokje op in 400 ml heet water. Rooster de walnoten in een droge pan en hak ze grof."
+        },
+        {
+          "text": "Snijd de champignons in plakjes en de courgette in blokjes. Bak ze in de olie op hoog vuur goudbruin en haal de helft uit de pan.",
+          "timerMinutes": 6
+        },
+        {
+          "text": "Voeg de gesnipperde ui, knoflook en het wit van de bosui toe en fruit 2 minuten. Roer de orzo erdoor."
+        },
+        {
+          "text": "Giet de bouillon in delen bij de orzo en laat al roerend garen tot de orzo romig en beetgaar is.",
+          "timerMinutes": 11
+        },
+        {
+          "text": "Roer de boter en de helft van de kaas erdoor en breng op smaak."
+        },
+        {
+          "text": "Serveer met de bewaarde champignons en courgette, walnoten, het groen van de bosui, de rest van de kaas en een paar druppels truffelolie."
+        }
+      ]
+    },
+    {
+      "id": "feta-oven-orzo-tapenade",
+      "title": "Feta uit de oven met orzo",
+      "subtitle": "met tomatentapenade en geroosterde paprika",
+      "description": "Een blok feta, zacht gegaard tussen paprika en courgette, door orzo met tomatentapenade gemengd.",
+      "cuisine": "Grieks",
+      "tags": [
+        "oven"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 25,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#d8452f",
+        "#f3eee2"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/feta-uit-de-oven-met-orzo-61fbe7d30ece85298e42d801",
+      "ingredients": [
+        "170 g orzo",
+        "150 g feta",
+        "2 paprika's",
+        "1 courgette",
+        "80 g tomatentapenade",
+        "5 g rozemarijn",
+        "10 g basilicum",
+        "½ groentebouillonblokje",
+        "1 el balsamicoazijn",
+        "3 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 200 °C en kook 200 ml water. Snijd de paprika's in korte repen en de courgette in halve maantjes. Bestrijk de bovenkant van de feta met 1 el tapenade."
+        },
+        {
+          "text": "Meng paprika en courgette in een ovenschaal met de balsamico, 2 el olie, de fijngehakte rozemarijn, zout en peper. Leg de feta in het midden en bak tot de groenten zacht zijn.",
+          "timerMinutes": 20
+        },
+        {
+          "text": "Rooster de orzo 1 minuut in een droge hapjespan. Giet het kokende water erbij, verkruimel het bouillonblokje erboven en laat afgedekt op laag vuur gaar en droog koken; schep regelmatig om en voeg zo nodig water toe.",
+          "timerMinutes": 11
+        },
+        {
+          "text": "Schep de orzo met de rest van de tapenade door de groenten en de feta in de ovenschaal en garneer met basilicum in reepjes."
+        }
+      ]
+    },
+    {
+      "id": "orzo-venkel-pistache-spinazie",
+      "title": "Orzo met venkel en pistachenoten",
+      "subtitle": "met spinazie en feta",
+      "description": "Romige orzo met zoet gebakken venkel, citroen en spinazie, met een knapperige pistachetopping.",
+      "cuisine": "Italiaans",
+      "tags": [
+        "snel"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 15,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#b5c86a",
+        "#f4f0e0"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/orzo-met-venkel-en-pistachenoten-6597dcdcaa12a55eb3531318",
+      "ingredients": [
+        "170 g orzo",
+        "1 venkel",
+        "2 tenen knoflook",
+        "200 g spinazie",
+        "½ citroen",
+        "50 g kruidenroomkaas",
+        "50 g feta",
+        "50 g pistachenoten",
+        "1 tl Italiaanse kruiden",
+        "½ groentebouillonblokje",
+        "1 el wittewijnazijn",
+        "1 el roomboter",
+        "1 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Kook de orzo in water met het halve bouillonblokje beetgaar. Bewaar een kopje kookvocht en giet af.",
+          "timerMinutes": 10
+        },
+        {
+          "text": "Snijd de venkel in dunne reepjes (bewaar het groen) en pers de knoflook. Bak de venkel in olie en boter 6 minuten tot hij zacht en licht gekleurd is; voeg knoflook en kruiden toe en blus af met de azijn.",
+          "timerMinutes": 6
+        },
+        {
+          "text": "Voeg de spinazie in delen toe en laat slinken."
+        },
+        {
+          "text": "Schep de orzo, de kruidenroomkaas, citroenrasp en een scheut kookvocht erdoor tot het romig is. Breng op smaak met citroensap, zout en peper."
+        },
+        {
+          "text": "Hak de pistachenoten grof en serveer de orzo met verkruimelde feta, pistache en het venkelgroen."
+        }
+      ]
+    },
+    {
+      "id": "orzo-geroosterde-groenten-knoflookbrood",
+      "title": "Orzo met geroosterde groenten en knoflookbrood",
+      "subtitle": "met gerookte paprika, witte kaas en vers basilicum",
+      "description": "Een rokerige ratatouille van ovengroenten met orzo, witte kaas en warm knoflookbrood.",
+      "cuisine": "Frans",
+      "tags": [
+        "oven"
+      ],
+      "prepMinutes": 15,
+      "cookMinutes": 25,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#c64a2e",
+        "#5c3d63"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/orzo-met-geroosterde-groenten-en-volkoren-knoflookbrood-6669a42fbd13e7439ddc08f0",
+      "ingredients": [
+        "75 g orzo",
+        "1 aubergine",
+        "1 courgette",
+        "1 rode puntpaprika",
+        "1 ui",
+        "2 tenen knoflook",
+        "200 g passata",
+        "2 tl gerookt paprikapoeder",
+        "1 tl Italiaanse kruiden",
+        "1 tl oregano",
+        "1 volkoren ciabatta",
+        "50 g witte kaas",
+        "10 g basilicum",
+        "1 el balsamicoazijn",
+        "1 tl suiker",
+        "4 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 200 °C en breng water aan de kook voor de orzo. Snijd de puntpaprika in reepjes en courgette en aubergine in blokjes van 2 cm. Meng de groenten met de oregano, 1 el olie, zout en peper."
+        },
+        {
+          "text": "Rooster de groenten op een bakplaat met bakpapier; houd aan één kant ruimte vrij voor het brood. Kook intussen de orzo gaar en giet af.",
+          "timerMinutes": 18
+        },
+        {
+          "text": "Fruit de gesnipperde ui en de helft van de knoflook 3 minuten in 1 el olie. Blus af met de passata en de balsamico, voeg gerookt paprikapoeder en suiker toe en laat 6 minuten sudderen.",
+          "timerMinutes": 9
+        },
+        {
+          "text": "Meng de rest van de knoflook met de Italiaanse kruiden en 1 el olie. Snijd de ciabatta open, besprenkel met de kruidenolie en bak hem de laatste 8 minuten mee in de oven.",
+          "timerMinutes": 8
+        },
+        {
+          "text": "Verkruimel de witte kaas in een kommetje en meng met de grof gehakte basilicum, de rest van de olie en peper."
+        },
+        {
+          "text": "Meng de groenten met de orzo. Verdeel de tomatensaus over de borden, schep de orzo erop en maak af met de kaas-basilicumtopping. Serveer met het knoflookbrood in repen."
+        }
+      ]
+    },
+    {
+      "id": "parelgerst-risotto-geroosterde-pompoen",
+      "title": "Parelgerst-risotto met geroosterde pompoen",
+      "subtitle": "met mascarpone, champignons en krokante salie",
+      "description": "Nootachtige parelgerst, romig geroerd met mascarpone, met zoete geroosterde pompoen en krokante salie.",
+      "cuisine": "Italiaans",
+      "tags": [
+        "oven",
+        "weekend",
+        "winter"
+      ],
+      "prepMinutes": 15,
+      "cookMinutes": 40,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#e0812e",
+        "#7d5a3c"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/parelgerst-risotto-met-geroosterde-pompoen-61f2c497e84b797e037a6457",
+      "ingredients": [
+        "170 g parelgerst",
+        "500 g flespompoen",
+        "125 g champignons",
+        "1 rode ui",
+        "2 tenen knoflook",
+        "10 g salie",
+        "1 groentebouillonblokje",
+        "50 g mascarpone",
+        "40 g harde kaas",
+        "1 el roomboter",
+        "3 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 200 °C. Schil de pompoen, snijd in blokjes van 2 cm en rooster met 1 el olie, zout en peper tot zacht en goudbruin.",
+          "timerMinutes": 30
+        },
+        {
+          "text": "Los het bouillonblokje op in 800 ml heet water. Fruit de gesnipperde ui en knoflook 2 minuten in 1 el olie, voeg de parelgerst toe en roer 1 minuut."
+        },
+        {
+          "text": "Voeg de bouillon in delen toe en laat de parelgerst zachtjes garen tot hij beetgaar en romig is; roer regelmatig en voeg zo nodig water toe.",
+          "timerMinutes": 35
+        },
+        {
+          "text": "Bak de champignons in plakjes in de rest van de olie goudbruin. Bak in een klein pannetje de salieblaadjes in de boter knapperig."
+        },
+        {
+          "text": "Roer de mascarpone, de helft van de kaas, de champignons en de helft van de pompoen door de parelgerst. Breng op smaak."
+        },
+        {
+          "text": "Serveer met de rest van de pompoen, de krokante salie en de rest van de kaas."
+        }
+      ]
+    },
+    {
+      "id": "risotto-geroosterde-cherrytomaten-venkel",
+      "title": "Risotto met geroosterde cherrytomaten en kruidige venkel",
+      "subtitle": "met witte kaas, amandelen en peterselie",
+      "description": "Risotto met tomaat en Noord-Afrikaanse kruiden, met zoete ovengeroosterde tomaatjes en venkel.",
+      "cuisine": "Mediterraan",
+      "tags": [
+        "oven"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 35,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#d43c2f",
+        "#c5d27a"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/risotto-met-geroosterde-cherrytomaten-6936c61ac92924105ec9c584",
+      "ingredients": [
+        "150 g risottorijst",
+        "1 venkel",
+        "250 g cherrytomaten",
+        "1 ui",
+        "1 teen knoflook",
+        "1 tl ras el hanout",
+        "35 g tomatenpuree",
+        "1 groentebouillonblokje",
+        "100 g witte kaas",
+        "20 g amandelen",
+        "10 g peterselie",
+        "1 el balsamicoazijn",
+        "1 el roomboter",
+        "2 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 200 °C. Snipper de ui, pers de knoflook en los het bouillonblokje op in 700 ml heet water. Snijd de venkel in kwarten, verwijder de harde kern en snijd in reepjes."
+        },
+        {
+          "text": "Meng de venkel met ½ el olie, de tomatenpuree en de helft van de ras el hanout en rooster hem op een bakplaat met bakpapier.",
+          "timerMinutes": 22
+        },
+        {
+          "text": "Fruit ui en knoflook 1 minuut in de boter, voeg de rijst toe en bak 1 minuut. Voeg de bouillon in drie delen toe en laat de rijst hem al roerend opnemen tot hij romig en beetgaar is.",
+          "timerMinutes": 20
+        },
+        {
+          "text": "Meng de tomaatjes in een ovenschaal met de balsamico en de rest van de olie en zet ze de laatste 13 minuten bij de venkel in de oven.",
+          "timerMinutes": 13
+        },
+        {
+          "text": "Hak de amandelen grof, verkruimel de witte kaas en hak de peterselie. Roer van het vuur af de helft van de kaas, de helft van de peterselie, twee derde van de tomaatjes en de rest van de kruiden door de risotto."
+        },
+        {
+          "text": "Schep de risotto in diepe borden, leg venkel en de rest van de tomaatjes erop en maak af met amandelen, de rest van de witte kaas en peterselie."
+        }
+      ]
+    },
+    {
+      "id": "quinoa-risotto-feta-citroen",
+      "title": "Quinoa-risotto met feta en citroen",
+      "subtitle": "met spinazie, cherrytomaten en walnoten",
+      "description": "Quinoa romig gegaard als een risotto, fris met citroen en feta: een eiwitrijk alternatief.",
+      "cuisine": "Mediterraan",
+      "tags": [
+        "eiwitrijk",
+        "eenpans"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 20,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#e7d9a6",
+        "#3d7a3a"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/quinoa-risotto-met-feta-en-citroen-6311bc72cdbda73b830db12f",
+      "ingredients": [
+        "150 g quinoa",
+        "1 ui",
+        "2 tenen knoflook",
+        "1 groentebouillonblokje",
+        "200 g spinazie",
+        "200 g cherrytomaten",
+        "½ citroen",
+        "100 g feta",
+        "40 g walnoten",
+        "1 el balsamicoazijn",
+        "1 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 200 °C en los het bouillonblokje op in 400 ml heet water. Spoel de quinoa af. Fruit de gesnipperde ui en geperste knoflook 1 minuut in ½ el olie, voeg de quinoa toe en bak 1 minuut."
+        },
+        {
+          "text": "Voeg een derde van de bouillon toe en laat de quinoa die al roerend opnemen. Herhaal met de rest tot de quinoa zacht is met een lichte bite; voeg zo nodig water toe.",
+          "timerMinutes": 22
+        },
+        {
+          "text": "Meng de tomaatjes in een ovenschaal met de balsamico, de rest van de olie, zout en peper en rooster ze.",
+          "timerMinutes": 13
+        },
+        {
+          "text": "Rooster de walnoten in een droge pan. Rasp een beetje citroenschil, snijd de citroen in partjes en verkruimel de feta."
+        },
+        {
+          "text": "Scheur de spinazie boven de bijna gare quinoa en roer erdoor met de helft van de feta en de citroenrasp."
+        },
+        {
+          "text": "Verdeel over diepe borden met de tomaatjes en hun sappen, de rest van de feta, de walnoten en citroenpartjes."
+        }
+      ]
+    },
+    {
+      "id": "romige-orzo-oven-broccoli",
+      "title": "Romige orzo uit de oven met broccoli",
+      "subtitle": "met een knapperig kaaslaagje",
+      "description": "Een ovenschotel van orzo in een citroenige roomsaus met broccoli en spinazie, gegratineerd met panko en kaas.",
+      "cuisine": "Italiaans",
+      "tags": [
+        "oven",
+        "comfort"
+      ],
+      "prepMinutes": 15,
+      "cookMinutes": 30,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#e8c36c",
+        "#447a3a"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/romige-orzo-uit-de-oven-met-broccoli-63c7ce57788f6ee4ca33c565",
+      "ingredients": [
+        "150 g orzo",
+        "200 g broccoli",
+        "100 g spinazie",
+        "1 ui",
+        "2 tenen knoflook",
+        "2 el bloem",
+        "200 ml kookroom",
+        "1 groentebouillonblokje",
+        "½ citroen",
+        "25 g feta",
+        "20 g harde kaas",
+        "15 g panko",
+        "3 el roomboter",
+        "1 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 200 °C. Snijd de broccoli in roosjes en de steel in blokjes, besprenkel met de olie en rooster ze 10 minuten. Rasp de citroen, pers hem uit en rasp de harde kaas. Los het bouillonblokje op in 500 ml heet water.",
+          "timerMinutes": 10
+        },
+        {
+          "text": "Smelt 2 el boter in een hapjespan en fruit de gesnipperde ui en knoflook 2 minuten. Strooi de bloem erover en bak 2 minuten al roerend. Voeg de bouillon in drie delen toe en roer met een garde tot een gebonden saus."
+        },
+        {
+          "text": "Laat de spinazie in de saus slinken en roer de kookroom en de verkruimelde feta erdoor. Haal van het vuur en meng de ongekookte orzo, de broccoli en ½ el citroensap erdoor. Schep alles in een ovenschaal."
+        },
+        {
+          "text": "Dek de schaal af met aluminiumfolie en bak tot de orzo gaar is.",
+          "timerMinutes": 20
+        },
+        {
+          "text": "Meng de harde kaas met de panko, de rest van de gesmolten boter en peper, strooi over de orzo en bak zonder folie goudbruin.",
+          "timerMinutes": 6
+        },
+        {
+          "text": "Bestrooi met citroenrasp en serveer."
+        }
+      ]
+    },
+    {
+      "id": "tomatenrisotto-kokosmelk-basilicum",
+      "title": "Tomatenrisotto met kokosmelk en basilicum",
+      "subtitle": "met rucola, harde kaas en zonnebloempitten",
+      "description": "Een zachte, fluweelachtige risotto met tomaat en kokosmelk, fris afgemaakt met basilicum en rucola.",
+      "cuisine": "Italiaans",
+      "tags": [
+        "comfort"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 25,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#cf4330",
+        "#f4ead8"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/tomatenrisotto-met-kokosmelk-en-basilicum-66b33c901047ce98804584f0",
+      "ingredients": [
+        "150 g risottorijst",
+        "250 g cherrytomaten",
+        "1 ui",
+        "1 teen knoflook",
+        "35 g tomatenpuree",
+        "150 ml kokosmelk",
+        "1 groentebouillonblokje",
+        "20 g harde kaas",
+        "10 g basilicum",
+        "20 g zonnebloempitten",
+        "60 g rucola",
+        "2 tl balsamicoazijn",
+        "1 el roomboter",
+        "2 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Ris de basilicumblaadjes en leg de steeltjes in 450 ml heet water met het bouillonblokje. Halveer de tomaatjes, snipper de ui, pers de knoflook en rasp de kaas."
+        },
+        {
+          "text": "Rooster de zonnebloempitten in een droge hapjespan en zet apart. Roerbak ui, knoflook en driekwart van de tomaatjes 3 minuten in de olie. Zet het vuur lager, roer de tomatenpuree en de rijst erdoor en blus af met de balsamico.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Voeg de kokosmelk en een derde van de bouillon (zonder steeltjes) toe en laat de rijst het vocht al roerend opnemen. Herhaal met de rest van de bouillon tot de risotto romig en beetgaar is.",
+          "timerMinutes": 20
+        },
+        {
+          "text": "Roer de boter, de helft van de basilicum, de helft van de kaas en de helft van de pitten erdoor en breng op smaak."
+        },
+        {
+          "text": "Verdeel de rucola over diepe borden, schep de risotto erop en maak af met de rest van de tomaatjes, basilicum, kaas en pitten."
+        }
+      ]
+    },
+    {
+      "id": "veggie-bolognese-risotto-mascarpone",
+      "title": "Veggie bolognese-stijl risotto",
+      "subtitle": "met harde kaas, basilicum en mascarpone",
+      "description": "Het beste van twee klassiekers: een romige risotto met een kruidige bolognese van plantaardig gehakt.",
+      "cuisine": "Italiaans",
+      "tags": [
+        "comfort",
+        "eiwitrijk",
+        "winter"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 30,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#a8392a",
+        "#efd9a6"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/veggie-bolognese-stijl-risotto-6a5e1c37788d6aebbf5ccb4c",
+      "ingredients": [
+        "150 g risottorijst",
+        "150 g plantaardig gehakt",
+        "1 ui",
+        "1 wortel",
+        "1 teen knoflook",
+        "400 g tomatenblokjes",
+        "1 tl Italiaanse kruiden",
+        "1 laurierblad",
+        "5 g rozemarijn",
+        "1 groentebouillonblokje",
+        "50 g mascarpone",
+        "25 g harde kaas",
+        "5 g basilicum",
+        "2 tl balsamicoazijn",
+        "2 el roomboter",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Los het bouillonblokje op in 500 ml heet water. Snipper de ui, pers de knoflook en rasp de wortel."
+        },
+        {
+          "text": "Bak het gehakt rul in 1 el boter. Voeg ui, knoflook, wortel, fijngehakte rozemarijn en Italiaanse kruiden toe en bak 3 minuten.",
+          "timerMinutes": 6
+        },
+        {
+          "text": "Roer de rijst erdoor en bak 1 minuut mee. Voeg de tomatenblokjes, het laurierblad en een scheut bouillon toe."
+        },
+        {
+          "text": "Laat de risotto al roerend garen en voeg steeds bouillon toe tot de rijst romig en beetgaar is.",
+          "timerMinutes": 20
+        },
+        {
+          "text": "Vis het laurierblad eruit en roer de mascarpone, de rest van de boter, de balsamico en de helft van de kaas erdoor. Breng op smaak."
+        },
+        {
+          "text": "Serveer met de rest van de kaas en basilicum."
+        }
+      ]
+    },
+    {
+      "id": "groentelasagne-mascarpone-basilicum",
+      "title": "Groentelasagne met vers basilicum",
+      "subtitle": "met mascarponesaus, courgette en wortel",
+      "description": "Lagen pasta met een tomatensaus vol courgette en wortel en een romige mascarponesaus.",
+      "cuisine": "Italiaans",
+      "tags": [
+        "oven",
+        "comfort"
+      ],
+      "prepMinutes": 20,
+      "cookMinutes": 30,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#c94a2f",
+        "#f2dfb4"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/groentelasagne-met-vers-basilicum-6a50f54cb47c93963c04d8b4",
+      "ingredients": [
+        "200 g lasagnebladen",
+        "1 courgette",
+        "1 wortel",
+        "1 ui",
+        "2 tenen knoflook",
+        "400 g passata",
+        "1 tl Italiaanse kruiden",
+        "1 tl suiker",
+        "50 g mascarpone",
+        "60 g mozzarella",
+        "25 g geraspte kaas",
+        "10 g basilicum",
+        "2 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 200 °C. Snijd de courgette in dunne plakjes, leg ze op een bakplaat met bakpapier, besprenkel met olie en bak ze 9 minuten voor. Snijd intussen de wortel in kleine blokjes.",
+          "timerMinutes": 9
+        },
+        {
+          "text": "Bak de gesnipperde ui, geperste knoflook en wortel 6 minuten in de rest van de olie.",
+          "timerMinutes": 6
+        },
+        {
+          "text": "Voeg passata, suiker, kruiden en 100 ml water toe en laat 4 minuten pruttelen. Roer de mascarpone erdoor.",
+          "timerMinutes": 4
+        },
+        {
+          "text": "Bouw in een ovenschaal laagjes op van saus, lasagnebladen, saus en courgetteplakjes en eindig met saus. Bestrooi met de geraspte kaas en de gescheurde mozzarella."
+        },
+        {
+          "text": "Bak de lasagne goudbruin en gaar.",
+          "timerMinutes": 30
+        },
+        {
+          "text": "Laat 3 minuten rusten en garneer met fijngesneden basilicum."
+        }
+      ]
+    },
+    {
+      "id": "pompoenlasagne-drie-kazen-boerenkool",
+      "title": "Pompoenlasagne met drie kazen",
+      "subtitle": "met boerenkool en een salade van geroosterde druiven",
+      "description": "Een herfstige lasagne met pompoenpuree, boerenkool, ricotta en blauwe kaas, met een zoet-zure druivensalade.",
+      "cuisine": "Italiaans",
+      "tags": [
+        "oven",
+        "weekend",
+        "winter"
+      ],
+      "prepMinutes": 20,
+      "cookMinutes": 40,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#df8a2f",
+        "#3f5f35"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/pompoenlasagne-met-drie-kazen-5fabf5e48e0e1a701d16eab6",
+      "ingredients": [
+        "250 g lasagnebladen",
+        "350 g flespompoen",
+        "2 sjalotten",
+        "1 el roomboter",
+        "½ groentebouillonblokje",
+        "2 tenen knoflook",
+        "150 g boerenkool",
+        "2 el wittewijnazijn",
+        "50 g ricotta",
+        "50 g blauwe kaas",
+        "50 g harde kaas",
+        "5 g dille",
+        "5 g peterselie",
+        "100 g druiven",
+        "1 el balsamicoazijn",
+        "30 g rucola",
+        "30 g veldsla",
+        "3 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 200 °C. Schil de pompoen en snijd in blokjes van 2 cm, snijd de sjalotten in halve ringen, pers de knoflook en hak dille en peterselie grof."
+        },
+        {
+          "text": "Fruit de sjalot 3 minuten in de boter. Voeg de pompoen, 100 ml water en het verkruimelde bouillonblokje toe en stoof afgedekt zacht. Pureer tot een gladde saus.",
+          "timerMinutes": 10
+        },
+        {
+          "text": "Fruit de knoflook 1 minuut in ½ el olie, voeg de boerenkool en 2 el water toe en bak 5 minuten. Roer de azijn, ricotta, verkruimelde blauwe kaas, de helft van de kruiden en de helft van de geraspte harde kaas erdoor.",
+          "timerMinutes": 6
+        },
+        {
+          "text": "Schenk een laagje pompoensaus in een ovenschaal, leg er lasagnebladen op en verdeel er boerenkoolvulling over. Herhaal en eindig met pompoensaus. Bestrooi met de rest van de harde kaas en bak goudbruin.",
+          "timerMinutes": 30
+        },
+        {
+          "text": "Meng de druiven in een klein ovenschaaltje met ½ el olie, de balsamico, zout en peper en rooster ze 15 minuten naast de lasagne. Laat iets afkoelen.",
+          "timerMinutes": 15
+        },
+        {
+          "text": "Meng rucola, veldsla en de geroosterde druiven met de rest van de olie. Garneer de lasagne met de rest van de kruiden en serveer met de salade."
+        }
+      ]
+    },
+    {
+      "id": "romige-lasagne-vega-gehakt-champignons",
+      "title": "Romige lasagne met veggie gehakt en champignons",
+      "subtitle": "met prei en Italiaanse kruiden",
+      "description": "Een witte lasagne met plantaardig gehakt, prei en kastanjechampignons in een zelfgemaakte roomsaus.",
+      "cuisine": "Italiaans",
+      "tags": [
+        "oven",
+        "comfort",
+        "eiwitrijk"
+      ],
+      "prepMinutes": 20,
+      "cookMinutes": 35,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#e5cfa2",
+        "#6b4f37"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/romige-lasagne-met-veggie-gehakt-en-champignons-6a0dbe35099c5b8fd89ccabf",
+      "ingredients": [
+        "200 g lasagnebladen",
+        "150 g plantaardig gehakt",
+        "125 g kastanjechampignons",
+        "1 prei",
+        "1 rode ui",
+        "2 tenen knoflook",
+        "1 tl Italiaanse kruiden",
+        "1 groentebouillonblokje",
+        "2 el bloem",
+        "100 ml kookroom",
+        "25 g geraspte kaas",
+        "1 el roomboter",
+        "1 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 200 °C. Los het bouillonblokje op in 500 ml heet water."
+        },
+        {
+          "text": "Bak het gehakt rul in de olie. Voeg de gesnipperde ui, knoflook, prei in ringen, champignons in plakjes en de kruiden toe en bak 6 minuten.",
+          "timerMinutes": 8
+        },
+        {
+          "text": "Smelt de boter in een steelpan, roer de bloem erdoor en voeg al roerend de bouillon en kookroom toe tot een gebonden saus. Breng op smaak.",
+          "timerMinutes": 4
+        },
+        {
+          "text": "Meng een derde van de saus door het groentemengsel. Bouw in een ovenschaal laagjes op van saus, lasagnebladen en vulling, en eindig met saus."
+        },
+        {
+          "text": "Bestrooi met de kaas en bak tot de lasagne gaar en goudbruin is.",
+          "timerMinutes": 25
+        },
+        {
+          "text": "Laat 5 minuten rusten voor het aansnijden."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1163 @@
+{
+  "format": "weekmenu-recipe-import",
+  "source": {
+    "type": "inspired",
+    "name": "HelloFresh",
+    "note": "Gerecht en ingrediënten gebaseerd op een HelloFresh-recept; bereidingswijze in eigen woorden. Alleen voor persoonlijk gebruik."
+  },
+  "recipes": [
+    {
+      "id": "geitenkaasplaattaart-gekaramelliseerde-ui",
+      "title": "Geitenkaasplaattaart met gekaramelliseerde ui",
+      "subtitle": "met komkommersalade en pompoenpitten",
+      "description": "Een knapperige bladerdeegplaat met zoete balsamico-ui, crème fraîche en romige geitenkaas.",
+      "cuisine": "Frans",
+      "tags": [
+        "oven"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 25,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#e7c98a",
+        "#7a9b4c"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/geitenkaasplaattaart-met-gekaramelliseerde-ui-6a50f573b47c93963c04da01",
+      "ingredients": [
+        "1 rol bladerdeeg",
+        "3 uien",
+        "1 el roomboter",
+        "1 tl suiker",
+        "1 el balsamicoazijn",
+        "½ tl tijm",
+        "50 g crème fraîche",
+        "100 g zachte geitenkaas",
+        "1 komkommer",
+        "60 g gemengde sla",
+        "1 tl mosterd",
+        "10 g pompoenpitten",
+        "1 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 200 °C. Rooster de pompoenpitten in een droge pan tot ze poffen en zet apart. Snijd de uien in dunne halve ringen en bak ze 10 minuten in de boter op middelhoog vuur.",
+          "timerMinutes": 10
+        },
+        {
+          "text": "Leg het bladerdeeg op een bakplaat met bakpapier, prik er gaatjes in en bak het goudbruin voor.",
+          "timerMinutes": 12
+        },
+        {
+          "text": "Roer de crème fraîche los met de mosterd. Voeg de suiker en balsamico toe aan de zachte ui en laat 4 minuten karamelliseren.",
+          "timerMinutes": 4
+        },
+        {
+          "text": "Besmeer het voorgebakken deeg met de crème fraîche (laat 1 cm rand vrij), verdeel de ui erover, verkruimel de geitenkaas erop en bestrooi met tijm. Bak nog 5 minuten.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Meng de olie met een scheutje balsamico en schep vlak voor het serveren de sla en de komkommer in schijfjes erdoor."
+        },
+        {
+          "text": "Snijd de taart in stukken en serveer warm met de salade en de pompoenpitten."
+        }
+      ]
+    },
+    {
+      "id": "griekse-platbroodpizza-witte-kaas-olijven",
+      "title": "Griekse platbroodpizza",
+      "subtitle": "met witte kaas en olijven",
+      "description": "Knapperige platbroden met paprika, ui, tomaat en olijven, met een frisse kruidenyoghurt en komkommer.",
+      "cuisine": "Grieks",
+      "tags": [
+        "oven",
+        "snel"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 12,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#2f5f9a",
+        "#f3efe3"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/griekse-platbroodpizza-6220ded165050c1da64af3c8",
+      "ingredients": [
+        "4 platbroden",
+        "2 rode uien",
+        "1 paprika",
+        "2 tomaten",
+        "20 g olijven",
+        "1 tl oregano",
+        "25 g geraspte kaas",
+        "50 g witte kaas",
+        "100 g Griekse yoghurt",
+        "5 g munt",
+        "5 g peterselie",
+        "1 komkommer",
+        "1 el wittewijnazijn",
+        "2 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 220 °C. Snijd uien, paprika en tomaten in dunne stukjes en halveer de olijven."
+        },
+        {
+          "text": "Leg de platbroden op een bakplaat, besprenkel met olie en beleg met de groenten en olijven. Bestrooi met oregano, de geraspte kaas en verkruimelde witte kaas."
+        },
+        {
+          "text": "Bak de pizza's knapperig.",
+          "timerMinutes": 10
+        },
+        {
+          "text": "Roer de yoghurt los met gehakte munt en peterselie en een snufje zout."
+        },
+        {
+          "text": "Snijd de komkommer in plakjes en meng met de azijn."
+        },
+        {
+          "text": "Serveer de pizza's met de kruidenyoghurt en komkommer."
+        }
+      ]
+    },
+    {
+      "id": "naanpizza-gegrilde-groenten-tahinsaus",
+      "title": "Naanpizza met gegrilde groenten en tahinsaus",
+      "subtitle": "met tomatensalsa en witte kaas",
+      "description": "Naanbrood belegd met kruidige gegrilde aubergine en paprika, met een romige tahin-yoghurtsaus.",
+      "cuisine": "Midden-Oosters",
+      "tags": [
+        "oven",
+        "snel"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 15,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#e3b250",
+        "#5b3a5c"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/naanpizza-met-gegrilde-groenten-en-tahinsaus-62cecc665953b7f167068e92",
+      "ingredients": [
+        "2 naanbroden",
+        "1 aubergine",
+        "1 paprika",
+        "1 teen knoflook",
+        "1 tl komijn",
+        "35 g tahin",
+        "50 g Griekse yoghurt",
+        "½ citroen",
+        "50 g witte kaas",
+        "1 tomaat",
+        "1 el wittewijnazijn",
+        "5 g peterselie",
+        "5 g dille",
+        "2 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 200 °C. Snijd de paprika in reepjes en de aubergine in blokjes van 2 cm. Snijd de tomaat in blokjes, pers de knoflook, pers de citroen uit en hak de kruiden."
+        },
+        {
+          "text": "Bak de aubergine 4 minuten in 1 el olie goudbruin, voeg paprika en de helft van de knoflook toe en bak afgedekt 3 minuten. Voeg de komijn toe en bak 1 minuut.",
+          "timerMinutes": 8
+        },
+        {
+          "text": "Pureer de yoghurt met de tahin, de rest van de knoflook, de helft van de kruiden en 1 tl citroensap tot een gladde saus. Bak de naanbroden 3 minuten in de oven.",
+          "timerMinutes": 3
+        },
+        {
+          "text": "Meng de tomaat met de rest van de kruiden, de azijn en de rest van de olie tot een salsa."
+        },
+        {
+          "text": "Besmeer de naan met driekwart van de tahinsaus en verdeel er driekwart van de groenten over. Verkruimel de witte kaas erover en besprenkel met de rest van de saus. Meng de overige groenten door de salsa en serveer erbij."
+        }
+      ]
+    },
+    {
+      "id": "pizza-bianca-platbrood-champignons",
+      "title": "Pizza bianca op platbrood met champignons",
+      "subtitle": "met mozzarella, rucola en tomaat",
+      "description": "Witte pizza's met kruidenroomkaas, gebakken kastanjechampignons en mozzarella, met verse rucola.",
+      "cuisine": "Italiaans",
+      "tags": [
+        "oven",
+        "snel"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 15,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#efe6d0",
+        "#6f5640"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/pizza-bianca-op-platbrood-met-champignons-681c87e4818d9f25cca84004",
+      "ingredients": [
+        "4 platbroden",
+        "75 g kruidenroomkaas",
+        "250 g kastanjechampignons",
+        "1 rode ui",
+        "1 teen knoflook",
+        "1 tl Italiaanse kruiden",
+        "60 g mozzarella",
+        "2 tomaten",
+        "60 g rucola",
+        "2 tl balsamicoazijn",
+        "1 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 220 °C. Bak de champignons in plakjes met de rode ui en knoflook 5 minuten in de olie en breng op smaak met de kruiden, zout en peper.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Besmeer de platbroden met de kruidenroomkaas en verdeel de champignons erover."
+        },
+        {
+          "text": "Scheur de mozzarella erover en bak de pizza's knapperig.",
+          "timerMinutes": 9
+        },
+        {
+          "text": "Snijd de tomaten in blokjes en meng met de rucola en balsamico."
+        },
+        {
+          "text": "Leg de salade op de warme pizza's en serveer direct."
+        }
+      ]
+    },
+    {
+      "id": "pizza-portobellos-krieltjes",
+      "title": "Pizza-portobello's",
+      "subtitle": "met gebakken krieltjes en salade",
+      "description": "Grote portobello's als pizzabodem, gevuld met tomatensaus, courgette en gesmolten kaas.",
+      "cuisine": "Italiaans",
+      "tags": [
+        "oven"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 30,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#c3412e",
+        "#6a5038"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/pizza-portobellos-610aa9115b6055270557fa13",
+      "ingredients": [
+        "400 g krieltjes",
+        "4 portobello's",
+        "1 courgette",
+        "1 teen knoflook",
+        "1 tl Italiaanse kruiden",
+        "4 tl balsamicoazijn",
+        "200 g passata",
+        "50 g geraspte kaas",
+        "1 tomaat",
+        "40 g veldsla",
+        "50 g mayonaise",
+        "3 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 210 °C. Halveer de krieltjes en bak ze in ½ el olie in een hapjespan met deksel gaar; haal na 20 minuten de deksel eraf en breng op smaak.",
+          "timerMinutes": 28
+        },
+        {
+          "text": "Draai de steeltjes uit de portobello's, leg de hoedjes in een ovenschaal, besprenkel met olie, zout en peper en bak ze 9 minuten voor.",
+          "timerMinutes": 9
+        },
+        {
+          "text": "Snijd de courgette en de steeltjes klein. Bak ze met de geperste knoflook en de kruiden 4 minuten in ½ el olie, blus af met 1 tl balsamico en de passata en laat nog 3 minuten koken.",
+          "timerMinutes": 7
+        },
+        {
+          "text": "Giet het vocht uit de portobello's, vul ze met het courgettemengsel en bestrooi met kaas. Bak nog 6 minuten tot de kaas smelt.",
+          "timerMinutes": 6
+        },
+        {
+          "text": "Meng de rest van de olie en balsamico met zout en peper en schep de tomaat in partjes en de veldsla erdoor."
+        },
+        {
+          "text": "Serveer twee portobello's per persoon met de krieltjes, de salade en mayonaise."
+        }
+      ]
+    },
+    {
+      "id": "plaattaart-champignons-prei-ricotta",
+      "title": "Plaattaart met champignons en prei",
+      "subtitle": "met ricotta en emmentaler",
+      "description": "Een open hartige taart met romige ricotta, gebakken prei en champignons en gesmolten kaas.",
+      "cuisine": "Nederlands",
+      "tags": [
+        "oven"
+      ],
+      "prepMinutes": 15,
+      "cookMinutes": 30,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#e3d3a0",
+        "#5b7a3a"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/plaattaart-met-champignons-en-prei-609e8c77ea676e592932da05",
+      "ingredients": [
+        "1 rol taartdeeg",
+        "1 prei",
+        "250 g champignons",
+        "½ tl tijm",
+        "100 g ricotta",
+        "50 g emmentaler",
+        "1 tomaat",
+        "60 g veldsla",
+        "2 tl wittewijnazijn",
+        "2 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 200 °C. Snijd de prei in dunne ringen en de champignons in kwarten."
+        },
+        {
+          "text": "Stoof prei, champignons en tijm met 1 el water en ½ el olie afgedekt 7 minuten.",
+          "timerMinutes": 7
+        },
+        {
+          "text": "Meng de helft van de ricotta met de helft van de emmentaler. Leg het deeg op een bakplaat met bakpapier en smeer het mengsel erop tot 4 cm van de rand."
+        },
+        {
+          "text": "Verdeel de groenten erover en vouw de randen naar binnen. Bak de taart; verdeel na 20 minuten de rest van de ricotta en kaas erover.",
+          "timerMinutes": 32
+        },
+        {
+          "text": "Meng de tomaat in blokjes met de azijn en de rest van de olie, zout en peper en schep er vlak voor het serveren de veldsla door."
+        },
+        {
+          "text": "Serveer de plaattaart met de salade."
+        }
+      ]
+    },
+    {
+      "id": "platbroodpizza-funghi-mozzarella",
+      "title": "Platbroodpizza funghi met buffelmozzarella",
+      "subtitle": "met courgette en rucola",
+      "description": "Krokante platbroodpizza's met tomaat, champignons, courgette en romige mozzarella.",
+      "cuisine": "Italiaans",
+      "tags": [
+        "oven",
+        "snel"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 15,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#c4442f",
+        "#f2ede2"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/platbroodpizza-funghi-en-buffelmozzarella-5c66cdd6c445fa2b1765ee86",
+      "ingredients": [
+        "4 platbroden",
+        "200 g passata",
+        "1 teen knoflook",
+        "1 tl tijm",
+        "250 g champignons",
+        "1 courgette",
+        "1 rode ui",
+        "125 g buffelmozzarella",
+        "40 g rucola",
+        "2 tl balsamicoazijn",
+        "2 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 200 °C. Snijd de champignons in plakken en de courgette in dunne halve plakjes. Snipper de helft van de rode ui en snijd de rest in ringen; pers de knoflook en scheur de mozzarella in stukjes."
+        },
+        {
+          "text": "Fruit knoflook en gesnipperde ui 2 minuten in 1 el olie. Voeg passata, balsamico, de helft van de tijm en 1 el water toe en laat 7 minuten inkoken.",
+          "timerMinutes": 7
+        },
+        {
+          "text": "Bak de uienringen, champignons en courgette 7 minuten in de rest van de olie en breng op smaak. Bak intussen de platbroden 4 minuten voor.",
+          "timerMinutes": 7
+        },
+        {
+          "text": "Besmeer de platbroden met de tomatensaus en verdeel de groenten en mozzarella erover. Bestrooi met de rest van de tijm, zout en peper en bak de pizza's af.",
+          "timerMinutes": 6
+        },
+        {
+          "text": "Verdeel de rucola over de pizza's en serveer."
+        }
+      ]
+    },
+    {
+      "id": "quiche-spruitjes-blauwe-kaas",
+      "title": "Quiche met spruitjes en blauwe kaas",
+      "subtitle": "met uienchutney en walnoten",
+      "description": "Een winterse quiche met geroosterde spruitjes, pittige blauwe kaas en een zoete onderlaag van uienchutney.",
+      "cuisine": "Frans",
+      "tags": [
+        "oven",
+        "winter"
+      ],
+      "prepMinutes": 15,
+      "cookMinutes": 30,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#5f7d3a",
+        "#c8b48a"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/quiche-met-blauwe-kaas-en-spruitjes-6a9958e0e75bbd5a4ef5deec",
+      "ingredients": [
+        "½ rol bladerdeeg",
+        "200 g spruitjes",
+        "2 uien",
+        "1 teen knoflook",
+        "1 el roomboter",
+        "80 g uienchutney",
+        "3 eieren",
+        "75 g blauwe kaas",
+        "20 g walnoten",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 220 °C en breng water aan de kook. Snijd de uien in halve ringen en halveer de spruitjes."
+        },
+        {
+          "text": "Bak de ui afgedekt 9 minuten in de boter; schep af en toe om. Voeg de geperste knoflook en de uienchutney toe en bak nog 2 minuten.",
+          "timerMinutes": 11
+        },
+        {
+          "text": "Kook de spruitjes 5 minuten en laat uitstomen.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Bekleed een ingevette quichevorm met het bladerdeeg, prik de bodem in en bak hem 5 minuten zonder vulling voor.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Klop de eieren los en meng de ui erdoor. Verdeel de spruitjes over de bodem, giet het eimengsel erover en strooi de blauwe kaas en walnoten erop. Bak de quiche gaar.",
+          "timerMinutes": 18
+        },
+        {
+          "text": "Snijd de quiche in stukken."
+        }
+      ]
+    },
+    {
+      "id": "quiche-courgette-oude-kaas",
+      "title": "Quiche met courgette en oude kaas",
+      "subtitle": "met cherrytomaten en Italiaanse kruiden",
+      "description": "Een luchtige quiche met courgette, oude kaas, nootmuskaat en een vleugje rode peper.",
+      "cuisine": "Frans",
+      "tags": [
+        "oven"
+      ],
+      "prepMinutes": 15,
+      "cookMinutes": 35,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#5a8a3c",
+        "#e9c86a"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/quiche-met-courgette-en-oude-kaas-63c7d43e00ace46356b3ebc9",
+      "ingredients": [
+        "1 rol bladerdeeg",
+        "1 courgette",
+        "1 rode ui",
+        "2 tenen knoflook",
+        "½ rode peper",
+        "½ groentebouillonblokje",
+        "4 eieren",
+        "140 ml kookroom",
+        "1 tl Italiaanse kruiden",
+        "3 snufjes nootmuskaat",
+        "50 g geraspte oude kaas",
+        "125 g cherrytomaten",
+        "1 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 200 °C. Snijd de courgette in halve maantjes en fruit met de gesnipperde ui, knoflook en gehakte peper 5 minuten in de olie. Verkruimel het halve bouillonblokje erover.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Bekleed een ingevette quichevorm of ovenschaal met het bladerdeeg en prik de bodem in."
+        },
+        {
+          "text": "Klop de eieren los met de kookroom, kruiden, nootmuskaat, de helft van de kaas en peper."
+        },
+        {
+          "text": "Verdeel de groenten over de bodem, giet het eimengsel erover, leg de gehalveerde tomaatjes erop en strooi de rest van de kaas erover."
+        },
+        {
+          "text": "Bak de quiche goudbruin en gestold.",
+          "timerMinutes": 30
+        },
+        {
+          "text": "Laat even rusten en serveer warm of lauw."
+        }
+      ]
+    },
+    {
+      "id": "courgette-preisoep-pesto-bruschetta",
+      "title": "Courgette-preisoep met pesto-bruschetta's",
+      "subtitle": "met crème fraîche en verse kruiden",
+      "description": "Een fluweelzachte groene soep met aardappel, met knapperige bruschetta's met pesto.",
+      "cuisine": "Italiaans",
+      "tags": [
+        "soep",
+        "snel"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 20,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#6f9a3e",
+        "#efe8cf"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/courgette-preisoep-met-pesto-bruschettas-6669a48916b67b5e09052e66",
+      "ingredients": [
+        "2 courgettes",
+        "1 prei",
+        "200 g aardappelen",
+        "1 teen knoflook",
+        "1 tl Italiaanse kruiden",
+        "1 groentebouillonblokje",
+        "100 g crème fraîche",
+        "2 afbakbroodjes",
+        "40 g groene pesto",
+        "5 g bieslook",
+        "5 g dille",
+        "2 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 200 °C en los het bouillonblokje op in 500 ml heet water. Snijd courgette in blokjes en prei in ringen en schil de aardappelen en snijd ze in stukken."
+        },
+        {
+          "text": "Bak knoflook, prei, aardappel en courgette 5 minuten in ½ el olie in een soeppan. Voeg bouillon en Italiaanse kruiden toe en laat afgedekt zachtjes koken.",
+          "timerMinutes": 14
+        },
+        {
+          "text": "Snijd één broodje in plakken van 1 cm, besmeer met de helft van de pesto en bak ze in de oven knapperig. Snijd het andere broodje in blokjes en bak ze in de rest van de olie in 6 minuten tot croutons.",
+          "timerMinutes": 9
+        },
+        {
+          "text": "Hak de kruiden. Pureer de soep met de helft van de kruiden glad en roer de rest van de pesto erdoor. Breng op smaak."
+        },
+        {
+          "text": "Serveer de soep met een lepel crème fraîche, de croutons en de rest van de kruiden, met de pestobruschetta's erbij."
+        }
+      ]
+    },
+    {
+      "id": "drie-tomatensoep-kaascroutons",
+      "title": "Drie-tomatensoep met zelfgemaakte kaascroutons",
+      "subtitle": "met zongedroogde tomaten en crème fraîche",
+      "description": "Een diepe tomatensoep van verse, cherry- en zongedroogde tomaten, met knapperige kaascroutons.",
+      "cuisine": "Italiaans",
+      "tags": [
+        "soep",
+        "snel"
+      ],
+      "prepMinutes": 5,
+      "cookMinutes": 20,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#c8352a",
+        "#f0d27a"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/drie-tomatensoep-met-zelfgemaakte-kaascroutons-61f2c49e62ab7014ec4a3b22",
+      "ingredients": [
+        "4 tomaten",
+        "250 g cherrytomaten",
+        "60 g zongedroogde tomaten",
+        "4 tenen knoflook",
+        "2 tl paprikapoeder",
+        "½ tl oregano",
+        "1 el honing",
+        "1,5 groentebouillonblokje",
+        "2 afbakbroodjes",
+        "50 g geraspte kaas",
+        "50 g crème fraîche",
+        "4 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 200 °C. Snijd tomaten en zongedroogde tomaten in stukken en pers 3 tenen knoflook."
+        },
+        {
+          "text": "Fruit de knoflook 1 minuut in 2 el olie, voeg paprikapoeder en oregano toe, daarna alle tomaten. Bak 3 minuten."
+        },
+        {
+          "text": "Voeg 600 ml water, de bouillonblokjes en de honing toe en laat 12 minuten koken.",
+          "timerMinutes": 12
+        },
+        {
+          "text": "Snijd de broodjes in blokjes, meng met de rest van de olie en de laatste geperste teen knoflook, bestrooi met kaas en bak in de oven krokant.",
+          "timerMinutes": 8
+        },
+        {
+          "text": "Pureer de soep glad en breng op smaak. Serveer met crème fraîche en de kaascroutons."
+        }
+      ]
+    },
+    {
+      "id": "franse-uiensoep-gegratineerd",
+      "title": "Franse uiensoep met gegratineerd stokbrood",
+      "subtitle": "met gesmolten gruyère",
+      "description": "Langzaam gekaramelliseerde ui in een rijke bouillon, met een dikke laag gesmolten kaas op stokbrood.",
+      "cuisine": "Frans",
+      "tags": [
+        "soep",
+        "comfort",
+        "winter",
+        "weekend"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 45,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#b07a3a",
+        "#efd99a"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/franse-uiensoep-met-speltbaguette-5f9008f90ecbb93535781f1d",
+      "ingredients": [
+        "5 uien",
+        "2 tenen knoflook",
+        "10 g verse tijm",
+        "1 laurierblad",
+        "2 el roomboter",
+        "2 el bloem",
+        "2 groentebouillonblokjes",
+        "2 el wittewijnazijn",
+        "2 afbakbroodjes",
+        "100 g gruyère",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 180 °C en los de bouillonblokjes op in 800 ml heet water. Snijd de uien in fijne ringen en bind de tijmtakjes samen tot een bosje."
+        },
+        {
+          "text": "Bak de ui, de geperste knoflook, het tijmbosje en het laurierblad met een flinke snuf zout in de boter in een soeppan 12 minuten op middelmatig vuur. Strooi de bloem erover en bak 2 minuten mee.",
+          "timerMinutes": 14
+        },
+        {
+          "text": "Voeg de bouillon en de azijn toe, zet het vuur lager en laat de soep afgedekt zachtjes koken.",
+          "timerMinutes": 14
+        },
+        {
+          "text": "Snijd het brood in sneetjes, leg ze op een bakplaat met bakpapier en verdeel driekwart van de kaas erover. Gratineer ze in de oven.",
+          "timerMinutes": 6
+        },
+        {
+          "text": "Vis het tijmbosje en het laurierblad uit de soep en breng op smaak."
+        },
+        {
+          "text": "Schep de soep in kommen, leg de kaasbroodjes erin en strooi de rest van de kaas erover."
+        }
+      ]
+    },
+    {
+      "id": "geroosterde-tomaat-paprikasoep-broodstengels",
+      "title": "Geroosterde tomaat-paprikasoep",
+      "subtitle": "met crème fraîche en gegratineerde broodstengels",
+      "description": "Zoete, in de oven geroosterde tomaat en paprika gepureerd tot een rijke soep, met kaasstengels.",
+      "cuisine": "Mediterraan",
+      "tags": [
+        "soep",
+        "oven"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 35,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#d13b2b",
+        "#f3ddb0"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/geroosterde-tomaat-paprikasoep-5f7dd8dceb4aa125ec3aa95f",
+      "ingredients": [
+        "4 tomaten",
+        "2 paprika's",
+        "2 rode uien",
+        "2 tenen knoflook",
+        "2 tl paprikapoeder",
+        "3 el olijfolie",
+        "2 el balsamicoazijn",
+        "1 groentebouillonblokje",
+        "5 g basilicum",
+        "2 afbakbroodjes",
+        "50 g geraspte kaas",
+        "50 g crème fraîche",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 220 °C. Snijd tomaten, paprika's en uien in grove stukken, meng met de ongepelde knoflook, 2 el olie, paprikapoeder, balsamico en zout en rooster ze zacht en licht geblakerd.",
+          "timerMinutes": 30
+        },
+        {
+          "text": "Snijd de broodjes in lange stengels, besprenkel met de rest van de olie, bestrooi met kaas en bak de laatste 8 minuten mee.",
+          "timerMinutes": 8
+        },
+        {
+          "text": "Knijp de knoflook uit de schil. Doe de groenten in een pan met 500 ml water en het bouillonblokje en breng aan de kook."
+        },
+        {
+          "text": "Pureer de soep glad en breng op smaak."
+        },
+        {
+          "text": "Serveer met een lepel crème fraîche, basilicum en de broodstengels."
+        }
+      ]
+    },
+    {
+      "id": "goedgevulde-minestrone-farfalle",
+      "title": "Goedgevulde minestrone",
+      "subtitle": "met farfalle, verse kruiden en brood",
+      "description": "Een stevige Italiaanse groentesoep met pasta, afgemaakt met pesto en harde kaas.",
+      "cuisine": "Italiaans",
+      "tags": [
+        "soep",
+        "budget",
+        "winter"
+      ],
+      "prepMinutes": 15,
+      "cookMinutes": 30,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#c4502e",
+        "#6c8f3c"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/goedgevulde-minestrone-63c7d6e96ab9cacaa3738b44",
+      "ingredients": [
+        "1 ui",
+        "2 tenen knoflook",
+        "2 stengels bleekselderij",
+        "1 wortel",
+        "70 g tomatenpuree",
+        "2 tomaten",
+        "1 laurierblad",
+        "2 groentebouillonblokjes",
+        "120 g farfalle",
+        "1 el groene pesto",
+        "25 g harde kaas",
+        "5 g peterselie",
+        "5 g basilicum",
+        "2 afbakbroodjes",
+        "2 tl balsamicoazijn",
+        "1 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Snijd ui, bleekselderij en wortel in kleine blokjes en pers de knoflook. Fruit ze 6 minuten in de olie.",
+          "timerMinutes": 6
+        },
+        {
+          "text": "Roer de tomatenpuree erdoor en bak 1 minuut. Voeg de tomaten in stukjes, laurier, 900 ml water en de bouillonblokjes toe en laat 12 minuten zacht koken.",
+          "timerMinutes": 12
+        },
+        {
+          "text": "Voeg de farfalle toe en kook gaar in de soep.",
+          "timerMinutes": 10
+        },
+        {
+          "text": "Bak of rooster de broodjes af."
+        },
+        {
+          "text": "Vis het laurierblad eruit, roer de balsamico en de gehakte kruiden erdoor en breng op smaak."
+        },
+        {
+          "text": "Schep de soep in kommen met een klodder pesto en de harde kaas, en serveer met het brood."
+        }
+      ]
+    },
+    {
+      "id": "italiaanse-tortellonisoep-spinazie",
+      "title": "Italiaanse stijl tortellonisoep met spinazie",
+      "subtitle": "met harde kaas en pesto",
+      "description": "Een snelle, rijke tomatensoep met gevulde pasta, paprika en spinazie.",
+      "cuisine": "Italiaans",
+      "tags": [
+        "soep",
+        "snel"
+      ],
+      "prepMinutes": 5,
+      "cookMinutes": 20,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#c3402d",
+        "#3f7a3a"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/veggie-ravioli-soup-6585b15ef9c7ff8689946aa5",
+      "ingredients": [
+        "300 g tortelloni",
+        "400 g tomatenblokjes",
+        "1 ui",
+        "1 wortel",
+        "1 paprika",
+        "1 tl Italiaanse kruiden",
+        "1,5 groentebouillonblokje",
+        "100 g spinazie",
+        "1 el balsamicoazijn",
+        "1 el groene pesto",
+        "20 g harde kaas",
+        "1 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Snijd ui, wortel en paprika in kleine blokjes en fruit ze 5 minuten in de olie.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Voeg tomatenblokjes, kruiden, 600 ml water en de bouillonblokjes toe en laat 10 minuten zacht koken.",
+          "timerMinutes": 10
+        },
+        {
+          "text": "Voeg de tortelloni toe en kook volgens de verpakking mee.",
+          "timerMinutes": 4
+        },
+        {
+          "text": "Roer de spinazie en balsamico erdoor tot de spinazie geslonken is en breng op smaak."
+        },
+        {
+          "text": "Serveer met een klodder pesto en de harde kaas."
+        }
+      ]
+    },
+    {
+      "id": "pompoen-pindasoep-platbrood-ei",
+      "title": "Koninklijke pompoen-pindasoep",
+      "subtitle": "met platbrood en een gekookt ei",
+      "description": "Een romige, licht pittige soep van pompoen, wortel en pindakaas met kerrie.",
+      "cuisine": "West-Afrikaans",
+      "tags": [
+        "soep",
+        "budget"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 25,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#e27f2c",
+        "#b0742e"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/koninklijke-pompoen-pindasoep-5ca75887e3f33922a861b482",
+      "ingredients": [
+        "300 g flespompoen",
+        "2 wortels",
+        "4 bosuien",
+        "1 teen knoflook",
+        "3 tl kerriepoeder",
+        "1,5 groentebouillonblokje",
+        "50 g pindakaas",
+        "2 eieren",
+        "2 platbroden",
+        "2 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Schil de pompoen en snijd met de wortels in blokjes. Snijd de bosui fijn en houd het groen apart."
+        },
+        {
+          "text": "Fruit het wit van de bosui en de knoflook 2 minuten in de olie, roer de kerriepoeder erdoor en bak 30 seconden."
+        },
+        {
+          "text": "Voeg pompoen, wortel, 700 ml water en de bouillonblokjes toe en kook tot de groenten zacht zijn.",
+          "timerMinutes": 18
+        },
+        {
+          "text": "Kook de eieren in 8 minuten hard, laat schrikken en pel ze.",
+          "timerMinutes": 8
+        },
+        {
+          "text": "Pureer de soep met de pindakaas glad en breng op smaak. Verwarm het platbrood."
+        },
+        {
+          "text": "Serveer de soep met het gehalveerde ei, het bosuigroen en het platbrood."
+        }
+      ]
+    },
+    {
+      "id": "peruaanse-aardappelsoep-feta",
+      "title": "Peruaanse aardappelsoep met feta",
+      "subtitle": "met courgette, cashewnoten en komijn",
+      "description": "Een kruidige soep van twee soorten aardappel met komijn, afgemaakt met zoute feta en geroosterde cashews.",
+      "cuisine": "Peruaans",
+      "tags": [
+        "soep",
+        "winter"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 25,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#e7a03a",
+        "#f2efe4"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/peruaanse-aardappelsoep-met-feta-5e1eda634f3b8c766a00b55d",
+      "ingredients": [
+        "250 g aardappelen",
+        "200 g zoete aardappel",
+        "1 courgette",
+        "1 ui",
+        "1 teen knoflook",
+        "2 tl komijn",
+        "2 tl paprikapoeder",
+        "1,5 groentebouillonblokje",
+        "2 tl balsamicoazijn",
+        "100 g feta",
+        "20 g cashewnoten",
+        "5 g koriander",
+        "2 afbakbroodjes",
+        "2 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Los de bouillonblokjes op in 700 ml heet water en verwarm de oven voor op 210 °C. Schil beide soorten aardappel en snijd ze in blokjes van 2 cm; snijd de courgette in blokjes van ½ cm."
+        },
+        {
+          "text": "Fruit de geperste knoflook en gesnipperde ui 1 minuut in 1 el olie en bak halverwege komijn en paprikapoeder mee. Voeg bouillon en aardappelen toe en laat afgedekt zacht koken tot alles gaar is.",
+          "timerMinutes": 15
+        },
+        {
+          "text": "Hak de koriander grof, snijd de feta in blokjes en bak de broodjes in de oven.",
+          "timerMinutes": 7
+        },
+        {
+          "text": "Bak de courgette in de rest van de olie bruin en gaar.",
+          "timerMinutes": 7
+        },
+        {
+          "text": "Pureer de soep, voeg zo nodig water toe en breng op smaak met de balsamico, zout en peper."
+        },
+        {
+          "text": "Serveer de soep met feta, cashewnoten, de gebakken courgette en koriander, met het brood erbij."
+        }
+      ]
+    },
+    {
+      "id": "pompoensoep-salie-beurre-noisette-croutons",
+      "title": "Pompoensoep met beurre noisette met salie",
+      "subtitle": "met croutons, crème fraîche, tijm en pompoenpitten",
+      "description": "Een fluweelzachte pompoensoep met nootachtige bruine boter, krokante salie en knapperige croutons.",
+      "cuisine": "Frans",
+      "tags": [
+        "soep",
+        "winter"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 25,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#e5832e",
+        "#7a5a3a"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/pompoensoep-met-croutons-van-ciabatta-68d55153478b7ea4b4a800e3",
+      "ingredients": [
+        "300 g flespompoen",
+        "150 g zoete aardappel",
+        "1 wortel",
+        "1 ui",
+        "1 teen knoflook",
+        "5 g verse tijm",
+        "1 groentebouillonblokje",
+        "1 tl honing",
+        "1 el wittewijnazijn",
+        "50 g crème fraîche",
+        "1 afbakbroodje",
+        "10 g salie",
+        "40 g roomboter",
+        "20 g pompoenpitten",
+        "2 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Schil pompoen, zoete aardappel en wortel en snijd ze in blokjes. Fruit ze met de ui, knoflook en tijmblaadjes 3 minuten in 1 el olie."
+        },
+        {
+          "text": "Voeg 600 ml water en het bouillonblokje toe en kook tot alles zacht is.",
+          "timerMinutes": 18
+        },
+        {
+          "text": "Snijd het broodje in blokjes en bak ze in de rest van de olie krokant. Rooster de pompoenpitten mee.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Smelt de boter in een steelpannetje en verwarm tot hij bruin kleurt en nootachtig ruikt. Bak de salieblaadjes er kort in tot ze knapperig zijn.",
+          "timerMinutes": 3
+        },
+        {
+          "text": "Pureer de soep met de honing, azijn en de helft van de crème fraîche glad en breng op smaak."
+        },
+        {
+          "text": "Serveer met een lepel crème fraîche, de salieboter, croutons en pompoenpitten."
+        }
+      ]
+    },
+    {
+      "id": "zoete-aardappelsoep-kokosmelk-kidneybonen",
+      "title": "Zoete-aardappelsoep met kokosmelk",
+      "subtitle": "met limoen, kidneybonen en garam masala",
+      "description": "Een Caribisch geïnspireerde, romige maaltijdsoep met zoete aardappel, wortel, tomaat en bonen.",
+      "cuisine": "Caribisch",
+      "tags": [
+        "soep",
+        "vegan",
+        "budget"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 30,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#e0742c",
+        "#8a2f2a"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/zoete-aardappelsoep-met-kokosmelk-64650d336ced9aa0d6353c68",
+      "ingredients": [
+        "300 g zoete aardappel",
+        "2 wortels",
+        "2 bosuien",
+        "1 teen knoflook",
+        "½ tl tijm",
+        "1 tl garam masala",
+        "400 g tomatenblokjes",
+        "400 ml kokosmelk",
+        "1 groentebouillonblokje",
+        "400 g kidneybonen, uitgelekt",
+        "½ limoen",
+        "2 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 220 °C. Snijd de zoete aardappel en wortels in blokjes van 1 cm, meng met 1 el olie, zout, peper en de helft van de tijm en rooster ze gaar.",
+          "timerMinutes": 20
+        },
+        {
+          "text": "Snijd de bosui in ringen, rasp de limoen en snijd hem in partjes. Laat de bonen uitlekken."
+        },
+        {
+          "text": "Bak de helft van de bosui 1 minuut in de rest van de olie, voeg de geperste knoflook, garam masala en de rest van de tijm toe en bak 30 seconden. Voeg tomatenblokjes, kokosmelk, 50 ml water en het verkruimelde bouillonblokje toe."
+        },
+        {
+          "text": "Laat de soep afgedekt zachtjes koken; voeg de laatste 5 minuten de bonen toe.",
+          "timerMinutes": 14
+        },
+        {
+          "text": "Haal van het vuur, roer de geroosterde zoete aardappel en wortel erdoor en breng op smaak met limoensap, zout en peper."
+        },
+        {
+          "text": "Garneer met de rest van de bosui en de limoenrasp."
+        }
+      ]
+    },
+    {
+      "id": "aardappelpuree-zachtgekookt-ei-broccoli-erwten",
+      "title": "Aardappelpuree met zachtgekookt ei",
+      "subtitle": "met broccoli en doperwten",
+      "description": "Een eenvoudig, troostend bord: mosterdpuree met bieslook, groene groenten en eieren met een zachte dooier.",
+      "cuisine": "Nederlands",
+      "tags": [
+        "comfort",
+        "budget"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 25,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#efd88a",
+        "#4f8a3c"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/aardappelpuree-met-zachtgekookt-ei-63493fbce060b5ad3c08054a",
+      "ingredients": [
+        "500 g aardappelen",
+        "300 g broccoli",
+        "50 g doperwten",
+        "2 eieren",
+        "1 rode ui",
+        "2 el roomboter",
+        "2 el melk",
+        "1 tl mosterd",
+        "1 snufje nootmuskaat",
+        "10 g bieslook",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Schil de aardappelen, snijd ze in stukken en kook ze gaar. Giet af en bewaar een scheutje kookvocht.",
+          "timerMinutes": 14
+        },
+        {
+          "text": "Kook de broccoliroosjes 6 minuten en voeg de laatste 3 minuten de doperwten toe. Giet af.",
+          "timerMinutes": 6
+        },
+        {
+          "text": "Zet de eieren net onder water, breng aan de kook en kook ze 7 minuten. Laat schrikken en pel ze.",
+          "timerMinutes": 7
+        },
+        {
+          "text": "Fruit de gesnipperde rode ui 2 minuten in de helft van de boter en warm de broccoli en erwten erin om."
+        },
+        {
+          "text": "Stamp de aardappelen fijn met de melk of wat kookvocht, de rest van de boter en de mosterd. Roer de fijngeknipte bieslook en de nootmuskaat erdoor en breng op smaak."
+        },
+        {
+          "text": "Schep de puree op de borden, leg het gehalveerde ei erop en serveer de groenten ernaast."
+        }
+      ]
+    }
+  ]
+}

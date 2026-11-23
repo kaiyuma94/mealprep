@@ -1,0 +1,1185 @@
+{
+  "format": "weekmenu-recipe-import",
+  "source": {
+    "type": "inspired",
+    "name": "HelloFresh",
+    "note": "Gerecht en ingrediënten gebaseerd op een HelloFresh-recept; bereidingswijze in eigen woorden. Alleen voor persoonlijk gebruik."
+  },
+  "recipes": [
+    {
+      "id": "mujaddara-harissa-komkommeryoghurt",
+      "title": "Mujaddara met harissa, cherrytomaten en komkommeryoghurt",
+      "subtitle": "klassieke Midden-Oosterse rijst en linzen met gebakken ui",
+      "description": "Kruidige rijst met linzen en diep gekaramelliseerde ui, met pittige geroosterde tomaatjes en frisse yoghurt.",
+      "cuisine": "Midden-Oosters",
+      "tags": [
+        "eiwitrijk",
+        "budget",
+        "eenpans"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 25,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#a86a34",
+        "#d23f2e"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/mujaddara-met-harissa-cherrytomaten-en-komkommeryoghurt-680269d3ba6118bd6bcc6e39",
+      "ingredients": [
+        "150 g basmatirijst",
+        "1 groentebouillonblokje",
+        "1 tl komijn",
+        "1 tl kaneel",
+        "1 tl kurkuma",
+        "1 teen knoflook",
+        "250 g cherrytomaten",
+        "2 tl harissa",
+        "1 tl honing",
+        "1 el balsamicoazijn",
+        "400 g linzen in blik, uitgelekt",
+        "1 ui",
+        "40 g uienchutney",
+        "½ komkommer",
+        "100 g Griekse yoghurt",
+        "½ limoen",
+        "5 g peterselie",
+        "5 g munt",
+        "2 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 200 °C. Breng 300 ml water met het bouillonblokje aan de kook, voeg de rijst, komijn, kaneel en kurkuma toe en kook afgedekt gaar. Laat daarna 5 minuten afgedekt staan.",
+          "timerMinutes": 12
+        },
+        {
+          "text": "Pers de knoflook. Meng de tomaatjes op een bakplaat met bakpapier met 1 el olie, de balsamico, honing, harissa en de helft van de knoflook en rooster ze.",
+          "timerMinutes": 12
+        },
+        {
+          "text": "Spoel de linzen af en snijd de ui in halve ringen. Bak de ui 4 minuten in de rest van de olie, voeg de uienchutney toe en bak 1 minuut. Roer de linzen door de rijst.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Snijd de komkommer in kleine blokjes en hak de kruiden. Meng de yoghurt met komkommer, de rest van de knoflook, limoensap en de helft van de kruiden. Breng op smaak."
+        },
+        {
+          "text": "Serveer de mujaddara met de ui, de geroosterde tomaatjes en de komkommeryoghurt en bestrooi met de rest van de kruiden."
+        }
+      ]
+    },
+    {
+      "id": "sabich-gegrilde-aubergine-ei-hummus",
+      "title": "Sabich met gegrilde aubergine, ei en hummus",
+      "subtitle": "met pita, tahin en mangochutney",
+      "description": "Het Israëlische straatbroodje: pita gevuld met gebakken aubergine, gekookt ei, hummus, rodekool en tahin.",
+      "cuisine": "Midden-Oosters",
+      "tags": [
+        "weekend"
+      ],
+      "prepMinutes": 15,
+      "cookMinutes": 25,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#5d3a5c",
+        "#f2c94a"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/sabich-met-gegrilde-aubergine-ei-en-hummus-6166e3e43b1ceb4eef6d41d3",
+      "ingredients": [
+        "1 aubergine",
+        "4 eieren",
+        "4 pitabroodjes",
+        "40 g hummus",
+        "35 g tahin",
+        "½ citroen",
+        "80 g mangochutney",
+        "100 g rodekool",
+        "1 tomaat",
+        "2 el wittewijnazijn",
+        "1 el suiker",
+        "3 el zonnebloemolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Meng de rodekool met de azijn, suiker en een snufje zout en laat staan."
+        },
+        {
+          "text": "Snijd de aubergine in plakken van 1 cm, bestrooi met zout en bak ze in porties in de olie aan beide kanten goudbruin en zacht.",
+          "timerMinutes": 12
+        },
+        {
+          "text": "Kook de eieren in 9 minuten hard, laat schrikken, pel en snijd in plakjes.",
+          "timerMinutes": 9
+        },
+        {
+          "text": "Roer de tahin los met citroensap, 3–4 el water en zout tot een gietbare saus."
+        },
+        {
+          "text": "Verwarm de pita's, snijd ze open en besmeer met hummus."
+        },
+        {
+          "text": "Vul met aubergine, ei, tomaat en rodekool en maak af met tahinsaus en mangochutney."
+        }
+      ]
+    },
+    {
+      "id": "sticky-aubergine-harissa-zaatar-pita",
+      "title": "Sticky aubergine met harissa en knapperige za'atar-pita",
+      "subtitle": "met krokante linzen, verse kruiden en salade met yoghurtdressing",
+      "description": "Honing-harissa-aubergine uit de oven met krokant geroosterde linzen, frisse kruiden en za'atar-pita.",
+      "cuisine": "Midden-Oosters",
+      "tags": [
+        "oven",
+        "pittig"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 25,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#6b2f4e",
+        "#c8452e"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/sticky-aubergine-met-harissa-en-knapperige-zaatar-pita-686e7c8e69ddbf20131a76de",
+      "ingredients": [
+        "1 aubergine",
+        "2 tl harissa",
+        "2 el honing",
+        "400 g linzen in blik, uitgelekt",
+        "4 pitabroodjes",
+        "2 tl za'atar",
+        "2 tomaten",
+        "1 rode ui",
+        "100 g botersla",
+        "100 g Griekse yoghurt",
+        "1 el rodewijnazijn",
+        "1 tl suiker",
+        "5 g dille",
+        "5 g munt",
+        "5 g peterselie",
+        "3 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 220 °C. Snijd de aubergine in blokjes, meng met 1 el olie en zout en rooster.",
+          "timerMinutes": 20
+        },
+        {
+          "text": "Dep de linzen droog, meng met 1 el olie en zout en rooster ze op een tweede bakplaat krokant.",
+          "timerMinutes": 15
+        },
+        {
+          "text": "Meng harissa en honing en schep door de aubergine. Rooster nog 5 minuten tot hij kleverig is.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Snijd de pita's in stukken, besprenkel met de rest van de olie en za'atar en bak de laatste 5 minuten mee."
+        },
+        {
+          "text": "Snijd de rode ui fijn en meng met de azijn en suiker. Roer de yoghurt los met wat water, zout en gehakte dille."
+        },
+        {
+          "text": "Meng de sla met tomaat, munt en peterselie. Serveer met aubergine, linzen, pita, ingelegde ui en de yoghurtdressing."
+        }
+      ]
+    },
+    {
+      "id": "wraps-baba-ganoush-gekaramelliseerde-ui",
+      "title": "Wraps met baba ganoush en gekaramelliseerde ui",
+      "subtitle": "met ei, frisse groenten en yoghurt-muntsaus",
+      "description": "Mini-wraps met rokerige auberginedip, zoete balsamico-ui, omelet en een frisse muntsaus.",
+      "cuisine": "Midden-Oosters",
+      "tags": [
+        "snel"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 12,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#7c3f6b",
+        "#e3c483"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/wraps-met-baba-ganoush-en-gekaramelliseerde-ui-6203b938ae6eb22d972f8fab",
+      "ingredients": [
+        "6 mini-tortilla's",
+        "80 g baba ganoush",
+        "4 eieren",
+        "2 rode uien",
+        "1 el balsamicoazijn",
+        "1 el suiker",
+        "1 el roomboter",
+        "½ komkommer",
+        "100 g rodekool",
+        "1 el wittewijnazijn",
+        "100 g Griekse yoghurt",
+        "10 g munt",
+        "1 teen knoflook",
+        "10 g sesamzaad",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Snijd de uien in ringen en bak ze in de boter 8 minuten zacht. Voeg balsamico en suiker toe en laat karamelliseren.",
+          "timerMinutes": 8
+        },
+        {
+          "text": "Klop de eieren los met zout en peper en bak er een dunne omelet van. Rol op en snijd in reepjes."
+        },
+        {
+          "text": "Meng de rodekool en de komkommer in reepjes met de wittewijnazijn en een snufje zout."
+        },
+        {
+          "text": "Roer de yoghurt los met gehakte munt, de geperste knoflook en zout. Rooster het sesamzaad in een droge pan."
+        },
+        {
+          "text": "Verwarm de tortilla's, besmeer met baba ganoush en vul met ui, omelet en groenten. Maak af met de muntsaus en sesam."
+        }
+      ]
+    },
+    {
+      "id": "bbq-halloumiburger-ananassaus",
+      "title": "BBQ halloumiburger met pittige ananassaus",
+      "subtitle": "op een briochebol met avocado, friet en koolsla",
+      "description": "Gegrilde halloumi met een zoet-pittige ananas-bbq-saus, op een zachte bol met huisgemaakte friet.",
+      "cuisine": "Amerikaans",
+      "tags": [
+        "weekend",
+        "oven",
+        "comfort"
+      ],
+      "prepMinutes": 15,
+      "cookMinutes": 30,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#e3a12c",
+        "#a33a2a"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/bbq-halloumiburger-met-pittige-ananassaus-6a2c13e91f9f329b39923c4a",
+      "ingredients": [
+        "2 briochebroodjes",
+        "500 g aardappelen",
+        "225 g halloumi",
+        "225 g ananasstukjes",
+        "3 el barbecuesaus",
+        "½ rode peper",
+        "1 tl basterdsuiker",
+        "1 rode ui",
+        "1 avocado",
+        "200 g koolmix",
+        "1 el wittewijnazijn",
+        "2 el mayonaise",
+        "50 g crème fraîche",
+        "1 tl paprikapoeder",
+        "5 g peterselie",
+        "5 g munt",
+        "1 el roomboter",
+        "3 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 220 °C. Snijd de aardappelen in dunne frieten, meng met 2 el olie, paprikapoeder en zout en bak ze goudbruin en krokant; keer halverwege.",
+          "timerMinutes": 30
+        },
+        {
+          "text": "Hak de helft van de ananas fijn en kook met de barbecuesaus, gehakte rode peper en basterdsuiker 5 minuten in tot een dikke saus.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Meng de koolmix met de mayonaise, azijn, gehakte munt en peterselie en een snufje zout."
+        },
+        {
+          "text": "Snijd de halloumi in plakken en bak ze in de rest van de olie goudbruin. Bak de rest van de ananas en de ui in ringen kort mee."
+        },
+        {
+          "text": "Halveer de broodjes en rooster ze in de boter. Prak de avocado met de crème fraîche en zout."
+        },
+        {
+          "text": "Beleg de broodjes met avocado, halloumi, ananas, ui en de bbq-ananassaus. Serveer met de friet en koolsla."
+        }
+      ]
+    },
+    {
+      "id": "broodje-hoisin-aubergine-frieten",
+      "title": "Broodje hoisin-aubergine met frieten",
+      "subtitle": "met gembermayonaise en groene salade met misodressing",
+      "description": "Kleverige hoisin-aubergine op een broodje met gembermayo, met ovenfrieten en een umami-salade.",
+      "cuisine": "Aziatisch",
+      "tags": [
+        "oven",
+        "weekend"
+      ],
+      "prepMinutes": 15,
+      "cookMinutes": 35,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#4f2c3f",
+        "#e2a74a"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/broodje-hoisin-aubergine-met-frieten-620e5a9c9d087c0c0a3193a2",
+      "ingredients": [
+        "2 hamburgerbollen",
+        "1 aubergine",
+        "50 ml hoisinsaus",
+        "2 tl sesamolie",
+        "400 g aardappelen",
+        "1 rode ui",
+        "2 tl rodewijnazijn",
+        "2 tl suiker",
+        "50 g mayonaise",
+        "10 g gember",
+        "15 g miso",
+        "2 tl wittewijnazijn",
+        "1 komkommer",
+        "80 g gemengde sla",
+        "3 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 220 °C. Snijd de aardappelen in frieten van hooguit 1 cm, meng met ½ el olie, zout en peper en bak ze goudbruin; schep halverwege om.",
+          "timerMinutes": 35
+        },
+        {
+          "text": "Snijd de aubergine in plakken van ½ cm en bak ze afgedekt in 1 el olie in 7 minuten rondom bruin. Haal van het vuur, giet de hoisinsaus erover, schep om en houd warm met de deksel erop.",
+          "timerMinutes": 7
+        },
+        {
+          "text": "Roer de miso los met 1 tl sesamolie en de wittewijnazijn. Meng de komkommer in halve maantjes en de sla erdoor."
+        },
+        {
+          "text": "Snijd de rode ui in dunne halve ringen en meng met de rodewijnazijn, de suiker en een snufje zout."
+        },
+        {
+          "text": "Roer de geraspte gember door de mayonaise."
+        },
+        {
+          "text": "Besmeer de opengesneden broodjes met gembermayo en beleg met aubergine en de ingelegde ui. Serveer met de salade en frieten."
+        }
+      ]
+    },
+    {
+      "id": "gepaneerde-portobello-gebakken-aardappel-uienchutney",
+      "title": "Gepaneerde portobello met gebakken aardappel",
+      "subtitle": "met uienchutney en geroosterde paprika",
+      "description": "Knapperig gepaneerde portobello's, goudbruine aardappelblokjes en een zoete uienchutney.",
+      "cuisine": "Brits",
+      "tags": [
+        "comfort"
+      ],
+      "prepMinutes": 15,
+      "cookMinutes": 30,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#c79a4e",
+        "#6b4d36"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/gepaneerde-portobello-met-gebakken-aardappel-61d8245ef927a5159374338c",
+      "ingredients": [
+        "600 g aardappelen",
+        "1 rode puntpaprika",
+        "1 sjalot",
+        "1 tl Italiaanse kruiden",
+        "1 rode ui",
+        "80 g uienchutney",
+        "1 el balsamicoazijn",
+        "1 tl suiker",
+        "4 portobello's",
+        "2 el bloem",
+        "50 g panko",
+        "5 g peterselie",
+        "7 el zonnebloemolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Snijd de aardappelen in blokjes van 1,5 cm, de sjalot in halve ringen, de puntpaprika in reepjes en hak de peterselie fijn."
+        },
+        {
+          "text": "Bak de aardappelblokjes in 1 el olie in een koekenpan met deksel knapperig en gaar. Voeg de laatste 7 minuten paprika, sjalot en een kwart van de kruiden toe.",
+          "timerMinutes": 18
+        },
+        {
+          "text": "Bak de rode ui in ringen in ½ el olie op laag vuur 10 minuten zacht. Roer de uienchutney, balsamico en suiker erdoor en verwarm nog 2 minuten.",
+          "timerMinutes": 12
+        },
+        {
+          "text": "Roer de bloem met 30 ml water tot een glad beslag en meng de panko in een tweede bord met zout en peper. Snijd de portobello's in kwarten, haal ze door het beslag en daarna door de panko."
+        },
+        {
+          "text": "Bak de portobello in 5 el hete olie aan elke kant 4 minuten goudbruin. Bestrooi de laatste minuut met de rest van de kruiden en laat uitlekken op keukenpapier.",
+          "timerMinutes": 8
+        },
+        {
+          "text": "Serveer de aardappelen met groenten, de portobello en de gekaramelliseerde ui, bestrooid met peterselie."
+        }
+      ]
+    },
+    {
+      "id": "kapsalon-vegetarische-shoarma",
+      "title": "Kapsalon met vegetarische shoarma",
+      "subtitle": "met ovenfriet, salade en knoflooksaus",
+      "description": "De Rotterdamse klassieker in vegetarische vorm: friet, shoarma en gesmolten kaas met sla en knoflooksaus.",
+      "cuisine": "Nederlands",
+      "tags": [
+        "oven",
+        "comfort",
+        "weekend"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 35,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#e0b54a",
+        "#8a4a2a"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/kapsalon-met-vegetarische-doner-kebab-668e75ac6d9531676611ab85",
+      "ingredients": [
+        "500 g aardappelen",
+        "175 g vegetarische shoarma",
+        "1 rode ui",
+        "50 g geraspte kaas",
+        "2 little gem",
+        "2 tomaten",
+        "50 g mayonaise",
+        "2 el Griekse yoghurt",
+        "1 teen knoflook",
+        "2 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 220 °C. Schil de aardappelen, snijd ze in frieten van ½–1 cm, meng met ½ el olie en bak ze knapperig; schep halverwege om.",
+          "timerMinutes": 30
+        },
+        {
+          "text": "Snijd de rode ui in halve ringen, de tomaten in blokjes en de little gem in reepjes."
+        },
+        {
+          "text": "Meng 1,5 el mayonaise met de yoghurt tot een dressing en roer de geperste knoflook door de rest van de mayonaise."
+        },
+        {
+          "text": "Bak de ui 2 minuten in de rest van de olie, voeg de shoarma toe en bak nog 5 minuten.",
+          "timerMinutes": 7
+        },
+        {
+          "text": "Meng sla en tomaat met de dressing."
+        },
+        {
+          "text": "Verdeel de frieten over de borden, leg de salade erop en daarover de shoarma, en bestrooi met de kaas. Serveer met de knoflookmayo. Wil je de frieten krokant houden, leg salade en shoarma dan ernaast."
+        }
+      ]
+    },
+    {
+      "id": "krokante-vegaburger-honing-mosterdsaus",
+      "title": "Krokante vegetarische burger met honing-mosterdsaus",
+      "subtitle": "met gekaramelliseerde ui, appel en aardappelpartjes",
+      "description": "Een knapperige vegetarische schnitzel op een broodje met zoete ui, appel en honing-mosterdsaus.",
+      "cuisine": "Amerikaans",
+      "tags": [
+        "oven",
+        "comfort"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 30,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#d9a43a",
+        "#6e8f3c"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/krokante-vegetarische-burger-met-honing-mosterdsaus-63c7d44c00ace46356b3ebf2",
+      "ingredients": [
+        "400 g aardappelen",
+        "2 vegetarische schnitzels",
+        "2 hamburgerbollen",
+        "1 rode ui",
+        "1 el balsamicoazijn",
+        "½ el suiker",
+        "1 el roomboter",
+        "1 appel",
+        "100 g ijsbergsla",
+        "2 el mayonaise",
+        "1 tl wittewijnazijn",
+        "1 el honing",
+        "1 el mosterd",
+        "1 el zonnebloemolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Snijd de aardappelen in partjes en bak ze in de olie in een hapjespan op middelhoog vuur in 20 minuten gaar en goudbruin; schep regelmatig om.",
+          "timerMinutes": 21
+        },
+        {
+          "text": "Snijd de ui in halve ringen en de appel in dunne staafjes. Houd een paar slablaadjes heel en snijd de rest fijn."
+        },
+        {
+          "text": "Bak de ui 7 minuten in de helft van de boter, blus af met de balsamico en suiker en laat 2 minuten karamelliseren.",
+          "timerMinutes": 9
+        },
+        {
+          "text": "Meng 1 el mayonaise met de azijn en schep appel en fijngesneden sla erdoor. Roer de rest van de mayonaise met de honing en mosterd tot een saus."
+        },
+        {
+          "text": "Bak de schnitzels in de rest van de boter 3 minuten per kant goudbruin.",
+          "timerMinutes": 6
+        },
+        {
+          "text": "Besmeer de broodjes met honing-mosterdsaus, beleg met een slablad, de schnitzel en de ui en serveer met de salade en aardappelpartjes."
+        }
+      ]
+    },
+    {
+      "id": "plantbased-burger-bbq-frietjes-maiskolf",
+      "title": "Plant-based burger met BBQ-frietjes",
+      "subtitle": "met ciabatta, uienchutney en maiskolf",
+      "description": "Een plantaardige burger met zoete uienchutney, rokerige frietjes en boterzachte mais.",
+      "cuisine": "Amerikaans",
+      "tags": [
+        "oven",
+        "weekend"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 40,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#e5b33a",
+        "#7a3f2a"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/plant-based-burger-met-bbq-frietjes-63c7d013788f6ee4ca33cd5a",
+      "ingredients": [
+        "2 vegetarische burgers",
+        "2 afbakbroodjes",
+        "400 g aardappelen",
+        "2 tl gerookt paprikapoeder",
+        "1 tl basterdsuiker",
+        "2 maiskolven",
+        "1 ui",
+        "80 g uienchutney",
+        "1 tomaat",
+        "2 el roomboter",
+        "2 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 200 °C. Snijd de aardappelen in frieten van hooguit 1 cm en meng met ½ el olie, 1 tl gerookt paprikapoeder, de basterdsuiker, zout en peper. Bak goudbruin; schep halverwege om.",
+          "timerMinutes": 35
+        },
+        {
+          "text": "Leg elke maiskolf op een stuk aluminiumfolie, smeer er ½ el boter over met zout en peper, vouw de folie dicht en bak ze mee in de oven.",
+          "timerMinutes": 30
+        },
+        {
+          "text": "Bak de ui in dunne halve ringen 3 minuten in ½ el boter. Voeg de uienchutney en de rest van het paprikapoeder toe en bak 2 minuten. Snijd de tomaat in plakken.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Bak de broodjes de laatste 6 minuten mee. Bak de burgers in de rest van de olie 3 minuten per kant.",
+          "timerMinutes": 6
+        },
+        {
+          "text": "Beleg de broodjes met ui, burger en tomaat en serveer met de frietjes en maiskolf."
+        }
+      ]
+    },
+    {
+      "id": "vegaburger-gebakken-ui-champignons",
+      "title": "Vegetarische hamburger met gebakken ui en champignons",
+      "subtitle": "met aardappeltjes uit de oven en salade",
+      "description": "Een klassieke burgeravond: gebakken champignons, honingzoete ui en knapperige aardappeltjes.",
+      "cuisine": "Amerikaans",
+      "tags": [
+        "oven",
+        "comfort"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 30,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#7a5a3a",
+        "#e3b75a"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/vegetarische-hamburger-met-gebakken-ui-en-champignons-668e75dcda99f37bb7c07187",
+      "ingredients": [
+        "2 vegetarische burgers",
+        "2 hamburgerbollen",
+        "400 g aardappelen",
+        "1 rode ui",
+        "250 g champignons",
+        "1 tl honing",
+        "1 el roomboter",
+        "4 el mayonaise",
+        "40 g rucola",
+        "2 tl balsamicoazijn",
+        "2 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 220 °C. Snijd de aardappelen in blokjes, meng met 1 el olie en zout en rooster goudbruin.",
+          "timerMinutes": 28
+        },
+        {
+          "text": "Bak de champignons in plakjes en de ui in ringen in de boter goudbruin en voeg de honing toe.",
+          "timerMinutes": 8
+        },
+        {
+          "text": "Bak de burgers in de rest van de olie volgens de verpakking.",
+          "timerMinutes": 8
+        },
+        {
+          "text": "Rooster de broodjes kort en besmeer met mayonaise."
+        },
+        {
+          "text": "Beleg met burger, champignons en ui. Meng de rucola met de balsamico en serveer met de aardappeltjes."
+        }
+      ]
+    },
+    {
+      "id": "vegetarische-schnitzel-parmigiana-spaghetti",
+      "title": "Vegetarische schnitzel parmigiana",
+      "subtitle": "met spaghetti en salade",
+      "description": "Een knapperige schnitzel met tomatensaus en gesmolten kaas uit de oven, met spaghetti in dezelfde saus.",
+      "cuisine": "Italiaans",
+      "tags": [
+        "snel",
+        "comfort",
+        "oven"
+      ],
+      "prepMinutes": 5,
+      "cookMinutes": 20,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#c23d2c",
+        "#e6c66a"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/vegetarische-schnitzel-parmigiana-63bfd0f0b6df1866240e85f3",
+      "ingredients": [
+        "180 g spaghetti",
+        "1 ui",
+        "1 teen knoflook",
+        "390 g passata",
+        "1 tl Italiaanse kruiden",
+        "2 tl balsamicoazijn",
+        "2 tl suiker",
+        "2 vegetarische schnitzels",
+        "1 el roomboter",
+        "25 g harde kaas",
+        "10 g basilicum",
+        "1 tomaat",
+        "60 g rucola",
+        "2 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 220 °C. Kook de spaghetti beetgaar en giet af.",
+          "timerMinutes": 11
+        },
+        {
+          "text": "Fruit de gesnipperde ui en knoflook 2 minuten in ½ el olie. Voeg passata, kruiden, 1 tl balsamico en de suiker toe en laat 5 minuten zachtjes koken.",
+          "timerMinutes": 7
+        },
+        {
+          "text": "Bak de schnitzels in de boter 2–3 minuten per kant. Leg ze in een ovenschaal, schep de helft van de saus erover en strooi de geraspte kaas erop. Gratineer in de oven.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Meng de rest van de saus door de spaghetti. Meng rucola en tomaat in partjes met de rest van de olie en balsamico."
+        },
+        {
+          "text": "Verdeel de spaghetti over de borden, leg de schnitzel erop en garneer met gescheurde basilicum. Serveer met de salade."
+        }
+      ]
+    },
+    {
+      "id": "groenteburger-limoenmayonaise-zoete-aardappel",
+      "title": "Wortel-pompoenburger met limoenmayonaise",
+      "subtitle": "met zoete aardappel en salade",
+      "description": "Een groenteburger met frisse limoen-dillemayonaise, kruidige zoete aardappelpartjes en tomatensalade.",
+      "cuisine": "Amerikaans",
+      "tags": [
+        "oven"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 25,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#e0782c",
+        "#7aa24a"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/wortel-pompoenburger-met-limoenmayonaise-5cc6c2cbb64700000c063dbd",
+      "ingredients": [
+        "2 vegetarische burgers, bij voorkeur groenteburgers",
+        "400 g zoete aardappel",
+        "2 tl Mexicaanse kruiden",
+        "1 limoen",
+        "50 g mayonaise",
+        "5 g dille",
+        "3 tomaten",
+        "60 g rucola",
+        "2 tl wittewijnazijn",
+        "4 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Snijd de zoete aardappel in parten en bak ze met de Mexicaanse kruiden in 2 el olie in een hapjespan met deksel gaar; schep regelmatig om en haal de laatste 5 minuten de deksel eraf.",
+          "timerMinutes": 20
+        },
+        {
+          "text": "Pers de limoen uit, snijd de tomaten in kleine blokjes en hak de dille."
+        },
+        {
+          "text": "Roer 1 tl limoensap door de mayonaise."
+        },
+        {
+          "text": "Meng tomaat en dille met de rucola, 1 el olie, de azijn, zout en peper."
+        },
+        {
+          "text": "Bak de burgers in de rest van de olie 3 minuten per kant.",
+          "timerMinutes": 6
+        },
+        {
+          "text": "Schep de salade op de borden met de zoete aardappel erover en de burger erop. Geef de limoenmayo erbij."
+        }
+      ]
+    },
+    {
+      "id": "zelfgemaakte-burger-zwarte-bonen-portobello",
+      "title": "Zelfgemaakte burger van zwarte bonen en portobello",
+      "subtitle": "met zoete-aardappelfrietjes en andijviesalade",
+      "description": "Een stevige, kruidige burger van zwarte bonen en portobello, met mosterdmayo en ovenfrietjes.",
+      "cuisine": "Amerikaans",
+      "tags": [
+        "oven",
+        "weekend",
+        "eiwitrijk"
+      ],
+      "prepMinutes": 20,
+      "cookMinutes": 30,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#3a2c28",
+        "#e08a3a"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/zelfgemaakte-burger-van-zwarte-bonen-en-portobello-5c4883c3c445fa2f964064a2",
+      "ingredients": [
+        "2 afbakbroodjes",
+        "300 g zoete aardappel",
+        "1 teen knoflook",
+        "1,5 portobello",
+        "1 tl ras el hanout",
+        "5 g peterselie",
+        "200 g zwarte bonen, uitgelekt",
+        "½ rode ui",
+        "2 eieren",
+        "2 little gem",
+        "2 tl wittewijnazijn",
+        "2 tl mosterd",
+        "50 g mayonaise",
+        "4 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 200 °C. Snijd de broodjes in dunne plakken en droog ze 15 minuten in de oven. Snijd de zoete aardappel met schil in frietjes van 1–2 cm, meng met 1 el olie, zout en peper en bak ze goudbruin.",
+          "timerMinutes": 30
+        },
+        {
+          "text": "Pers de knoflook en hak de portobello klein. Bak ze met de ras el hanout 5 minuten in 1 el olie. Hak de peterselie, snipper de ui en verkruimel het gedroogde brood tot grof paneermeel.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Splits de eieren en gebruik alleen de dooiers. Maal broodkruim, de helft van de ui, peterselie, bonen, portobello en dooiers grof en vorm er drie of vier burgers van."
+        },
+        {
+          "text": "Bak de burgers in de rest van de olie op middelhoog vuur 4–5 minuten per kant en keer ze voorzichtig.",
+          "timerMinutes": 9
+        },
+        {
+          "text": "Snijd de sla klein en meng met de rest van de ui, de azijn, de mosterd en een scheutje olie."
+        },
+        {
+          "text": "Serveer de burgers met de frietjes, de salade en mayonaise."
+        }
+      ]
+    },
+    {
+      "id": "wraps-vega-kipstukjes-pinda-koolsla",
+      "title": "Wraps met vegetarische kipstukjes",
+      "subtitle": "met romige pinda-koolsla, koriander en paprika",
+      "description": "Supersnelle wraps met gebakken vegetarische kip, paprika en een romige koolsla met pindasaus.",
+      "cuisine": "Aziatisch",
+      "tags": [
+        "snel",
+        "eiwitrijk"
+      ],
+      "prepMinutes": 5,
+      "cookMinutes": 10,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#c05a8a",
+        "#e8c25a"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/superconvenience_10min_veggie_wrap_use_eid_precut_cabbage-662f4a004e3d82e3ad9314e7",
+      "ingredients": [
+        "6 tortillawraps",
+        "175 g vegetarische kipstukjes",
+        "1 paprika",
+        "1 ui",
+        "1 teen knoflook",
+        "200 g rodekool",
+        "25 g pindakaas",
+        "1 el honing",
+        "1 el sojasaus",
+        "1 el wittewijnazijn",
+        "1,5 el mayonaise",
+        "2 tl sesamolie",
+        "40 g pinda's",
+        "10 g koriander",
+        "1 el zonnebloemolie"
+      ],
+      "steps": [
+        {
+          "text": "Roer pindakaas, honing, sojasaus, azijn, mayonaise, sesamolie en 2 el warm water tot een romige dressing. Meng de helft met de rodekool."
+        },
+        {
+          "text": "Bak de kipstukjes met de paprika in reepjes, de ui in ringen en de geperste knoflook in de olie goudbruin.",
+          "timerMinutes": 7
+        },
+        {
+          "text": "Verwarm de wraps in een droge pan of magnetron."
+        },
+        {
+          "text": "Vul de wraps met koolsla en kipstukjes en maak af met de rest van de dressing, grof gehakte pinda's en koriander."
+        }
+      ]
+    },
+    {
+      "id": "kaasschnitzel-gekaramelliseerde-witlof-puree",
+      "title": "Kaasschnitzel met gekaramelliseerde witlof",
+      "subtitle": "met uienchutney, gemengde salade en aardappelpuree",
+      "description": "Een Belgisch geïnspireerd bord met romige puree, zoetbittere witlof uit de pan en een knapperige schnitzel.",
+      "cuisine": "Belgisch",
+      "tags": [
+        "comfort",
+        "winter"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 30,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#e9dc9a",
+        "#9a5f2e"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/kaasschnitzel-met-gekaramelliseerde-witlof-6a50d9f66e4158183d5dfa5b",
+      "ingredients": [
+        "2 vegetarische schnitzels, bij voorkeur met kaas",
+        "400 g aardappelen",
+        "½ groentebouillonblokje",
+        "50 ml melk",
+        "2 el roomboter",
+        "2 witlof",
+        "2 tl honing",
+        "1 rode ui",
+        "40 g uienchutney",
+        "60 g gemengde sla",
+        "20 g zonnebloempitten",
+        "1 tl mosterd",
+        "2 el wittewijnazijn",
+        "2 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Schil de aardappelen, snijd ze in stukken en kook ze in water met het bouillonblokje gaar. Giet af en bewaar een scheutje kookvocht.",
+          "timerMinutes": 14
+        },
+        {
+          "text": "Halveer het witlof in de lengte met de kern eraan. Bak het 1 minuut op hoog vuur in een klontje boter, zet het vuur lager en laat afgedekt stoven.",
+          "timerMinutes": 12
+        },
+        {
+          "text": "Roer de honing door het witlof en laat 2 minuten karamelliseren. Bak de schnitzels in 1 el olie 3–4 minuten per kant goudbruin.",
+          "timerMinutes": 8
+        },
+        {
+          "text": "Rooster de zonnebloempitten in een droge pan. Bak daarna de rode ui in halve ringen 5 minuten in een scheutje olie, blus af met de helft van de azijn en roer de uienchutney en wat kookvocht erdoor.",
+          "timerMinutes": 7
+        },
+        {
+          "text": "Meng de rest van de azijn met een scheut olie en schep de sla erdoor."
+        },
+        {
+          "text": "Stamp de aardappelen met een klontje boter, de melk en de mosterd tot een puree. Serveer met witlof, schnitzel, ui en de salade met zonnebloempitten."
+        }
+      ]
+    },
+    {
+      "id": "brie-bladerdeeg-appel-krieltjessalade",
+      "title": "Brie in bladerdeeg met appel en gekaramelliseerde ui",
+      "subtitle": "met een frisse krieltjessalade",
+      "description": "Smeltende brie met appel en zoete ui in een goudbruin bladerdeegjasje, met een lauwwarme aardappelsalade.",
+      "cuisine": "Frans",
+      "tags": [
+        "oven",
+        "weekend"
+      ],
+      "prepMinutes": 15,
+      "cookMinutes": 30,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#e9c37a",
+        "#7a9a4a"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/brie-in-bladerdeeg-met-appel-en-gekaramelliseerde-ui-63c7ce646ab9cacaa37370e2",
+      "ingredients": [
+        "½ rol bladerdeeg",
+        "200 g brie",
+        "1 appel",
+        "1 rode ui",
+        "1 tl suiker",
+        "1 el balsamicoazijn",
+        "1 tl tijm",
+        "1 el roomboter",
+        "400 g krieltjes",
+        "1 paprika",
+        "½ groentebouillonblokje",
+        "2 tl mosterd",
+        "40 g gemengde sla",
+        "1 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 200 °C. Kook de krieltjes in water met het halve bouillonblokje gaar.",
+          "timerMinutes": 15
+        },
+        {
+          "text": "Snijd de ui in ringen en bak in de boter zacht; voeg suiker, balsamico en tijm toe en laat karamelliseren. Snijd de appel in dunne plakjes.",
+          "timerMinutes": 8
+        },
+        {
+          "text": "Snijd het bladerdeeg in twee stukken. Leg op elk stuk wat ui en appel en een helft van de brie, vouw het deeg eromheen en leg met de naad naar beneden op een bakplaat."
+        },
+        {
+          "text": "Bak goudbruin en gepoft.",
+          "timerMinutes": 20
+        },
+        {
+          "text": "Halveer de krieltjes en meng ze lauw met de paprika in blokjes, de sla, mosterd, olie, zout en peper."
+        },
+        {
+          "text": "Serveer de brie warm met de krieltjessalade."
+        }
+      ]
+    },
+    {
+      "id": "filodeegtaart-spinazie-feta",
+      "title": "Filodeegtaart met spinazie en feta",
+      "subtitle": "met tomaat-komkommersalade en sesamzaadjes",
+      "description": "Een knapperige spanakopita-achtige taart met spinazie, feta en nootmuskaat, met een frisse salade.",
+      "cuisine": "Grieks",
+      "tags": [
+        "oven",
+        "weekend"
+      ],
+      "prepMinutes": 20,
+      "cookMinutes": 30,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#3f7a3a",
+        "#e8c97a"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/filodeegtaart-met-spinazie-en-feta-608abe118c9ea9150c470b42",
+      "ingredients": [
+        "1 pak filodeeg",
+        "1 rode ui",
+        "1 teen knoflook",
+        "300 g spinazie",
+        "1 snufje nootmuskaat",
+        "75 g feta",
+        "5 g sesamzaad",
+        "2 tomaten",
+        "½ komkommer",
+        "5 g peterselie",
+        "2 tl mosterd",
+        "1 tl wittewijnazijn",
+        "3 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Haal het filodeeg uit de koelkast en verwarm de oven voor op 200 °C. Snipper de ui, pers de knoflook en rasp een mespuntje nootmuskaat."
+        },
+        {
+          "text": "Fruit ui en knoflook 2 minuten in ½ el olie en laat de spinazie in delen slinken. Doe in een vergiet en druk het vocht er goed uit. Meng met de verkruimelde feta, nootmuskaat en peper.",
+          "timerMinutes": 4
+        },
+        {
+          "text": "Vet een taartvorm in en leg de vellen filodeeg erin, op één na. Verdeel de vulling erover, leg het laatste vel erop en stop de randen naar binnen."
+        },
+        {
+          "text": "Besprenkel de bovenkant met olie, bestrooi met sesamzaad en bak goudbruin.",
+          "timerMinutes": 18
+        },
+        {
+          "text": "Roer de mosterd, azijn, de rest van de olie, zout en peper tot een dressing en meng met de komkommer en tomaat in blokjes en de peterselie."
+        },
+        {
+          "text": "Snijd de taart in punten en serveer met de salade."
+        }
+      ]
+    },
+    {
+      "id": "flammkuchen-bbq-pompoen-fetasaus",
+      "title": "Flammkuchen met BBQ-saus en pompoen",
+      "subtitle": "met romige fetasaus en verse kruiden",
+      "description": "Dunne bodems met rokerige barbecuesaus, geroosterde pompoen en ui, afgemaakt met een romige fetasaus.",
+      "cuisine": "Duits",
+      "tags": [
+        "oven"
+      ],
+      "prepMinutes": 15,
+      "cookMinutes": 25,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#e0782c",
+        "#7a3a2a"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/flammkuchen-met-feta-en-pompoen-6638bf601a88dd466abab215",
+      "ingredients": [
+        "400 g flespompoen",
+        "2 tl paprikapoeder",
+        "2 tl bloem",
+        "2 el olijfolie",
+        "1 ui",
+        "50 g roomkaas",
+        "1 tl komijn",
+        "1 tl korianderpoeder",
+        "50 g feta",
+        "2 flammkuchenbodems",
+        "3 el barbecuesaus",
+        "5 g peterselie",
+        "5 g munt",
+        "2 el mayonaise",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 220 °C. Snijd de pompoen in halve maantjes en staafjes van 1 cm, meng met paprikapoeder, olie, bloem, zout en peper en rooster tot ze zacht en krokant zijn; schep halverwege om.",
+          "timerMinutes": 27
+        },
+        {
+          "text": "Snijd de ui in halve ringen. Roer de roomkaas los met de komijn, het korianderpoeder, 1 el water en de helft van de verkruimelde feta."
+        },
+        {
+          "text": "Besmeer de bodems met het roomkaasmengsel, verdeel de ui erover en verkruimel de rest van de feta erboven. Bak ze in de oven.",
+          "timerMinutes": 6
+        },
+        {
+          "text": "Beleg de flammkuchen met de helft van de pompoen, besprenkel met de barbecuesaus en garneer met gehakte peterselie en munt. Serveer de rest van de pompoen ernaast met mayonaise om in te dippen."
+        }
+      ]
+    },
+    {
+      "id": "galette-geitenkaas-rode-biet",
+      "title": "Galette met geitenkaas en rode biet",
+      "subtitle": "met zoete aardappel, tijm en walnoten",
+      "description": "Een rustieke, open hartige taart met biet, zoete aardappel en geitenkaas, met een frisse spinaziesalade.",
+      "cuisine": "Frans",
+      "tags": [
+        "oven",
+        "weekend"
+      ],
+      "prepMinutes": 15,
+      "cookMinutes": 30,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#8a2a4a",
+        "#e8b06a"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/galette-met-geitenkaas-en-rode-biet-6274e2eb474af03e6004b7b1",
+      "ingredients": [
+        "1 rol taartdeeg",
+        "250 g gekookte rode bieten",
+        "150 g zoete aardappel",
+        "1 rode ui",
+        "½ tl tijm",
+        "50 g verse geitenkaas",
+        "1 el honing",
+        "10 g walnoten",
+        "100 g spinazie",
+        "1 tomaat",
+        "1 el balsamicoazijn",
+        "1 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 200 °C. Snijd de zoete aardappel en biet in dunne plakken en de ui in halve ringen. Kook de zoete aardappel 7 minuten, giet af en dep droog.",
+          "timerMinutes": 7
+        },
+        {
+          "text": "Bak de ui 5 minuten in ½ el olie met de helft van de balsamico. Laat in een andere pan de helft van de spinazie slinken in een scheutje olie.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Rol het deeg uit op bakpapier. Leg biet en zoete aardappel in een cirkel op het deeg met 2 cm rand vrij en schep de spinazie erop. Vouw de randen over de vulling en bestrijk ze met een beetje olie."
+        },
+        {
+          "text": "Bak de galette 12 minuten. Verdeel dan de verbrokkelde geitenkaas, de ui, walnoten, tijm en honing erover en bak nog 10 minuten.",
+          "timerMinutes": 22
+        },
+        {
+          "text": "Meng de rest van de spinazie met de tomaat in blokjes, de rest van de balsamico en olie."
+        },
+        {
+          "text": "Snijd de galette in stukken en serveer met de salade."
+        }
+      ]
+    }
+  ]
+}

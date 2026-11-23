@@ -1,0 +1,1187 @@
+{
+  "format": "weekmenu-recipe-import",
+  "source": {
+    "type": "inspired",
+    "name": "HelloFresh",
+    "note": "Gerecht en ingrediënten gebaseerd op een HelloFresh-recept; bereidingswijze in eigen woorden. Alleen voor persoonlijk gebruik."
+  },
+  "recipes": [
+    {
+      "id": "aardappelroerbak-spiegelei-kaas-champignons",
+      "title": "Aardappelroerbak met spiegelei en kaas",
+      "subtitle": "met kastanjechampignons, sperziebonen en verse kruiden",
+      "description": "Een boerenpan met krokant gebakken aardappel, champignons en bonen, met gesmolten kaas en spiegelei.",
+      "cuisine": "Duits",
+      "tags": [
+        "eenpans",
+        "comfort",
+        "budget"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 30,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#e0b04a",
+        "#5a7a3a"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/aardappelroerbak-met-spiegelei-en-sperziebonen-65cf5dfb5d0250930594fd95",
+      "ingredients": [
+        "500 g aardappelen",
+        "100 g sperziebonen",
+        "½ groentebouillonblokje",
+        "1 rode ui",
+        "1 teen knoflook",
+        "250 g kastanjechampignons",
+        "1,5 tl paprikapoeder",
+        "½ tl oregano",
+        "60 g geraspte kaas",
+        "2 eieren",
+        "5 g peterselie",
+        "5 g bieslook",
+        "2 el roomboter",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Snijd de aardappelen in blokjes van 2 cm. Zet ze met de gebroken sperziebonen net onder water, verkruimel het bouillonblokje erboven en kook afgedekt 10 minuten. Giet af en laat uitstomen.",
+          "timerMinutes": 10
+        },
+        {
+          "text": "Pers de knoflook, snijd de rode ui in fijne halve ringen en de champignons in plakjes. Bak ze 5 minuten in ½ el boter.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Bak aardappelen en bonen in 1 el boter in een grote pan met het paprikapoeder en de oregano goudbruin en krokant.",
+          "timerMinutes": 10
+        },
+        {
+          "text": "Schep de champignons erdoor, zet het vuur laag, strooi de kaas erover en laat smelten."
+        },
+        {
+          "text": "Bak de eieren in de rest van de boter tot spiegeleieren en hak de kruiden fijn."
+        },
+        {
+          "text": "Verdeel de roerbak over de borden, leg een ei erop en bestrooi met peterselie en bieslook."
+        }
+      ]
+    },
+    {
+      "id": "witlofgratin-appel-walnoten-brie",
+      "title": "Belgische klassieker: witlofgratin met appel en walnoten",
+      "subtitle": "met brie, aardappelpartjes en koolsla",
+      "description": "Gestoofd witlof en appel in een romige saus met nootmuskaat, gegratineerd met brie en walnoten.",
+      "cuisine": "Belgisch",
+      "tags": [
+        "oven",
+        "comfort",
+        "winter"
+      ],
+      "prepMinutes": 15,
+      "cookMinutes": 30,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#e5df9a",
+        "#8a5a2e"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/belgische-klassieker-witlofgratin-met-appel-en-walnoten-6a0ee896a3fbb74cc4f0623f",
+      "ingredients": [
+        "3 witlof",
+        "1 appel",
+        "1 teen knoflook",
+        "½ tl tijm",
+        "2 snufjes nootmuskaat",
+        "150 ml kookroom",
+        "80 g brie",
+        "20 g walnoten",
+        "400 g aardappelen",
+        "200 g koolmix",
+        "4 tl mosterd",
+        "1 el honing",
+        "2 el wittewijnazijn",
+        "1 el roomboter",
+        "2 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 230 °C. Snijd de aardappelen in partjes, meng met 1 el olie, de tijm en de helft van de geperste knoflook, zout en peper en bak ze goudbruin.",
+          "timerMinutes": 30
+        },
+        {
+          "text": "Rooster de walnoten in een droge koekenpan en zet apart. Snijd het witlof in de lengte in vieren en verwijder de harde kern. Bak het in de boter goudbruin, blus af met de helft van de azijn, voeg de honing toe en laat 1 minuut karamelliseren.",
+          "timerMinutes": 6
+        },
+        {
+          "text": "Snijd de brie in blokjes. Meng de kookroom met de rest van de knoflook, de nootmuskaat en de helft van de mosterd."
+        },
+        {
+          "text": "Leg het witlof in een ovenschaal, giet het roommengsel erover en verdeel de brie erop. Bak tot de kaas gesmolten en goudbruin is.",
+          "timerMinutes": 9
+        },
+        {
+          "text": "Snijd de appel in dunne plakjes. Meng de rest van de olie, azijn en mosterd tot een dressing en schep de koolmix en de appel erdoor."
+        },
+        {
+          "text": "Serveer de gratin met de aardappelpartjes en de appelkoolsla bestrooid met walnoten."
+        }
+      ]
+    },
+    {
+      "id": "cheesy-aardappelen-kruidige-yoghurtsaus",
+      "title": "Cheesy aardappelen met kruidige yoghurtsaus",
+      "subtitle": "met champignons, witte kaas en sperziebonen",
+      "description": "Krokant geroosterde aardappelen met gesmolten kaas, gebakken champignons en een groene kruidenyoghurt.",
+      "cuisine": "Duits",
+      "tags": [
+        "oven"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 30,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#e5b64e",
+        "#4e7f3c"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/cheesy-aardappelen-met-kruidige-yoghurtsaus-6a4fae6f1713d196bd6e0c33",
+      "ingredients": [
+        "500 g aardappelen",
+        "3 tl paprikapoeder",
+        "200 g sperziebonen",
+        "200 g champignons",
+        "1 rode ui",
+        "50 g witte kaas",
+        "20 g harde kaas",
+        "100 g Griekse yoghurt",
+        "1 el mosterd",
+        "5 g peterselie",
+        "5 g koriander",
+        "½ tl oregano",
+        "4 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 215 °C. Snijd de aardappelen in kwarten, meng met 1 el olie en het paprikapoeder en rooster ze 15 minuten op een bakplaat met bakpapier.",
+          "timerMinutes": 15
+        },
+        {
+          "text": "Halveer de champignons en snijd de ui in partjes. Schuif de aardappelen naar één kant van de bakplaat, leg champignons en ui ernaast met 1 el olie en rooster nog 15 minuten.",
+          "timerMinutes": 15
+        },
+        {
+          "text": "Snijd de sperziebonen in drie stukken en kook ze 7 minuten. Giet af.",
+          "timerMinutes": 7
+        },
+        {
+          "text": "Pureer peterselie, koriander, oregano, yoghurt, mosterd en de rest van de olie tot een gladde groene saus; voeg zo nodig een scheutje water toe."
+        },
+        {
+          "text": "Strooi de harde kaas over de aardappelen en zet ze nog 1 minuut in de oven."
+        },
+        {
+          "text": "Schep de groene saus op de borden, leg aardappelen, champignons en bonen erop en verkruimel de witte kaas erover."
+        }
+      ]
+    },
+    {
+      "id": "frittata-cherrytomaten-feta-courgette",
+      "title": "Frittata met cherrytomaten en feta",
+      "subtitle": "met courgette en aardappelschijfjes",
+      "description": "Een dikke ovenomelet met aardappel, courgette, gerookte paprika, tomaatjes en feta.",
+      "cuisine": "Italiaans",
+      "tags": [
+        "oven",
+        "eiwitrijk",
+        "eenpans"
+      ],
+      "prepMinutes": 15,
+      "cookMinutes": 30,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#f0cc5a",
+        "#d43b2e"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/frittata-met-cherrytomaten-en-feta-61bb1d334c02c8427b0cb5e5",
+      "ingredients": [
+        "200 g aardappelen",
+        "1 courgette",
+        "2 tenen knoflook",
+        "1 rode ui",
+        "10 g basilicum",
+        "50 g feta",
+        "4 eieren",
+        "2 el melk",
+        "1 tl Italiaanse kruiden",
+        "1 tl gerookt paprikapoeder",
+        "250 g cherrytomaten",
+        "25 g harde kaas",
+        "1 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 210 °C. Snijd de aardappelen in dunne schijfjes en de courgette in kleine blokjes. Bak de aardappelen in ½ el olie goudbruin; voeg na 5 minuten de courgette en de geperste knoflook toe.",
+          "timerMinutes": 9
+        },
+        {
+          "text": "Snijd de rode ui in dunne halve ringen, snijd de basilicum in reepjes en verkruimel de feta."
+        },
+        {
+          "text": "Klop de eieren los met de melk, kruiden en paprikapoeder. Roer de ui, de helft van de basilicum, de helft van de feta, de tomaatjes en de harde kaas erdoor en breng op smaak."
+        },
+        {
+          "text": "Vet een ovenschaal in met de rest van de olie, leg de aardappel en courgette erin en giet het eimengsel erover."
+        },
+        {
+          "text": "Bak de frittata tot hij ook in het midden gestold is en laat 3 minuten rusten.",
+          "timerMinutes": 28
+        },
+        {
+          "text": "Garneer met de rest van de feta en basilicum."
+        }
+      ]
+    },
+    {
+      "id": "geitenkaas-oven-uiensaus-wortel-spinaziestamppot",
+      "title": "Geitenkaas uit de oven met uiensaus",
+      "subtitle": "met wortel-spinaziestamppot en pecannoten",
+      "description": "Een Hollandse stamppot van wortel en spinazie met warme, honingzoete geitenkaas en een zoete uienjus.",
+      "cuisine": "Nederlands",
+      "tags": [
+        "stamppot",
+        "comfort",
+        "oven"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 25,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#e98a2e",
+        "#f1ebdb"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/wortel-spinaziestamppot-met-geitenkaas-uit-de-oven-653a3aac2fab1d7bab1097b5",
+      "ingredients": [
+        "500 g aardappelen",
+        "1 wortel",
+        "125 g spinazie",
+        "½ groentebouillonblokje",
+        "1 ui",
+        "1 el roomboter",
+        "1 tl suiker",
+        "1 el balsamicoazijn",
+        "150 g geitenkaas",
+        "2 tl honing",
+        "10 g pecannoten",
+        "2 el melk",
+        "½ el roomboter",
+        "1 tl mosterd",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 220 °C. Schil aardappelen en wortel, snijd in kleine stukken en kook ze in water met het halve bouillonblokje gaar; laat de spinazie de laatste minuut meeslinken. Bewaar 100 ml kookvocht.",
+          "timerMinutes": 19
+        },
+        {
+          "text": "Snijd de ui in dunne halve ringen en bak 6 minuten in 1 el boter. Leg intussen de geitenkaas op een bakplaat met bakpapier, verdeel honing en pecannoten erover en rooster hem in de oven.",
+          "timerMinutes": 7
+        },
+        {
+          "text": "Voeg de suiker toe aan de ui en bak 1 minuut. Blus af met de balsamico, voeg het kookvocht toe en laat 5 minuten inkoken tot een saus.",
+          "timerMinutes": 6
+        },
+        {
+          "text": "Stamp aardappel, wortel en spinazie grof met de melk, de rest van de boter en de mosterd. Breng op smaak."
+        },
+        {
+          "text": "Verdeel de stamppot over de borden, leg de geitenkaas erop en schenk de uiensaus erover."
+        }
+      ]
+    },
+    {
+      "id": "geroosterde-bloemkool-champignonroomsaus",
+      "title": "Geroosterde bloemkool met champignonroomsaus",
+      "subtitle": "met aardappelpartjes, harde kaas en peterselie",
+      "description": "Hele plakken bloemkool uit de oven met een romige champignonsaus met nootmuskaat.",
+      "cuisine": "Frans",
+      "tags": [
+        "oven",
+        "comfort"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 35,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#efe3c2",
+        "#6c5038"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/geroosterde-bloemkool-met-champignonroomsaus-6a9958fa71b095d5fbafadf4",
+      "ingredients": [
+        "500 g bloemkool",
+        "500 g aardappelen",
+        "3 el olijfolie",
+        "2 snufjes nootmuskaat",
+        "250 g kastanjechampignons",
+        "1 ui",
+        "1 el roomboter",
+        "1 el bloem",
+        "½ groentebouillonblokje",
+        "150 ml kookroom",
+        "1 el wittewijnazijn",
+        "25 g harde kaas",
+        "10 g peterselie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 220 °C. Snijd de aardappelen in partjes en de bloemkool in dikke plakken of grote roosjes. Meng beide met olie, nootmuskaat en zout en verdeel over twee bakplaten.",
+          "timerMinutes": 2
+        },
+        {
+          "text": "Rooster tot de aardappelen krokant zijn en de bloemkool goudbruin en gaar.",
+          "timerMinutes": 30
+        },
+        {
+          "text": "Bak de champignons in plakjes en de gesnipperde ui in de boter goudbruin. Strooi de bloem erover en roer 1 minuut.",
+          "timerMinutes": 7
+        },
+        {
+          "text": "Los het bouillonblokje op in 150 ml heet water en voeg al roerend met de kookroom toe. Laat indikken en breng op smaak met de azijn, zout en peper.",
+          "timerMinutes": 3
+        },
+        {
+          "text": "Serveer de bloemkool met de champignonroomsaus, aardappelpartjes, harde kaas en gehakte peterselie."
+        }
+      ]
+    },
+    {
+      "id": "pompoen-aardappelstamppot-blauwe-kaas-salie",
+      "title": "Pompoen-aardappelstamppot met blauwe kaas",
+      "subtitle": "met salie, walnoten, gekaramelliseerde ui en rucola",
+      "description": "Een herfststamppot van pompoen en aardappel met smeltende blauwe kaas, krokante salie en zoete ui.",
+      "cuisine": "Nederlands",
+      "tags": [
+        "stamppot",
+        "comfort",
+        "winter"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 25,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#e1862e",
+        "#4a6a3a"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/nl-pompoen-aardappelstamppot-met-blauwe-kaas-be-pompoen-aardappelstoemp-met-blauwe-kaas-639b07775198207107030f6f",
+      "ingredients": [
+        "500 g aardappelen",
+        "300 g flespompoen",
+        "½ groentebouillonblokje",
+        "2 el roomboter",
+        "10 g salie",
+        "2 rode uien",
+        "50 g blauwe kaas",
+        "60 g rucola",
+        "25 g walnoten",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Schil aardappelen en pompoen, snijd in grove stukken en kook ze afgedekt in water met het bouillonblokje gaar. Bewaar 100 ml kookvocht.",
+          "timerMinutes": 14
+        },
+        {
+          "text": "Bak de salieblaadjes in de boter 1 minuut per kant knapperig en laat uitlekken op keukenpapier."
+        },
+        {
+          "text": "Bak de uien in halve ringen met een snufje zout in dezelfde salieboter op middellaag vuur zacht en gekaramelliseerd.",
+          "timerMinutes": 9
+        },
+        {
+          "text": "Stamp aardappel en pompoen grof en schep de helft van de blauwe kaas en twee derde van de rucola erdoor. Breng op smaak."
+        },
+        {
+          "text": "Zet het vuur onder de uien hoger, blus af met het kookvocht en laat 3 minuten inkoken tot een jus.",
+          "timerMinutes": 3
+        },
+        {
+          "text": "Verdeel rucola en stamppot over de borden, verkruimel de salie erover en schenk de uienjus erop. Maak af met grof gehakte walnoten en de rest van de blauwe kaas."
+        }
+      ]
+    },
+    {
+      "id": "rijkgevulde-boerenomelet",
+      "title": "Rijkgevulde boerenomelet",
+      "subtitle": "met aardappel, oude kaas en een frisse salade",
+      "description": "Een stevige omelet uit de pan met gebakken aardappel, champignons, prei, paprika en kaas.",
+      "cuisine": "Nederlands",
+      "tags": [
+        "snel",
+        "eiwitrijk",
+        "eenpans"
+      ],
+      "prepMinutes": 5,
+      "cookMinutes": 20,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#f0c84a",
+        "#c63c2c"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/rijkgevulde-boerenomelet-5d0a2f64382cf0000e73d952",
+      "ingredients": [
+        "300 g aardappelen",
+        "125 g kastanjechampignons",
+        "½ prei",
+        "½ courgette",
+        "1 paprika",
+        "4 eieren",
+        "50 g geraspte oude kaas",
+        "5 g peterselie",
+        "5 g bieslook",
+        "1 tomaat",
+        "30 g rucola",
+        "2 tl balsamicoazijn",
+        "1 el olijfolie",
+        "2 afbakbroodjes",
+        "1,5 el roomboter",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Snijd de aardappelen in kleine blokjes en bak ze in 1 el boter in een grote koekenpan met deksel in 12 minuten goudbruin en gaar.",
+          "timerMinutes": 12
+        },
+        {
+          "text": "Voeg de champignons, prei, courgette en paprika in stukjes toe en bak 5 minuten mee.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Klop de eieren los met de helft van de kruiden, zout en peper en giet over de groenten. Strooi de kaas erover en laat met de deksel op de pan op laag vuur stollen.",
+          "timerMinutes": 6
+        },
+        {
+          "text": "Bak de broodjes af. Meng de rucola met de tomaat in partjes en de balsamico."
+        },
+        {
+          "text": "Snijd de omelet in punten, bestrooi met de rest van de kruiden en serveer met de salade en brood."
+        }
+      ]
+    },
+    {
+      "id": "stamppot-pastinaak-zoete-aardappel-pecan",
+      "title": "Stamppot van pastinaak en bataat",
+      "subtitle": "met veldsla, pecannoten en feta",
+      "description": "Een zoete stamppot van pastinaak, zoete en gewone aardappel met rozemarijn, veldsla en gebakken courgette.",
+      "cuisine": "Nederlands",
+      "tags": [
+        "stamppot",
+        "winter"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 30,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#e3a24a",
+        "#5b7f3a"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/stamppot-van-pastinaak-en-bataat-5c3c5171e3f3391bfe553442",
+      "ingredients": [
+        "300 g aardappelen",
+        "300 g zoete aardappel",
+        "150 g pastinaak",
+        "1 courgette",
+        "5 g rozemarijn",
+        "60 g veldsla",
+        "20 g pecannoten",
+        "50 g feta",
+        "1 el mosterd",
+        "50 ml melk",
+        "1 el roomboter",
+        "1 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Schil beide soorten aardappel en de pastinaak, snijd in stukken en kook in water met zout gaar.",
+          "timerMinutes": 18
+        },
+        {
+          "text": "Snijd de courgette in blokjes en bak met de fijngehakte rozemarijn 6 minuten in de olie.",
+          "timerMinutes": 6
+        },
+        {
+          "text": "Rooster de pecannoten in een droge pan en hak grof."
+        },
+        {
+          "text": "Giet de groenten af en stamp met de melk, boter en mosterd. Schep de courgette en de helft van de veldsla erdoor en breng op smaak."
+        },
+        {
+          "text": "Serveer met de rest van de veldsla, blokjes feta en de pecannoten."
+        }
+      ]
+    },
+    {
+      "id": "groentepaella-knapperige-halloumi",
+      "title": "Groentepaella met knapperige halloumi",
+      "subtitle": "met doperwtjes, citroen en kurkuma",
+      "description": "Een gele paella met paprika, tomaat en erwten uit één pan, met goudbruin gebakken halloumi.",
+      "cuisine": "Spaans",
+      "tags": [
+        "eenpans"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 25,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#e8b42c",
+        "#c4402e"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/groentepaella-met-knapperige-halloumi-5fabf5d58e0e1a701d16eab2",
+      "ingredients": [
+        "150 g risottorijst",
+        "1 ui",
+        "1 teen knoflook",
+        "1 paprika",
+        "1 tomaat",
+        "1 tl gerookt paprikapoeder",
+        "½ tl kurkuma",
+        "1 groentebouillonblokje",
+        "100 g doperwten",
+        "200 g halloumi",
+        "½ citroen",
+        "10 g peterselie",
+        "3 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Los het bouillonblokje op in 500 ml heet water. Snipper de ui, pers de knoflook en snijd paprika en tomaat in stukjes."
+        },
+        {
+          "text": "Fruit ui, knoflook en paprika 4 minuten in 2 el olie in een brede pan. Roer paprikapoeder, kurkuma en de rijst erdoor en bak 1 minuut.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Voeg tomaat en bouillon toe, roer één keer en laat de paella zonder te roeren zacht garen tot het vocht is opgenomen.",
+          "timerMinutes": 18
+        },
+        {
+          "text": "Strooi de laatste 4 minuten de doperwten erover."
+        },
+        {
+          "text": "Snijd de halloumi in plakken en bak in de rest van de olie aan beide kanten goudbruin."
+        },
+        {
+          "text": "Leg de halloumi op de paella en maak af met citroenpartjes en gehakte peterselie."
+        }
+      ]
+    },
+    {
+      "id": "geitenkaas-linzensalade-cranberrydressing",
+      "title": "Geitenkaas op linzensalade met cranberrydressing",
+      "subtitle": "met amandelen, zoetzure ui en geroosterde zoete aardappel",
+      "description": "Een warme salade van linzen en geroosterde zoete aardappel en wortel, met romige geitenkaas en een zoete cranberrydressing.",
+      "cuisine": "Frans",
+      "tags": [
+        "salade",
+        "oven",
+        "eiwitrijk"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 20,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#9c2f3e",
+        "#e5a03a"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/geitenkaas-op-linzensalade-met-cranberrydressing-69aebb39c4d2659f3724fad5",
+      "ingredients": [
+        "400 g linzen in blik, uitgelekt",
+        "300 g zoete aardappel",
+        "1 wortel",
+        "½ tl tijm",
+        "1 rode ui",
+        "1 tl suiker",
+        "2 el wittewijnazijn",
+        "1 komkommer",
+        "60 g veldsla",
+        "40 g cranberrysaus",
+        "1 tl mosterd",
+        "30 g amandelen",
+        "100 g zachte geitenkaas",
+        "2 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 220 °C. Snijd zoete aardappel en wortel in blokjes, meng met 1 el olie, tijm en zout en rooster.",
+          "timerMinutes": 20
+        },
+        {
+          "text": "Snijd de rode ui in dunne ringen en meng met 1 el azijn, de suiker en een snufje zout."
+        },
+        {
+          "text": "Roer de cranberrysaus los met de mosterd, de rest van de azijn en olie tot een dressing."
+        },
+        {
+          "text": "Spoel de linzen af en meng met de komkommer in blokjes, de geroosterde groenten en de helft van de dressing."
+        },
+        {
+          "text": "Verdeel de veldsla over de borden, schep de linzensalade erop en maak af met de geitenkaas, ingelegde ui, amandelen en de rest van de dressing."
+        }
+      ]
+    },
+    {
+      "id": "geitenkaassalade-crostini-cranberry-appel",
+      "title": "Geitenkaassalade met crostini",
+      "subtitle": "met cranberrychutney, appel en walnoten",
+      "description": "Een snelle maaltijdsalade met knapperige crostini, romige geitenkaas, zoete ui en appel.",
+      "cuisine": "Frans",
+      "tags": [
+        "salade",
+        "snel"
+      ],
+      "prepMinutes": 5,
+      "cookMinutes": 12,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#f2ecdc",
+        "#a8344a"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/geitenkaassalade-met-crostini-65b3d2c73ebf28940b302c90",
+      "ingredients": [
+        "2 afbakbroodjes",
+        "100 g zachte geitenkaas",
+        "40 g cranberrysaus",
+        "1 rode ui",
+        "1 el roomboter",
+        "1 el honing",
+        "1 appel",
+        "1 komkommer",
+        "20 g walnoten",
+        "60 g rucola",
+        "60 g veldsla",
+        "1 el balsamicoazijn",
+        "1 el wittewijnazijn",
+        "2 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 220 °C. Snijd de ui in halve ringen en bak ze 7 minuten in de boter op middellaag vuur. Blus af met de wittewijnazijn, voeg de cranberrysaus en 2 el water toe en laat 1 minuut inkoken.",
+          "timerMinutes": 8
+        },
+        {
+          "text": "Snijd het brood in plakjes, leg ze op een bakplaat, besprenkel met 1 el olie, zout en peper en bak ze knapperig.",
+          "timerMinutes": 6
+        },
+        {
+          "text": "Leg de geitenkaas op een tweede bakplaat met bakpapier, besprenkel met de honing en bestrooi met de walnoten. Bak tot de kaas zacht en licht gekleurd is.",
+          "timerMinutes": 6
+        },
+        {
+          "text": "Snijd appel en komkommer in blokjes. Meng de rest van de olie met de balsamico en schep appel, komkommer, rucola en veldsla erdoor."
+        },
+        {
+          "text": "Verdeel de salade over de borden, leg de warme geitenkaas erop, schep de ui-cranberrysaus erover en serveer met de crostini."
+        }
+      ]
+    },
+    {
+      "id": "green-goddess-salade-parelcouscous-burrata",
+      "title": "Green goddess salade met parelcouscous en burrata",
+      "subtitle": "met komkommer, spitskool en basilicum",
+      "description": "Een knapperige groene salade met parelcouscous en een romige kruidendressing, met een hele burrata.",
+      "cuisine": "Amerikaans",
+      "tags": [
+        "salade",
+        "snel"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 12,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#6aa04a",
+        "#f5f1e6"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/green-goddess-salade-met-parelcouscous-en-burrata-63c7ce646ab9cacaa37370d8",
+      "ingredients": [
+        "75 g parelcouscous",
+        "½ groentebouillonblokje",
+        "1 komkommer",
+        "200 g spitskool",
+        "100 g spinazie",
+        "1 sjalot",
+        "10 g basilicum",
+        "1 citroen",
+        "1 teen knoflook",
+        "1 el mayonaise",
+        "2 el Griekse yoghurt",
+        "4 el olijfolie",
+        "1 burrata",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Kook de parelcouscous in 300 ml water met het bouillonblokje beetgaar, giet af en spoel kort koud.",
+          "timerMinutes": 10
+        },
+        {
+          "text": "Maal voor de dressing de basilicum, een handje spinazie, de knoflook, citroenrasp, een kneep citroensap, mayonaise, yoghurt, olie en zout tot een gladde groene saus."
+        },
+        {
+          "text": "Snijd de spitskool heel fijn, de komkommer in blokjes en de sjalot in dunne ringen."
+        },
+        {
+          "text": "Meng spitskool, de rest van de spinazie, komkommer, sjalot en parelcouscous met de dressing."
+        },
+        {
+          "text": "Verdeel over de borden, leg de burrata in het midden, scheur open en maak af met peper en een scheutje olie."
+        }
+      ]
+    },
+    {
+      "id": "maaltijdsalade-bulgur-halloumi-koolrabi",
+      "title": "Maaltijdsalade met bulgur en halloumi",
+      "subtitle": "met geroosterde koolrabi en een zoete balsamicodressing",
+      "description": "Lauwwarme bulgur met geroosterde koolrabi en ui, goudbruine halloumi en pompoenpitten.",
+      "cuisine": "Mediterraan",
+      "tags": [
+        "salade",
+        "oven"
+      ],
+      "prepMinutes": 15,
+      "cookMinutes": 25,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#c9d88a",
+        "#d8a24a"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/maaltijdsalade-met-bulgur-en-halloumi-62331fb6e07dcc55d908bcc2",
+      "ingredients": [
+        "2 koolrabi's",
+        "1 rode ui",
+        "85 g bulgur",
+        "½ groentebouillonblokje",
+        "200 g halloumi",
+        "20 g pompoenpitten",
+        "40 g veldsla",
+        "3 el balsamicoazijn",
+        "1 el honing",
+        "1,5 el roomboter",
+        "2 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Schil de koolrabi en snijd in blokjes van 1 cm. Snipper de rode ui."
+        },
+        {
+          "text": "Kook de bulgur in water met het bouillonblokje gaar, giet af en laat iets afkoelen.",
+          "timerMinutes": 15
+        },
+        {
+          "text": "Bak de koolrabi 5 minuten in de boter, blus af met een scheutje water en laat afgedekt zachtjes stoven; haal de laatste 2 minuten de deksel eraf.",
+          "timerMinutes": 18
+        },
+        {
+          "text": "Meng de balsamico met de honing en de olie tot een dressing. Rooster de pompoenpitten in een droge pan."
+        },
+        {
+          "text": "Snijd de halloumi in dunne plakken, dep droog en bak ze in een droge pan met antiaanbaklaag 2–3 minuten per kant goudbruin.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Meng bulgur, veldsla, rode ui en koolrabi met de helft van de dressing. Leg de halloumi erop, besprenkel met de rest van de dressing en bestrooi met pompoenpitten."
+        }
+      ]
+    },
+    {
+      "id": "parelcouscoussalade-perzik-romige-feta",
+      "title": "Parelcouscoussalade met perzik en romige feta",
+      "subtitle": "met courgette, rucola, linzen en amandelen",
+      "description": "Een zomerse salade met gebakken perzik en courgette, linzen en een romige fetadressing.",
+      "cuisine": "Mediterraan",
+      "tags": [
+        "salade",
+        "eiwitrijk"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 20,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#f0a35a",
+        "#6e9a4a"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/parelcouscoussalade-met-perzik-en-romige-feta-66e975eafc7cbf38fecf2e43",
+      "ingredients": [
+        "75 g parelcouscous",
+        "½ groentebouillonblokje",
+        "400 g linzen in blik, uitgelekt",
+        "1 courgette",
+        "1 perzik",
+        "1 appel",
+        "1 tl oregano",
+        "50 g feta",
+        "50 g Griekse yoghurt",
+        "60 g rucola",
+        "20 g amandelen",
+        "1 el balsamicoazijn",
+        "1 el roomboter",
+        "2 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Kook de parelcouscous in 200 ml water met het bouillonblokje beetgaar en giet af.",
+          "timerMinutes": 10
+        },
+        {
+          "text": "Snijd de courgette in halve maantjes en bak in 1 el olie goudbruin met de oregano.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Snijd de perzik in partjes en bak ze kort in de boter tot ze licht karamelliseren."
+        },
+        {
+          "text": "Prak de feta met de yoghurt en 1 el water tot een romige dressing. Rooster de amandelen."
+        },
+        {
+          "text": "Meng parelcouscous, linzen, courgette, appel in blokjes en rucola met de balsamico en de rest van de olie."
+        },
+        {
+          "text": "Verdeel over de borden met de perzik, fetadressing en amandelen."
+        }
+      ]
+    },
+    {
+      "id": "salade-peer-blauwe-kaas-walnoot-krieltjes",
+      "title": "Salade met peer, pittige blauwe kaas en walnoot",
+      "subtitle": "met gepofte krieltjes en courgettelinten",
+      "description": "Een warme salade met gekaramelliseerde peer, geroosterde krieltjes, courgettelinten en blauwe kaas.",
+      "cuisine": "Frans",
+      "tags": [
+        "salade",
+        "oven"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 30,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#c8b46a",
+        "#4f7a3c"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/salade-met-gekaramelliseerde-peer-en-blauwe-kaas-68e8c64e908d7cf716b8294f",
+      "ingredients": [
+        "400 g krieltjes",
+        "1,5 courgette",
+        "1 peer",
+        "1 rode ui",
+        "20 g walnoten",
+        "½ el roomboter",
+        "2 tl balsamicoazijn",
+        "1 tl wittewijnazijn",
+        "80 g gemengde sla",
+        "75 g blauwe kaas",
+        "2 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 220 °C. Snijd de krieltjes in kwarten, leg ze op een vel aluminiumfolie, besprenkel met ½ el olie, zout en peper en vouw dicht tot een pakketje. Bak ze gaar in de oven.",
+          "timerMinutes": 30
+        },
+        {
+          "text": "Schaaf de courgette in dunne linten, snijd de peer met schil in parten en snipper de rode ui."
+        },
+        {
+          "text": "Rooster de walnoten in een droge pan. Bak daarna de courgettelinten 9 minuten in 1 el olie en meng ze in een kom met de ui en de wittewijnazijn.",
+          "timerMinutes": 9
+        },
+        {
+          "text": "Bak de peer in de boter op middelhoog vuur tot hij begint te kleuren en zacht is. Blus af met de balsamico.",
+          "timerMinutes": 10
+        },
+        {
+          "text": "Meng de afgekoelde courgette met de sla en de rest van de olie en breng op smaak."
+        },
+        {
+          "text": "Serveer de gepofte krieltjes met de salade en maak af met de peer, verkruimelde blauwe kaas en walnoten."
+        }
+      ]
+    },
+    {
+      "id": "pittig-spiegelei-kimchisaus-gemberrijst",
+      "title": "Pittig spiegelei in kimchisaus",
+      "subtitle": "met knoflook-gemberrijst en Koreaans gekruide wokgroenten",
+      "description": "Krokant gebakken eieren in een pittige kimchisaus, op geurige rijst met snel gewokte groenten.",
+      "cuisine": "Koreaans",
+      "tags": [
+        "pittig",
+        "wok",
+        "budget"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 20,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#c6362a",
+        "#f0c95a"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/pittig-spiegelei-in-kimchisaus-639b077ac24712af450d600f",
+      "ingredients": [
+        "150 g jasmijnrijst",
+        "1 groentebouillonblokje",
+        "2 tenen knoflook",
+        "10 g gember",
+        "400 g wokgroenten",
+        "2 bosuien",
+        "½ tl chilivlokken",
+        "1 el sojasaus",
+        "4 eieren",
+        "60 g kimchi",
+        "1 el gochujang",
+        "3 el zonnebloemolie",
+        "naar smaak zout"
+      ],
+      "steps": [
+        {
+          "text": "Fruit 1 geperste teen knoflook en de helft van de geraspte gember 1 minuut in 1 el olie. Voeg de rijst en 300 ml water met het bouillonblokje toe en kook gaar met de deksel op de pan.",
+          "timerMinutes": 15
+        },
+        {
+          "text": "Wok de wokgroenten met de andere teen knoflook, de rest van de gember, de chilivlokken en de sojasaus 4 minuten op hoog vuur.",
+          "timerMinutes": 4
+        },
+        {
+          "text": "Hak de kimchi fijn en meng met de gochujang en 3 el water."
+        },
+        {
+          "text": "Bak de eieren in de rest van de olie op hoog vuur met krokante randjes. Schenk de kimchisaus in de pan rond de eieren en laat 1 minuut pruttelen."
+        },
+        {
+          "text": "Serveer de rijst met de wokgroenten, de eieren met saus en bosui in ringetjes."
+        }
+      ]
+    },
+    {
+      "id": "warme-bulgursalade-pompoen-geroosterde-feta",
+      "title": "Warme bulgursalade met pompoen",
+      "subtitle": "met cherrytomaten, geroosterde feta en oregano",
+      "description": "Lauwwarme bulgur met geroosterde pompoen en tomaatjes, en een blok feta met za'atar uit de oven.",
+      "cuisine": "Mediterraan",
+      "tags": [
+        "salade",
+        "oven"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 25,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#e38a2e",
+        "#d23f2e"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/warme-bulgursalade-met-pompoen-6101782abb43136a484f43bf",
+      "ingredients": [
+        "150 g bulgur",
+        "1 groentebouillonblokje",
+        "250 g flespompoen",
+        "250 g cherrytomaten",
+        "1 rode ui",
+        "150 g feta",
+        "2 tl za'atar",
+        "½ tl oregano",
+        "20 g pompoenpitten",
+        "40 g rucola",
+        "5 g munt",
+        "5 g bieslook",
+        "2 el balsamicoazijn",
+        "4 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 220 °C. Schil de pompoen, snijd in blokjes en rooster met de ui in partjes, 2 el olie en zout.",
+          "timerMinutes": 25
+        },
+        {
+          "text": "Leg na 10 minuten de tomaatjes en het blok feta, bestrooid met za'atar en oregano en besprenkeld met 1 el olie, erbij.",
+          "timerMinutes": 15
+        },
+        {
+          "text": "Kook de bulgur in water met het bouillonblokje volgens de verpakking.",
+          "timerMinutes": 12
+        },
+        {
+          "text": "Rooster de pompoenpitten in een droge pan."
+        },
+        {
+          "text": "Meng de bulgur met de geroosterde groenten, rucola, gehakte kruiden, balsamico en de rest van de olie. Breng op smaak."
+        },
+        {
+          "text": "Verkruimel de feta grof over de salade en bestrooi met pompoenpitten."
+        }
+      ]
+    },
+    {
+      "id": "roerbak-vega-kip-noedels-zoete-saus",
+      "title": "Roerbak met vega kip, noedels en zoete Aziatische saus",
+      "subtitle": "met wokgroenten, koriander en sesamzaad",
+      "description": "Een roerbak van een kwartier met vegetarische kipstukjes, mie en een zoet-pittige saus.",
+      "cuisine": "Aziatisch",
+      "tags": [
+        "wok",
+        "snel",
+        "eiwitrijk"
+      ],
+      "prepMinutes": 5,
+      "cookMinutes": 10,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#c78a3a",
+        "#5e8f3e"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/roerbak-met-vega-kip-noedels-en-zoete-aziatische-saus-6a82ffef6a08324360c8cb92",
+      "ingredients": [
+        "150 g mie",
+        "175 g vegetarische kipstukjes",
+        "400 g wokgroenten",
+        "1 teen knoflook",
+        "3 el zoete chilisaus",
+        "2 el sojasaus",
+        "1 tl suiker",
+        "2 tl sambal",
+        "2 tl wittewijnazijn",
+        "10 g koriander",
+        "10 g sesamzaad",
+        "2 el zonnebloemolie"
+      ],
+      "steps": [
+        {
+          "text": "Kook de mie volgens de verpakking en giet af.",
+          "timerMinutes": 4
+        },
+        {
+          "text": "Roer zoete chilisaus, sojasaus, suiker, sambal en azijn door elkaar."
+        },
+        {
+          "text": "Bak de kipstukjes in 1 el olie in een hete wok goudbruin en haal eruit.",
+          "timerMinutes": 4
+        },
+        {
+          "text": "Wok de geperste knoflook en de wokgroenten 3 minuten in de rest van de olie op hoog vuur.",
+          "timerMinutes": 3
+        },
+        {
+          "text": "Voeg mie, kipstukjes en saus toe en wok tot alles glanst. Serveer met koriander en sesamzaad."
+        }
+      ]
+    },
+    {
+      "id": "gevulde-flespompoen-parelcouscous-brie",
+      "title": "Flespompoen gevuld met parelcouscous, brie en walnoten",
+      "subtitle": "met hasselback-aardappelen, zelfgemaakte jus en salade",
+      "description": "Een feestelijk weekendgerecht: geroosterde halve pompoen gevuld met parelcouscous, champignons, cranberry en brie.",
+      "cuisine": "Amerikaans",
+      "tags": [
+        "oven",
+        "weekend",
+        "winter"
+      ],
+      "prepMinutes": 25,
+      "cookMinutes": 50,
+      "difficulty": "hard",
+      "servings": 2,
+      "palette": [
+        "#e3862e",
+        "#8a2a3a"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/flespompoen-gevuld-met-parelcouscous-brie-en-walnoten-5de78f764ef1ad6cc746b510",
+      "ingredients": [
+        "1 flespompoen, klein",
+        "500 g aardappelen",
+        "5 g rozemarijn",
+        "5 g verse tijm",
+        "85 g parelcouscous",
+        "1 groentebouillonblokje",
+        "125 g champignons",
+        "1 rode ui",
+        "2 tenen knoflook",
+        "25 g gedroogde cranberry's",
+        "20 g walnoten",
+        "100 g brie",
+        "250 g tomatenblokjes",
+        "1 el balsamicoazijn",
+        "2 tl honing",
+        "2 tl mosterd",
+        "40 g cranberrysaus",
+        "60 g veldsla",
+        "2 tl wittewijnazijn",
+        "2 el roomboter",
+        "3 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 200 °C. Halveer de pompoen in de lengte, schep de zaadjes eruit en kerf het vruchtvlees in. Bestrijk met 1 el olie, zout en rozemarijn en rooster met de snijkant naar boven.",
+          "timerMinutes": 45
+        },
+        {
+          "text": "Snijd de aardappelen (niet helemaal door) in dunne plakjes, zodat ze als een waaier aan elkaar blijven. Bestrijk met 1 el gesmolten boter en olie, bestrooi met tijm en zout en rooster mee.",
+          "timerMinutes": 40
+        },
+        {
+          "text": "Kook de parelcouscous in water met een half bouillonblokje beetgaar. Bak de champignons, de helft van de ui en de knoflook in de rest van de olie en meng met de couscous, cranberry's en gehakte walnoten."
+        },
+        {
+          "text": "Schep de vulling in de pompoenhelften, leg plakjes brie erop en bak nog 10 minuten tot de brie smelt.",
+          "timerMinutes": 10
+        },
+        {
+          "text": "Fruit voor de jus de rest van de ui in de rest van de boter, voeg tomatenblokjes, balsamico, honing, mosterd, de cranberrysaus en 150 ml water met het andere halve bouillonblokje toe en laat inkoken tot een glanzende saus. Zeef eventueel.",
+          "timerMinutes": 12
+        },
+        {
+          "text": "Meng de veldsla met de wittewijnazijn en serveer de pompoen met de aardappelen, jus en salade."
+        }
+      ]
+    }
+  ]
+}

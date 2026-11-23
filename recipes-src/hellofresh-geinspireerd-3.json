@@ -1,0 +1,1122 @@
+{
+  "format": "weekmenu-recipe-import",
+  "source": {
+    "type": "inspired",
+    "name": "HelloFresh",
+    "note": "Gerecht en ingrediënten gebaseerd op een HelloFresh-recept; bereidingswijze in eigen woorden. Alleen voor persoonlijk gebruik."
+  },
+  "recipes": [
+    {
+      "id": "aubergine-courgette-oven-fusilli",
+      "title": "Aubergine en courgette uit de oven",
+      "subtitle": "met pasta, tomaat en basilicum",
+      "description": "Geroosterde aubergine en courgette door pasta met een snelle tomatensaus, afgemaakt met een gegratineerd kaaslaagje.",
+      "cuisine": "Italiaans",
+      "tags": [
+        "oven",
+        "pasta",
+        "comfort"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 35,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#5b3a5e",
+        "#d8573c"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/aubergine-en-courgette-uit-de-oven-67dc21bb40b689c290459db3",
+      "ingredients": [
+        "1 aubergine",
+        "½ courgette",
+        "2 tomaten",
+        "2 tenen knoflook",
+        "200 g passata",
+        "180 g fusilli",
+        "75 g geraspte oude kaas",
+        "5 g basilicum",
+        "1 tl Italiaanse kruiden",
+        "1 el balsamicoazijn",
+        "2 el olijfolie",
+        "1 tl suiker",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 220 °C. Snijd aubergine en courgette in de lengte in plakken van ½ cm en de tomaten in plakken."
+        },
+        {
+          "text": "Bak de aubergine- en courgetteplakken in 1 el olie in porties 4 minuten per kant.",
+          "timerMinutes": 10
+        },
+        {
+          "text": "Meng de passata met de geperste knoflook, balsamico, suiker en Italiaanse kruiden."
+        },
+        {
+          "text": "Schenk een laagje saus in een ovenschaal en leg er aubergine, tomaat en courgette op. Herhaal en eindig met saus. Bestrooi met de kaas en bak de schotel goudbruin.",
+          "timerMinutes": 22
+        },
+        {
+          "text": "Kook intussen de pasta beetgaar, giet af en meng met de rest van de olie. Snijd de basilicum in reepjes.",
+          "timerMinutes": 11
+        },
+        {
+          "text": "Verdeel de pasta over de borden, schep de ovenschotel erop en garneer met basilicum."
+        }
+      ]
+    },
+    {
+      "id": "pasta-bloemkool-roomsaus-hazelnoten",
+      "title": "Pasta met bloemkool-roomsaus",
+      "subtitle": "met spinazie en geroosterde hazelnoten",
+      "description": "Een fluweelzachte saus van geraspte bloemkool en kruidenroomkaas, met spinazie en knapperige hazelnoten.",
+      "cuisine": "Italiaans",
+      "tags": [
+        "snel",
+        "pasta"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 15,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#e9dfc6",
+        "#5f7f3e"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/casarecce-met-bloemkool-roomsaus-603f83e0b350b5025f3b80ce",
+      "ingredients": [
+        "180 g casarecce",
+        "200 g bloemkool, geraspt tot rijst",
+        "1 rode ui",
+        "1 teen knoflook",
+        "20 g hazelnoten",
+        "100 g spinazie",
+        "1 tl Italiaanse kruiden",
+        "50 g kruidenroomkaas",
+        "50 g gruyère",
+        "½ groentebouillonblokje",
+        "1 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Breng twee pannen water aan de kook en verkruimel het halve bouillonblokje in één ervan. Blancheer de bloemkoolrijst 1 minuut in de bouillon en bewaar het kookvocht. Kook in de andere pan de pasta beetgaar.",
+          "timerMinutes": 12
+        },
+        {
+          "text": "Hak de hazelnoten grof. Fruit de gesnipperde rode ui 2 minuten in de olie, voeg knoflook, spinazie en Italiaanse kruiden toe en laat de spinazie slinken."
+        },
+        {
+          "text": "Pureer de bloemkool met de kruidenroomkaas en 2 el bouillon tot een gladde saus."
+        },
+        {
+          "text": "Voeg de bloemkoolsaus en de pasta toe aan de spinazie, verwarm alles en roer de gruyère erdoor tot hij gesmolten is. Breng op smaak."
+        },
+        {
+          "text": "Verdeel over de borden en bestrooi met de hazelnoten."
+        }
+      ]
+    },
+    {
+      "id": "conchiglie-ratatouille-geitenkaas",
+      "title": "Conchiglie met ratatouille en geitenkaas",
+      "subtitle": "met aubergine, paprika en tomaat",
+      "description": "Schelpjespasta in een romige ratatouillesaus van aubergine, puntpaprika en tomaat, met verse geitenkaas.",
+      "cuisine": "Frans",
+      "tags": [
+        "pasta",
+        "budget"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 20,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#b8452f",
+        "#5d3e62"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/conchiglie-met-ratatouille-en-geitenkaas-63e101ab7b328d129cb6d540",
+      "ingredients": [
+        "180 g conchiglie",
+        "1 aubergine",
+        "1 rode puntpaprika",
+        "1 tomaat",
+        "1 ui",
+        "1 teen knoflook",
+        "45 g tomatenpuree",
+        "1,5 tl Italiaanse kruiden",
+        "150 ml kookroom",
+        "75 g verse geitenkaas",
+        "5 g peterselie",
+        "5 g basilicum",
+        "½ groentebouillonblokje",
+        "1 el olijfolie",
+        "2 tl suiker",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Breng ruim water met een kwart bouillonblokje aan de kook. Snijd de puntpaprika in smalle repen, de aubergine in blokjes van 1 cm en de tomaat in blokjes. Snipper de ui en pers de knoflook."
+        },
+        {
+          "text": "Kook de pasta beetgaar, bewaar wat kookvocht en laat uitstomen.",
+          "timerMinutes": 10
+        },
+        {
+          "text": "Bak ui, paprika en aubergine in de olie in een hapjespan goudbruin. Voeg knoflook, kruiden en tomatenpuree toe en bak 2 minuten mee.",
+          "timerMinutes": 8
+        },
+        {
+          "text": "Verkruimel het andere kwart bouillonblokje erboven en voeg tomaat, kookroom, 3 el kookvocht en de suiker toe. Laat de ratatouille afgedekt op laag vuur pruttelen.",
+          "timerMinutes": 7
+        },
+        {
+          "text": "Schep de pasta door de ratatouille, verdeel over de borden en verkruimel de geitenkaas erover. Bestrooi met fijngesneden peterselie en basilicum."
+        }
+      ]
+    },
+    {
+      "id": "farfalle-avocado-pestosaus",
+      "title": "Farfalle in avocado-pestosaus",
+      "subtitle": "met cherrytomaten, yoghurt en bosui",
+      "description": "Frisgroene, romige saus van avocado, pesto en yoghurt, met gebakken cherrytomaatjes en pompoenpitten.",
+      "cuisine": "Italiaans",
+      "tags": [
+        "snel",
+        "pasta"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 12,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#7fa64a",
+        "#d9453b"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/farfalle-in-avocado-pestosaus-5f99887a3e96503c76172a35",
+      "ingredients": [
+        "180 g farfalle",
+        "1 avocado",
+        "50 g groene pesto",
+        "75 g Griekse yoghurt",
+        "½ citroen",
+        "250 g cherrytomaten",
+        "2 bosuien",
+        "20 g pompoenpitten",
+        "1 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Breng ruim water aan de kook voor de pasta. Snijd de bosui in ringen (wit en groen apart) en pers de citroen uit. Rooster de pompoenpitten in een droge hapjespan tot ze poffen en zet apart."
+        },
+        {
+          "text": "Bak het wit van de bosui 3 minuten in de olie met een snufje zout. Kook de pasta beetgaar en bewaar wat kookvocht. Halveer de tomaatjes en warm ze kort mee met de bosui.",
+          "timerMinutes": 11
+        },
+        {
+          "text": "Pureer het vruchtvlees van de avocado met de pesto, een snufje zout en een kneep citroensap tot een gladde saus. Maak hem met wat kookvocht losser."
+        },
+        {
+          "text": "Meng de pasta met de avocadosaus en verdeel over de borden. Schep de tomaatjes erop met een flinke lepel yoghurt en bestrooi met bosuigroen en pompoenpitten."
+        }
+      ]
+    },
+    {
+      "id": "farfalle-roomsaus-zongedroogde-tomaat-aubergine",
+      "title": "Farfalle in roomsaus van zongedroogde tomaten en aubergine",
+      "subtitle": "met harde kaas en vers basilicum",
+      "description": "Gebakken aubergine in een rokerige roomsaus met zongedroogde tomaten, met een frisse rucolasalade.",
+      "cuisine": "Italiaans",
+      "tags": [
+        "pasta",
+        "comfort"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 15,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#a2412c",
+        "#e3b46b"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/farfalle-in-roomsaus-van-zongedroogde-tomaten-en-aubergine-5e7b49d95cbdf962ce417ccc",
+      "ingredients": [
+        "180 g farfalle",
+        "1 aubergine",
+        "1 ui",
+        "1 teen knoflook",
+        "60 g zongedroogde tomaten",
+        "2 tl paprikapoeder",
+        "1 el bloem",
+        "100 ml kookroom",
+        "½ groentebouillonblokje",
+        "50 g harde kaas",
+        "10 g basilicum",
+        "80 g rucola",
+        "1 el balsamicoazijn",
+        "3 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Breng water met zout aan de kook voor de pasta en los het bouillonblokje op in 120 ml heet water. Snijd de aubergine in blokjes van 1–2 cm, snipper de ui, pers de knoflook en hak de zongedroogde tomaten grof."
+        },
+        {
+          "text": "Kook de pasta beetgaar. Hussel de aubergine met de bloem en bak hem in 2 el olie rondom bruin.",
+          "timerMinutes": 10
+        },
+        {
+          "text": "Bak ui, knoflook en zongedroogde tomaten 3 minuten in de rest van de olie, voeg het paprikapoeder toe en bak 1 minuut. Blus af met de balsamico en de bouillon, voeg de kookroom toe en laat 4 minuten zacht koken.",
+          "timerMinutes": 8
+        },
+        {
+          "text": "Verdeel de rucola over diepe borden. Schep pasta, aubergine, de helft van de kaas en de helft van de basilicum door de saus en verdeel over de rucola. Maak af met de rest van de kaas en basilicum."
+        }
+      ]
+    },
+    {
+      "id": "fusilli-portobello-roomsaus",
+      "title": "Fusilli met portobello-roomsaus",
+      "subtitle": "met bloemkool, zongedroogde tomaten en harde kaas",
+      "description": "Snelle romige pasta met gebakken portobello en bloemkoolrijst, voor extra groente zonder moeite.",
+      "cuisine": "Italiaans",
+      "tags": [
+        "snel",
+        "pasta"
+      ],
+      "prepMinutes": 5,
+      "cookMinutes": 15,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#6e5640",
+        "#e8d9b8"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/fusilli-met-portobello-roomsaus-5ff59d67a6e10d49db2ec8f8",
+      "ingredients": [
+        "180 g fusilli",
+        "1 portobello",
+        "200 g bloemkool, geraspt tot rijst",
+        "1 ui",
+        "1 teen knoflook",
+        "35 g zongedroogde tomaten",
+        "1 tl Italiaanse kruiden",
+        "100 ml kookroom",
+        "50 g harde kaas",
+        "1 el roomboter",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Breng water met zout aan de kook. Halveer de portobello en snijd in reepjes; snipper de ui en pers de knoflook."
+        },
+        {
+          "text": "Fruit ui en knoflook 2 minuten in de boter. Voeg bloemkoolrijst, portobello en Italiaanse kruiden toe en bak 5 minuten.",
+          "timerMinutes": 7
+        },
+        {
+          "text": "Kook de pasta beetgaar (snelkookpasta in 3 minuten) en bewaar wat kookvocht.",
+          "timerMinutes": 10
+        },
+        {
+          "text": "Voeg pasta, kookroom en de helft van de kaas toe aan de pan en verwarm 2 minuten; maak zo nodig losser met kookvocht. Snijd de zongedroogde tomaten in reepjes.",
+          "timerMinutes": 2
+        },
+        {
+          "text": "Serveer met de zongedroogde tomaten en de rest van de kaas."
+        }
+      ]
+    },
+    {
+      "id": "gebakken-gnocchi-champignons-spinazieroom",
+      "title": "Gebakken gnocchi met champignons in spinazieroom",
+      "subtitle": "met harde kaas en hazelnoten",
+      "description": "Knapperig gebakken gnocchi in een romige saus met champignons en spinazie.",
+      "cuisine": "Italiaans",
+      "tags": [
+        "snel",
+        "comfort"
+      ],
+      "prepMinutes": 5,
+      "cookMinutes": 15,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#d9b67a",
+        "#3f6b3a"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/gebakken-gnocchi-met-champignons-in-spinazieroom-61961c4005aa1d4dfc224ced",
+      "ingredients": [
+        "250 g gnocchi",
+        "250 g champignons",
+        "100 g spinazie",
+        "1 ui",
+        "2 tenen knoflook",
+        "1 tl Italiaanse kruiden",
+        "100 ml kookroom",
+        "25 g harde kaas",
+        "20 g hazelnoten",
+        "2 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Rooster de hazelnoten in een droge pan en hak ze grof."
+        },
+        {
+          "text": "Bak de gnocchi in 1 el olie in een grote koekenpan in ongeveer 8 minuten rondom goudbruin en knapperig. Haal uit de pan.",
+          "timerMinutes": 8
+        },
+        {
+          "text": "Snijd de champignons in plakjes, snipper de ui en pers de knoflook. Bak ze met de Italiaanse kruiden 5 minuten in de rest van de olie.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Voeg de spinazie in delen toe en laat slinken. Giet de kookroom erbij en laat 1 minuut zacht koken."
+        },
+        {
+          "text": "Schep de gnocchi en de helft van de kaas door de saus en breng op smaak met zout en peper."
+        },
+        {
+          "text": "Serveer met de rest van de kaas en de hazelnoten."
+        }
+      ]
+    },
+    {
+      "id": "gnocchi-blauwekaassaus-courgette-peer",
+      "title": "Romige gnocchi met blauwe-kaassaus, courgette en peer",
+      "subtitle": "met harde kaas en walnoten",
+      "description": "Zacht-zoete peer en courgette met gnocchi in een smeuïge saus van blauwe kaas.",
+      "cuisine": "Frans",
+      "tags": [
+        "snel",
+        "comfort"
+      ],
+      "prepMinutes": 5,
+      "cookMinutes": 12,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#c9b58a",
+        "#6f8c4a"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/gnocchi-met-romige-blauwekaassaus-6a748f8ff3c2bf6ffb4b2e41",
+      "ingredients": [
+        "350 g gnocchi",
+        "1 courgette",
+        "1 peer",
+        "1 ui",
+        "150 ml kookroom",
+        "50 g blauwe kaas",
+        "20 g harde kaas",
+        "20 g walnoten",
+        "2 el roomboter",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Breng een pan water met zout aan de kook. Snijd de peer in plakjes, de courgette in halve maantjes en snipper de ui."
+        },
+        {
+          "text": "Bak ui, courgette en peer 6 minuten in de boter in een grote pan. Rooster de walnoten in een droge pan goudbruin.",
+          "timerMinutes": 6
+        },
+        {
+          "text": "Voeg de blauwe kaas en de kookroom toe aan de groenten en roer tot de kaas gesmolten is. Breng op smaak met peper."
+        },
+        {
+          "text": "Kook de gnocchi volgens de verpakking tot ze bovendrijven en schep ze uit het water.",
+          "timerMinutes": 3
+        },
+        {
+          "text": "Schep de saus met groenten in diepe borden, leg de gnocchi erop en bestrooi met harde kaas en walnoten."
+        }
+      ]
+    },
+    {
+      "id": "groene-pasta-pesto-broccoli-aardappel",
+      "title": "Groene pasta met pesto, broccoli en aardappel",
+      "subtitle": "met linguine en gesmolten kaas",
+      "description": "Een Ligurisch geïnspireerde combinatie: pasta, aardappelblokjes en broccoli samen gekookt en gemengd met pesto.",
+      "cuisine": "Italiaans",
+      "tags": [
+        "snel",
+        "pasta",
+        "budget"
+      ],
+      "prepMinutes": 5,
+      "cookMinutes": 15,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#4f7d3a",
+        "#e4d29a"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/groene-pasta-met-pestokaas-broccoli-en-aardappel-632c3968c17355c85f0d8622",
+      "ingredients": [
+        "180 g linguine",
+        "200 g aardappelen",
+        "400 g broccoli",
+        "80 g groene pesto",
+        "50 g belegen kaas, in blokjes",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Breng een grote pan water met zout aan de kook. Snijd de broccoli in roosjes en de steel in blokjes, en de geschilde aardappelen in blokjes van 1 cm."
+        },
+        {
+          "text": "Kook de aardappelblokjes 3 minuten, voeg de linguine toe en na 6 minuten de broccoli. Kook alles gaar en bewaar een kopje kookvocht.",
+          "timerMinutes": 13
+        },
+        {
+          "text": "Giet af en meng pasta, aardappel en broccoli in de pan met de pesto en een scheut kookvocht tot alles glanst. Breng flink op smaak."
+        },
+        {
+          "text": "Verdeel over de borden en garneer met de kaasblokjes."
+        }
+      ]
+    },
+    {
+      "id": "linguine-witte-kaassaus-zaatar",
+      "title": "Linguine in frisse witte-kaassaus met za'atar",
+      "subtitle": "met courgette, tomaat en hazelnoten",
+      "description": "Romige, licht zurige saus van witte kaas en citroen, met gebakken courgette en een kruidige za'atar-topping.",
+      "cuisine": "Mediterraan",
+      "tags": [
+        "snel",
+        "pasta"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 15,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#f0ead6",
+        "#6a8f3d"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/mafaldine-met-whipped-feta-en-zaatar-64d63fe3e90276db7e07ab6f",
+      "ingredients": [
+        "180 g mafaldine",
+        "1 courgette",
+        "2 tomaten",
+        "1 teen knoflook",
+        "1 citroen",
+        "50 g witte kaas",
+        "200 ml kookroom",
+        "½ groentebouillonblokje",
+        "2 tl za'atar",
+        "20 g hazelnoten",
+        "10 g peterselie",
+        "4 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 200 °C en breng water met het halve bouillonblokje aan de kook. Snijd de courgette in halve maantjes en halveer de tomaten. Leg ze op een bakplaat, besprenkel met 1 el olie, zout en peper en rooster ze.",
+          "timerMinutes": 18
+        },
+        {
+          "text": "Kook de pasta beetgaar en bewaar wat kookvocht. Hak de peterselie, pel de knoflook, rasp de citroen en snijd hem in partjes.",
+          "timerMinutes": 8
+        },
+        {
+          "text": "Pureer de witte kaas met de kookroom, de knoflook, de helft van de peterselie, een kneep citroensap, wat rasp en 1 el olie tot een romige saus."
+        },
+        {
+          "text": "Schep de saus door de pasta en maak losser met kookvocht. Breng op smaak en hak de hazelnoten grof."
+        },
+        {
+          "text": "Verdeel de pasta met de courgette en tomaat over de borden en maak af met hazelnoten, za'atar, de rest van de peterselie, citroenrasp en een scheut olie."
+        }
+      ]
+    },
+    {
+      "id": "mediterrane-spaghetti-courgette-feta",
+      "title": "Mediterrane spaghetti met courgette en feta",
+      "subtitle": "met cherrytomaten, olijven en verse kruiden",
+      "description": "Een zonnige spaghetti met knoflook, kappertjes, olijven en verbrokkelde feta.",
+      "cuisine": "Italiaans",
+      "tags": [
+        "snel",
+        "pasta"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 12,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#d23f31",
+        "#7d9d4a"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/mediterrane-spaghetti-met-courgette-en-feta-60ae41039b1242300918b6fe",
+      "ingredients": [
+        "180 g spaghetti",
+        "1 courgette",
+        "250 g cherrytomaten",
+        "35 g tomatenpuree",
+        "3 tenen knoflook",
+        "20 g olijven",
+        "10 g kappertjes",
+        "75 g feta",
+        "5 g basilicum",
+        "5 g peterselie",
+        "5 g munt",
+        "4 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Kook de spaghetti beetgaar. Halveer de courgette in de lengte en snijd in plakken van ½ cm.",
+          "timerMinutes": 12
+        },
+        {
+          "text": "Bak de courgette 6 minuten in ½ el olie, voeg de tomaatjes toe en bak 2 minuten mee. Roer de tomatenpuree erdoor en houd warm op laag vuur.",
+          "timerMinutes": 8
+        },
+        {
+          "text": "Pers de knoflook, halveer de olijven en hak de kappertjes. Meng ze met de rest van de olie. Snijd munt en basilicum in reepjes, hak de peterselie en verkruimel de feta."
+        },
+        {
+          "text": "Schep het olijvenmengsel door de spaghetti. Verdeel over de borden met de courgette en tomaatjes erop en maak af met feta, de kruiden en een scheutje olie."
+        }
+      ]
+    },
+    {
+      "id": "paddenstoelenravioli-blauwekaassaus",
+      "title": "Paddenstoelenravioli in blauwekaassaus",
+      "subtitle": "met broccolini, peultjes, walnoten en salade",
+      "description": "Verse gevulde pasta met groene groenten in een romige saus van blauwe kaas, met een frisse salade.",
+      "cuisine": "Frans",
+      "tags": [
+        "comfort"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 20,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#c8a76b",
+        "#3f7a45"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/paddenstoelengirasoli-in-blauwekaassaus-6a2c1e03b2e241c4bdafcf7f",
+      "ingredients": [
+        "300 g verse ravioli",
+        "1 groentebouillonblokje",
+        "20 g walnoten",
+        "1 teen knoflook",
+        "200 g broccolini",
+        "100 g peultjes",
+        "1 courgette",
+        "1 ui",
+        "1 citroen",
+        "10 g peterselie",
+        "25 g roomboter",
+        "1 el bloem",
+        "1 tl tijm",
+        "150 ml kookroom",
+        "50 g blauwe kaas",
+        "40 g gemengde sla",
+        "2 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Breng ruim water met het bouillonblokje aan de kook en schep er 200 ml bouillon uit. Houd het water warm voor de pasta. Pers de knoflook, snijd de courgette in halve maantjes en de ui in partjes."
+        },
+        {
+          "text": "Rooster de walnoten in een droge pan en zet apart. Bak knoflook, broccolini, peultjes, courgette en ui 2 minuten in 1,5 el olie, blus af met de helft van de bouillon en laat afgedekt zachtjes stoven.",
+          "timerMinutes": 11
+        },
+        {
+          "text": "Hak de peterselie, rasp de citroen, pers een helft uit en snijd de rest in partjes. Schep de citroenrasp door de groenten."
+        },
+        {
+          "text": "Smelt de boter, bak de bloem 2 minuten en roer de rest van de bouillon en de tijm erdoor. Voeg de room toe, breng aan de kook en laat de blauwe kaas erin smelten tot een dikke saus.",
+          "timerMinutes": 4
+        },
+        {
+          "text": "Kook de ravioli in het hete bouillonwater, giet voorzichtig af en schep door de saus. Meng de sla met het citroensap en de rest van de olie.",
+          "timerMinutes": 4
+        },
+        {
+          "text": "Serveer de ravioli met de groenten en de salade, bestrooid met walnoten en peterselie, en geef citroenpartjes erbij."
+        }
+      ]
+    },
+    {
+      "id": "pasta-geroosterde-paprikasaus-geitenkaas",
+      "title": "Pasta met geroosterde-paprikasaus en geitenkaas",
+      "subtitle": "met courgette en vers basilicum",
+      "description": "Zoete, in de oven geroosterde paprika's gepureerd tot een fluweelzachte saus, met romige geitenkaas.",
+      "cuisine": "Mediterraan",
+      "tags": [
+        "oven",
+        "pasta"
+      ],
+      "prepMinutes": 15,
+      "cookMinutes": 30,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#d2452e",
+        "#f2e7d0"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/pasta-met-geroosterde-paprikasaus-en-geitenkaas-6229e608e697d4651c2103c4",
+      "ingredients": [
+        "180 g spaghetti",
+        "2 paprika's",
+        "1 courgette",
+        "1 rode ui",
+        "1 teen knoflook",
+        "200 g passata",
+        "1 tl Italiaanse kruiden",
+        "100 g verse geitenkaas",
+        "5 g basilicum",
+        "2 tl balsamicoazijn",
+        "2 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 220 °C. Snijd de paprika's in kwarten en de courgette in blokjes. Meng ze op een bakplaat met ½ el olie en een halve tl kruiden, dek losjes af met aluminiumfolie en rooster tot de paprika zacht is.",
+          "timerMinutes": 25
+        },
+        {
+          "text": "Pers de knoflook, snipper de rode ui, hak de basilicum en verkruimel de geitenkaas. Kook de spaghetti beetgaar.",
+          "timerMinutes": 11
+        },
+        {
+          "text": "Fruit knoflook, ui en de rest van de kruiden 2 minuten in de rest van de olie. Blus af met de balsamico, 2 el water en de passata en laat zachtjes pruttelen."
+        },
+        {
+          "text": "Pureer alleen de geroosterde paprika tot een gladde saus. Voeg paprikapuree en courgette toe aan de tomatensaus en laat 5 minuten pruttelen.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Schep de spaghetti door de saus, verdeel over de borden en maak af met geitenkaas en basilicum."
+        }
+      ]
+    },
+    {
+      "id": "pasta-zelfgemaakte-spinaziepesto",
+      "title": "Pasta met zelfgemaakte spinaziepesto",
+      "subtitle": "met geroosterde cherrytomaatjes en harde kaas",
+      "description": "Een felgroene pesto van spinazie, basilicum en cashewnoten, met zoete tomaatjes uit de oven.",
+      "cuisine": "Italiaans",
+      "tags": [
+        "pasta",
+        "oven"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 15,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#3e7b36",
+        "#d53a2f"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/pasta-met-zelfgemaakte-spinaziepesto-5f5a35346b5e90547b575d80",
+      "ingredients": [
+        "180 g penne",
+        "375 g cherrytomaten",
+        "2 tenen knoflook",
+        "150 g spinazie",
+        "10 g basilicum",
+        "20 g cashewnoten",
+        "50 g harde kaas",
+        "½ citroen",
+        "40 g rucola",
+        "2 el balsamicoazijn",
+        "5 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 200 °C. Kook de pasta beetgaar en laat uitstomen. Halveer de tomaatjes, pers de knoflook en ris de basilicumblaadjes.",
+          "timerMinutes": 12
+        },
+        {
+          "text": "Leg de tomaatjes in een ovenschaal met 1 el olie, de balsamico, zout en peper en rooster ze tot ze zacht zijn.",
+          "timerMinutes": 14
+        },
+        {
+          "text": "Laat de spinazie in een droge pan slinken en bewaar het vocht dat vrijkomt.",
+          "timerMinutes": 4
+        },
+        {
+          "text": "Pureer de spinazie met knoflook, basilicum, driekwart van de kaas, de cashewnoten, 1 el citroensap, 3 el olie en een beetje spinazievocht tot een gladde pesto. Breng op smaak."
+        },
+        {
+          "text": "Verdeel de rucola over de borden, schep de pasta erop met de pesto en leg de tomaatjes met hun sappen erover. Bestrooi met de rest van de kaas."
+        }
+      ]
+    },
+    {
+      "id": "verse-tagliatelle-cherrytomatensaus",
+      "title": "Verse tagliatelle met cherrytomatensaus",
+      "subtitle": "met basilicum en harde kaas",
+      "description": "Simpel en zomers: een zoete saus van kleurige cherrytomaatjes met verse pasta.",
+      "cuisine": "Italiaans",
+      "tags": [
+        "snel",
+        "pasta",
+        "budget"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 30,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#e7a43a",
+        "#c83a2c"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/verse-tagliatelle-met-cherrytomatensaus-5d13871db69c72000b7d00d2",
+      "ingredients": [
+        "250 g verse tagliatelle",
+        "600 g cherrytomaten",
+        "1 ui",
+        "1 teen knoflook",
+        "2 tl basterdsuiker",
+        "2 tl balsamicoazijn",
+        "5 g basilicum",
+        "25 g harde kaas",
+        "2 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Halveer de tomaatjes, snipper de ui en pers de knoflook."
+        },
+        {
+          "text": "Fruit ui en knoflook 3 minuten in de olie in een hapjespan met deksel."
+        },
+        {
+          "text": "Voeg de tomaatjes, balsamico en basterdsuiker toe, zet het vuur laag en laat met de deksel op de pan zachtjes pruttelen tot de tomaten helemaal zacht zijn.",
+          "timerMinutes": 25
+        },
+        {
+          "text": "Snijd de basilicum fijn en roer driekwart ervan de laatste 5 minuten door de saus. Breng op smaak."
+        },
+        {
+          "text": "Kook de tagliatelle gaar en giet af.",
+          "timerMinutes": 4
+        },
+        {
+          "text": "Schep de saus over de pasta en maak af met harde kaas, de rest van de basilicum en een scheutje olie."
+        }
+      ]
+    },
+    {
+      "id": "penne-romige-geitenkaassaus-prei",
+      "title": "Penne met romige geitenkaassaus",
+      "subtitle": "met prei, champignons en amandelen",
+      "description": "Een snelle, frisse roomsaus met geitenkaas en mosterd, met gebakken prei en champignons.",
+      "cuisine": "Frans",
+      "tags": [
+        "snel",
+        "pasta"
+      ],
+      "prepMinutes": 5,
+      "cookMinutes": 12,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#f1ecdf",
+        "#7b9b4c"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/penne-met-romige-geitenkaassaus-63bfd0f3dc1be262d008400d",
+      "ingredients": [
+        "180 g penne",
+        "1 prei",
+        "200 g champignons",
+        "1 teen knoflook",
+        "1 tl Italiaanse kruiden",
+        "200 ml kookroom",
+        "75 g verse geitenkaas",
+        "50 g geraspte kaas",
+        "1 tl mosterd",
+        "½ groentebouillonblokje",
+        "20 g amandelen",
+        "1 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Kook de penne beetgaar.",
+          "timerMinutes": 11
+        },
+        {
+          "text": "Snijd de prei in ringen en de champignons in plakjes. Bak ze met de geperste knoflook en de kruiden 6 minuten in de olie.",
+          "timerMinutes": 6
+        },
+        {
+          "text": "Voeg kookroom, mosterd, het verkruimelde bouillonblokje en de geitenkaas toe en roer tot de kaas gesmolten is."
+        },
+        {
+          "text": "Schep de pasta en de geraspte kaas erdoor en breng op smaak met peper."
+        },
+        {
+          "text": "Hak de amandelen grof en strooi ze over de pasta."
+        }
+      ]
+    },
+    {
+      "id": "rigatoni-al-forno-drie-kazen",
+      "title": "Rigatoni al forno met drie soorten kaas",
+      "subtitle": "met linzen, rucola en veldsla",
+      "description": "Een stevige ovenpasta met een tomaten-linzensaus, gesmolten mozzarella en twee soorten geraspte kaas.",
+      "cuisine": "Italiaans",
+      "tags": [
+        "oven",
+        "pasta",
+        "comfort",
+        "eiwitrijk"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 30,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#b9402e",
+        "#f0d27a"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/rigatoni-al-forno-met-drie-soorten-kaas-626aab4425eb01e3e209170a",
+      "ingredients": [
+        "180 g rigatoni",
+        "1 ui",
+        "2 tenen knoflook",
+        "1 wortel",
+        "70 g tomatenpuree",
+        "390 g passata",
+        "1 tl oregano",
+        "160 g linzen in blik, uitgelekt",
+        "125 g mozzarella",
+        "20 g harde kaas",
+        "25 g geraspte kaas",
+        "30 g rucola",
+        "30 g veldsla",
+        "4 tl balsamicoazijn",
+        "2 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 200 °C en breng water aan de kook voor de pasta. Snipper de ui, pers de knoflook en snijd de wortel in blokjes van hooguit 1 cm. Laat de linzen uitlekken."
+        },
+        {
+          "text": "Kook de rigatoni beetgaar, giet af en stort ze in een ovenschaal.",
+          "timerMinutes": 11
+        },
+        {
+          "text": "Fruit ui en knoflook 1 minuut in 1 el olie, voeg wortel en tomatenpuree toe en bak 1 minuut. Voeg passata, oregano en 50 ml water toe en laat afgedekt op laag vuur stoven; roer de laatste 2 minuten de linzen erdoor.",
+          "timerMinutes": 11
+        },
+        {
+          "text": "Scheur de mozzarella in kleine stukjes. Giet de saus over de pasta, schep de harde kaas en de mozzarella erdoor en bestrooi met de geraspte kaas. Bak in de oven.",
+          "timerMinutes": 10
+        },
+        {
+          "text": "Meng rucola en veldsla met de rest van de olie en de balsamico en serveer naast de pasta."
+        }
+      ]
+    },
+    {
+      "id": "romige-spaghetti-vega-gehakt-mascarpone",
+      "title": "Romige spaghetti met veggie gehakt",
+      "subtitle": "met mascarpone-tomatensaus, puntpaprika en vers basilicum",
+      "description": "Een kindvriendelijke, romige tomatensaus met plantaardig gehakt, wortel en paprika.",
+      "cuisine": "Italiaans",
+      "tags": [
+        "pasta",
+        "comfort",
+        "eiwitrijk"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 15,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#c4452f",
+        "#f3e6cf"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/romige-spaghetti-met-veggie-gehakt-en-grana-padano-6a04724f204de353958ef876",
+      "ingredients": [
+        "180 g spaghetti",
+        "150 g plantaardig gehakt",
+        "1 rode puntpaprika",
+        "1 wortel",
+        "1 tomaat",
+        "1 ui",
+        "2 tenen knoflook",
+        "400 g tomatenblokjes",
+        "1 tl Italiaanse kruiden",
+        "50 g mascarpone",
+        "40 g harde kaas",
+        "10 g basilicum",
+        "1 el balsamicoazijn",
+        "1 tl suiker",
+        "2 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Kook de spaghetti beetgaar.",
+          "timerMinutes": 10
+        },
+        {
+          "text": "Snipper de ui, pers de knoflook, rasp de wortel en snijd paprika en tomaat in blokjes."
+        },
+        {
+          "text": "Bak het gehakt in 1 el olie rul en goudbruin en zet apart.",
+          "timerMinutes": 4
+        },
+        {
+          "text": "Fruit ui, knoflook, wortel en paprika 4 minuten in de rest van de olie. Voeg tomaat, tomatenblokjes, kruiden, suiker en balsamico toe en laat 6 minuten pruttelen.",
+          "timerMinutes": 10
+        },
+        {
+          "text": "Roer de mascarpone en het gehakt door de saus en breng op smaak."
+        },
+        {
+          "text": "Schep de spaghetti erdoor en serveer met de kaas en basilicum."
+        }
+      ]
+    },
+    {
+      "id": "romige-tortelloni-oven-courgette-spinazie",
+      "title": "Romige tortelloni uit de oven",
+      "subtitle": "met courgette, spinazie en een tomatensalade",
+      "description": "Gevulde verse pasta in een kruidige roomsaus met groenten, gegratineerd met kaas.",
+      "cuisine": "Italiaans",
+      "tags": [
+        "oven",
+        "comfort"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 20,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#e3c27a",
+        "#4a7a3e"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/romige-tortelloni-met-paddenstoelen-uit-de-oven-6a75c76f52a1aa811f7b3624",
+      "ingredients": [
+        "300 g tortelloni",
+        "1 courgette",
+        "100 g spinazie",
+        "1 teen knoflook",
+        "1 tl Italiaanse kruiden",
+        "150 ml kookroom",
+        "½ groentebouillonblokje",
+        "50 g geraspte kaas",
+        "3 tomaten",
+        "4 tl balsamicoazijn",
+        "2 tl suiker",
+        "2 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Kook de tortelloni 2 minuten, giet af en laat uitstomen. Verwarm de oven voor op 220 °C, los het halve bouillonblokje op in 100 ml heet water en snijd de courgette in blokjes.",
+          "timerMinutes": 2
+        },
+        {
+          "text": "Bak courgette en geperste knoflook 4 minuten in 1 el olie in een hapjespan. Blus af met de helft van de balsamico en giet de bouillon erbij. Roer kookroom, suiker en kruiden erdoor en laat afgedekt zachtjes koken.",
+          "timerMinutes": 7
+        },
+        {
+          "text": "Scheur de spinazie in delen boven de pan en laat slinken. Schep de tortelloni door de saus, doe alles in een ovenschaal en bestrooi met de kaas. Bak goudbruin.",
+          "timerMinutes": 8
+        },
+        {
+          "text": "Snijd de tomaten in partjes en meng met de rest van de olie en balsamico, zout en peper."
+        },
+        {
+          "text": "Serveer de tortelloni met de tomatensalade ernaast."
+        }
+      ]
+    },
+    {
+      "id": "smokey-conchiglie-burrata",
+      "title": "Smokey conchiglie met burrata en basilicum",
+      "subtitle": "met rode puntpaprika en harde kaas",
+      "description": "Schelpjespasta in een rokerige tomatensaus met paprika, getopt met romige burrata.",
+      "cuisine": "Italiaans",
+      "tags": [
+        "pasta",
+        "snel"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 15,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#b33a2a",
+        "#f5f1e6"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/smokey-conchiglie-met-burrata-en-basilicum-696e267b384e652ce6a3ffbf",
+      "ingredients": [
+        "180 g conchiglie",
+        "1 rode puntpaprika",
+        "2 tomaten",
+        "1 ui",
+        "2 tenen knoflook",
+        "1 tl gerookt paprikapoeder",
+        "½ tl komijn",
+        "200 g tomatenblokjes",
+        "40 ml ketchup",
+        "½ groentebouillonblokje",
+        "1 burrata",
+        "40 g harde kaas",
+        "10 g basilicum",
+        "1 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Kook de pasta beetgaar en bewaar een scheut kookwater.",
+          "timerMinutes": 11
+        },
+        {
+          "text": "Snipper de ui, pers de knoflook en snijd paprika en tomaten in blokjes."
+        },
+        {
+          "text": "Fruit ui, knoflook en paprika 4 minuten in de olie. Strooi het gerookte paprikapoeder en de komijn erover en bak 30 seconden."
+        },
+        {
+          "text": "Voeg tomaat, tomatenblokjes, ketchup en het verkruimelde bouillonblokje toe en laat 8 minuten pruttelen.",
+          "timerMinutes": 8
+        },
+        {
+          "text": "Schep de pasta en de helft van de harde kaas door de saus, eventueel met wat kookwater. Breng op smaak."
+        },
+        {
+          "text": "Verdeel over de borden, leg een halve burrata op elk bord en maak af met de rest van de kaas en basilicum."
+        }
+      ]
+    }
+  ]
+}

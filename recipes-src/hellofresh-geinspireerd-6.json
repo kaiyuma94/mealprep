@@ -1,0 +1,1202 @@
+{
+  "format": "weekmenu-recipe-import",
+  "source": {
+    "type": "inspired",
+    "name": "HelloFresh",
+    "note": "Gerecht en ingrediënten gebaseerd op een HelloFresh-recept; bereidingswijze in eigen woorden. Alleen voor persoonlijk gebruik."
+  },
+  "recipes": [
+    {
+      "id": "korma-curry-geroosterde-bloemkool",
+      "title": "Vegetarische korma curry met geroosterde bloemkoolroosjes",
+      "subtitle": "met rozijnen en amandelen",
+      "description": "Een milde, romige yoghurtcurry met een vleugje honing, geroosterde bloemkool en zoete rozijnen.",
+      "cuisine": "Indiaas",
+      "tags": [
+        "curry",
+        "oven"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 25,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#e8c87a",
+        "#c66a2e"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/vegetarische-korma-curry-met-geroosterde-bloemkoolroosjes-62d823636551e5342101ca66",
+      "ingredients": [
+        "150 g jasmijnrijst",
+        "300 g bloemkool",
+        "1 rode puntpaprika",
+        "1 ui",
+        "1 teen knoflook",
+        "1 tl garam masala",
+        "1 tl kerriepoeder",
+        "250 g Griekse yoghurt",
+        "100 ml melk",
+        "½ groentebouillonblokje",
+        "1 el honing",
+        "15 g rozijnen",
+        "20 g amandelen",
+        "3 el zonnebloemolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 200 °C. Kook de rijst gaar in water met het halve bouillonblokje en laat uitstomen. Hak de amandelen grof en snijd de puntpaprika in reepjes.",
+          "timerMinutes": 13
+        },
+        {
+          "text": "Snijd de bloemkoolroosjes in kwarten en meng ze met de paprika, 1 el olie en een snufje zout. Rooster ze op een bakplaat met bakpapier tot ze goudbruin zijn.",
+          "timerMinutes": 13
+        },
+        {
+          "text": "Bak de geperste knoflook, gesnipperde ui, kerriepoeder, garam masala en honing 2 minuten in de rest van de olie in een wok."
+        },
+        {
+          "text": "Zet het vuur laag, voeg yoghurt en melk toe en laat de saus 5 minuten al roerend zachtjes inkoken tot hij diep goudgeel is. Schep de geroosterde groenten erdoor.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Serveer de curry op de rijst en bestrooi met rozijnen en amandelen."
+        }
+      ]
+    },
+    {
+      "id": "bami-goreng-vega-runderstukjes",
+      "title": "Bami goreng met vegetarische runderstukjes",
+      "subtitle": "met knapperige wokgroenten en gebakken sjalot",
+      "description": "Gewokte mie met kool, wortel en vegetarische runderstukjes in een zoet-pittige ketjapsaus, met zelfgebakken sjalotjes.",
+      "cuisine": "Indonesisch",
+      "tags": [
+        "wok",
+        "eiwitrijk"
+      ],
+      "prepMinutes": 15,
+      "cookMinutes": 20,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#b5672c",
+        "#e8c35c"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/bami-goreng-met-vegetarische-runderstukjes-5fabf5a19c907a62d406b18c",
+      "ingredients": [
+        "200 g mie",
+        "175 g vegetarische runderstukjes",
+        "200 g koolmix",
+        "4 bosuien",
+        "2 sjalotten",
+        "3 tenen knoflook",
+        "10 g gember",
+        "½ rode peper",
+        "1 el sambal",
+        "2 el ketjap",
+        "2 el sojasaus",
+        "5 el zonnebloemolie",
+        "naar smaak zout"
+      ],
+      "steps": [
+        {
+          "text": "Kook de mie volgens de verpakking, spoel af met koud water en laat uitlekken.",
+          "timerMinutes": 4
+        },
+        {
+          "text": "Snijd de sjalotten in dunne ringen en bak ze in 3 el olie op middelhoog vuur goudbruin en knapperig. Laat uitlekken op keukenpapier en bewaar de olie.",
+          "timerMinutes": 8
+        },
+        {
+          "text": "Bak de runderstukjes in 1 el sjalotolie rondom bruin en haal uit de wok.",
+          "timerMinutes": 4
+        },
+        {
+          "text": "Wok de geperste knoflook, geraspte gember, gehakte peper en sambal 30 seconden in de rest van de olie. Voeg de koolmix en het wit van de bosui toe en wok 3 minuten."
+        },
+        {
+          "text": "Voeg mie, runderstukjes, ketjap en sojasaus toe en wok alles op hoog vuur door elkaar tot het heet is."
+        },
+        {
+          "text": "Serveer met de gebakken sjalot en het groen van de bosui."
+        }
+      ]
+    },
+    {
+      "id": "bao-buns-gochujang-tofu",
+      "title": "Bao buns met gochujang-geglaceerde tofu",
+      "subtitle": "met zoetzure groenten en spitskool",
+      "description": "Zachte gestoomde broodjes met knapperige tofu in een pittige, plakkerige Koreaanse glazuur.",
+      "cuisine": "Koreaans",
+      "tags": [
+        "pittig",
+        "weekend"
+      ],
+      "prepMinutes": 15,
+      "cookMinutes": 15,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#c23b2c",
+        "#f3ead7"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/bao-buns-met-gochujang-geglaceerde-tofu-6a75c837c23b40ec6cfa4b8b",
+      "ingredients": [
+        "6 bao buns",
+        "180 g tofu",
+        "3 el maizena",
+        "25 g gochujang",
+        "2 el zoete chilisaus",
+        "2 el sojasaus",
+        "200 g spitskool",
+        "1 komkommer",
+        "1 bos radijs",
+        "2 tl wittewijnazijn",
+        "1 tl suiker",
+        "1,5 el mayonaise",
+        "2 tl sesamolie",
+        "1 tl sesamzaad",
+        "5 g koriander",
+        "2 el zonnebloemolie",
+        "naar smaak zout"
+      ],
+      "steps": [
+        {
+          "text": "Snijd de komkommer in halve maantjes en de radijs in dunne plakjes. Meng de sesamolie met de wittewijnazijn, de suiker en een snufje zout, schep komkommer en radijs erdoor en laat intrekken."
+        },
+        {
+          "text": "Roer de gochujang los met de sojasaus, het sesamzaad en een scheutje water. Bak de fijngesneden spitskool 3 minuten in een scheutje olie op hoog vuur en schuif hem naar de zijkant van de pan.",
+          "timerMinutes": 3
+        },
+        {
+          "text": "Stoom de bao buns 6 minuten in een met bakpapier beklede zeef boven een pan kokend water, met de deksel erop, tot ze zacht zijn.",
+          "timerMinutes": 6
+        },
+        {
+          "text": "Dep de tofu droog, snijd in rechthoekjes en wentel ze door de maizena met zout en peper. Bak ze in de rest van de olie op hoog vuur goudbruin en krokant, giet de gochujangsaus erover en bak 1 minuut.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Roer de mayonaise los met de zoete chilisaus en hak de koriander fijn."
+        },
+        {
+          "text": "Besmeer de broodjes met de mayo, vul ze met spitskool, tofu en de zoetzure groenten en garneer met koriander."
+        }
+      ]
+    },
+    {
+      "id": "tofu-soja-honing-knoflook-sperziebonen",
+      "title": "Tofu in soja-honingmarinade",
+      "subtitle": "met pittige knoflook-sperziebonen en kokosrijst",
+      "description": "Gemarineerde tofu met een zoet-zoute glazuur, knapperige sperziebonen met knoflook en chili, en romige kokosrijst.",
+      "cuisine": "Aziatisch",
+      "tags": [
+        "eiwitrijk",
+        "pittig"
+      ],
+      "prepMinutes": 15,
+      "cookMinutes": 25,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#8c4f22",
+        "#3f7b3a"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/tofu-in-soja-honingmarinade-5c3f98f1c445fa15fc1249f3",
+      "ingredients": [
+        "250 g tofu",
+        "3 el sojasaus",
+        "3 tl honing",
+        "20 g gember",
+        "1 teen knoflook",
+        "1 rode peper",
+        "400 g sperziebonen",
+        "170 g basmatirijst",
+        "150 ml kokosmelk",
+        "10 g sesamzaad",
+        "1 el olijfolie",
+        "1 el zonnebloemolie",
+        "naar smaak zout"
+      ],
+      "steps": [
+        {
+          "text": "Dep de tofu droog. Meng de sojasaus met de honing, de geraspte gember, de helft van de fijngehakte rode peper en de helft van de geperste knoflook. Snijd de tofu in blokjes, prik er gaatjes in met een vork en laat marineren."
+        },
+        {
+          "text": "Snijd de sperziebonen in drie stukken en bak ze met de rest van de knoflook en peper in de olijfolie op middelhoog vuur tot ze gaar en licht geblakerd zijn; schep regelmatig om.",
+          "timerMinutes": 12
+        },
+        {
+          "text": "Breng de kokosmelk met 125 ml water aan de kook, voeg de rijst toe en kook afgedekt gaar. De rijst mag een beetje smeuïg blijven.",
+          "timerMinutes": 13
+        },
+        {
+          "text": "Rooster het sesamzaad in een droge koekenpan en zet apart."
+        },
+        {
+          "text": "Bak de tofu met alle marinade in de zonnebloemolie in dezelfde pan ongeveer 4 minuten per kant op middelhoog vuur, zodat de marinade niet aanbrandt.",
+          "timerMinutes": 8
+        },
+        {
+          "text": "Serveer de kokosrijst met de bonen en de tofu, schenk de rest van de marinade erover en bestrooi met sesamzaad."
+        }
+      ]
+    },
+    {
+      "id": "gado-gado-sperziebonen-pindasaus",
+      "title": "Gado gado met sperziebonen en kokos-pindasaus",
+      "subtitle": "met rijst, komkommer, taugé en gekookt ei",
+      "description": "De Indonesische groenteschotel met een romige pindasaus van kokosmelk, sambal en ketjap.",
+      "cuisine": "Indonesisch",
+      "tags": [
+        "eiwitrijk",
+        "budget"
+      ],
+      "prepMinutes": 15,
+      "cookMinutes": 20,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#b77a33",
+        "#5a8a3c"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/gado-gado-met-sperziebonen-en-kokos-pindasaus-6203b8ae0d67ec06723ad270",
+      "ingredients": [
+        "150 g jasmijnrijst",
+        "4 eieren",
+        "200 g sperziebonen",
+        "200 g spitskool",
+        "50 g taugé",
+        "½ komkommer",
+        "1 teen knoflook",
+        "180 ml kokosmelk",
+        "75 g pindakaas",
+        "4 el ketjap",
+        "2 tl sambal",
+        "½ groentebouillonblokje",
+        "naar smaak zout"
+      ],
+      "steps": [
+        {
+          "text": "Kook de rijst volgens de verpakking.",
+          "timerMinutes": 12
+        },
+        {
+          "text": "Kook de eieren in 8 minuten hard, laat schrikken en pel ze.",
+          "timerMinutes": 8
+        },
+        {
+          "text": "Kook de sperziebonen 5 minuten in water met zout; voeg de laatste 2 minuten de gesneden spitskool toe. Giet af en spoel kort koud.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Verwarm voor de saus de kokosmelk met de geperste knoflook, pindakaas, ketjap, sambal en het verkruimelde bouillonblokje. Roer tot een gladde, dikke saus; voeg eventueel wat water toe."
+        },
+        {
+          "text": "Snijd de komkommer in plakjes en de eieren in partjes."
+        },
+        {
+          "text": "Verdeel rijst, groenten, taugé, komkommer en ei over de borden en giet de warme pindasaus erover."
+        }
+      ]
+    },
+    {
+      "id": "gebakken-ei-sticky-aubergine-stirfry",
+      "title": "Gebakken ei met sweet & sticky aubergine-stirfry",
+      "subtitle": "met rijst, pinda's en zoetzure komkommer",
+      "description": "Plakkerig gewokte aubergine en paprika in een zoet-pittige saus, met een gebakken ei en snelle zoetzure komkommer.",
+      "cuisine": "Chinees",
+      "tags": [
+        "wok",
+        "snel"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 15,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#5c3760",
+        "#e1b24a"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/stir-fry-veggie-no-meat-replacer-69aebb20c4d2659f3724fa17",
+      "ingredients": [
+        "150 g basmatirijst",
+        "1 aubergine",
+        "1 rode puntpaprika",
+        "4 bosuien",
+        "1 teen knoflook",
+        "10 g gember",
+        "½ tl chilivlokken",
+        "3 el zoete chilisaus",
+        "2 el sojasaus",
+        "½ el maizena",
+        "1 el sesamolie",
+        "1 komkommer",
+        "2 el wittewijnazijn",
+        "1 tl suiker",
+        "2 eieren",
+        "10 g pinda's",
+        "10 g sesamzaad",
+        "1,5 el zonnebloemolie",
+        "naar smaak zout"
+      ],
+      "steps": [
+        {
+          "text": "Kook de rijst volgens de verpakking. Snijd de komkommer in dunne plakjes en meng met de azijn, suiker en een snufje zout.",
+          "timerMinutes": 12
+        },
+        {
+          "text": "Snijd de aubergine in reepjes en de paprika in stukjes. Wok de aubergine in 1 el zonnebloemolie en de sesamolie 6 minuten op hoog vuur tot hij zacht is.",
+          "timerMinutes": 6
+        },
+        {
+          "text": "Voeg paprika, het wit van de bosui, knoflook, geraspte gember en chilivlokken toe en wok 3 minuten."
+        },
+        {
+          "text": "Roer de zoete chilisaus, sojasaus en maizena los in 3 el water, giet in de wok en laat al roerend indikken tot de groenten glanzen."
+        },
+        {
+          "text": "Bak de eieren in de rest van de olie tot spiegeleieren."
+        },
+        {
+          "text": "Serveer rijst met de stirfry en een ei, en bestrooi met gehakte pinda's, sesamzaad en bosuigroen. Geef de komkommer erbij."
+        }
+      ]
+    },
+    {
+      "id": "miso-aubergine-spiegelei-bruine-rijst",
+      "title": "Japans geïnspireerde miso-aubergine met spiegelei",
+      "subtitle": "met bruine rijst, komkommer en zelfgemaakt misoglazuur",
+      "description": "Halve aubergines uit de oven met een zoet-zout misoglazuur, met rijst, cashewnoten en een gebakken ei.",
+      "cuisine": "Japans",
+      "tags": [
+        "oven"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 30,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#4f2f4f",
+        "#d9a23a"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/japans-geinspireerde-miso-aubergine-met-spiegelei-6440fb0efe894e553312462e",
+      "ingredients": [
+        "1 aubergine",
+        "150 g zilvervliesrijst",
+        "½ groentebouillonblokje",
+        "25 g miso",
+        "20 ml sojasaus",
+        "4 tl honing",
+        "2 tl suiker",
+        "2 tl sesamolie",
+        "1 sjalot",
+        "1 teen knoflook",
+        "3 bosuien",
+        "½ komkommer",
+        "40 g cashewnoten",
+        "5 g sesamzaad",
+        "2 eieren",
+        "1 el roomboter",
+        "2 el zonnebloemolie",
+        "naar smaak zout"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 200 °C. Halveer de aubergine in de lengte en kerf het vruchtvlees ruitvormig in. Snipper de sjalot, pers de knoflook en snijd de bosui in ringen (wit en groen apart)."
+        },
+        {
+          "text": "Fruit sjalot en knoflook 2 minuten in de boter en sesamolie. Voeg de rijst, water volgens de verpakking en het verkruimelde bouillonblokje toe en kook afgedekt gaar.",
+          "timerMinutes": 15
+        },
+        {
+          "text": "Bak de aubergine in 1 el zonnebloemolie 4 minuten op de schil en 4 minuten op de snijkant. Meng intussen de miso met de sojasaus, honing en suiker.",
+          "timerMinutes": 8
+        },
+        {
+          "text": "Giet het misoglazuur in de pan en laat 1 minuut indikken. Haal de aubergine er goed doorheen, leg hem op de schil in een ovenschaal, schenk het glazuur erover, bestrooi met sesamzaad en bak in de oven.",
+          "timerMinutes": 11
+        },
+        {
+          "text": "Bak de eieren in de rest van de olie tot spiegeleieren en snijd de komkommer in plakjes. Schep het bosuiwit door de warme rijst."
+        },
+        {
+          "text": "Serveer de rijst met de aubergine, het ei, komkommer, cashewnoten en het bosuigroen."
+        }
+      ]
+    },
+    {
+      "id": "koreaanse-gefrituurde-bloemkool-gochujang",
+      "title": "Koreaanse stijl gefrituurde bloemkool in pittige gochujangsaus",
+      "subtitle": "met rijst, avocado, kimchi-koolsla en gebakken ei",
+      "description": "Knapperig gebakken bloemkoolroosjes in een kleverige, pittig-zoete saus, met een frisse koolsla met kimchi.",
+      "cuisine": "Koreaans",
+      "tags": [
+        "pittig",
+        "weekend"
+      ],
+      "prepMinutes": 20,
+      "cookMinutes": 25,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#c3372a",
+        "#e9d8a8"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/koreaanse-stijl-gefrituurde-bloemkool-in-pittige-gochujangsaus-6a50da0f748b7cf792501b91",
+      "ingredients": [
+        "500 g bloemkool",
+        "70 g bloem",
+        "3 el maizena",
+        "100 ml melk",
+        "6 el zonnebloemolie",
+        "25 g gochujang",
+        "3 el teriyakisaus",
+        "1 el honing",
+        "10 g gember",
+        "1 el roomboter",
+        "150 g basmatirijst",
+        "100 g rodekool",
+        "50 g kimchi",
+        "3 el mayonaise",
+        "2 tl sriracha",
+        "1 avocado",
+        "2 eieren",
+        "4 bosuien",
+        "1 tl sesamzaad",
+        "naar smaak zout"
+      ],
+      "steps": [
+        {
+          "text": "Kook de rijst volgens de verpakking. Snijd de bloemkool in kleine roosjes.",
+          "timerMinutes": 12
+        },
+        {
+          "text": "Klop bloem, maizena, melk en een snufje zout tot een dik beslag. Haal de roosjes erdoor en bak ze in porties in een laagje hete olie rondom goudbruin en knapperig. Laat uitlekken.",
+          "timerMinutes": 15
+        },
+        {
+          "text": "Verwarm gochujang, teriyakisaus, honing, geraspte gember en boter in een steelpan tot een glanzende saus."
+        },
+        {
+          "text": "Meng de rodekool met de fijngesneden kimchi en de helft van de mayonaise. Roer de rest van de mayonaise los met de sriracha."
+        },
+        {
+          "text": "Bak de eieren tot spiegeleieren en snijd de avocado in plakjes."
+        },
+        {
+          "text": "Schep de bloemkool vlak voor het serveren door de saus. Serveer met rijst, koolsla, avocado, ei, srirachamayo, bosui en sesamzaad."
+        }
+      ]
+    },
+    {
+      "id": "miso-ramen-peultjes-gekookt-ei",
+      "title": "Miso-ramen met peultjes en een gekookt ei",
+      "subtitle": "Japans geïnspireerde noedelsoep met spitskool en mais",
+      "description": "Een hartverwarmende misobouillon met noedels, knapperige groenten en een zacht gekookt ei.",
+      "cuisine": "Japans",
+      "tags": [
+        "soep"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 20,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#d9a94a",
+        "#6b8f3a"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/miso-ramen-met-peultjes-en-een-gekookt-ei-603f83e14d64a25ce9338c59",
+      "ingredients": [
+        "100 g mie",
+        "2 eieren",
+        "25 g miso",
+        "1,5 groentebouillonblokje",
+        "10 g gember",
+        "2 tenen knoflook",
+        "1 wortel",
+        "200 g spitskool",
+        "50 g peultjes",
+        "140 g mais",
+        "2 bosuien",
+        "1 el ketjap",
+        "2 tl suiker",
+        "1 tl sesamzaad",
+        "2 el zonnebloemolie",
+        "naar smaak zout"
+      ],
+      "steps": [
+        {
+          "text": "Kook de eieren in 7 minuten zacht, laat schrikken en pel ze.",
+          "timerMinutes": 7
+        },
+        {
+          "text": "Fruit de geraspte gember en geperste knoflook 1 minuut in de olie. Voeg 800 ml water en de bouillonblokjes toe en breng aan de kook."
+        },
+        {
+          "text": "Snijd de wortel in dunne reepjes en de spitskool fijn. Voeg ze met de peultjes toe aan de bouillon en kook 3 minuten.",
+          "timerMinutes": 3
+        },
+        {
+          "text": "Voeg de mie toe en kook volgens de verpakking gaar. Roer van het vuur af de miso, ketjap en suiker erdoor (niet meer laten koken).",
+          "timerMinutes": 4
+        },
+        {
+          "text": "Verdeel de soep over kommen, leg de mais, het gehalveerde ei en de bosui erop en bestrooi met sesamzaad."
+        }
+      ]
+    },
+    {
+      "id": "nasi-goreng-roerei-zoetzure-tomatensaus",
+      "title": "Nasi goreng met roerei en zoetzure tomatensaus",
+      "subtitle": "met gebakken uitjes",
+      "description": "Gebakken rijst met wokgroenten en Indonesische kruiden, met roerei en een zoetzure tomatensaus.",
+      "cuisine": "Indonesisch",
+      "tags": [
+        "wok",
+        "budget"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 20,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#b8692a",
+        "#d23f2e"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/nasi-goreng-met-roerei-en-zoetzure-tomatensaus-633eee0477adddd743098bd6",
+      "ingredients": [
+        "150 g jasmijnrijst",
+        "400 g wokgroenten",
+        "3 bosuien",
+        "2 tenen knoflook",
+        "1 tl kerriepoeder",
+        "1 tl korianderpoeder",
+        "½ tl komijn",
+        "2 el ketjap",
+        "4 eieren",
+        "200 g passata",
+        "1 el honing",
+        "1 tl wittewijnazijn",
+        "30 g gebakken uitjes",
+        "½ el roomboter",
+        "1 el zonnebloemolie",
+        "naar smaak sambal",
+        "naar smaak zout"
+      ],
+      "steps": [
+        {
+          "text": "Kook de rijst gaar en laat zonder deksel uitstomen. Snijd de bosui in ringen en houd wat groen apart; pers de knoflook en klop de eieren los.",
+          "timerMinutes": 13
+        },
+        {
+          "text": "Fruit bosui en knoflook 2 minuten in de olie. Voeg de wokgroenten toe en bak 5 minuten.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Voeg de rijst, kerriepoeder, korianderpoeder, komijn en ketjap toe en bak op hoog vuur nog 4 minuten. Breng op smaak met sambal.",
+          "timerMinutes": 4
+        },
+        {
+          "text": "Meng de passata met de honing en de azijn. Smelt de boter in een koekenpan, roer de eieren tot een zacht roerei en voeg de tomatensaus toe; verwarm nog 1 minuut."
+        },
+        {
+          "text": "Verdeel de nasi over de borden met het roerei in tomatensaus ernaast en bestrooi met gebakken uitjes en bosuigroen."
+        }
+      ]
+    },
+    {
+      "id": "pokebowl-gemarineerde-tofu",
+      "title": "Pokébowl met gemarineerde tofu en rijst",
+      "subtitle": "met edamame, zoetzure radijs en avocado",
+      "description": "Een frisse bowl met kleverige tofu, snel ingelegde radijs en ui, avocado en edamame.",
+      "cuisine": "Japans",
+      "tags": [
+        "bowl",
+        "snel"
+      ],
+      "prepMinutes": 15,
+      "cookMinutes": 15,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#e5a4a8",
+        "#5d8f3e"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/pokebowl-met-gemarineerde-tofu-en-rijst-6516c94a723522b64ef53c91",
+      "ingredients": [
+        "150 g basmatirijst",
+        "1 bos radijs",
+        "1 tl suiker",
+        "2 tl wittewijnazijn",
+        "1 ui",
+        "1 avocado",
+        "20 ml sojasaus",
+        "1 teen knoflook",
+        "2 el zoete chilisaus",
+        "180 g tofu",
+        "100 g edamame",
+        "1 el honing",
+        "5 g gember",
+        "1 tl sesamzaad",
+        "1 el zonnebloemolie",
+        "naar smaak zout"
+      ],
+      "steps": [
+        {
+          "text": "Kook de rijst gaar en laat uitstomen. Snijd de radijs in dunne plakjes en meng met de suiker, azijn en een snufje zout.",
+          "timerMinutes": 12
+        },
+        {
+          "text": "Snijd de ui in halve ringen en de avocado in plakken. Ontdooi de edamame in heet water."
+        },
+        {
+          "text": "Meng de helft van de sojasaus met de geperste knoflook en de zoete chilisaus. Roerbak de tofublokjes met de ui 4 minuten in de olie, voeg de marinade toe en bak nog 2 minuten.",
+          "timerMinutes": 6
+        },
+        {
+          "text": "Roer de rest van de sojasaus los met de honing en de geraspte gember tot een dressing."
+        },
+        {
+          "text": "Verdeel de rijst over kommen met de zoetzure radijs, avocado, edamame en de tofu met ui. Bestrooi met sesamzaad en besprenkel met de dressing."
+        }
+      ]
+    },
+    {
+      "id": "laksa-kokossoep-pindas-champignons",
+      "title": "Romige laksa-stijl kokossoep met pinda's",
+      "subtitle": "met limoen, paprika en champignons",
+      "description": "Een pittige, romige kokossoep met noedels, champignons en pindakaas, fris afgemaakt met limoen.",
+      "cuisine": "Maleisisch",
+      "tags": [
+        "soep",
+        "snel",
+        "pittig",
+        "vegan"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 15,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#e0902f",
+        "#f4e2b8"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/romige-laksa-stijl-kokossoep-met-pindas-697cbf3bc84ec037599dedca",
+      "ingredients": [
+        "100 g mie",
+        "250 g champignons",
+        "1 paprika",
+        "1 ui",
+        "1 teen knoflook",
+        "40 g rode currypasta",
+        "180 ml kokosmelk",
+        "1 groentebouillonblokje",
+        "25 g pindakaas",
+        "20 ml sojasaus",
+        "½ limoen",
+        "20 g pinda's",
+        "1 el zonnebloemolie",
+        "naar smaak zout"
+      ],
+      "steps": [
+        {
+          "text": "Snijd de champignons in plakjes en de paprika in reepjes. Snipper de ui en pers de knoflook."
+        },
+        {
+          "text": "Fruit ui en knoflook 2 minuten in de olie, roer de currypasta erdoor en bak 1 minuut. Voeg champignons en paprika toe en bak 3 minuten.",
+          "timerMinutes": 4
+        },
+        {
+          "text": "Voeg de kokosmelk, 400 ml water, het bouillonblokje, de pindakaas en de sojasaus toe en laat 5 minuten zachtjes koken.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Kook de mie in de soep of apart volgens de verpakking.",
+          "timerMinutes": 4
+        },
+        {
+          "text": "Breng de soep op smaak met limoensap en serveer met grof gehakte pinda's."
+        }
+      ]
+    },
+    {
+      "id": "stirfry-sticky-paddenstoelen-sriracha-mayo",
+      "title": "Stir-fry met sticky paddenstoelen en sriracha-mayo",
+      "subtitle": "met rijst, courgette en gebakken uitjes",
+      "description": "Snel gewokte paddenstoelen en courgette in een kleverige saus, met een pittige mayonaise.",
+      "cuisine": "Aziatisch",
+      "tags": [
+        "wok",
+        "snel",
+        "pittig"
+      ],
+      "prepMinutes": 5,
+      "cookMinutes": 15,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#7a5232",
+        "#e66a3a"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/stir-fry-met-sticky-paddenstoelen-en-sriracha-mayo-64b6d82da7c1f8a1e13bb0c6",
+      "ingredients": [
+        "150 g basmatirijst",
+        "175 g gemengde paddenstoelen",
+        "1 courgette",
+        "100 g koolmix",
+        "1 teen knoflook",
+        "5 g gember",
+        "½ tl chilivlokken",
+        "2 el sojasaus",
+        "1 el ketjap",
+        "1 tl suiker",
+        "½ limoen",
+        "3 el mayonaise",
+        "2 tl sriracha",
+        "30 g gebakken uitjes",
+        "2 el zonnebloemolie"
+      ],
+      "steps": [
+        {
+          "text": "Kook de rijst gaar en laat uitstomen. Snijd de limoen in kwarten, de courgette in halve maantjes van ½ cm, pers de knoflook en rasp de gember. Roer de mayonaise los met de sriracha.",
+          "timerMinutes": 13
+        },
+        {
+          "text": "Bak paddenstoelen en courgette in 1 el olie in een wok goudbruin. Voeg de laatste 2 minuten sojasaus, ketjap en suiker toe zodat alles kleverig wordt.",
+          "timerMinutes": 8
+        },
+        {
+          "text": "Bak knoflook, gember, koolmix en chilivlokken 5 minuten in de rest van de olie in een koekenpan. Voeg de rijst toe en bak 3 minuten mee.",
+          "timerMinutes": 8
+        },
+        {
+          "text": "Verdeel de gebakken rijst over de borden met de sticky paddenstoelen en courgette erop. Maak af met gebakken uitjes, srirachamayo en een kneep limoen."
+        }
+      ]
+    },
+    {
+      "id": "tempehbowl-gebakken-uitjes-pindadressing",
+      "title": "Tempehbowl met zelfgemaakte gebakken uitjes en rijst",
+      "subtitle": "met avocado, zoetzure groenten en pindadressing",
+      "description": "Een kleurrijke bowl met krokante ketjaptempeh, snel ingelegde rodekool en wortel en een romige pindadressing.",
+      "cuisine": "Indonesisch",
+      "tags": [
+        "bowl",
+        "vegan",
+        "eiwitrijk"
+      ],
+      "prepMinutes": 15,
+      "cookMinutes": 20,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#7c3a5a",
+        "#c48a3e"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/tempehbowl-met-zelfgemaakte-gebakken-uitjes-en-rijst-60ca03a07f6a054e404ac8f4",
+      "ingredients": [
+        "150 g jasmijnrijst",
+        "160 g tempeh",
+        "2 el ketjap",
+        "100 g rodekool",
+        "1 wortel",
+        "3 el wittewijnazijn",
+        "2 el suiker",
+        "½ ui",
+        "1 el bloem",
+        "4 el zonnebloemolie",
+        "1 avocado",
+        "140 g mais",
+        "25 g pindakaas",
+        "20 ml sojasaus",
+        "1 tl sesamzaad",
+        "naar smaak zout"
+      ],
+      "steps": [
+        {
+          "text": "Kook de rijst volgens de verpakking.",
+          "timerMinutes": 12
+        },
+        {
+          "text": "Rasp de wortel en meng met de rodekool, de azijn, 1,5 el suiker en een snufje zout. Laat staan."
+        },
+        {
+          "text": "Snijd de ui in dunne ringen, wentel door de bloem en bak in 3 el olie goudbruin en knapperig. Laat uitlekken.",
+          "timerMinutes": 6
+        },
+        {
+          "text": "Snijd de tempeh in dunne plakjes en bak in de rest van de olie goudbruin. Blus af met de ketjap en laat glaceren.",
+          "timerMinutes": 6
+        },
+        {
+          "text": "Roer de pindakaas los met de sojasaus, de rest van de suiker en 2–3 el warm water tot een gladde dressing."
+        },
+        {
+          "text": "Verdeel de rijst over kommen met tempeh, de zoetzure groenten, mais en avocado. Besprenkel met pindadressing en bestrooi met uitjes en sesam."
+        }
+      ]
+    },
+    {
+      "id": "vegan-pho-portobello-noedelsoep",
+      "title": "Vegan pho-stijl portobello noedelsoep",
+      "subtitle": "met rijstnoedels en limoen",
+      "description": "Een geurige bouillon met gember en kaneel, met gebakken portobello, rijstnoedels en veel verse kruiden.",
+      "cuisine": "Vietnamees",
+      "tags": [
+        "soep",
+        "vegan"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 25,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#9a6a3c",
+        "#5e9a4a"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/vegan-pho-stijl-portobello-noedelsoep-645a59f074ba2c58f3c097bc",
+      "ingredients": [
+        "150 g rijstnoedels",
+        "1 groentebouillonblokje",
+        "½ tl kaneel",
+        "20 g gember",
+        "1 teen knoflook",
+        "2 el zonnebloemolie",
+        "1 el sojasaus",
+        "1 ui",
+        "2 portobello's",
+        "2 tl wittewijnazijn",
+        "1 rode puntpaprika",
+        "½ rode peper",
+        "3 bosuien",
+        "5 g koriander",
+        "5 g munt",
+        "20 g pinda's",
+        "½ limoen",
+        "naar smaak zout"
+      ],
+      "steps": [
+        {
+          "text": "Breng 750 ml water met het bouillonblokje aan de kook. Rasp de gember en pers de knoflook."
+        },
+        {
+          "text": "Verhit de kaneel kort in een droge soeppan tot hij geurt. Voeg gember, knoflook en ½ el olie toe en fruit 1 minuut. Giet de bouillon en de helft van de sojasaus erbij en laat afgedekt zachtjes trekken.",
+          "timerMinutes": 10
+        },
+        {
+          "text": "Kook de rijstnoedels beetgaar, spoel koud af en laat uitlekken. Snijd puntpaprika en bosui in dunne ringen en de rode peper fijn.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Snijd de portobello's in reepjes en de ui in halve ringen. Fruit de ui 1 minuut in de rest van de olie, voeg de portobello toe en bak 7 minuten. Blus af met de azijn.",
+          "timerMinutes": 8
+        },
+        {
+          "text": "Doe portobello en ui in de bouillon met de rest van de sojasaus, voeg de noedels toe en laat alles nog 2 minuten koken.",
+          "timerMinutes": 2
+        },
+        {
+          "text": "Schenk de pho in kommen en maak af met paprika, bosui, rode peper, koriander, munt, grof gehakte pinda's en limoensap."
+        }
+      ]
+    },
+    {
+      "id": "bulgogiburger-kimchisaus-rijst-groenten",
+      "title": "Vegetarische bulgogiburger met pittige kimchisaus",
+      "subtitle": "met rijst, broccoli en sperziebonen",
+      "description": "Een vegaburger geglaceerd in een zoete Koreaanse saus, op rijst met groene groenten en een pittige kimchimayo.",
+      "cuisine": "Koreaans",
+      "tags": [
+        "pittig",
+        "eiwitrijk"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 20,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#7b3324",
+        "#4f8a3c"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/boekoeloekoe-671627142afd696502eddc81",
+      "ingredients": [
+        "2 vegetarische burgers",
+        "150 g basmatirijst",
+        "250 g broccoli",
+        "200 g sperziebonen",
+        "1 rode ui",
+        "1 teen knoflook",
+        "3 el teriyakisaus",
+        "40 g kimchi",
+        "1 el mayonaise",
+        "½ tl wittewijnazijn",
+        "2 el zonnebloemolie",
+        "naar smaak zout"
+      ],
+      "steps": [
+        {
+          "text": "Kook de rijst gaar en giet af. Snijd de broccoli in roosjes en de steel in blokjes, halveer de sperziebonen en snijd de ui in halve ringen. Hak de kimchi fijn.",
+          "timerMinutes": 13
+        },
+        {
+          "text": "Bak broccoli, sperziebonen en ui 6 minuten in 1 el olie. Voeg de geperste knoflook toe en bak 1 minuut. Blus af met 50 ml water en laat afgedekt 4 minuten koken. Roer de helft van de kimchi erdoor.",
+          "timerMinutes": 11
+        },
+        {
+          "text": "Bak de burgers in de rest van de olie 3 minuten per kant. Zet het vuur uit, giet de teriyakisaus erover en keer de burgers zodat ze rondom geglazuurd zijn.",
+          "timerMinutes": 6
+        },
+        {
+          "text": "Meng de mayonaise met de azijn en de rest van de kimchi tot een pittige saus."
+        },
+        {
+          "text": "Serveer de rijst met de groenten en de geglazuurde burger en besprenkel met de kimchisaus."
+        }
+      ]
+    },
+    {
+      "id": "veggie-bibimbap-gepocheerd-ei",
+      "title": "Veggie bibimbapbowl met gepocheerd ei",
+      "subtitle": "met kimchimayo, sticky champignons, spinazie en wortel",
+      "description": "Een Koreaanse rijstbowl met losse groentecomponenten, ingelegde wortel, pittige champignons en een zacht ei.",
+      "cuisine": "Koreaans",
+      "tags": [
+        "bowl",
+        "pittig",
+        "weekend"
+      ],
+      "prepMinutes": 15,
+      "cookMinutes": 20,
+      "difficulty": "hard",
+      "servings": 2,
+      "palette": [
+        "#d0482c",
+        "#4e7f3b"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/cooking-techniques-poaching-eggs-veggie-65f9527b8b3de89f4a785ed3",
+      "ingredients": [
+        "150 g basmatirijst",
+        "4 eieren",
+        "125 g champignons",
+        "1 ui",
+        "1 teen knoflook",
+        "1 el gochujang",
+        "3 el ketjap",
+        "1 tl sojasaus",
+        "100 g spinazie",
+        "1 wortel",
+        "4 el wittewijnazijn",
+        "1 tl suiker",
+        "30 g kimchi",
+        "2 el mayonaise",
+        "1 tl sesamzaad",
+        "2 el zonnebloemolie",
+        "naar smaak zout"
+      ],
+      "steps": [
+        {
+          "text": "Kook de rijst volgens de verpakking. Rasp de wortel en meng met 2 el azijn, de suiker en een snufje zout.",
+          "timerMinutes": 12
+        },
+        {
+          "text": "Bak de champignons in plakjes met de gesnipperde ui in 1 el olie goudbruin. Roer de gochujang en ketjap erdoor en laat kleverig worden.",
+          "timerMinutes": 7
+        },
+        {
+          "text": "Bak de spinazie met de geperste knoflook kort in de rest van de olie tot hij slinkt en breng op smaak met de sojasaus."
+        },
+        {
+          "text": "Hak de kimchi fijn en meng met de mayonaise."
+        },
+        {
+          "text": "Breng een pan water met de rest van de azijn tegen de kook aan. Breek de eieren een voor een in een kopje, laat ze voorzichtig in het water glijden en pocheer ze 3 minuten. Schep ze eruit met een schuimspaan.",
+          "timerMinutes": 3
+        },
+        {
+          "text": "Verdeel de rijst over kommen, leg de groenten er in vakjes op, met de eieren in het midden. Maak af met kimchimayo en sesamzaad."
+        }
+      ]
+    },
+    {
+      "id": "humita-empanadas-mais-kaas",
+      "title": "Argentijns geïnspireerde humita-empanada's",
+      "subtitle": "met een romige, cheesy maisvulling en tomaat-komkommersalade",
+      "description": "Krokante bladerdeegpasteitjes gevuld met mais, paprika, gerookte paprika en kaas.",
+      "cuisine": "Argentijns",
+      "tags": [
+        "oven",
+        "weekend"
+      ],
+      "prepMinutes": 20,
+      "cookMinutes": 25,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#e7b440",
+        "#cf5a2e"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/argentijns-geinspireerde-humita-empanadas-6a2c1dd71f9f329b39924b9a",
+      "ingredients": [
+        "1 rol bladerdeeg",
+        "140 g mais",
+        "1 paprika",
+        "2 tenen knoflook",
+        "½ rode peper",
+        "2 tl gerookt paprikapoeder",
+        "1 tl komijn",
+        "1 el roomboter",
+        "1 el bloem",
+        "¼ groentebouillonblokje",
+        "50 g crème fraîche",
+        "50 g geraspte kaas",
+        "1 tomaat",
+        "1 komkommer",
+        "60 g veldsla",
+        "1 el balsamicoazijn",
+        "1 tl suiker",
+        "1 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 200 °C. Snijd de paprika in kleine blokjes en hak knoflook en peper fijn."
+        },
+        {
+          "text": "Smelt de boter, fruit paprika, knoflook en peper 3 minuten en roer paprikapoeder, komijn en bloem erdoor. Voeg 80 ml water met het bouillonblokje, de mais en de crème fraîche toe en laat indikken tot een smeuïge vulling. Laat iets afkoelen en roer de kaas erdoor.",
+          "timerMinutes": 6
+        },
+        {
+          "text": "Rol het bladerdeeg uit en snijd er 4 tot 6 rondjes of vierkanten uit. Schep op elke helft wat vulling, vouw dicht en druk de randen aan met een vork."
+        },
+        {
+          "text": "Leg de empanada's op een bakplaat met bakpapier en bak ze goudbruin en gepoft.",
+          "timerMinutes": 20
+        },
+        {
+          "text": "Snijd tomaat en komkommer in blokjes en meng met de veldsla, balsamico, olie, suiker, zout en peper."
+        },
+        {
+          "text": "Serveer de warme empanada's met de salade."
+        }
+      ]
+    },
+    {
+      "id": "burritobowl-tomatenrijst-tortillachips",
+      "title": "Burritobowl met tomatenrijst",
+      "subtitle": "met zelfgemaakte tortillachips, koriander, bonen, mais en avocado",
+      "description": "Kruidige tomatenrijst met zwarte bonen, mais en avocado, met krokante chips uit de oven.",
+      "cuisine": "Mexicaans",
+      "tags": [
+        "bowl",
+        "oven"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 20,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#c9452e",
+        "#e9c33a"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/burritobowl-met-tomatenrijst-63c7d0f9788f6ee4ca33d011",
+      "ingredients": [
+        "150 g basmatirijst",
+        "200 g tomatenblokjes",
+        "½ groentebouillonblokje",
+        "1 ui",
+        "1 teen knoflook",
+        "2 tl Mexicaanse kruiden",
+        "½ tl gerookt paprikapoeder",
+        "250 g zwarte bonen, uitgelekt",
+        "200 g mais",
+        "1 tomaat",
+        "1 avocado",
+        "10 g koriander",
+        "50 g geraspte kaas",
+        "3 tortillawraps",
+        "3 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 200 °C. Snijd de wraps in punten, besprenkel met 1 el olie en zout en bak ze krokant.",
+          "timerMinutes": 8
+        },
+        {
+          "text": "Fruit de gesnipperde ui en knoflook in 1 el olie, voeg de rijst, de kruiden en het paprikapoeder toe en roer 1 minuut. Voeg de tomatenblokjes en water volgens de verpakking met het bouillonblokje toe en kook de rijst gaar.",
+          "timerMinutes": 15
+        },
+        {
+          "text": "Verwarm de bonen en mais in een pannetje met de rest van de olie en een snufje zout."
+        },
+        {
+          "text": "Snijd tomaat en avocado in blokjes en hak de koriander."
+        },
+        {
+          "text": "Verdeel de tomatenrijst over kommen met bonen, mais, tomaat, avocado en kaas. Serveer met de chips en koriander."
+        }
+      ]
+    },
+    {
+      "id": "cheesy-tacos-chili-sin-carne-guacamole",
+      "title": "Cheesy taco's met chili sin carne en guacamole",
+      "subtitle": "met crème fraîche en salsa",
+      "description": "Knapperige tacoschelpen gevuld met een kruidige linzenchili, gesmolten kaas, guacamole en salsa.",
+      "cuisine": "Mexicaans",
+      "tags": [
+        "snel",
+        "eiwitrijk"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 15,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#b5452d",
+        "#7aa646"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/cheesy-tacos-met-chili-sin-carne-en-guacamole-6a75c745c23b40ec6cfa48b5",
+      "ingredients": [
+        "8 tacoschelpen",
+        "400 g linzen in blik, uitgelekt",
+        "200 g passata",
+        "1 rode ui",
+        "1 paprika",
+        "2 tl Mexicaanse kruiden",
+        "½ groentebouillonblokje",
+        "1 avocado",
+        "½ limoen",
+        "1 tomaat",
+        "2 tl wittewijnazijn",
+        "50 g geraspte kaas",
+        "50 g crème fraîche",
+        "1 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 200 °C. Snijd paprika en rode ui fijn en spoel de linzen af. Bak twee derde van de ui en de helft van de paprika 3 minuten in de olie.",
+          "timerMinutes": 3
+        },
+        {
+          "text": "Voeg de linzen en de Mexicaanse kruiden toe en bak 3 minuten op hoog vuur. Blus af met de passata, verkruimel het bouillonblokje erboven en laat zachtjes koken tot het serveren; voeg zo nodig een scheutje water toe.",
+          "timerMinutes": 8
+        },
+        {
+          "text": "Snijd de tomaat in blokjes en meng met de azijn, de rest van de ui en paprika, zout en peper tot een salsa."
+        },
+        {
+          "text": "Prak de avocado met limoensap en zout tot guacamole. Verwarm de tacoschelpen 5 minuten op een bakplaat in de oven.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Zet chili, salsa, guacamole, crème fraîche en kaas in schaaltjes op tafel en laat iedereen zijn eigen taco's vullen."
+        }
+      ]
+    }
+  ]
+}

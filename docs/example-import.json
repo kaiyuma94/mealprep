@@ -1,0 +1,30 @@
+{
+  "format": "weekmenu-recipe-import",
+  "source": { "type": "personal", "name": "Onze eigen recepten" },
+  "recipes": [
+    {
+      "title": "Snelle pasta pesto met doperwten",
+      "description": "Doordeweekse favoriet: pasta met pesto, doperwten en citroen.",
+      "cuisine": "Italiaans",
+      "tags": ["snel", "pasta"],
+      "prepMinutes": 5,
+      "cookMinutes": 12,
+      "difficulty": "easy",
+      "servings": 2,
+      "ingredients": [
+        "180 gram spaghetti",
+        "150 g doperwten",
+        "4 el pesto",
+        "1 teentje knoflook, geraspt",
+        "½ citroen",
+        "30 g parmezaan, geraspt",
+        "naar smaak peper"
+      ],
+      "steps": [
+        "Kook de spaghetti in water met zout; voeg de laatste 3 minuten de doperwten toe.",
+        { "text": "Bewaar een kopje kookvocht en giet af.", "timerMinutes": 10 },
+        "Meng met pesto, knoflook, citroenrasp en een scheut kookvocht. Serveer met kaas."
+      ]
+    }
+  ]
+}

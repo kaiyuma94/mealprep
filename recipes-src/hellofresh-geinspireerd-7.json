@@ -1,0 +1,1158 @@
+{
+  "format": "weekmenu-recipe-import",
+  "source": {
+    "type": "inspired",
+    "name": "HelloFresh",
+    "note": "Gerecht en ingrediënten gebaseerd op een HelloFresh-recept; bereidingswijze in eigen woorden. Alleen voor persoonlijk gebruik."
+  },
+  "recipes": [
+    {
+      "id": "chili-sin-carne-krokante-kaaslaag",
+      "title": "Chili sin carne met een krokant laagje kaas uit de oven",
+      "subtitle": "met zoete aardappel, yoghurtsaus en een bruin broodje",
+      "description": "Een vullende bonenchili met zoete aardappel en mais, gegratineerd met kaas en geserveerd met yoghurt en brood.",
+      "cuisine": "Mexicaans",
+      "tags": [
+        "oven",
+        "comfort",
+        "eiwitrijk"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 30,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#9e3324",
+        "#e9b23f"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/chili-sin-carne-met-een-krokant-laagje-kaas-uit-de-oven-61434f1bf4a8e675fe1c4135",
+      "ingredients": [
+        "250 g kidneybonen, uitgelekt",
+        "200 g zoete aardappel",
+        "400 g tomatenblokjes",
+        "140 g mais",
+        "1 rode ui",
+        "3 tenen knoflook",
+        "2 tl Mexicaanse kruiden",
+        "¼ tl kaneel",
+        "100 g geraspte kaas",
+        "1 tomaat",
+        "50 g Griekse yoghurt",
+        "5 g peterselie",
+        "2 bruine afbakbroodjes",
+        "1 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 200 °C. Snijd de zoete aardappel in kleine blokjes, snipper de ui en pers de knoflook."
+        },
+        {
+          "text": "Fruit ui en knoflook 2 minuten in de olie, voeg de zoete aardappel, Mexicaanse kruiden en kaneel toe en bak 3 minuten."
+        },
+        {
+          "text": "Voeg tomatenblokjes, bonen, mais en 100 ml water toe en laat met de deksel op de pan stoven tot de zoete aardappel zacht is. Breng op smaak.",
+          "timerMinutes": 12
+        },
+        {
+          "text": "Schep de chili in een ovenschaal, strooi de kaas erover en bak tot de kaas goudbruin en krokant is. Bak de broodjes de laatste minuten mee.",
+          "timerMinutes": 12
+        },
+        {
+          "text": "Meng de yoghurt met de fijngehakte tomaat, peterselie en een snufje zout."
+        },
+        {
+          "text": "Serveer de chili met de yoghurtsaus en de warme broodjes."
+        }
+      ]
+    },
+    {
+      "id": "enchiladas-pompoen-kaas-walnootsalade",
+      "title": "Enchilada's met pompoen en kaas",
+      "subtitle": "met Mexicaanse kruiden, crème fraîche en een walnoot-spinaziesalade",
+      "description": "Opgerolde tortilla's gevuld met kruidige pompoen, rijst en spinazie, gegratineerd met kaas.",
+      "cuisine": "Mexicaans",
+      "tags": [
+        "oven",
+        "comfort"
+      ],
+      "prepMinutes": 15,
+      "cookMinutes": 30,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#e0802c",
+        "#f0e2bf"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/enchiladas-met-pompoen-en-cheddar-601bfacb223191542d13a1de",
+      "ingredients": [
+        "85 g basmatirijst",
+        "150 g flespompoen",
+        "1 ui",
+        "1 teen knoflook",
+        "2 tl Mexicaanse kruiden",
+        "200 g spinazie",
+        "4 tortillawraps",
+        "100 g crème fraîche",
+        "50 g geraspte kaas",
+        "20 g walnoten",
+        "½ citroen",
+        "2 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 200 °C. Kook de rijst volgens de verpakking.",
+          "timerMinutes": 12
+        },
+        {
+          "text": "Schil de pompoen en snijd in kleine blokjes. Bak ze met de gesnipperde ui en knoflook in 1 el olie 8 minuten zacht; voeg de Mexicaanse kruiden toe.",
+          "timerMinutes": 8
+        },
+        {
+          "text": "Schep de rijst en de helft van de spinazie erdoor tot de spinazie slinkt en breng op smaak."
+        },
+        {
+          "text": "Verdeel de vulling over de wraps, rol ze op en leg ze met de naad naar beneden in een ovenschaal. Bestrijk met de crème fraîche en strooi de kaas erover."
+        },
+        {
+          "text": "Bak tot de kaas gesmolten en goudbruin is.",
+          "timerMinutes": 15
+        },
+        {
+          "text": "Meng de rest van de spinazie met grof gehakte walnoten, citroensap, de rest van de olie en zout, en serveer bij de enchilada's."
+        }
+      ]
+    },
+    {
+      "id": "huevos-rancheros-witte-bonen-avocado",
+      "title": "Huevos rancheros met cannellinibonen en avocado",
+      "subtitle": "met kaas, crème fraîche en mini-tortilla's",
+      "description": "Eieren gepocheerd in een kruidige saus van tomaat en bonen, met avocado en warme tortilla's.",
+      "cuisine": "Mexicaans",
+      "tags": [
+        "snel",
+        "eiwitrijk",
+        "eenpans"
+      ],
+      "prepMinutes": 5,
+      "cookMinutes": 15,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#c8432d",
+        "#86a84b"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/huevos-rancheros-met-cannellinibonen-en-avocado-603f83de916edf234e2b4f60",
+      "ingredients": [
+        "400 g witte bonen, uitgelekt",
+        "400 g tomatenblokjes",
+        "2 bosuien",
+        "1 teen knoflook",
+        "1,5 tl Mexicaanse kruiden",
+        "4 eieren",
+        "25 g geraspte kaas",
+        "1 avocado",
+        "½ limoen",
+        "50 g crème fraîche",
+        "6 mini-tortilla's",
+        "1 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Fruit het wit van de bosui en de geperste knoflook 2 minuten in de olie in een koekenpan met deksel. Voeg de kruiden toe en bak 30 seconden."
+        },
+        {
+          "text": "Voeg tomatenblokjes en bonen toe en laat 5 minuten inkoken. Breng op smaak.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Maak vier kuiltjes, breek in elk kuiltje een ei en strooi de kaas erover. Laat met de deksel op de pan garen tot het eiwit gestold is.",
+          "timerMinutes": 6
+        },
+        {
+          "text": "Snijd de avocado in plakjes en besprenkel met limoensap. Verwarm de tortilla's in een droge pan."
+        },
+        {
+          "text": "Serveer de pan met avocado, crème fraîche, bosuigroen en de tortilla's."
+        }
+      ]
+    },
+    {
+      "id": "loaded-vegetarische-nachos",
+      "title": "Loaded vegetarische nacho's",
+      "subtitle": "met frisse koolsla en crème fraîche",
+      "description": "Een ovenschaal vol tortillachips met een kruidige bonen-maissaus en gesmolten kaas, met snelle zoetzure koolsla.",
+      "cuisine": "Mexicaans",
+      "tags": [
+        "snel",
+        "oven",
+        "weekend"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 12,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#e2a63a",
+        "#3a2f2a"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/loaded-vegetarische-nachos-6512f3d82f9b1916f79dafa7",
+      "ingredients": [
+        "150 g tortillachips",
+        "400 g zwarte bonen, uitgelekt",
+        "140 g mais",
+        "1 ui",
+        "70 g tomatenpuree",
+        "2 tl Mexicaanse kruiden",
+        "50 g geraspte kaas",
+        "1 tomaat",
+        "200 g koolmix",
+        "3 el wittewijnazijn",
+        "1 el suiker",
+        "50 g crème fraîche",
+        "1 el zonnebloemolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 200 °C. Meng de koolmix met de azijn, suiker en een snufje zout en laat staan."
+        },
+        {
+          "text": "Fruit de gesnipperde ui 3 minuten in de olie, roer tomatenpuree en kruiden erdoor en voeg bonen, mais en 100 ml water toe. Laat 4 minuten pruttelen en prak de bonen een beetje.",
+          "timerMinutes": 4
+        },
+        {
+          "text": "Verdeel de chips over een ovenschaal, schep de bonen erover en strooi de kaas erop."
+        },
+        {
+          "text": "Bak tot de kaas gesmolten is.",
+          "timerMinutes": 7
+        },
+        {
+          "text": "Strooi de tomaat in blokjes erover en serveer met de koolsla en crème fraîche."
+        }
+      ]
+    },
+    {
+      "id": "mexicaanse-linzenstoof-tortillachips",
+      "title": "Mexicaans gekruide linzenstoof met tortillachips",
+      "subtitle": "met zoete chilisaus, wortel en mais",
+      "description": "Een snelle, zoet-pittige stoof van linzen, tomaat en mais om met knapperige chips te scheppen.",
+      "cuisine": "Mexicaans",
+      "tags": [
+        "snel",
+        "eiwitrijk",
+        "eenpans"
+      ],
+      "prepMinutes": 5,
+      "cookMinutes": 15,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#a8452a",
+        "#f0c44a"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/mexicaans-gekruide-linzenstoof-met-bieten-tortillachips-654e16462d94ad532d6019c8",
+      "ingredients": [
+        "400 g linzen in blik, uitgelekt",
+        "2 tomaten",
+        "1 wortel",
+        "140 g mais",
+        "70 g tomatenpuree",
+        "2 tl Mexicaanse kruiden",
+        "2 el zoete chilisaus",
+        "1 tl suiker",
+        "½ limoen",
+        "100 g crème fraîche",
+        "25 g geraspte kaas",
+        "75 g tortillachips",
+        "1 el zonnebloemolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Snijd de tomaten in kleine blokjes en zet apart. Snijd de wortel in kleine blokjes en laat mais en linzen uitlekken."
+        },
+        {
+          "text": "Bak wortel en Mexicaanse kruiden 4 minuten in de olie. Voeg de tomatenpuree toe en bak 1 minuut. Zet het vuur lager, schep mais en linzen erdoor met een scheut water en laat 5 minuten zachtjes koken.",
+          "timerMinutes": 10
+        },
+        {
+          "text": "Knijp een partje limoen uit over de tomatenblokjes en meng met de suiker en een snufje zout tot een salsa. Roer de zoete chilisaus door de crème fraîche."
+        },
+        {
+          "text": "Verdeel de stoof over diepe borden en maak af met geraspte kaas en de tomatensalsa. Serveer met de zoet-pittige room, tortillachips en limoenpartjes."
+        }
+      ]
+    },
+    {
+      "id": "orecchiette-zelfgemaakte-vegan-pesto",
+      "title": "Orecchiette met een zelfgemaakte vegan pesto",
+      "subtitle": "met courgette en gemengde tomatensalade",
+      "description": "Een pesto van basilicum, cashewnoten en citroen zonder kaas, met gebakken courgette en een frisse tomatensalade.",
+      "cuisine": "Italiaans",
+      "tags": [
+        "vegan",
+        "pasta"
+      ],
+      "prepMinutes": 15,
+      "cookMinutes": 15,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#4f8a3a",
+        "#d64a32"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/orecchiette-met-een-zelfgemaakte-vegan-pesto-60dc5dfd53e3fb2621211168",
+      "ingredients": [
+        "180 g orecchiette",
+        "20 g basilicum",
+        "20 g cashewnoten",
+        "2 tenen knoflook",
+        "1 citroen",
+        "1 courgette",
+        "35 g zongedroogde tomaten",
+        "½ rode peper",
+        "200 g cherrytomaten",
+        "1 tomaat",
+        "½ rode ui",
+        "½ tl oregano",
+        "4 tl balsamicoazijn",
+        "6 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Kook de pasta beetgaar en bewaar een scheut kookwater.",
+          "timerMinutes": 12
+        },
+        {
+          "text": "Rooster de cashewnoten kort in een droge pan. Maal ze met de basilicum, 1 teen knoflook, citroenrasp, een kneep citroensap, 4 el olie en zout tot pesto."
+        },
+        {
+          "text": "Snijd de courgette in blokjes en bak 5 minuten in 1 el olie met de andere teen knoflook, de gehakte peper en de zongedroogde tomaten in reepjes.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Snijd de tomaten en rode ui klein en meng met de balsamico, oregano, de rest van de olie, zout en peper."
+        },
+        {
+          "text": "Meng de pasta met de pesto, de courgette en wat kookwater en serveer met de tomatensalade."
+        }
+      ]
+    },
+    {
+      "id": "quesadilla-paddenstoelen-paprika-avocadodip",
+      "title": "Quesadilla met paddenstoelen en paprika",
+      "subtitle": "met zelfgemaakte avocadodip en tortillachips",
+      "description": "Krokant gebakken tortilla's gevuld met kruidige paddenstoelen, paprika en gesmolten kaas.",
+      "cuisine": "Mexicaans",
+      "tags": [
+        "snel"
+      ],
+      "prepMinutes": 5,
+      "cookMinutes": 12,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#e3b04a",
+        "#6e8a3c"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/quesadilla-met-paddenstoelen-en-paprika-64c77afc2864fe111ef96bb3",
+      "ingredients": [
+        "4 tortillawraps",
+        "175 g gemengde paddenstoelen",
+        "1 paprika",
+        "1 ui",
+        "1 teen knoflook",
+        "2 tl Mexicaanse kruiden",
+        "50 g geraspte kaas",
+        "1 avocado",
+        "½ limoen",
+        "100 g crème fraîche",
+        "75 g tortillachips",
+        "1 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 220 °C. Bak de geperste knoflook, gesnipperde ui en de paddenstoelen 3 minuten in de olie. Voeg de paprika in reepjes toe en bak nog 5 minuten. Breng op smaak.",
+          "timerMinutes": 8
+        },
+        {
+          "text": "Snijd de limoen in partjes. Roer de helft van de crème fraîche los met de Mexicaanse kruiden, besmeer de wraps ermee en strooi de kaas erover. Beleg een helft van elke wrap met groenten en vouw dicht."
+        },
+        {
+          "text": "Leg de quesadilla's op een bakplaat met bakpapier en bak ze knapperig.",
+          "timerMinutes": 8
+        },
+        {
+          "text": "Prak de avocado met de rest van de crème fraîche, een kneep limoen, zout en peper tot een dip."
+        },
+        {
+          "text": "Halveer de quesadilla's en serveer met de avocadodip, tortillachips en limoenpartjes."
+        }
+      ]
+    },
+    {
+      "id": "tomaten-bonensoep-zelfgemaakte-nachos",
+      "title": "Tomaten-bonensoep met zelfgemaakte nacho's",
+      "subtitle": "met limoen, crème fraîche en verse koriander",
+      "description": "Een gevulde, rokerige soep van tomaat en zwarte bonen, met gegratineerde tacoschelpen om te dippen.",
+      "cuisine": "Mexicaans",
+      "tags": [
+        "soep",
+        "snel"
+      ],
+      "prepMinutes": 5,
+      "cookMinutes": 15,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#b8392a",
+        "#2e2b28"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/tomaten-bonensoep-met-zelfgemaakte-nachos-602e4180c9a995773179aa66",
+      "ingredients": [
+        "400 g zwarte bonen, uitgelekt",
+        "400 g tomatenblokjes",
+        "1 paprika",
+        "1 teen knoflook",
+        "1,5 tl Mexicaanse kruiden",
+        "1 tl gerookt paprikapoeder",
+        "1,5 groentebouillonblokje",
+        "140 g mais",
+        "4 tacoschelpen",
+        "50 g geraspte kaas",
+        "½ limoen",
+        "10 g koriander",
+        "50 g crème fraîche",
+        "1 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 200 °C. Fruit de paprika in blokjes en de geperste knoflook 3 minuten in de olie en voeg de kruiden toe."
+        },
+        {
+          "text": "Voeg tomatenblokjes, bonen, 700 ml water en de bouillonblokjes toe en laat 10 minuten zacht koken.",
+          "timerMinutes": 10
+        },
+        {
+          "text": "Breek de tacoschelpen in stukken, leg ze op een bakplaat, strooi de kaas erover en bak tot de kaas smelt.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Pureer de soep half, roer de mais erdoor en breng op smaak met limoensap, zout en peper."
+        },
+        {
+          "text": "Serveer de soep met crème fraîche, koriander en de nacho's."
+        }
+      ]
+    },
+    {
+      "id": "zwartebonentacos-avocadosalsa",
+      "title": "Zwartebonentaco's met romige avocadosalsa",
+      "subtitle": "met kaas, mais en koolsla",
+      "description": "Mini-tortilla's gevuld met kruidige zwarte bonen, frisse koolsla en een romige avocadosalsa.",
+      "cuisine": "Mexicaans",
+      "tags": [
+        "snel",
+        "eiwitrijk"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 10,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#2f2a2a",
+        "#8cae4a"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/zwarte-bonen-taco-met-kaas-64b654d074e00726795c4f34",
+      "ingredients": [
+        "6 mini-tortilla's",
+        "400 g zwarte bonen, uitgelekt",
+        "140 g mais",
+        "1 teen knoflook",
+        "2 tl Mexicaanse kruiden",
+        "100 g rodekool",
+        "1 el wittewijnazijn",
+        "1 avocado",
+        "2 el mayonaise",
+        "2 tomaten",
+        "2 bosuien",
+        "10 g koriander",
+        "50 g geraspte kaas",
+        "1 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 200 °C. Laat de bonen uitlekken en snijd de bosui in ringen (wit en groen apart). Fruit het bosuiwit 2 minuten in de olie, voeg de bonen en de Mexicaanse kruiden toe en bak 3 minuten. Prak ze een beetje.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Beleg de tortilla's met de bonen, strooi de kaas erover en bak ze op een bakplaat met bakpapier tot de kaas gesmolten is.",
+          "timerMinutes": 6
+        },
+        {
+          "text": "Pureer de avocado met de koriander, de knoflook, het bosuigroen, 2 el water, de azijn, zout en peper tot een romige salsa."
+        },
+        {
+          "text": "Snijd de tomaten in blokjes en meng met de rodekool, de mais en de mayonaise tot een koolsla."
+        },
+        {
+          "text": "Beleg de taco's met wat koolsla, vouw ze dubbel en serveer met de avocadosalsa en de rest van de koolsla."
+        }
+      ]
+    },
+    {
+      "id": "aubergine-oven-feta-granaatappel-pittenrijst",
+      "title": "Aubergine uit de oven met feta en granaatappelpitjes",
+      "subtitle": "met pittenrijst, tahin-yoghurt en verse munt",
+      "description": "Zachte, kruidig geroosterde aubergine met feta, granaatappel en een romige tahinsaus.",
+      "cuisine": "Midden-Oosters",
+      "tags": [
+        "oven"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 35,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#5b2f53",
+        "#c9324b"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/aubergine-uit-de-oven-met-feta-en-granaatappelpitjes-5d727e24a82f50000c6f4112",
+      "ingredients": [
+        "2 aubergines",
+        "2 tl ras el hanout",
+        "4 el olijfolie",
+        "170 g basmatirijst",
+        "10 g pompoenpitten",
+        "10 g zonnebloempitten",
+        "100 g Griekse yoghurt",
+        "1 el tahin",
+        "½ citroen",
+        "75 g feta",
+        "50 g granaatappelpitjes",
+        "5 g munt",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 200 °C. Meng 3 el olie met de ras el hanout, zout en peper. Halveer de aubergines in de lengte, kerf het vruchtvlees kruislings in en besprenkel met de kruidenolie. Pak elke helft in aluminiumfolie en bak ze zacht.",
+          "timerMinutes": 30
+        },
+        {
+          "text": "Haal de granaatappelpitjes los, verkruimel de feta en snijd de munt in reepjes. Roer de yoghurt los met de tahin, een kneep citroen en zout."
+        },
+        {
+          "text": "Rooster de pitten in een droge pan goudbruin."
+        },
+        {
+          "text": "Kook de rijst gaar en laat uitstomen. Meng met de pitten, het grootste deel van de feta en de rest van de olie.",
+          "timerMinutes": 13
+        },
+        {
+          "text": "Verdeel de rijst over de borden met de munt, leg de aubergine ernaast met de rest van de feta en de granaatappelpitjes en serveer met de tahin-yoghurt."
+        }
+      ]
+    },
+    {
+      "id": "baba-ganoush-bowl-couscous-feta",
+      "title": "Baba ganoush bowl met couscous en feta",
+      "subtitle": "met ingelegde rode ui, gegrilde groenten en amandelen",
+      "description": "Een snelle bowl met kruidige couscous, gebakken courgette en paprika, rokerige auberginedip en platbrood.",
+      "cuisine": "Midden-Oosters",
+      "tags": [
+        "bowl",
+        "snel"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 15,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#7b6a5a",
+        "#d6532f"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/baba-ganoush-bowl-met-couscous-en-feta-62a19ce3d1e4152bd60d225e",
+      "ingredients": [
+        "85 g volkoren couscous",
+        "½ groentebouillonblokje",
+        "1 courgette",
+        "1 rode puntpaprika",
+        "1 tl komijn",
+        "1 tl paprikapoeder",
+        "1 rode ui",
+        "1 el wittewijnazijn",
+        "1 el suiker",
+        "80 g baba ganoush",
+        "100 g feta",
+        "20 g amandelen",
+        "½ citroen",
+        "2 platbroden",
+        "1 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 200 °C. Snijd de courgette in dunne schijfjes en de puntpaprika in reepjes. Leg ze op een helft van een bakplaat met bakpapier en besprenkel met ½ el olie en een kwart van de komijn en het paprikapoeder."
+        },
+        {
+          "text": "Los het bouillonblokje op in 180 ml heet water, voeg de couscous en de rest van de kruiden toe en laat afgedekt 10 minuten wellen. Rooster intussen de groenten.",
+          "timerMinutes": 8
+        },
+        {
+          "text": "Snijd de rode ui in dunne ringen. Verwarm 50 ml water met de azijn, de suiker en een snufje zout, giet over de ui en laat intrekken."
+        },
+        {
+          "text": "Besprenkel het platbrood met de rest van de olie en peper, vouw het in aluminiumfolie en verwarm het 2 minuten naast de groenten. Snijd in punten. Hak de amandelen grof en snijd de citroen in partjes.",
+          "timerMinutes": 2
+        },
+        {
+          "text": "Verdeel de couscous over diepe borden met de groenten. Voeg de uitgelekte ui en de baba ganoush toe, verkruimel de feta erover en maak af met amandelen, platbroodpunten en citroen."
+        }
+      ]
+    },
+    {
+      "id": "bulgurbowl-tzatziki-krokante-kikkererwten",
+      "title": "Bulgurbowl met tzatziki en krokante kikkererwten",
+      "subtitle": "met amandelen en tomaat-komkommersalade",
+      "description": "Rokerige, krokant geroosterde kikkererwten op bulgur met een frisse salade en romige tzatziki.",
+      "cuisine": "Midden-Oosters",
+      "tags": [
+        "bowl",
+        "oven",
+        "eiwitrijk"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 20,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#c78a3a",
+        "#6c9a4c"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/bulgurbowl-met-harissa-en-portobello-67861c3b64bdcbbc2225f272",
+      "ingredients": [
+        "150 g bulgur",
+        "½ groentebouillonblokje",
+        "1 tl komijn",
+        "1 tl korianderpoeder",
+        "1 paprika",
+        "400 g kikkererwten, uitgelekt",
+        "2 tl gerookt paprikapoeder",
+        "1 komkommer",
+        "1 tomaat",
+        "1 tl wittewijnazijn",
+        "50 g tzatziki",
+        "10 g amandelen",
+        "3 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 180 °C. Kook de bulgur in water met het bouillonblokje gaar en giet af. Schep komijn, korianderpoeder en 1 el olie erdoor en houd afgedekt warm.",
+          "timerMinutes": 11
+        },
+        {
+          "text": "Snijd de paprika in dunne reepjes. Dep de kikkererwten droog en meng ze met de paprika, het gerookte paprikapoeder, 1 el olie, zout en peper. Rooster ze op een bakplaat met bakpapier tot de kikkererwten krokant zijn.",
+          "timerMinutes": 20
+        },
+        {
+          "text": "Snijd komkommer en tomaat in blokjes en meng met de azijn en de rest van de olie."
+        },
+        {
+          "text": "Verdeel de bulgur over diepe borden met de paprika, kikkererwten en de salade erop. Besprenkel met tzatziki en bestrooi met amandelen."
+        }
+      ]
+    },
+    {
+      "id": "bulgur-spinazie-harissa-geroosterde-wortel",
+      "title": "Bulgur met spinazie en harissa",
+      "subtitle": "met feta, geroosterde wortel en amandelen",
+      "description": "Honingzoete geroosterde wortels op een pittige bulgur met spinazie, met zoute feta en knapperige amandelen.",
+      "cuisine": "Noord-Afrikaans",
+      "tags": [
+        "oven",
+        "pittig"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 25,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#de6f2a",
+        "#3f7a3a"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/couscous-met-geroosterde-wortels-en-feta-6a4fae7b6e4158183d5d9a79",
+      "ingredients": [
+        "4 wortels",
+        "1 rode ui",
+        "1 tl ras el hanout",
+        "2 tl honing",
+        "150 g bulgur",
+        "1 groentebouillonblokje",
+        "1 teen knoflook",
+        "30 g harissa",
+        "130 g spinazie",
+        "100 g feta",
+        "30 g amandelen",
+        "1,5 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 220 °C. Halveer de wortels in de lengte en snijd ze in staafjes van hooguit ½ cm. Meng met de ras el hanout en 1 el olie."
+        },
+        {
+          "text": "Rooster de wortel op een bakplaat met bakpapier tot de puntjes donker kleuren en de binnenkant zacht is; schep halverwege om.",
+          "timerMinutes": 22
+        },
+        {
+          "text": "Los het bouillonblokje op in 350 ml water, breng aan de kook, voeg de bulgur toe en kook afgedekt gaar en droog; roer regelmatig.",
+          "timerMinutes": 10
+        },
+        {
+          "text": "Snipper de rode ui en fruit met de geperste knoflook 2 minuten in de rest van de olie. Voeg honing en harissa toe en verhit 30 seconden tot het geurt. Schep dit meteen door de bulgur."
+        },
+        {
+          "text": "Roer de spinazie in delen door de warme bulgur tot hij geslonken is. Hak de amandelen grof."
+        },
+        {
+          "text": "Verdeel de bulgur over de borden, leg de wortel erop en maak af met verkruimelde feta en amandelen."
+        }
+      ]
+    },
+    {
+      "id": "falafel-geroosterde-groenten-dille-yoghurt",
+      "title": "Falafel en geroosterde groenten met Midden-Oosterse kruiden",
+      "subtitle": "met dille-peterselieyoghurt en ingelegde ui",
+      "description": "Een ovenschotel van bloemkool, zoete aardappel en falafel, met een frisse kruidenyoghurt.",
+      "cuisine": "Midden-Oosters",
+      "tags": [
+        "oven"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 25,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#c98a3a",
+        "#6e9a52"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/falafel-en-geroosterde-groenten-met-midden-oosterse-kruiden-62e3b9645e170a9acb02bc4c",
+      "ingredients": [
+        "150 g zoete aardappel",
+        "250 g bloemkool",
+        "1 tl komijn",
+        "1 tl korianderpoeder",
+        "1 tl paprikapoeder",
+        "2 el olijfolie",
+        "1 ui",
+        "1 el wittewijnazijn",
+        "1 tl suiker",
+        "10 g zonnebloempitten",
+        "5 g dille",
+        "5 g peterselie",
+        "5 g bieslook",
+        "½ citroen",
+        "50 g mayonaise",
+        "100 g Griekse yoghurt",
+        "150 g falafel",
+        "100 g spinazie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 220 °C. Snijd de zoete aardappel in blokjes van 2 cm en de bloemkool in roosjes. Meng met de kruiden, 1 el olie, zout en peper en rooster ze op een bakplaat met bakpapier.",
+          "timerMinutes": 25
+        },
+        {
+          "text": "Snijd de ui in dunne halve ringen en meng met de azijn, 1 el water, de suiker en een snufje zout. Laat intrekken."
+        },
+        {
+          "text": "Rooster de zonnebloempitten in een droge pan. Hak de kruiden en pers de citroen. Meng mayonaise, yoghurt, kruiden en ½ el citroensap tot een dressing."
+        },
+        {
+          "text": "Bak de falafel in ½ el olie in dezelfde pan rondom bruin.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Meng de geroosterde groenten met de spinazie en de rest van de olie. Verdeel over diepe borden, schep de dressing erover en maak af met falafel, uitgelekte ui en zonnebloempitten."
+        }
+      ]
+    },
+    {
+      "id": "falafel-zhoug-witte-kaas-krieltjes",
+      "title": "Falafel met zhoug en witte kaas",
+      "subtitle": "met geroosterde groenten, krieltjes en peterselie",
+      "description": "Een kleurrijke traybake met krieltjes, groenten en falafel, met een pittige groene kruidensaus uit Jemen.",
+      "cuisine": "Midden-Oosters",
+      "tags": [
+        "oven",
+        "pittig"
+      ],
+      "prepMinutes": 15,
+      "cookMinutes": 35,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#4f8f3a",
+        "#d36a32"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/falafel-met-zhoug-en-witte-kaas-6a705049da9bb148d36339a2",
+      "ingredients": [
+        "200 g falafel",
+        "400 g krieltjes",
+        "1 courgette",
+        "1 aubergine",
+        "1 paprika",
+        "1 rode ui",
+        "2 tenen knoflook",
+        "1 tl komijn",
+        "10 g koriander",
+        "10 g peterselie",
+        "1 groene peper",
+        "50 g witte kaas",
+        "1 el mayonaise",
+        "5 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 200 °C. Halveer de krieltjes en kook ze 5 minuten voor. Snijd de ui in kwarten, de paprika in reepjes en aubergine en courgette in dunne halve maantjes.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Meng groenten, krieltjes, 1 geperste teen knoflook, driekwart van de komijn, 2 el olie en zout en rooster ze op een bakplaat met bakpapier gaar; schep halverwege om.",
+          "timerMinutes": 28
+        },
+        {
+          "text": "Maal voor de zhoug koriander, de helft van de peterselie, de groene peper, de andere teen knoflook, een snufje komijn, 3 el olie en zout tot een grove groene saus."
+        },
+        {
+          "text": "Bak de falafel 6 minuten in een scheutje olie. Roer de mayonaise los met 1 el water en de rest van de komijn.",
+          "timerMinutes": 6
+        },
+        {
+          "text": "Schep de helft van de zhoug door de geroosterde groenten. Verdeel over diepe borden met de falafel, verkruimel de witte kaas erover en maak af met de rest van de peterselie, de komijnmayo en de rest van de zhoug."
+        }
+      ]
+    },
+    {
+      "id": "geroosterde-groenten-zelfgemaakte-hummus-tabouleh",
+      "title": "Geroosterde groenten met zelfgemaakte hummus",
+      "subtitle": "met frisse tabouleh en pitabroodjes",
+      "description": "Romige zelfgemaakte hummus met geroosterde aubergine en paprika, frisse tabouleh en warme pita.",
+      "cuisine": "Midden-Oosters",
+      "tags": [
+        "oven",
+        "weekend"
+      ],
+      "prepMinutes": 20,
+      "cookMinutes": 30,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#d9b878",
+        "#c4442e"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/geroosterde-groenten-met-zelfgemaakte-hummus-60f81bf7e20d3238e4770bcd",
+      "ingredients": [
+        "1 aubergine",
+        "2 paprika's",
+        "1 rode ui",
+        "3 tenen knoflook",
+        "400 g kikkererwten, uitgelekt",
+        "1 el tahin",
+        "50 g Griekse yoghurt",
+        "½ tl komijn",
+        "1 citroen",
+        "45 g bulgur",
+        "½ groentebouillonblokje",
+        "2 tomaten",
+        "5 g peterselie",
+        "5 g munt",
+        "2 pitabroodjes",
+        "4 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 220 °C. Los het bouillonblokje op in 150 ml water, voeg de bulgur toe en kook afgedekt op laag vuur gaar; laat uitstomen.",
+          "timerMinutes": 15
+        },
+        {
+          "text": "Snijd de aubergine in plakken van ½ cm, bestrooi met zout en leg ze op een bakplaat met bakpapier. Snijd paprika's in grove stukken en de ui in halve ringen, meng met ½ el olie, zout en peper en leg ernaast, samen met de ongepelde knoflook. Rooster alles zacht.",
+          "timerMinutes": 25
+        },
+        {
+          "text": "Snijd de tomaten in kleine blokjes, hak munt en peterselie en pers de citroen. Meng de tomaat met het grootste deel van de kruiden, ½ el citroensap, 1 el olie, zout en peper en schep de bulgur erdoor."
+        },
+        {
+          "text": "Pureer de kikkererwten met de tahin, yoghurt, komijn en ½ el citroensap. Voeg de geroosterde aubergine en de uit de schil geknepen knoflook toe en pureer opnieuw tot een gladde, rokerige hummus. Breng op smaak."
+        },
+        {
+          "text": "Rooster de pita's kort in de oven of broodrooster.",
+          "timerMinutes": 4
+        },
+        {
+          "text": "Strijk de hummus uit over een groot bord, leg paprika en ui ernaast en schep de tabouleh erbij. Maak af met de rest van de kruiden en olie en serveer met de pita."
+        }
+      ]
+    },
+    {
+      "id": "groene-shakshuka-linzen-spinazie",
+      "title": "Groene shakshuka met linzen en spinazie",
+      "subtitle": "met knapperig platbrood en frisse witte kaas",
+      "description": "Een romige groene variant op shakshuka met spinazie, linzen en komijn, met zacht gegaarde eieren.",
+      "cuisine": "Midden-Oosters",
+      "tags": [
+        "eiwitrijk",
+        "eenpans"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 25,
+      "difficulty": "hard",
+      "servings": 2,
+      "palette": [
+        "#3c7a3a",
+        "#f3efdf"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/groene-shakshuka-met-linzen-en-spinazie-5e8ddeb0c421a015f750fe13",
+      "ingredients": [
+        "1 ui",
+        "2 tenen knoflook",
+        "1 paprika",
+        "75 g witte kaas",
+        "400 g linzen in blik, vocht bewaren",
+        "50 g mascarpone",
+        "200 g spinazie",
+        "½ groentebouillonblokje",
+        "1 tl komijn",
+        "4 eieren",
+        "2 platbroden",
+        "2 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 200 °C. Snipper de ui, pers de knoflook, snijd de paprika in blokjes en verkruimel de witte kaas. Laat de linzen uitlekken en vang het vocht op."
+        },
+        {
+          "text": "Pureer de mascarpone met de helft van de spinazie, het linzenvocht en het verkruimelde bouillonblokje tot een gladde groene saus; voeg zo nodig wat water toe."
+        },
+        {
+          "text": "Bak ui, knoflook en paprika 3 minuten in de olie in een pan met deksel en voeg halverwege de komijn toe. Voeg de saus, de rest van de spinazie en de linzen toe en laat de spinazie al roerend slinken.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Maak vier kuiltjes, breek in elk een ei, bestrooi met peper en zout en verdeel de helft van de witte kaas erover. Laat afgedekt stollen; haal de deksel er halverwege af als de saus te nat is.",
+          "timerMinutes": 9
+        },
+        {
+          "text": "Bak het platbrood knapperig in de oven.",
+          "timerMinutes": 4
+        },
+        {
+          "text": "Serveer de shakshuka met de rest van de witte kaas en het platbrood."
+        }
+      ]
+    },
+    {
+      "id": "lahmacun-vega-gehakt-knoflooksaus",
+      "title": "Lahmacun met vegan gehakt",
+      "subtitle": "met komkommer en zelfgemaakte knoflooksaus",
+      "description": "Turkse platbroodpizza's met een kruidige laag van plantaardig gehakt en tomaat, met frisse rauwkost.",
+      "cuisine": "Turks",
+      "tags": [
+        "snel",
+        "oven"
+      ],
+      "prepMinutes": 15,
+      "cookMinutes": 8,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#b8402c",
+        "#7a9b4a"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/lahmacun-met-vegan-gehakt-63c7d3ee00ace46356b3eb14",
+      "ingredients": [
+        "150 g plantaardig gehakt",
+        "2 groene pepers",
+        "2 tenen knoflook",
+        "1 rode ui",
+        "10 g peterselie",
+        "70 g tomatenpuree",
+        "1 tl gerookt paprikapoeder",
+        "1 tl komijn",
+        "100 g rodekool",
+        "1 komkommer",
+        "1 el olijfolie",
+        "1 el wittewijnazijn",
+        "75 g mayonaise",
+        "4 platbroden",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Snijd de groene pepers in reepjes, hak de knoflook fijn en snijd de ui in halve ringen. Pureer de helft van de knoflook, de helft van de ui, de helft van de peterselie, de tomatenpuree, de pepers, de kruiden, 2 el water, zout en peper tot een gladde saus."
+        },
+        {
+          "text": "Meng de saus met het gehakt en de rest van de ui en verwarm 6 minuten in een pan.",
+          "timerMinutes": 6
+        },
+        {
+          "text": "Snijd de komkommer in plakjes en meng met de rodekool, de olie en de azijn."
+        },
+        {
+          "text": "Hak de rest van de peterselie en meng met de mayonaise, de rest van de knoflook en 2 el water tot een knoflooksaus."
+        },
+        {
+          "text": "Besmeer de platbroden met het gehaktmengsel, leg er wat salade op, besprenkel met knoflooksaus en rol op. Serveer met de rest van de salade."
+        }
+      ]
+    },
+    {
+      "id": "marokkaanse-stoof-witte-kaas-dadels",
+      "title": "Marokkaans geïnspireerde stoof met witte kaas",
+      "subtitle": "met citroen, dadels en peterselie",
+      "description": "Een zoet-kruidige groentestoof met aardappel, dadels en gember, met goudbruin gebakken witte kaas.",
+      "cuisine": "Marokkaans",
+      "tags": [
+        "eenpans",
+        "winter"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 30,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#c7682c",
+        "#f1ead3"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/marokkaans-geinspireerde-stoof-met-witte-kaas-6a75c1c6c23b40ec6cfa4320",
+      "ingredients": [
+        "400 g aardappelen",
+        "1 wortel",
+        "1 rode puntpaprika",
+        "1 courgette",
+        "1 ui",
+        "1 teen knoflook",
+        "10 g gember",
+        "2 tl ras el hanout",
+        "½ groentebouillonblokje",
+        "40 g dadels",
+        "1 citroen",
+        "200 g witte kaas",
+        "10 g peterselie",
+        "3 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Los het bouillonblokje op in 250 ml heet water en breng een pan water met zout aan de kook. Was de aardappelen en snijd ze in grove stukken. Snijd de ui in halve ringen, pers de knoflook, rasp de gember, snijd de paprika in reepjes en courgette en wortel in blokjes."
+        },
+        {
+          "text": "Kook de aardappelen gaar, giet af en laat uitstomen.",
+          "timerMinutes": 14
+        },
+        {
+          "text": "Bak ui, knoflook, gember, paprika, courgette en wortel 4 minuten in 2 el olie in een hapjespan met deksel. Voeg de dadels toe en bak 1 minuut.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Roer de ras el hanout en de bouillon erdoor en laat afgedekt sudderen.",
+          "timerMinutes": 11
+        },
+        {
+          "text": "Maak ruimte op de bodem van de pan, leg de witte kaas erin en warm 2 minuten mee. Knijp de citroen erboven uit en laat zonder deksel nog 5 minuten inkoken.",
+          "timerMinutes": 7
+        },
+        {
+          "text": "Schep de rest van de olie en twee derde van de gehakte peterselie door de aardappelen. Serveer met de stoof en de rest van de peterselie."
+        }
+      ]
+    },
+    {
+      "id": "midden-oosterse-tomaten-kikkererwten-naan",
+      "title": "Midden-Oosters gekruide tomaten met kikkererwten",
+      "subtitle": "met yoghurt-komkommersalade en naanbrood",
+      "description": "Sappige geroosterde tomaten en kikkererwten met za'atar, op een bedje van frisse yoghurt.",
+      "cuisine": "Midden-Oosters",
+      "tags": [
+        "oven",
+        "snel"
+      ],
+      "prepMinutes": 15,
+      "cookMinutes": 6,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#d0412e",
+        "#eee6d2"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/midden-oosters-gekruide-tomaten-met-kikkererwten-5fabf5dcaa08b916ec157099",
+      "ingredients": [
+        "2 tomaten",
+        "200 g cherrytomaten",
+        "400 g kikkererwten, uitgelekt",
+        "1 tl ras el hanout",
+        "2 tl za'atar",
+        "3 el olijfolie",
+        "½ komkommer",
+        "½ sjalot",
+        "4 tl rodewijnazijn",
+        "150 g Griekse yoghurt",
+        "5 g peterselie",
+        "5 g munt",
+        "1 naanbrood",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 180 °C. Snijd de tomaten in plakken van ½ cm, halveer de cherrytomaten en leg alles op een schaal. Besprenkel met 1 el olie, de helft van de ras el hanout, 1 tl za'atar, zout en peper."
+        },
+        {
+          "text": "Snijd de komkommer in blokjes, snipper de sjalot en hak peterselie en munt. Laat de kikkererwten uitlekken en plet ze grof met de sjalot, de rest van de za'atar, de helft van de peterselie, de azijn, 1 el olie en een snufje zout."
+        },
+        {
+          "text": "Snijd het naanbrood in punten en bak ze knapperig in de oven.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Meng de yoghurt met de komkommer, munt, de rest van de peterselie en ras el hanout, zout en peper."
+        },
+        {
+          "text": "Verdeel de gemarineerde tomaten over de borden met de kikkererwten ernaast. Serveer met de yoghurt-komkommersalade en de naanpunten en besprenkel met de rest van de olie."
+        }
+      ]
+    }
+  ]
+}

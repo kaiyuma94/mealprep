@@ -1,0 +1,1211 @@
+{
+  "format": "weekmenu-recipe-import",
+  "source": {
+    "type": "inspired",
+    "name": "HelloFresh",
+    "note": "Gerecht en ingrediënten gebaseerd op een HelloFresh-recept; bereidingswijze in eigen woorden. Alleen voor persoonlijk gebruik."
+  },
+  "recipes": [
+    {
+      "id": "krokante-kikkererwten-romige-currysaus",
+      "title": "Krokante kikkererwten met zoete romige currysaus",
+      "subtitle": "met mangochutney, cashewnoten, limoen en peterselie",
+      "description": "Knapperig gebakken kikkererwten op een romige kokoscurry met een vleugje mangochutney, geserveerd met rijst en bloemkoolrijst.",
+      "cuisine": "Indiaas",
+      "tags": [
+        "vegan",
+        "snel",
+        "curry"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 20,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#e0a526",
+        "#5b7f4a"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/krokante-kikkererwten-met-zoete-romige-currysaus-699869b91d69a6906de1f49b",
+      "ingredients": [
+        "400 g kikkererwten, uitgelekt",
+        "200 g bloemkool",
+        "75 g zilvervliesrijst",
+        "1 ui",
+        "2 tenen knoflook",
+        "2 tomaten",
+        "1 wortel",
+        "2 tl kerriepoeder",
+        "20 g cashewnoten",
+        "10 g peterselie",
+        "1 limoen",
+        "180 ml kokosmelk",
+        "40 g mangochutney",
+        "½ groentebouillonblokje",
+        "2 el zonnebloemolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 200 °C. Los het halve bouillonblokje op in 100 ml heet water. Snijd de tomaten in blokjes en de wortel in plakjes; snipper de ui en pers de knoflook."
+        },
+        {
+          "text": "Bak wortel en tomaat 3 minuten in 1 el olie in een hapjespan. Voeg ui en knoflook toe en bak 2 minuten, strooi dan de kerriepoeder erover en bak nog 1 minuut."
+        },
+        {
+          "text": "Giet de bouillon, de kokosmelk en de helft van de mangochutney erbij en laat de saus met de deksel op de pan zachtjes koken.",
+          "timerMinutes": 10
+        },
+        {
+          "text": "Spoel de kikkererwten af, dep ze droog en hussel ze op een bakplaat met bakpapier met de rest van de olie, zout en peper. Rooster ze krokant in de oven.",
+          "timerMinutes": 12
+        },
+        {
+          "text": "Kook intussen de rijst in ruim water gaar. Voeg de laatste minuut de bloemkoolrijst toe en giet alles af.",
+          "timerMinutes": 10
+        },
+        {
+          "text": "Pureer de curry met een staafmixer tot een gladde saus en breng op smaak. Schep saus en kikkererwten op de rijst, bestrooi met cashewnoten en grof gehakte peterselie en serveer met limoenpartjes en de rest van de chutney."
+        }
+      ]
+    },
+    {
+      "id": "aubergine-midden-oosterse-kruiden-bulgur",
+      "title": "Aubergine met Midden-Oosterse kruiden en bulgur",
+      "subtitle": "met zelfgemaakte muhammara, zoetzure ui en naan",
+      "description": "Geroosterde, kruidig ingesmeerde aubergine op frisse bulgur, met een zelfgemaakte dip van geroosterde paprika en walnoten.",
+      "cuisine": "Midden-Oosters",
+      "tags": [
+        "oven",
+        "vegan",
+        "weekend"
+      ],
+      "prepMinutes": 15,
+      "cookMinutes": 30,
+      "difficulty": "hard",
+      "servings": 2,
+      "palette": [
+        "#6b3f6e",
+        "#d9a35a"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/aubergine-met-midden-oosterse-kruiden-en-bulgur-67dc224040b689c29045a049",
+      "ingredients": [
+        "150 g bulgur",
+        "1 naanbrood",
+        "1 teen knoflook",
+        "1 aubergine",
+        "2 paprika's",
+        "1 rode ui",
+        "½ rode peper",
+        "½ citroen",
+        "5 g peterselie",
+        "1 tl komijn",
+        "1 tl korianderpoeder",
+        "1 tl paprikapoeder",
+        "½ tl kaneel",
+        "20 g walnoten",
+        "80 g hummus",
+        "2 tl basterdsuiker",
+        "4 el olijfolie",
+        "½ groentebouillonblokje",
+        "2 el rode wijnazijn",
+        "1 tl suiker",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 200 °C. Los het bouillonblokje op in 350 ml heet water in een pan. Halveer de aubergine in de lengte en kerf het vruchtvlees ruitvormig in, zonder door de schil te snijden."
+        },
+        {
+          "text": "Schroei de aubergine in 1 el olie in een koekenpan: eerst 2 minuten op de schil, dan 5 minuten op de snijkant op lager vuur. Snijd intussen de paprika's in repen en de ui in halve ringen.",
+          "timerMinutes": 7
+        },
+        {
+          "text": "Meng 1 el olie met de helft van de komijn, korianderpoeder, paprikapoeder en kaneel. Leg de aubergine met de snijkant omhoog op een bakplaat, bestrijk met de kruidenolie en leg paprika en de ongepelde knoflook ernaast met een scheut olie, zout en peper. Rooster in de oven; leg het naanbrood de laatste 3 minuten erbij.",
+          "timerMinutes": 12
+        },
+        {
+          "text": "Meng de rode wijnazijn met de suiker en een snufje zout, schep de ui erdoor en laat intrekken. Kook de bulgur afgedekt gaar in de bouillon en giet af.",
+          "timerMinutes": 12
+        },
+        {
+          "text": "Maak de muhammara: pureer de helft van de geroosterde paprika met de walnoten, de uit het velletje geknepen knoflook, de fijngehakte rode peper, de rest van de kruiden, de basterdsuiker, een scheut olie en wat citroensap tot een dikke pasta. Breng op smaak."
+        },
+        {
+          "text": "Meng de rest van de paprika, gehakte peterselie en wat citroenrasp door de bulgur. Leg de aubergine en de zoetzure ui erop en serveer met muhammara, hummus, citroenpartjes en het naanbrood."
+        }
+      ]
+    },
+    {
+      "id": "crispy-sesam-bloemkool",
+      "title": "Crispy sesambloemkoolstukjes",
+      "subtitle": "met rijst en zoetzure wittekool en wortel",
+      "description": "Bloemkoolroosjes in een krokant jasje van panko en sesam, gehusseld door een kleverige zoet-pittige saus.",
+      "cuisine": "Aziatisch",
+      "tags": [
+        "oven",
+        "vegan"
+      ],
+      "prepMinutes": 15,
+      "cookMinutes": 20,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#e8a33d",
+        "#f2e6cf"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/crispy-sesambloemkoolstukjes-65b107a9c53ee87ca20d5ab0",
+      "ingredients": [
+        "300 g bloemkool",
+        "3 el mayonaise",
+        "10 ml sesamolie",
+        "20 ml sojasaus",
+        "2 tl basterdsuiker",
+        "50 g panko",
+        "10 g sesamzaad",
+        "150 g basmatirijst",
+        "½ groentebouillonblokje",
+        "1 teen knoflook",
+        "10 g gember",
+        "½ rode peper",
+        "3 bosuien",
+        "100 g wittekool en wortel",
+        "1,5 el witte wijnazijn",
+        "2 tl suiker",
+        "50 ml zoete chilisaus",
+        "1,5 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 200 °C. Roer de mayonaise los met de sesamolie, sojasaus en basterdsuiker en houd een derde van deze sesammayo apart. Meng in een tweede kom de panko met het sesamzaad, een scheutje olie en een snufje zout."
+        },
+        {
+          "text": "Schep de bloemkoolroosjes door de sesammayo tot ze helemaal bedekt zijn en wentel ze daarna door de panko. Verdeel ze over een bakplaat met bakpapier en bak ze knapperig en goudbruin.",
+          "timerMinutes": 22
+        },
+        {
+          "text": "Los het bouillonblokje op in 360 ml heet water. Rasp de gember, pers de knoflook, hak de rode peper fijn en snijd de bosui in ringen; houd wit en groen apart."
+        },
+        {
+          "text": "Fruit knoflook, gember, peper en het wit van de bosui 1 minuut in de rest van de olie in een pan met deksel. Voeg de rijst en de bouillon toe en kook afgedekt op laag vuur gaar; laat daarna met de deksel op de pan staan.",
+          "timerMinutes": 12
+        },
+        {
+          "text": "Meng de wittewijnazijn met de suiker, zout en peper en schep de wittekool en wortel erdoor. Laat intrekken en schep vlak voor het serveren door de rijst."
+        },
+        {
+          "text": "Verdeel de rijst over de borden, leg de bloemkool erop en maak af met de bewaarde sesammayo, zoete chilisaus en het bosuigroen."
+        }
+      ]
+    },
+    {
+      "id": "zoetzure-tempehwraps-mangochutney",
+      "title": "Zoetzure tempehwraps met mangochutney",
+      "subtitle": "met tortilla's, peer en komkommer-koolsla",
+      "description": "Gebakken tempeh in een zoet-zoute glaze, opgerold met frisse koolsla, peer en mangochutney.",
+      "cuisine": "Aziatisch",
+      "tags": [
+        "vegan",
+        "snel"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 10,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#8a5a2b",
+        "#a9c46c"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/zoetzure-tempehwraps-met-mangochutney-64b122bffc268e84eb1cbb04",
+      "ingredients": [
+        "160 g tempeh",
+        "1 komkommer",
+        "1 peer",
+        "100 g wittekool en wortel",
+        "20 ml sojasaus",
+        "30 ml zoete chilisaus",
+        "10 ml sesamolie",
+        "6 mini-tortilla's",
+        "80 g mangochutney",
+        "1 teen knoflook",
+        "4 el witte wijnazijn",
+        "1 tl zonnebloemolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Snijd de tempeh in blokjes van 1 cm. Meng de sojasaus met de zoete chilisaus en de geperste knoflook."
+        },
+        {
+          "text": "Snijd de komkommer in dunne halve maantjes en meng met de wittekool en wortel, de wijnazijn, sesamolie, zout en peper."
+        },
+        {
+          "text": "Bak de tempeh in de olie op middelhoog vuur goudbruin. Schenk de saus erbij en laat 1 minuut kleven.",
+          "timerMinutes": 6
+        },
+        {
+          "text": "Snijd de peer in dunne plakjes en verwarm de tortilla's kort in een droge pan of de magnetron."
+        },
+        {
+          "text": "Besmeer de tortilla's met mangochutney, beleg met koolsla, peer en tempeh en rol op. Serveer de rest van de koolsla ernaast."
+        }
+      ]
+    },
+    {
+      "id": "indiase-dahl-zoete-aardappel",
+      "title": "Indiase dahl met zoete aardappel",
+      "subtitle": "met pompoenpittensalsa en kruidig naanbrood",
+      "description": "Romige linzendahl met kokosmelk en zoete aardappel, met een frisse salsa van geroosterde pompoenpitten en koriander.",
+      "cuisine": "Indiaas",
+      "tags": [
+        "budget",
+        "eenpans"
+      ],
+      "prepMinutes": 15,
+      "cookMinutes": 30,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#e5a23a",
+        "#4e7a3c"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/dahl-met-zoete-aardappel-en-kokosmelk-64b122bed5b71fbd26231570",
+      "ingredients": [
+        "1 ui",
+        "15 g gember",
+        "150 g zoete aardappel",
+        "3 tl kerriepoeder",
+        "70 g tomatenpuree",
+        "250 ml kokosmelk",
+        "1 groentebouillonblokje",
+        "75 g rode linzen",
+        "200 g spinazie",
+        "20 g pompoenpitten",
+        "10 g koriander",
+        "1 limoen",
+        "1 naanbrood",
+        "1 el zonnebloemolie",
+        "2 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 200 °C en los het bouillonblokje op in 500 ml heet water. Snipper de ui, rasp de gember en snijd de geschilde zoete aardappel in blokjes van 1,5 cm."
+        },
+        {
+          "text": "Fruit de ui 3 minuten in de zonnebloemolie in een koekenpan met deksel. Roer gember, kerriepoeder en tomatenpuree erdoor en bak 2 minuten. Voeg de kokosmelk en de bouillon toe en breng aan de kook."
+        },
+        {
+          "text": "Voeg de zoete aardappel en de gespoelde linzen toe en laat de dahl afgedekt zacht koken tot alles zacht is. Voeg zo nodig een scheut water toe.",
+          "timerMinutes": 20
+        },
+        {
+          "text": "Rooster de pompoenpitten in een droge pan tot ze poffen. Hak de koriander, rasp de limoen en pers hem uit. Meng de pitten met de helft van de koriander, de limoenrasp, een beetje limoensap, 1 el olijfolie, zout en peper tot een salsa."
+        },
+        {
+          "text": "Meng de rest van de koriander met 1 el olijfolie, bestrijk het naanbrood ermee en bak het in de oven knapperig. Snijd het daarna door.",
+          "timerMinutes": 6
+        },
+        {
+          "text": "Roer de spinazie door de dahl tot hij geslonken is en breng op smaak met zout, peper en limoensap. Serveer de dahl met de pompoenpittensalsa en het kruidige naanbrood."
+        }
+      ]
+    },
+    {
+      "id": "surinaamse-roerbak-tempeh",
+      "title": "Surinaamse stijl roerbak met tempeh",
+      "subtitle": "met gekruide aardappelpartjes",
+      "description": "Krokante tempeh met sperziebonen en paprika in masala en ketjap, met ovenaardappelen en sambalmayo.",
+      "cuisine": "Surinaams",
+      "tags": [
+        "oven",
+        "pittig",
+        "eiwitrijk"
+      ],
+      "prepMinutes": 15,
+      "cookMinutes": 35,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#9c3d22",
+        "#e0b14a"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/surinaamse-stijl-roerbak-met-tempeh-648c4ce325862a444bdb6366",
+      "ingredients": [
+        "500 g aardappelen",
+        "160 g tempeh",
+        "2 uien",
+        "2 tenen knoflook",
+        "2 paprika's",
+        "200 g sperziebonen",
+        "2 tl garam masala",
+        "½ tl kurkuma",
+        "½ tl komijn",
+        "30 ml ketjap",
+        "15 g sambal",
+        "1 el mayonaise",
+        "2 el zonnebloemolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Was de aardappelen en snijd ze in partjes. Bak ze in ½ el olie in een hapjespan met deksel op middelhoog vuur gaar; schep regelmatig om. Haal na 20 minuten de deksel eraf, strooi de helft van de garam masala, kurkuma en komijn erover met zout en peper en bak krokant.",
+          "timerMinutes": 32
+        },
+        {
+          "text": "Snijd de uien in halve ringen, pers de knoflook en snijd de paprika's in smalle repen. Halveer de sperziebonen en kook ze in een bodempje water met zout in 5 minuten beetgaar. Spoel koud af.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Bak de tempeh in blokjes in 1 el hete olie in een wok 4 minuten goudbruin en schep uit de pan.",
+          "timerMinutes": 4
+        },
+        {
+          "text": "Roerbak ui, knoflook, paprika en sperziebonen 8 minuten in de rest van de olie met de rest van de kruiden. Doe de tempeh de laatste 2 minuten terug en blus af met de ketjap en twee derde van de sambal.",
+          "timerMinutes": 8
+        },
+        {
+          "text": "Roer de rest van de sambal door de mayonaise. Serveer de aardappelpartjes met de roerbak en de pittige mayo."
+        }
+      ]
+    },
+    {
+      "id": "curry-noedelsoep-kokosmelk",
+      "title": "Curry-noedelsoep met kokosmelk",
+      "subtitle": "met verse koriander en pinda's",
+      "description": "Een snelle, rijke noedelsoep met rode curry, kokosmelk, veel groente en dikke udonnoedels.",
+      "cuisine": "Thais",
+      "tags": [
+        "snel",
+        "soep",
+        "pittig"
+      ],
+      "prepMinutes": 5,
+      "cookMinutes": 15,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#c8442f",
+        "#f0d9a8"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/curry-noedelsoep-met-kokosmelk-64787a8f904daffe76f269e3",
+      "ingredients": [
+        "1 rode peper",
+        "1 teen knoflook",
+        "1 courgette",
+        "1 paprika",
+        "1 wortel",
+        "75 g rode currypasta",
+        "250 ml kokosmelk",
+        "1 groentebouillonblokje",
+        "200 g udonnoedels",
+        "5 g koriander",
+        "40 g pinda's",
+        "2 el zonnebloemolie",
+        "naar smaak zout"
+      ],
+      "steps": [
+        {
+          "text": "Snijd de courgette, paprika en wortel in dunne reepjes. Snijd de knoflook en de rode peper fijn."
+        },
+        {
+          "text": "Verhit de olie in een soeppan en bak de currypasta met de knoflook en de helft van de rode peper 1 minuut."
+        },
+        {
+          "text": "Voeg de groenten toe en roerbak 3 minuten. Schenk 600 ml water, het bouillonblokje en de kokosmelk erbij en laat zachtjes koken.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Voeg de udonnoedels toe, trek ze los en laat 2–3 minuten meewarmen. Proef en breng op smaak met zout."
+        },
+        {
+          "text": "Hak de pinda's grof en de koriander fijn. Schep de soep in kommen en bestrooi met pinda's, koriander en de rest van de rode peper."
+        }
+      ]
+    },
+    {
+      "id": "spaghetti-vegan-cacciatore",
+      "title": "Volkoren spaghetti met vegan cacciatore saus",
+      "subtitle": "met aubergine, geroosterde paprika, olijven en kappertjes",
+      "description": "Een stevige tomatensaus met gebakken aubergine, geroosterde paprika, olijven en kappertjes.",
+      "cuisine": "Italiaans",
+      "tags": [
+        "pasta",
+        "vegan"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 20,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#8e3b26",
+        "#556b3f"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/volkoren-spaghetti-met-vegan-cacciatore-saus-64199970ffff206704442647",
+      "ingredients": [
+        "180 g spaghetti",
+        "½ groentebouillonblokje",
+        "1 aubergine",
+        "1 ui",
+        "1 teen knoflook",
+        "2 tl Italiaanse kruiden",
+        "2 el balsamico",
+        "200 g passata",
+        "40 g tomatentapenade",
+        "20 g olijven",
+        "10 g kappertjes",
+        "1 tl suiker",
+        "100 g geroosterde paprika",
+        "10 g basilicum",
+        "2 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Breng ruim water met het halve bouillonblokje aan de kook voor de pasta. Snijd de aubergine in blokjes, snipper de ui en pers de knoflook."
+        },
+        {
+          "text": "Bak ui en aubergine in 1 el olie in een hapjespan goudbruin. Voeg kruiden en knoflook toe en bak 1 minuut mee.",
+          "timerMinutes": 8
+        },
+        {
+          "text": "Kook de spaghetti beetgaar en bewaar 200 ml kookvocht.",
+          "timerMinutes": 11
+        },
+        {
+          "text": "Blus de groenten af met de balsamico en voeg passata, tapenade, gehalveerde olijven, kappertjes, suiker en de helft van het kookvocht toe. Laat de saus afgedekt zachtjes sudderen.",
+          "timerMinutes": 8
+        },
+        {
+          "text": "Pureer de geroosterde paprika met 1 el olie en een snufje zout tot een gladde saus."
+        },
+        {
+          "text": "Schep de spaghetti door de saus met nog wat kookvocht en breng op smaak. Serveer met een lepel paprikasaus en gescheurde basilicum."
+        }
+      ]
+    },
+    {
+      "id": "tofubowl-pindasaus-paksoi",
+      "title": "Tofubowl met pindasaus en paksoi",
+      "subtitle": "met zoetzure komkommer en rijst",
+      "description": "Goudbruine tofu, roergebakken paksoi en een romige zelfgemaakte pindasaus op rijst.",
+      "cuisine": "Indonesisch",
+      "tags": [
+        "vegan",
+        "bowl",
+        "snel"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 15,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#b8763c",
+        "#7c9a4d"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/tofubowl-met-pindasaus-en-paksoi-64650d840c1e02e39244a1ee",
+      "ingredients": [
+        "150 g basmatirijst",
+        "1 ui",
+        "1 teen knoflook",
+        "½ groentebouillonblokje",
+        "1 komkommer",
+        "4 el witte wijnazijn",
+        "2 tl suiker",
+        "180 g tofu",
+        "40 ml ketjap",
+        "naar smaak sambal",
+        "1 paksoi",
+        "80 g pindakaas",
+        "1 el olijfolie",
+        "1 el zonnebloemolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Snipper de ui en pers de knoflook. Fruit ze 1 minuut in de olijfolie, voeg de rijst, water volgens de verpakking en het verkruimelde bouillonblokje toe en kook 10 minuten op laag vuur. Laat daarna 10 minuten met de deksel op de pan staan.",
+          "timerMinutes": 10
+        },
+        {
+          "text": "Snijd de komkommer in halve maantjes en meng met 3 el azijn en de suiker. Laat intrekken."
+        },
+        {
+          "text": "Bak de tofu in blokjes in de zonnebloemolie goudbruin. Voeg de rest van de azijn, de ketjap, 2 el water en sambal naar smaak toe.",
+          "timerMinutes": 4
+        },
+        {
+          "text": "Snijd stelen en blad van de paksoi klein en roerbak ze 2 minuten mee met de tofu. Breng op smaak."
+        },
+        {
+          "text": "Verwarm de pindakaas met 4–5 el water al roerend tot een gladde, schenkbare saus."
+        },
+        {
+          "text": "Verdeel de rijst over kommen met de tofu en paksoi en de zoetzure komkommer ernaast. Besprenkel met de pindasaus."
+        }
+      ]
+    },
+    {
+      "id": "bloemkool-groene-currysaus",
+      "title": "Geroosterde bloemkool in groene currysaus",
+      "subtitle": "met bruine rijst, spinazie en Thais basilicum",
+      "description": "Geroosterde bloemkoolroosjes in een frisse groene kokoscurry met citroengras en limoen.",
+      "cuisine": "Thais",
+      "tags": [
+        "oven",
+        "vegan",
+        "curry"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 25,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#6f9a52",
+        "#f1efe6"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/geroosterde-bloemkool-in-groene-currysaus-648c4c5f0635a1e9befbb4ea",
+      "ingredients": [
+        "½ bloemkool",
+        "1 el olijfolie",
+        "140 g zilvervliesrijst",
+        "20 g cashewnoten",
+        "2 tenen knoflook",
+        "1 sjalot",
+        "30 g groene currypasta",
+        "1 el bloem",
+        "180 ml kokosmelk",
+        "1 citroengras",
+        "½ groentebouillonblokje",
+        "2 tl suiker",
+        "100 g spinazie",
+        "10 g Thais basilicum",
+        "½ limoen",
+        "1 el zonnebloemolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 200 °C. Snijd de bloemkool in roosjes en de steel in blokjes, meng met de olijfolie, zout en peper en rooster goudbruin en krokant; schep halverwege om.",
+          "timerMinutes": 28
+        },
+        {
+          "text": "Kook de rijst gaar, giet af en laat uitstomen. Rooster de cashewnoten in een droge wok goudbruin en zet apart.",
+          "timerMinutes": 12
+        },
+        {
+          "text": "Pers de knoflook, snipper de sjalot en kneus het citroengras door het op een paar plekken te breken. Fruit knoflook en sjalot 2 minuten in de zonnebloemolie. Roer de currypasta en de bloem erdoor en bak 1 minuut."
+        },
+        {
+          "text": "Voeg kokosmelk, 100 ml water, suiker, het citroengras en het verkruimelde bouillonblokje toe en laat zachtjes pruttelen. Roer de laatste 3 minuten de spinazie en de helft van de basilicum erdoor.",
+          "timerMinutes": 7
+        },
+        {
+          "text": "Vis het citroengras eruit en breng op smaak. Verdeel rijst en bloemkool over de borden, schep de currysaus erover en maak af met cashewnoten, de rest van de basilicum en een limoenpartje."
+        }
+      ]
+    },
+    {
+      "id": "lasagne-gegrilde-groenten",
+      "title": "Lasagne met gegrilde groenten",
+      "subtitle": "met mozzarella en Italiaanse kruiden",
+      "description": "Laagjes gegrilde aubergine en courgette met een kruidige tomatensaus en gesmolten mozzarella.",
+      "cuisine": "Italiaans",
+      "tags": [
+        "oven",
+        "comfort",
+        "weekend"
+      ],
+      "prepMinutes": 20,
+      "cookMinutes": 40,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#c4482f",
+        "#f2d58c"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/cheesy-lasagne-met-gegrilde-groenten-69e21a064af8f3547a64fa81",
+      "ingredients": [
+        "1 aubergine",
+        "1 courgette",
+        "2 tl Italiaanse kruiden",
+        "1 teen knoflook",
+        "400 g tomatenblokjes",
+        "200 g passata",
+        "1 el balsamico",
+        "200 g lasagnebladen",
+        "125 g mozzarella",
+        "25 g geraspte kaas",
+        "4 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 220 °C en zet een pan water op voor de lasagnebladen. Snijd aubergine en courgette in plakken van hooguit ½ cm, meng ze met 1,5 el olie, de helft van de kruiden, zout en peper en grill ze op een bakplaat met bakpapier tot ze zacht en licht gekleurd zijn.",
+          "timerMinutes": 15
+        },
+        {
+          "text": "Bak de geperste knoflook en de rest van de kruiden 1 minuut in een scheut olie tot het geurt. Voeg tomatenblokjes, passata, balsamico en 2 el water toe en laat afgedekt zachtjes inkoken terwijl de groenten roosteren."
+        },
+        {
+          "text": "Blancheer de lasagnebladen 3 minuten, spoel koud af en leg ze los van elkaar op een schone theedoek. Bestrijk ze dun met olie zodat ze niet plakken. Scheur de mozzarella in stukjes.",
+          "timerMinutes": 3
+        },
+        {
+          "text": "Bouw de lasagne op in een ovenschaal: een dun laagje saus, een lasagneblad, saus, gegrilde groenten en wat geraspte kaas. Herhaal en eindig met saus en de mozzarella."
+        },
+        {
+          "text": "Bak de lasagne goudbruin en borrelend.",
+          "timerMinutes": 20
+        },
+        {
+          "text": "Laat minstens 3 minuten rusten voor je hem aansnijdt."
+        }
+      ]
+    },
+    {
+      "id": "parelcouscous-krokante-kikkererwten",
+      "title": "Parelcouscous met knapperige kikkererwten",
+      "subtitle": "met geroosterde groenten en witte kaas",
+      "description": "Botterige parelcouscous met ovengroenten, kruidige knapperige kikkererwten en romige witte kaas.",
+      "cuisine": "Midden-Oosters",
+      "tags": [
+        "oven"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 30,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#d6a04a",
+        "#e9e1cf"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/parelcouscous-met-krokante-kikkererwten-692481577f3a68f85c8cfb43",
+      "ingredients": [
+        "1 paprika",
+        "2 tomaten",
+        "1 courgette",
+        "400 g kikkererwten",
+        "1 tl komijn",
+        "1 tl paprikapoeder",
+        "1 tl korianderpoeder",
+        "½ tl kaneel",
+        "2 tenen knoflook",
+        "½ citroen",
+        "150 g parelcouscous",
+        "75 g witte kaas",
+        "10 g peterselie",
+        "1 tl tijm",
+        "15 g roomboter",
+        "3 el olijfolie",
+        "1 groentebouillonblokje",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 220 °C en los het bouillonblokje op in 300 ml heet water. Snijd de courgette in halve maantjes, de paprika in blokjes en de tomaten in partjes. Meng ze met de helft van de olie en de helft van de tijm en verdeel ze over één helft van een bakplaat met bakpapier."
+        },
+        {
+          "text": "Spoel de kikkererwten af en dep ze droog. Meng ze met de komijn, paprikapoeder, korianderpoeder, kaneel en de rest van de olie en leg ze op de andere helft van de bakplaat. Rooster alles tot de groenten zacht zijn en de kikkererwten krokant.",
+          "timerMinutes": 25
+        },
+        {
+          "text": "Pers de citroen uit en hak de peterselie grof. Smelt de boter in een hapjespan, fruit de geperste knoflook 1 minuut en rooster de parelcouscous met de rest van de tijm 2–3 minuten al roerend."
+        },
+        {
+          "text": "Giet de bouillon erbij en laat de parelcouscous afgedekt gaar worden.",
+          "timerMinutes": 10
+        },
+        {
+          "text": "Verkruimel de witte kaas. Schep de geroosterde groenten, een flinke scheut citroensap en de helft van de witte kaas door de parelcouscous. Serveer met de kikkererwten erop, de rest van de witte kaas en de peterselie."
+        }
+      ]
+    },
+    {
+      "id": "miso-risotto-champignons",
+      "title": "Fusion risotto met miso en harde kaas",
+      "subtitle": "met edamame-bimisalade, champignons en sesam",
+      "description": "Een romige risotto met umami van miso en mascarpone, met gebakken champignons, zacht ei en een frisse groene salade.",
+      "cuisine": "Japans",
+      "tags": [
+        "comfort"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 25,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#b8763c",
+        "#6f9a52"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/miso-paddenstoelen-risotto-met-zachtgekookt-ei-695bb1dd5c0be345fe768021",
+      "ingredients": [
+        "2 eieren",
+        "4 bosuien",
+        "250 g kastanjechampignons",
+        "2 tenen knoflook",
+        "25 g miso",
+        "150 g risottorijst",
+        "200 g bimi",
+        "1 limoen",
+        "10 g Thais basilicum",
+        "50 g edamame",
+        "10 g sesamzaad",
+        "50 g mascarpone",
+        "20 g harde kaas",
+        "½ tl chilivlokken",
+        "1 el sojasaus",
+        "3 el olijfolie"
+      ],
+      "steps": [
+        {
+          "text": "Kook de eieren in 7 minuten zacht, laat schrikken en pel ze. Breng in dezelfde pan 700 ml water aan de kook en los de miso en de sojasaus erin op.",
+          "timerMinutes": 7
+        },
+        {
+          "text": "Snijd de champignons in plakjes en de bosui in ringen; houd wit en groen apart. Bak de champignons met het wit van de bosui en de helft van de geperste knoflook 6 minuten in 1 el olie. Voeg de rijst toe en rooster 1 minuut.",
+          "timerMinutes": 6
+        },
+        {
+          "text": "Voeg een derde van de misobouillon toe en laat de rijst die al roerend opnemen. Herhaal met de rest van de bouillon tot de risotto romig is en de korrels nog een klein beetje bite hebben.",
+          "timerMinutes": 25
+        },
+        {
+          "text": "Halveer de broccolini in de lengte en bak ze met de rest van de knoflook 5 minuten in 1 el olie. Blus af met een scheutje water en laat nog 4 minuten zachtjes garen.",
+          "timerMinutes": 9
+        },
+        {
+          "text": "Rasp de limoen en snijd hem in partjes. Meng 1 el olie met de limoenrasp, een kneepje limoensap, het bosuigroen, de edamame, de broccolini, gescheurde basilicum en de helft van het sesamzaad tot een salade."
+        },
+        {
+          "text": "Roer de mascarpone en de harde kaas door de risotto. Leg een gehalveerd ei op elk bord, bestrooi met chilivlokken en de rest van het sesamzaad en serveer met de salade."
+        }
+      ]
+    },
+    {
+      "id": "risotto-caprese",
+      "title": "Risotto caprese",
+      "subtitle": "met mozzarella, rode peper en spinazie",
+      "description": "Een zonnige tomatenrisotto met spinazie, getopt met verse mozzarella, basilicum en een druppel balsamico.",
+      "cuisine": "Italiaans",
+      "tags": [
+        "comfort"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 25,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#d4583a",
+        "#f2e6cf"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/risotto-caprese-68b157159f094575a25e9be8",
+      "ingredients": [
+        "1 ui",
+        "3 tomaten",
+        "150 g risottorijst",
+        "½ rode peper",
+        "5 g basilicum",
+        "1 tl Italiaanse kruiden",
+        "40 g harde kaas",
+        "125 g mozzarella",
+        "1 el balsamico",
+        "200 g spinazie",
+        "1 groentebouillonblokje",
+        "1 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Los het bouillonblokje op in 600 ml heet water. Fruit de gesnipperde ui 2 minuten in de olie in een pan met deksel. Snijd de tomaten in blokjes van 1 cm."
+        },
+        {
+          "text": "Voeg de risottorijst toe en bak 1 minuut al roerend. Voeg een derde van de bouillon toe en laat de rijst die al roerend opnemen; voeg dan het volgende derde toe."
+        },
+        {
+          "text": "Roer de tomatenblokjes en de rest van de bouillon door de risotto en laat garen tot de rijst romig is maar nog lichte bite heeft. Scheur de spinazie erdoor tot hij geslonken is.",
+          "timerMinutes": 20
+        },
+        {
+          "text": "Haal de pan van het vuur. Roer de Italiaanse kruiden, de helft van de gehakte basilicum en de helft van de harde kaas erdoor en laat de risotto 2 minuten afgedekt staan."
+        },
+        {
+          "text": "Schep de risotto op de borden, scheur de mozzarella erover en maak af met de rest van de kaas, fijngesneden rode peper, de rest van de basilicum en een paar druppels balsamico."
+        }
+      ]
+    },
+    {
+      "id": "melanzane-alla-parmigiana",
+      "title": "Melanzane alla parmigiana",
+      "subtitle": "Italiaanse ovenschotel met aubergine, mozzarella en tomaat",
+      "description": "Goudgebakken plakken aubergine in laagjes met tomatensaus, basilicum en mozzarella, met knapperig brood.",
+      "cuisine": "Italiaans",
+      "tags": [
+        "oven",
+        "weekend",
+        "comfort"
+      ],
+      "prepMinutes": 15,
+      "cookMinutes": 35,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#6b3f6e",
+        "#d4583a"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/melanzane-alla-parmigiana-661e60a9019ddbd535c02cfb",
+      "ingredients": [
+        "1 aubergine",
+        "1 ui",
+        "1 teen knoflook",
+        "10 g basilicum",
+        "1 tl Italiaanse kruiden",
+        "400 g tomatenblokjes",
+        "200 g passata",
+        "25 g harde kaas",
+        "125 g mozzarella",
+        "2 afbakbroodjes",
+        "4 el bloem",
+        "5 el olijfolie",
+        "1 el balsamico",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 200 °C. Snijd de aubergine in de lengte in plakken van ½ cm, bestrooi ze royaal met zout en laat ze in een vergiet uitlekken. Snipper de ui, pers de knoflook en snijd de basilicum in reepjes."
+        },
+        {
+          "text": "Bak ui, knoflook en kruiden 3 minuten in ½ el olie. Blus af met de balsamico, voeg tomatenblokjes, passata en de helft van de basilicum toe, breng op smaak en laat de saus zacht inkoken.",
+          "timerMinutes": 10
+        },
+        {
+          "text": "Rasp de harde kaas en scheur de mozzarella in stukjes. Scheur een half broodje in grove stukken en meng met ½ el olie, zout en peper. Dep de aubergine goed droog en haal de plakken door de bloem met wat peper."
+        },
+        {
+          "text": "Bak de aubergineplakken in twee porties in de rest van de olie in een grote koekenpan aan beide kanten goudbruin. Laat uitlekken op keukenpapier.",
+          "timerMinutes": 10
+        },
+        {
+          "text": "Maak in een ovenschaal laagjes van saus, aubergine, harde kaas en mozzarella; herhaal drie keer. Strooi de broodstukjes erover en bak goudbruin en borrelend.",
+          "timerMinutes": 20
+        },
+        {
+          "text": "Garneer met de rest van de basilicum en serveer met het tweede broodje."
+        }
+      ]
+    },
+    {
+      "id": "vegetarische-moussaka-linzen",
+      "title": "Vegetarische moussaka met aubergine en linzen",
+      "subtitle": "met ras el hanout, yoghurt en oude kaas",
+      "description": "Een lichtere moussaka met plantaardig gehakt en linzen in kruidige tomatensaus, onder een laag yoghurt en kaas.",
+      "cuisine": "Grieks",
+      "tags": [
+        "oven",
+        "eiwitrijk"
+      ],
+      "prepMinutes": 15,
+      "cookMinutes": 30,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#7a3f22",
+        "#efd08c"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/vegetarische-moussaka-met-aubergine-en-linzen-6a75c53e52a1aa811f7b334a",
+      "ingredients": [
+        "2 aubergines",
+        "3 el olijfolie",
+        "½ groentebouillonblokje",
+        "1 ui",
+        "160 g plantaardig gehakt",
+        "1 tl ras el hanout",
+        "1 tl komijn",
+        "½ tl kaneel",
+        "1 tl oregano",
+        "1 el balsamico",
+        "200 g passata",
+        "200 g linzen in blik, uitgelekt",
+        "150 g Griekse yoghurt",
+        "50 g geraspte kaas",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 210 °C en los het halve bouillonblokje op in 100 ml heet water. Snijd de aubergines in de lengte in plakken van 1 cm, leg ze op een bakplaat met bakpapier, besprenkel royaal met olie en bak ze zacht.",
+          "timerMinutes": 18
+        },
+        {
+          "text": "Snipper de ui en spoel de linzen af. Bak de ui 1 minuut in de rest van de olie, voeg het gehakt en de vier kruiden toe en bak 4 minuten rul.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Blus af met de balsamico, roer passata, bouillon en linzen erdoor en laat 3 minuten op laag vuur pruttelen. Breng op smaak.",
+          "timerMinutes": 3
+        },
+        {
+          "text": "Schenk een dun laagje saus in een ovenschaal en leg er aubergine op. Herhaal tot alles op is en eindig met aubergine. Verdeel de yoghurt erover, maal er peper over en bestrooi met de kaas."
+        },
+        {
+          "text": "Bak de moussaka goudbruin.",
+          "timerMinutes": 18
+        }
+      ]
+    },
+    {
+      "id": "wraps-halloumi-gekaramelliseerde-ui",
+      "title": "Wraps met halloumi en gekaramelliseerde ui",
+      "subtitle": "met cranberrychutney en oregano",
+      "description": "Zoute, goudgebakken halloumi met zoete gekaramelliseerde ui en cranberry in warme wraps.",
+      "cuisine": "Mediterraan",
+      "tags": [
+        "snel"
+      ],
+      "prepMinutes": 5,
+      "cookMinutes": 15,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#a12d3a",
+        "#e9c46a"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/wraps-met-halloumi-en-gekaramelliseerde-ui-5f9019b945648758d009b942",
+      "ingredients": [
+        "1 rode ui",
+        "1 teen knoflook",
+        "200 g halloumi",
+        "3 tl oregano",
+        "80 g cranberrysaus",
+        "6 mini-tortilla's",
+        "½ komkommer",
+        "2 tomaten",
+        "100 g gemengde sla",
+        "15 g roomboter",
+        "1 el balsamico",
+        "2 el olijfolie",
+        "1 el witte wijnazijn",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 200 °C. Snijd de rode ui in halve ringen. Snijd de halloumi in staafjes ter grootte van frieten en meng ze met de geperste knoflook, ½ el olie, de oregano en peper."
+        },
+        {
+          "text": "Bak de ui 7 minuten in een droge koekenpan. Voeg de boter, balsamico en cranberrysaus toe en verwarm nog 2 minuten tot een kleverige chutney.",
+          "timerMinutes": 9
+        },
+        {
+          "text": "Bak de halloumi in een droge pan met antiaanbaklaag rondom bruin. Verpak de tortilla's intussen in aluminiumfolie en verwarm ze 3 minuten in de oven.",
+          "timerMinutes": 7
+        },
+        {
+          "text": "Snijd de komkommer in staafjes en de tomaten in blokjes. Meng de sla met de rest van de olie en de witte wijnazijn."
+        },
+        {
+          "text": "Beleg de tortilla's met sla, komkommer, tomaat en halloumifrietjes en schep de ui-cranberrychutney erover. Meng de rest van de groenten door de sla en serveer die ernaast."
+        }
+      ]
+    },
+    {
+      "id": "harira-linzen-kikkererwten",
+      "title": "Harira met linzen en geroosterde kikkererwten",
+      "subtitle": "met volkoren pita's, labne en bladpeterselie",
+      "description": "Een vullende Marokkaanse tomatensoep met linzen, wortel, dadels en warme kruiden.",
+      "cuisine": "Marokkaans",
+      "tags": [
+        "soep",
+        "oven"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 25,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#b94529",
+        "#d9c7a3"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/harira-stijl-soep-met-geroosterde-kikkererwten-690cac7979e2c370e49203f9",
+      "ingredients": [
+        "400 g linzen",
+        "400 g tomatenblokjes",
+        "2 tl ras el hanout",
+        "1 ui",
+        "2 wortels",
+        "10 g gember",
+        "10 g peterselie",
+        "80 g labne",
+        "400 g kikkererwten",
+        "4 pitabroodjes",
+        "1 tl gerookt paprikapoeder",
+        "40 g dadels",
+        "1,5 el olijfolie",
+        "½ groentebouillonblokje",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 220 °C. Rasp de gember, snipper de ui en snijd de wortels in plakjes."
+        },
+        {
+          "text": "Bak gember, ui, wortel en dadels 3 minuten in ½ el olie in een soeppan. Voeg de tomatenblokjes, het bouillonblokje en 400 ml water toe en laat afgedekt koken.",
+          "timerMinutes": 10
+        },
+        {
+          "text": "Laat de kikkererwten uitlekken. Dep de helft droog, meng met de rest van de olie en het gerookte paprikapoeder en rooster ze krokant op een bakplaat. Bak de pita's de laatste 7 minuten mee.",
+          "timerMinutes": 20
+        },
+        {
+          "text": "Spoel de linzen af en hak de peterselie grof."
+        },
+        {
+          "text": "Roer de ras el hanout door de soep en pureer glad. Voeg de linzen en de rest van de kikkererwten toe en verwarm nog 3 minuten. Breng op smaak.",
+          "timerMinutes": 3
+        },
+        {
+          "text": "Schep de soep in diepe borden en maak af met de krokante kikkererwten, peterselie en een lepel labne. Serveer met de pita's."
+        }
+      ]
+    },
+    {
+      "id": "tacos-geitenkaas-zwarte-bonen",
+      "title": "Taco's met geitenkaas, avocado en zwarte bonen",
+      "subtitle": "met ingelegde peper en salade met limoendressing",
+      "description": "Kruidige zwarte bonen met romige geitenkaas en avocado in zachte taco's, met een frisse limoensalade.",
+      "cuisine": "Mexicaans",
+      "tags": [
+        "snel"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 10,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#3f4a3a",
+        "#e7894a"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/tacos-met-geitenkaas-avocado-en-zwarte-bonen-69e21a0bfe534c766c44bf94",
+      "ingredients": [
+        "8 mini-tortilla's",
+        "1 tl komijn",
+        "1 tl paprikapoeder",
+        "½ tl oregano",
+        "¼ tl chilivlokken",
+        "400 g zwarte bonen",
+        "1 teen knoflook",
+        "1 ui",
+        "1 paprika",
+        "2 little gem",
+        "1 avocado",
+        "1 rode peper",
+        "1 limoen",
+        "10 g peterselie",
+        "50 g geitenkaas",
+        "2 el zonnebloemolie",
+        "1 el witte wijnazijn",
+        "1 tl suiker",
+        "1 el honing",
+        "1 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwijder de zaadjes van de peper en snijd hem in dunne ringen. Meng de azijn met de suiker en een snufje zout, voeg de peper toe en laat intrekken tot het serveren."
+        },
+        {
+          "text": "Fruit de gesnipperde ui en de geperste knoflook 2 minuten in 1 el olie. Voeg de zwarte bonen met het vocht toe en laat op middelhoog vuur pruttelen.",
+          "timerMinutes": 8
+        },
+        {
+          "text": "Snijd de paprika in reepjes en bak ze 5 minuten in de rest van de olie. Haal uit de pan en verwarm in dezelfde pan de tortilla's 1 minuut per kant.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Rasp de limoen en snijd hem in partjes. Hak de peterselie en meng de helft met de olijfolie, de honing, wat limoensap en -rasp, zout en peper. Snijd de sla fijn en meng met de dressing."
+        },
+        {
+          "text": "Roer de komijn, paprikapoeder, oregano en chilivlokken door de bonen. Verkruimel de geitenkaas en snijd de avocado in blokjes."
+        },
+        {
+          "text": "Beleg de tortilla's met bonen, wat salade, avocado en paprika en maak af met geitenkaas, ingelegde peper en de rest van de peterselie. Serveer de rest van de salade met limoenpartjes erbij."
+        }
+      ]
+    },
+    {
+      "id": "caesar-salade-geroosterde-kikkererwten",
+      "title": "Caesar salade met geroosterde kikkererwten",
+      "subtitle": "met friet, zelfgemaakte caesar dressing en croutons",
+      "description": "Knapperige sla met een romige dressing, krokante kikkererwten, croutons en ei, met ovenfriet ernaast.",
+      "cuisine": "Amerikaans",
+      "tags": [
+        "oven",
+        "salade"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 25,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#a9c46c",
+        "#e9c46a"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/caesar-stijl-salade-met-knapperige-kikkererwten-6924808b7f3a68f85c8cf7d5",
+      "ingredients": [
+        "300 g aardappelen",
+        "400 g kikkererwten, uitgelekt",
+        "1 tl gerookt paprikapoeder",
+        "1 afbakbroodje",
+        "2 eieren",
+        "2 little gem",
+        "2 tomaten",
+        "1 komkommer",
+        "1 teen knoflook",
+        "50 g mayonaise",
+        "1 el olijfolie",
+        "10 g mosterd",
+        "20 g harde kaas",
+        "2 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 220 °C. Snijd de aardappelen met schil in dikke frieten, meng met 1 el olie, zout en peper en leg ze op een helft van een bakplaat met bakpapier. Bak goudbruin en schep halverwege om.",
+          "timerMinutes": 28
+        },
+        {
+          "text": "Dep de kikkererwten droog, meng ze met een scheut olie en het gerookte paprikapoeder en leg ze bij de frieten. Rooster ze krokant.",
+          "timerMinutes": 20
+        },
+        {
+          "text": "Kook de eieren in 8 minuten hard, pel ze en halveer ze. Scheur het broodje in stukjes, meng met een beetje olie en bak ze de laatste 10 minuten mee als croutons.",
+          "timerMinutes": 8
+        },
+        {
+          "text": "Snijd tomaat en komkommer in blokjes en de sla grof. Rasp de kaas."
+        },
+        {
+          "text": "Meng voor de dressing de geperste knoflook met twee derde van de mayonaise, 1 el olijfolie, de mosterd en de helft van de kaas. Schep sla, tomaat en komkommer erdoor."
+        },
+        {
+          "text": "Verdeel de salade over de borden met de kikkererwten, croutons en eieren, bestrooi met de rest van de kaas en serveer met de frieten en de rest van de mayonaise."
+        }
+      ]
+    }
+  ]
+}

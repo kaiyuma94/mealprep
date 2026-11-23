@@ -1,0 +1,1199 @@
+{
+  "format": "weekmenu-recipe-import",
+  "source": {
+    "type": "inspired",
+    "name": "HelloFresh",
+    "note": "Gerecht en ingrediënten gebaseerd op een HelloFresh-recept; bereidingswijze in eigen woorden. Alleen voor persoonlijk gebruik."
+  },
+  "recipes": [
+    {
+      "id": "flammkuchen-mozzarella-courgette",
+      "title": "Flammkuchen met mozzarella en courgette",
+      "subtitle": "met een frisse salade",
+      "description": "Dunne, knapperige bodems met kruidige tomatensaus, courgette, paprika en gesmolten mozzarella.",
+      "cuisine": "Frans",
+      "tags": [
+        "oven"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 25,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#e0b14a",
+        "#6f9a52"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/flammkuchen-met-courgette-6894803e464ec79ed4703cb8",
+      "ingredients": [
+        "2 tenen knoflook",
+        "200 g passata",
+        "1 tl Italiaanse kruiden",
+        "1 courgette",
+        "½ rode ui",
+        "1 paprika",
+        "2 flammkuchenbodems",
+        "125 g mozzarella",
+        "1 tomaat",
+        "60 g rucola",
+        "5 g basilicum",
+        "2 el witte wijnazijn",
+        "2 el olijfolie",
+        "1 tl honing",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 200 °C. Fruit de geperste knoflook 1 minuut in een scheut olie, voeg passata, kruiden, honing en de helft van de azijn toe en laat de saus 7 minuten inkoken. Breng op smaak.",
+          "timerMinutes": 7
+        },
+        {
+          "text": "Snijd een derde van de courgette in dunne plakken, een kwart van de rode ui in halve ringen en de paprika in blokjes. Bak de bodems 7 minuten voor in de oven.",
+          "timerMinutes": 7
+        },
+        {
+          "text": "Bak de courgetteplakken 5 minuten in ½ el olie. Scheur de mozzarella in stukjes.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Besmeer de bodems met de saus, laat 2 cm rand vrij, en beleg met courgette, paprika, rode ui en mozzarella. Bak tot de mozzarella begint te kleuren.",
+          "timerMinutes": 9
+        },
+        {
+          "text": "Schaaf de rest van de courgette in linten, snijd de tomaat in blokjes en meng met de rucola, de rest van de olie en de azijn."
+        },
+        {
+          "text": "Garneer de flammkuchen met basilicum en serveer de salade ernaast."
+        }
+      ]
+    },
+    {
+      "id": "kikkererwtencurry-sticky-aubergine",
+      "title": "Kikkererwtencurry met pinda's en sticky aubergine",
+      "subtitle": "met rijst, zoete aardappel, limoen en koriander",
+      "description": "Een romige pinda-kokoscurry met kikkererwten en zoete aardappel, getopt met kleverige ketjap-aubergine.",
+      "cuisine": "Aziatisch",
+      "tags": [
+        "vegan",
+        "curry"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 20,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#7a3f22",
+        "#e5a23a"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/kikkererwtencurry-met-sticky-aubergine-686e7bfa69ddbf20131a7516",
+      "ingredients": [
+        "150 g basmatirijst",
+        "½ groentebouillonblokje",
+        "250 g kikkererwten, uitgelekt",
+        "150 g zoete aardappel",
+        "1 wortel",
+        "1 ui",
+        "10 g gember",
+        "1 teen knoflook",
+        "½ rode peper",
+        "2 tl kerriepoeder",
+        "60 g pindakaas",
+        "180 ml kokosmelk",
+        "2 el ketjap",
+        "1 aubergine",
+        "1 el bloem",
+        "½ limoen",
+        "20 g pinda's",
+        "10 g koriander",
+        "2 el zonnebloemolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Kook de rijst gaar en giet af. Los het bouillonblokje op in 150 ml heet water. Laat de kikkererwten uitlekken en snijd de zoete aardappel en wortel in kleine blokjes.",
+          "timerMinutes": 11
+        },
+        {
+          "text": "Bak ui, zoete aardappel, wortel, kerriepoeder, geraspte gember, knoflook en peper 4 minuten in 1 el olie. Roer pindakaas, kokosmelk, bouillon en de helft van de ketjap erdoor en breng aan de kook.",
+          "timerMinutes": 4
+        },
+        {
+          "text": "Voeg de kikkererwten toe en laat afgedekt zachtjes koken tot de groenten gaar zijn.",
+          "timerMinutes": 12
+        },
+        {
+          "text": "Snijd de aubergine in kleine blokjes en hussel ze met de bloem, zout en peper. Bak ze in de rest van de olie goudbruin en knapperig en schep de laatste minuut de rest van de ketjap erdoor zodat ze kleverig worden.",
+          "timerMinutes": 9
+        },
+        {
+          "text": "Serveer de rijst met de curry en de sticky aubergine erop, bestrooi met grof gehakte pinda's en koriander en geef limoenpartjes erbij."
+        }
+      ]
+    },
+    {
+      "id": "spinazie-kokoscurry-spiegelei",
+      "title": "Spinazie-kokoscurry met spiegelei",
+      "subtitle": "met gele rijst en cashew-kokostopping",
+      "description": "Een milde tomaat-kokoscurry vol spinazie met gele rijst, een spiegelei en een knapperige topping.",
+      "cuisine": "Indiaas",
+      "tags": [
+        "snel",
+        "curry"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 15,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#e7c25a",
+        "#4e7a3c"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/spinazie-kokoscurry-met-spiegelei-6a75c51aaf49332c60798fcd",
+      "ingredients": [
+        "1 rode ui",
+        "2 tenen knoflook",
+        "150 g basmatirijst",
+        "40 g cashewnoten",
+        "10 g kokosrasp",
+        "100 ml kokosmelk",
+        "2 eieren",
+        "200 g spinazie",
+        "½ rode peper",
+        "5 g koriander",
+        "2 tl kerriepoeder",
+        "2 tl kurkuma",
+        "1 limoen",
+        "400 g tomatenblokjes",
+        "1 paprika",
+        "1 groentebouillonblokje",
+        "3 el zonnebloemolie",
+        "naar smaak zout"
+      ],
+      "steps": [
+        {
+          "text": "Fruit de helft van de ui 2 minuten in 1 el olie, voeg 1 tl kurkuma toe en bak 1 minuut. Voeg de rijst, water volgens de verpakking en een half bouillonblokje toe en kook afgedekt gaar.",
+          "timerMinutes": 14
+        },
+        {
+          "text": "Snijd de paprika in blokjes en hak een stukje rode peper fijn. Rooster de cashewnoten 1 minuut in een droge wok, voeg de kokosrasp toe en rooster tot goudbruin. Zet apart."
+        },
+        {
+          "text": "Bak de rest van de ui, de geperste knoflook, paprika, peper, kerriepoeder en de rest van de kurkuma 2 minuten in 1 el olie in dezelfde wok. Voeg de tomatenblokjes toe en bak 4 minuten al roerend.",
+          "timerMinutes": 6
+        },
+        {
+          "text": "Voeg de kokosmelk en het andere halve bouillonblokje toe en laat zachtjes koken. Scheur de spinazie erboven en laat al roerend slinken; knijp er een partje limoen boven uit.",
+          "timerMinutes": 4
+        },
+        {
+          "text": "Bak de eieren in de rest van de olie tot spiegeleieren en hak de koriander grof."
+        },
+        {
+          "text": "Verdeel de gele rijst over de borden met de curry en een spiegelei erop. Maak af met koriander, de cashew-kokostopping en limoenpartjes."
+        }
+      ]
+    },
+    {
+      "id": "indonesische-curry-ei-uitjes",
+      "title": "Indonesische stijl curry met ei en gefrituurde uitjes",
+      "subtitle": "met rijst, koriander en komkommer",
+      "description": "Hardgekookte eieren en sperziebonen in een kruidige kokos-tomatensaus met ketjap, sambal en knapperige uitjes.",
+      "cuisine": "Indonesisch",
+      "tags": [
+        "snel",
+        "pittig"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 15,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#9c3d22",
+        "#e9c46a"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/indonesische-stijl-curry-met-ei-en-gefrituurde-uitjes-69ba891be0e4e3eb769f81c2",
+      "ingredients": [
+        "150 g basmatirijst",
+        "4 eieren",
+        "1 ui",
+        "2 tenen knoflook",
+        "10 g gember",
+        "1 tomaat",
+        "1 tl korianderpoeder",
+        "½ tl kurkuma",
+        "5 g sambal",
+        "200 g sperziebonen",
+        "35 g tomatenpuree",
+        "90 ml kokosmelk",
+        "30 g gebakken uitjes",
+        "5 g koriander",
+        "½ komkommer",
+        "2 el zonnebloemolie",
+        "1 tl suiker",
+        "2 el ketjap",
+        "1 el sojasaus"
+      ],
+      "steps": [
+        {
+          "text": "Kook de rijst gaar en laat uitstomen. Kook de eieren 4 minuten in een andere pan, voeg de gehalveerde sperziebonen toe en kook nog 3 minuten. Laat de eieren schrikken.",
+          "timerMinutes": 12
+        },
+        {
+          "text": "Pureer de ui met de knoflook en gember tot een pasta en zet apart. Pureer daarna de tomaat."
+        },
+        {
+          "text": "Bak de uienpasta met de tomatenpuree 3 minuten in de olie in een wok; voeg sambal naar smaak toe. Roer de gepureerde tomaat, korianderpoeder, kurkuma, suiker, ketjap en sojasaus erdoor en bak 2 minuten.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Pel de eieren. Voeg kokosmelk, eieren en sperziebonen toe aan de wok en laat 2 minuten koken.",
+          "timerMinutes": 2
+        },
+        {
+          "text": "Serveer de rijst met de curry, komkommer in halve maantjes ernaast en bestrooi met gebakken uitjes en koriander."
+        }
+      ]
+    },
+    {
+      "id": "platbroodpizza-champignons-mozzarella",
+      "title": "Platbroodpizza's met champignons en mozzarella",
+      "subtitle": "met paprika, rode ui en vers basilicum",
+      "description": "Snelle, knapperige pizza's op platbrood met kruidige tomatensaus, gebakken champignons en twee kazen.",
+      "cuisine": "Italiaans",
+      "tags": [
+        "snel",
+        "oven"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 15,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#c79a5b",
+        "#c4482f"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/platbroodpizzas-met-champignons-en-mozzarella-62458f3cc8f7f5618710db87",
+      "ingredients": [
+        "4 Libanees platbrood",
+        "350 g champignons",
+        "1 paprika",
+        "1 rode ui",
+        "125 g mozzarella",
+        "200 g passata",
+        "1 teen knoflook",
+        "2 tl paprikapoeder",
+        "½ tl komijn",
+        "1 tl oregano",
+        "50 g geraspte kaas",
+        "10 g basilicum",
+        "2 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 200 °C. Snijd de champignons in plakken, de paprika in smalle repen en de rode ui in dunne halve ringen. Scheur de mozzarella in stukjes."
+        },
+        {
+          "text": "Bak de champignons in 1 el olie op hoog vuur 4 minuten.",
+          "timerMinutes": 4
+        },
+        {
+          "text": "Meng de passata met de geperste knoflook, het paprikapoeder, de komijn, zout en peper."
+        },
+        {
+          "text": "Besmeer de platbroden met de saus en verdeel champignons, ui en paprika erover. Bestrooi met oregano, geraspte kaas en mozzarella en bak de pizza's op een bakplaat met bakpapier.",
+          "timerMinutes": 8
+        },
+        {
+          "text": "Garneer met basilicum en een scheutje olijfolie."
+        }
+      ]
+    },
+    {
+      "id": "shakshuka-falafel-witte-kaas",
+      "title": "Shakshuka met falafel en witte kaas",
+      "subtitle": "met aubergine en knapperige tortilla's",
+      "description": "Eieren gepocheerd in een kruidige tomatensaus met aubergine, met falafel, witte kaas en knapperige tortillapunten.",
+      "cuisine": "Midden-Oosters",
+      "tags": [
+        "eiwitrijk"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 20,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#b94529",
+        "#f2d58c"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/shakshuka-met-falafel-en-witte-kaas-63b69e09d67255c0910dd744",
+      "ingredients": [
+        "150 g falafel",
+        "200 g passata",
+        "50 g witte kaas",
+        "4 eieren",
+        "1 aubergine",
+        "4 tortillawraps",
+        "1 tl komijn",
+        "1 tl paprikapoeder",
+        "½ tl kaneel",
+        "2 tomaten",
+        "½ groentebouillonblokje",
+        "2 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 200 °C. Snijd de aubergine en de tomaten in blokjes van 1 cm. Los het halve bouillonblokje op in 100 ml heet water."
+        },
+        {
+          "text": "Bak de aubergine in een scheut olie in een hapjespan met deksel rondom bruin. Voeg tomaat, komijn, paprikapoeder en kaneel toe en bak 3 minuten. Giet bouillon en passata erbij en laat 3 minuten koken.",
+          "timerMinutes": 9
+        },
+        {
+          "text": "Halveer de wraps, leg ze op een bakplaat met bakpapier, bestrijk ze met een beetje olie, zout en peper en bak ze knapperig.",
+          "timerMinutes": 6
+        },
+        {
+          "text": "Maak vier kuiltjes in de saus, breek in elk een ei en laat ze diep in de saus zakken. Verdeel twee derde van de witte kaas erover en laat met de deksel op de pan stollen.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Bak intussen de falafel in de rest van de olie op hoog vuur rondom bruin.",
+          "timerMinutes": 3
+        },
+        {
+          "text": "Verkruimel de rest van de witte kaas over de shakshuka, leg de falafel erop en zet de pan op tafel met de knapperige wraps."
+        }
+      ]
+    },
+    {
+      "id": "vegan-pasta-e-fagioli",
+      "title": "Vegan pasta e fagioli",
+      "subtitle": "in cherrytomatensaus met cannellinibonen en focaccia",
+      "description": "Italiaanse boerenkost: pasta en witte bonen samen gegaard in een dikke tomatensaus met een diepe miso-umami.",
+      "cuisine": "Italiaans",
+      "tags": [
+        "vegan",
+        "eenpans",
+        "pasta"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 25,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#c4482f",
+        "#efe4d3"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/vegan-pasta-e-fagioli-612759ec33de6b559556ef8c",
+      "ingredients": [
+        "1 ui",
+        "2 wortels",
+        "3 tenen knoflook",
+        "10 g bladselderij",
+        "400 g cherrytomaten in blik",
+        "2 tl Italiaanse kruiden",
+        "1 laurierblad",
+        "1 tl balsamico",
+        "25 g miso",
+        "150 g rigatoni",
+        "250 g witte bonen, uitgelekt",
+        "2 focaccia",
+        "5 g rozemarijn",
+        "2 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Snipper de ui en snijd de wortels in kleine blokjes. Roerbak ze 6 minuten in ½ el olie in een grote hapjespan met deksel.",
+          "timerMinutes": 6
+        },
+        {
+          "text": "Verwarm de oven voor op 180 °C. Snijd de bladselderij grof en pers de knoflook."
+        },
+        {
+          "text": "Voeg de cherrytomaten, bladselderij, knoflook, kruiden, het laurierblad, de balsamico en de miso toe en laat zonder deksel 4 minuten indikken.",
+          "timerMinutes": 4
+        },
+        {
+          "text": "Roer 200 ml water erdoor, voeg de rigatoni en de bonen toe en laat afgedekt koken tot de pasta gaar is. Roer regelmatig over de bodem en voeg zo nodig een scheutje water toe.",
+          "timerMinutes": 16
+        },
+        {
+          "text": "Hak de rozemarijn fijn en meng met de rest van de olie. Bak de focaccia goudbruin in de oven.",
+          "timerMinutes": 7
+        },
+        {
+          "text": "Vis het laurierblad eruit, breng op smaak en verdeel over de borden. Besprenkel met de rozemarijnolie en serveer met de focaccia."
+        }
+      ]
+    },
+    {
+      "id": "pasta-alla-norma",
+      "title": "Pasta alla norma",
+      "subtitle": "met aubergine, vers basilicum en harde kaas",
+      "description": "De Siciliaanse klassieker: zachte gebakken aubergine in tomatensaus met basilicum en geraspte kaas.",
+      "cuisine": "Italiaans",
+      "tags": [
+        "snel",
+        "pasta"
+      ],
+      "prepMinutes": 5,
+      "cookMinutes": 15,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#6b3f6e",
+        "#c4482f"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/rigatoni-alla-norma-6669a3e9c2b46cc6d553497f",
+      "ingredients": [
+        "1 aubergine",
+        "2 tenen knoflook",
+        "1 ui",
+        "10 g basilicum",
+        "200 g passata",
+        "1 tl Italiaanse kruiden",
+        "100 g cherrytomaten",
+        "60 g harde kaas",
+        "180 g penne",
+        "3 el olijfolie",
+        "1 tl balsamico",
+        "½ groentebouillonblokje",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Breng ruim water met het halve bouillonblokje aan de kook. Snijd de aubergine in blokjes van 1 cm, halveer de tomaatjes, snipper de ui, pers de knoflook en snijd de basilicum grof."
+        },
+        {
+          "text": "Kook de pasta beetgaar, bewaar een kopje kookvocht en laat uitstomen.",
+          "timerMinutes": 11
+        },
+        {
+          "text": "Roerbak de aubergine in 1,5 el olie op hoog vuur goudbruin; voeg de laatste 2 minuten de kruiden toe. Rasp de kaas.",
+          "timerMinutes": 9
+        },
+        {
+          "text": "Bak in een tweede pan ui en knoflook 2 minuten in de rest van de olie, voeg de tomaatjes toe en bak nog 2 minuten. Blus af met passata en balsamico en laat 5 minuten sudderen.",
+          "timerMinutes": 7
+        },
+        {
+          "text": "Schep pasta, aubergine, de helft van de kaas, de helft van de basilicum en 2–3 el kookvocht door de saus. Serveer met de rest van de kaas en basilicum."
+        }
+      ]
+    },
+    {
+      "id": "penne-spinazie-roomsaus",
+      "title": "Penne met spinazie-roomsaus",
+      "subtitle": "met harde kaas, cherrytomaten en basilicum",
+      "description": "Een snelle romige pasta met kruidenroomkaas, spinazie, zongedroogde tomaat en gerookte paprika.",
+      "cuisine": "Italiaans",
+      "tags": [
+        "snel",
+        "pasta",
+        "comfort"
+      ],
+      "prepMinutes": 5,
+      "cookMinutes": 10,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#4e7a3c",
+        "#f1efe6"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/penne-met-spinazie-roomsaus-676ae54b7de812ab26274791",
+      "ingredients": [
+        "180 g penne",
+        "½ groentebouillonblokje",
+        "1 ui",
+        "1 paprika",
+        "125 g cherrytomaten",
+        "2 tl balsamico",
+        "200 g spinazie",
+        "2 tl gerookt paprikapoeder",
+        "40 g tomatentapenade",
+        "150 g kruidenroomkaas",
+        "40 g harde kaas",
+        "10 g basilicum",
+        "1 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Kook de penne beetgaar in water met het verkruimelde bouillonblokje en bewaar een kopje kookvocht. Snipper de ui, snijd de paprika in dunne reepjes en de basilicum fijn.",
+          "timerMinutes": 12
+        },
+        {
+          "text": "Bak ui, paprika en cherrytomaatjes 4 minuten in de olie op hoog vuur. Zet het vuur lager en blus af met de balsamico.",
+          "timerMinutes": 4
+        },
+        {
+          "text": "Voeg spinazie, gerookt paprikapoeder, tapenade en kruidenroomkaas toe en roer tot de spinazie geslonken is en de saus romig."
+        },
+        {
+          "text": "Roer 3 el kookvocht erdoor, schep de penne door de saus en breng op smaak. Serveer met geraspte harde kaas en basilicum."
+        }
+      ]
+    },
+    {
+      "id": "vegaburger-truffelmayonaise",
+      "title": "Vegetarische hamburger met truffelmayonaise",
+      "subtitle": "met aardappeltjes uit de oven en salade",
+      "description": "Een sappige vegaburger met gebakken champignons, gesmolten kaas en truffelmayo, met krieltjes uit de oven.",
+      "cuisine": "Amerikaans",
+      "tags": [
+        "oven",
+        "comfort"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 30,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#d99a3e",
+        "#5a3a22"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/vegetarische-burger-met-truffelmayonaise-63c7d3e3788f6ee4ca33d7ee",
+      "ingredients": [
+        "300 g aardappelen",
+        "2 vegetarische burgers",
+        "2 hamburgerbollen",
+        "25 g geraspte kaas",
+        "1 ui",
+        "250 g champignons",
+        "15 g roomboter",
+        "50 g mayonaise",
+        "1 tl truffelolie",
+        "1 tl honing",
+        "20 g rucola",
+        "20 g veldsla",
+        "2 tl balsamico",
+        "2 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 220 °C. Was de aardappelen, snijd ze in partjes, dep droog en meng met 1 el olie, zout en peper. Bak ze goudbruin op een bakplaat met bakpapier.",
+          "timerMinutes": 32
+        },
+        {
+          "text": "Roer de mayonaise los met de truffelolie en de honing."
+        },
+        {
+          "text": "Snijd de ui in dunne halve ringen en de champignons in plakjes en bak ze in de helft van de boter 6 minuten. Houd warm in de pan.",
+          "timerMinutes": 6
+        },
+        {
+          "text": "Bak de burgers in de rest van de boter in een pan met deksel 3 minuten per kant. Verdeel de laatste 2 minuten de kaas erover en laat smelten met de deksel op de pan.",
+          "timerMinutes": 6
+        },
+        {
+          "text": "Meng rucola en veldsla vlak voor het serveren met 1 tl olie en de balsamico."
+        },
+        {
+          "text": "Besmeer de opengesneden broodjes met truffelmayo en beleg met burger en de helft van de ui en champignons. Serveer met de aardappeltjes, salade, de rest van de champignons en de overige mayo."
+        }
+      ]
+    },
+    {
+      "id": "stamppot-zoete-aardappel-boerenkool",
+      "title": "Stamppot van zoete aardappel en boerenkool",
+      "subtitle": "met witte grillkaas en uienjus",
+      "description": "Een zoetige twist op boerenkoolstamppot met gegrilde halloumi, kruidige uienjus en geroosterde amandelen.",
+      "cuisine": "Nederlands",
+      "tags": [
+        "stamppot",
+        "comfort",
+        "winter"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 25,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#4e6b3a",
+        "#e58a2e"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/stamppot-van-zoete-aardappel-en-boerenkool-63c7cdc16ab9cacaa3736f73",
+      "ingredients": [
+        "450 g zoete aardappel",
+        "200 g aardappelen",
+        "½ groentebouillonblokje",
+        "200 g boerenkool",
+        "2 uien",
+        "30 g roomboter",
+        "40 g uienchutney",
+        "200 g halloumi",
+        "1 tl kerriepoeder",
+        "100 ml melk",
+        "20 g amandelen",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Schil beide soorten aardappel en snijd ze in grove stukken. Zet ze net onder water in een pan met deksel, verkruimel een kwart bouillonblokje erboven en breng aan de kook. Voeg dan de boerenkool toe en kook alles gaar.",
+          "timerMinutes": 18
+        },
+        {
+          "text": "Snipper de helft van de uien en snijd de rest in ringen. Hak de amandelen grof. Smoor de uienringen afgedekt 7 minuten in de helft van de boter. Voeg het andere kwart bouillonblokje, de uienchutney en een scheutje water toe en laat inkoken tot een jus.",
+          "timerMinutes": 10
+        },
+        {
+          "text": "Dep de halloumi droog, snijd in plakken van 1 cm en bak ze in een droge pan met antiaanbaklaag aan beide kanten goudbruin.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Fruit de gesnipperde ui 2 minuten in de rest van de boter, voeg de kerriepoeder toe en bak 1 minuut. Blus af met de melk."
+        },
+        {
+          "text": "Stamp aardappel en boerenkool grof en meng het kerriemengsel erdoor; voeg zo nodig wat kookvocht toe. Breng op smaak."
+        },
+        {
+          "text": "Verdeel de stamppot over diepe borden met de halloumi erop, schenk de uienjus erover en bestrooi met amandelen."
+        }
+      ]
+    },
+    {
+      "id": "broccoli-spitskool-stamppot-jus",
+      "title": "Broccoli-spitskool stamppot met zelfgemaakte jus",
+      "subtitle": "met zongedroogde tomaat en walnoten",
+      "description": "Een frisse groene stamppot met romige roomkaas en feta, een zoete ketjapjus en knapperige walnoten.",
+      "cuisine": "Nederlands",
+      "tags": [
+        "stamppot",
+        "snel"
+      ],
+      "prepMinutes": 5,
+      "cookMinutes": 20,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#6f9a52",
+        "#8e3b26"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/broccoli-spitskool-stamppot-met-zelfgemaakte-jus-619f6c4bc10f33518a4ae1e6",
+      "ingredients": [
+        "400 g aardappelen",
+        "200 g broccoli",
+        "200 g spitskool",
+        "60 g zongedroogde tomaten",
+        "1 rode ui",
+        "1 el olijfolie",
+        "45 g roomboter",
+        "2 el mosterd",
+        "½ groentebouillonblokje",
+        "40 ml ketjap",
+        "50 g kruidenroomkaas",
+        "50 g feta",
+        "20 g walnoten",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Schil de aardappelen, snijd in stukken en kook ze in water met zout gaar. Kook de laatste 4 minuten de broccoliroosjes en de gesneden spitskool mee. Giet af en laat uitstomen.",
+          "timerMinutes": 15
+        },
+        {
+          "text": "Snijd de zongedroogde tomaten klein en de rode ui in halve ringen."
+        },
+        {
+          "text": "Bak de ui 3 minuten in de olie. Voeg de boter, 1 el mosterd, het verkruimelde bouillonblokje, de ketjap en 100 ml water toe en roer tot een glanzende jus.",
+          "timerMinutes": 4
+        },
+        {
+          "text": "Stamp aardappel en groenten grof. Roer de kruidenroomkaas, de zongedroogde tomaten, de rest van de mosterd en flink wat peper erdoor."
+        },
+        {
+          "text": "Verdeel de stamppot over de borden, giet de jus erover en garneer met verbrokkelde feta en walnoten."
+        }
+      ]
+    },
+    {
+      "id": "quiche-broccoli-oude-kaas",
+      "title": "Quiche met broccoli, cherrytomaten en oude kaas",
+      "subtitle": "met tijm en oregano",
+      "description": "Een hartige quiche met broccoli, zoete tomaatjes, kruidenroomkaas en pittige oude kaas.",
+      "cuisine": "Frans",
+      "tags": [
+        "oven",
+        "weekend"
+      ],
+      "prepMinutes": 15,
+      "cookMinutes": 35,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#e9c46a",
+        "#5b7f4a"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/quiche-met-broccoli-en-oude-kaas-628665b01dea7b8f5009b248",
+      "ingredients": [
+        "1 rol taartdeeg",
+        "200 g broccoli",
+        "1 ui",
+        "1 teen knoflook",
+        "125 g cherrytomaten",
+        "4 eieren",
+        "2 el melk",
+        "50 g kruidenroomkaas",
+        "1 tl oregano",
+        "1 tl tijm",
+        "50 g geraspte kaas",
+        "1,5 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 210 °C. Snijd de broccoli in kleine roosjes en de steel in blokjes. Snijd de ui in dunne ringen."
+        },
+        {
+          "text": "Fruit ui en geperste knoflook 2 minuten in 1 el olie in een hapjespan met deksel. Voeg de broccoli toe en bak afgedekt mee. Halveer de tomaatjes.",
+          "timerMinutes": 9
+        },
+        {
+          "text": "Klop de eieren los met de melk, de kruidenroomkaas, oregano, tijm en de helft van de geraspte kaas. Breng goed op smaak."
+        },
+        {
+          "text": "Vet een quichevorm in met de rest van de olie, bekleed met het deeg en prik de bodem in. Verdeel broccoli, ui en tomaatjes erover, giet het eimengsel erop en bestrooi met de rest van de kaas."
+        },
+        {
+          "text": "Bak de quiche goudbruin en gestold.",
+          "timerMinutes": 30
+        },
+        {
+          "text": "Laat even rusten en snijd in punten."
+        }
+      ]
+    },
+    {
+      "id": "couscous-halloumi-kikkererwten-aubergine",
+      "title": "Couscous met halloumi, kikkererwten en aubergine",
+      "subtitle": "met limoen-knoflookolie en yoghurt",
+      "description": "Kruidige couscous met geroosterde aubergine en kikkererwten, goudbruine halloumi en een frisse limoen-knoflookolie.",
+      "cuisine": "Midden-Oosters",
+      "tags": [
+        "oven"
+      ],
+      "prepMinutes": 15,
+      "cookMinutes": 25,
+      "difficulty": "hard",
+      "servings": 2,
+      "palette": [
+        "#d6a04a",
+        "#5b7f4a"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/couscous-met-halloumi-kikkererwten-en-aubergine-5d4d6bb7bf02350009566de4",
+      "ingredients": [
+        "250 g kikkererwten",
+        "1 aubergine",
+        "2 tomaten",
+        "1 teen knoflook",
+        "10 g munt",
+        "1 limoen",
+        "150 g halloumi",
+        "170 g couscous",
+        "75 g Griekse yoghurt",
+        "1 tl komijn",
+        "1 groentebouillonblokje",
+        "4 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 220 °C en los het bouillonblokje op in 250 ml heet water. Dep de kikkererwten droog en snijd de aubergine in halve plakjes. Meng beide op een bakplaat met 1 el olie, de komijn, zout en peper en rooster tot de aubergine zacht is.",
+          "timerMinutes": 25
+        },
+        {
+          "text": "Snijd de tomaten in blokjes en de munt fijn. Rasp de limoen en pers hem uit. Snijd de halloumi in blokjes van 1–2 cm."
+        },
+        {
+          "text": "Giet de bouillon over de couscous en laat afgedekt 10 minuten wellen. Maak los met een vork.",
+          "timerMinutes": 10
+        },
+        {
+          "text": "Bak limoenrasp en geperste knoflook 30 seconden in een scheutje olie. Bak de halloumi daarin rondom krokant en haal uit de pan. Bak de couscous 2 minuten in de achtergebleven limoen-knoflookolie.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Meng munt, tomaat en de rest van de olie door de couscous en breng op smaak."
+        },
+        {
+          "text": "Serveer de couscous met de kikkererwten en aubergine, besprenkel met limoensap en leg de halloumi erop. Geef de yoghurt apart erbij."
+        }
+      ]
+    },
+    {
+      "id": "gevulde-paprikas-harissa-couscous",
+      "title": "Gevulde paprika's met harissa-couscous en feta",
+      "description": "Zoete paprika's gevuld met pittige harissa-couscous, tomaat en tijm, gegratineerd met feta.",
+      "subtitle": "met tomaat, tijm en peterselie",
+      "cuisine": "Noord-Afrikaans",
+      "tags": [
+        "oven",
+        "pittig"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 25,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#c83b2a",
+        "#e7c25a"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/gevulde-paprikas-met-harissa-couscous-en-feta-581c969cd36aaa5fee31e382",
+      "ingredients": [
+        "4 paprika's",
+        "2 el olijfolie",
+        "1 groentebouillonblokje",
+        "1 ui",
+        "2 tenen knoflook",
+        "2 tomaten",
+        "170 g couscous",
+        "2 tl tijm",
+        "1 tl harissa",
+        "100 g feta",
+        "10 g peterselie",
+        "1 tl witte wijnazijn",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 200 °C en los het bouillonblokje op in 250 ml heet water. Snijd de kapjes van de paprika's, haal de zaadlijsten eruit en zet ze met de kapjes erop in een ovenschaal. Besprenkel met 1 el olie en bak ze voor.",
+          "timerMinutes": 15
+        },
+        {
+          "text": "Snipper de ui, pers de knoflook en snijd de tomaten in blokjes."
+        },
+        {
+          "text": "Fruit ui en knoflook 2 minuten in de rest van de olie. Voeg tomaat, couscous, tijm en harissa toe, giet de bouillon erbij en laat afgedekt 10 minuten wellen.",
+          "timerMinutes": 10
+        },
+        {
+          "text": "Verkruimel de feta en hak de peterselie. Schep het grootste deel van beide door de couscous en breng op smaak met de azijn, zout en peper."
+        },
+        {
+          "text": "Vul de paprika's met couscous, bestrooi met de rest van de feta en zet de kapjes erop. Schep de overgebleven couscous ernaast in de schaal en bak nog 5 minuten.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Garneer met de rest van de peterselie."
+        }
+      ]
+    },
+    {
+      "id": "romige-tomaat-bonenstoof-rijst",
+      "title": "Romige tomaat-bonenstoof met rijst",
+      "subtitle": "met pesto, harde kaas en courgette",
+      "description": "Een snelle, romige stoof van bonen, courgette en paprika in tomatensaus met pesto en crème fraîche.",
+      "cuisine": "Italiaans",
+      "tags": [
+        "snel",
+        "eenpans"
+      ],
+      "prepMinutes": 5,
+      "cookMinutes": 20,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#c4482f",
+        "#6f9a52"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/romige-tomaat-bonenstoof-met-rijst-64ca050d2864fe111ef97b4d",
+      "ingredients": [
+        "150 g jasmijnrijst",
+        "1 courgette",
+        "2 el olijfolie",
+        "¼ groentebouillonblokje",
+        "1 tl Italiaanse kruiden",
+        "1 teen knoflook",
+        "1 paprika",
+        "200 g passata",
+        "400 g bonenmix, uitgelekt",
+        "1 el balsamico",
+        "1 tl suiker",
+        "50 g crème fraîche",
+        "40 g harde kaas",
+        "40 g groene pesto",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Kook de rijst gaar, giet af en laat uitstomen. Halveer de courgette in de lengte en kerf de snijvlakken ruitvormig in.",
+          "timerMinutes": 12
+        },
+        {
+          "text": "Bak de courgettehelften in 1 el olie op hoog vuur eerst op de snijkant goudbruin, draai om en laat met de deksel op de pan op lager vuur gaar worden.",
+          "timerMinutes": 10
+        },
+        {
+          "text": "Los het bouillonblokje op in 75 ml heet water. Bak kruiden, geperste knoflook en de paprika in reepjes 1 minuut in de rest van de olie."
+        },
+        {
+          "text": "Voeg passata, bouillon, bonen, balsamico en suiker toe en laat afgedekt 5 minuten zacht inkoken. Roer de crème fraîche en de helft van de kaas erdoor en breng nog even aan de kook.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Breng op smaak. Schep de stoof over de rijst, leg de courgette erop en maak af met pesto en de rest van de kaas."
+        }
+      ]
+    },
+    {
+      "id": "gebakken-rijst-roerei-paksoi",
+      "title": "Gebakken rijst met roerei en paksoi",
+      "subtitle": "met doperwten, wortel en pikante honingpinda's",
+      "description": "Wokgebakken rijst met roerei, groente en zelfgemaakte zoet-pittige pinda's.",
+      "cuisine": "Chinees",
+      "tags": [
+        "wok",
+        "snel"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 20,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#e7c25a",
+        "#5e8a3f"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/gebakken-rijst-met-roerei-en-paksoi-602563251fb18d4f8c4acb06",
+      "ingredients": [
+        "150 g basmatirijst",
+        "1 teen knoflook",
+        "1 wortel",
+        "½ paksoi",
+        "2 bosuien",
+        "½ limoen",
+        "3 eieren",
+        "50 g doperwten",
+        "20 g pinda's",
+        "1 tl honing",
+        "¼ tl chilivlokken",
+        "20 ml sojasaus",
+        "1 el ketjap",
+        "½ groentebouillonblokje",
+        "15 g roomboter",
+        "1 el zonnebloemolie"
+      ],
+      "steps": [
+        {
+          "text": "Kook de rijst in 250 ml water met de deksel op de pan gaar. Spreid uit op een bord en laat afkoelen en droogstomen.",
+          "timerMinutes": 14
+        },
+        {
+          "text": "Snijd de wortel in blokjes van ½ cm, de paksoi in reepjes en de bosui in ringen; houd wit en groen apart. Snijd de limoen in partjes. Rooster de pinda's met de honing en chilivlokken kort in een droge pan en hak ze grof."
+        },
+        {
+          "text": "Smelt de boter in een wok en roer de eieren los zodra ze beginnen te stollen. Voeg, als het ei bijna gaar is, de geperste knoflook en het wit van de bosui toe en bak 1 minuut."
+        },
+        {
+          "text": "Voeg wortel en doperwten toe en bak 5 minuten. Verkruimel het bouillonblokje erboven, voeg de paksoi toe en roerbak 3 minuten.",
+          "timerMinutes": 8
+        },
+        {
+          "text": "Schep de ketjap, sojasaus, olie en de afgekoelde rijst erdoor en roerbak nog 3 minuten.",
+          "timerMinutes": 3
+        },
+        {
+          "text": "Garneer met het bosuigroen, de pikante honingpinda's en limoenpartjes."
+        }
+      ]
+    },
+    {
+      "id": "indiase-curry-bloemkool-paneer",
+      "title": "Indiase curry met bloemkool en paneer",
+      "subtitle": "met rijst, kikkererwten en verse koriander",
+      "description": "Goudgebakken paneer met bloemkool en kikkererwten in een romige kokos-pindacurry met garam masala.",
+      "cuisine": "Indiaas",
+      "tags": [
+        "curry",
+        "eiwitrijk"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 25,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#cf6a2c",
+        "#f4e3c1"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/indiase-curry-met-bloemkool-en-paneer-6049e44ac331b511bf5745d1",
+      "ingredients": [
+        "½ rode peper",
+        "1 rode ui",
+        "10 g gember",
+        "1 teen knoflook",
+        "300 g bloemkool",
+        "400 g kikkererwten",
+        "2 tl garam masala",
+        "150 g jasmijnrijst",
+        "200 g paneer",
+        "200 ml kokosmelk",
+        "25 g pindakaas",
+        "5 g koriander",
+        "½ groentebouillonblokje",
+        "1 el olijfolie",
+        "1 el zonnebloemolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Hak de rode peper fijn, snipper de ui, pers de knoflook en rasp de gember. Snijd de bloemkool in kleine roosjes en de steel in blokjes en laat de kikkererwten uitlekken."
+        },
+        {
+          "text": "Fruit ui, knoflook, gember en peper 1 minuut in de zonnebloemolie. Voeg bloemkool en kikkererwten toe en bak 6 minuten; voeg de garam masala toe en bak nog 1 minuut.",
+          "timerMinutes": 7
+        },
+        {
+          "text": "Kook intussen de rijst gaar, giet af en laat uitstomen.",
+          "timerMinutes": 13
+        },
+        {
+          "text": "Dep de paneer droog, snijd in plakjes van 1 cm en bak ze in de olijfolie in 4 minuten lichtbruin.",
+          "timerMinutes": 4
+        },
+        {
+          "text": "Voeg kokosmelk, pindakaas en het verkruimelde bouillonblokje toe aan de curry en breng zachtjes aan de kook. Leg de paneer erin en laat afgedekt 9 minuten zacht koken. Breng op smaak.",
+          "timerMinutes": 9
+        },
+        {
+          "text": "Serveer de curry op de rijst en garneer met grof gehakte koriander."
+        }
+      ]
+    },
+    {
+      "id": "vegetarische-stroganoff-rijst",
+      "title": "Vegetarische stroganoff met rijst",
+      "subtitle": "met paprika en champignons",
+      "description": "Champignons en paprika in een romige, rokerige saus met crème fraîche, mosterd en paprikapoeder.",
+      "cuisine": "Oost-Europees",
+      "tags": [
+        "snel",
+        "comfort"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 15,
+      "difficulty": "easy",
+      "servings": 2,
+      "palette": [
+        "#9b5a32",
+        "#efd08c"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/vegetarische-stroganoff-met-rijst-6229e60e81e73f6ff6183e37",
+      "ingredients": [
+        "170 g zilvervliesrijst",
+        "1 ui",
+        "1 teen knoflook",
+        "1 paprika",
+        "35 g tomatenpuree",
+        "250 g kastanjechampignons",
+        "1,5 tl gerookt paprikapoeder",
+        "100 g crème fraîche",
+        "1 el sojasaus, in plaats van worcestershiresaus (die bevat ansjovis)",
+        "10 g peterselie",
+        "30 g roomboter",
+        "1 el bloem",
+        "10 g mosterd",
+        "1 el rode wijnazijn",
+        "½ groentebouillonblokje",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Los een kwart bouillonblokje op in 75 ml heet water. Kook de rijst gaar en laat zonder deksel uitstomen. Snipper de ui, pers de knoflook en snijd de champignons in plakjes.",
+          "timerMinutes": 12
+        },
+        {
+          "text": "Bak knoflook, ui, paprikareepjes en champignons met het gerookte paprikapoeder 7 minuten in de boter in een hapjespan.",
+          "timerMinutes": 7
+        },
+        {
+          "text": "Voeg de tomatenpuree en de sojasaus toe en bak 2 minuten. Strooi de bloem erover en roerbak 1 minuut."
+        },
+        {
+          "text": "Blus af met de rodewijnazijn en de bouillon, zet het vuur lager en roer de crème fraîche en de mosterd erdoor. Laat even zacht doorkoken en breng op smaak.",
+          "timerMinutes": 3
+        },
+        {
+          "text": "Serveer de stroganoff op de rijst en garneer met grof gehakte peterselie."
+        }
+      ]
+    },
+    {
+      "id": "stamppot-koreaanse-kruiden-sticky-champignons",
+      "title": "Stamppot met Koreaanse kruiden en sticky champignons",
+      "subtitle": "met paksoi en spiegelei",
+      "description": "Een Aziatische draai aan stamppot: aardappel en paksoi, kleverige zoet-pittige champignons en een spiegelei.",
+      "cuisine": "Koreaans",
+      "tags": [
+        "stamppot",
+        "pittig"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 20,
+      "difficulty": "medium",
+      "servings": 2,
+      "palette": [
+        "#7a3f22",
+        "#a9c46c"
+      ],
+      "sourceUrl": "https://www.hellofresh.nl/recipes/stamppot-met-koreaanse-kruiden-en-sticky-champignons-661fc5c8019ddbd535c06a04",
+      "ingredients": [
+        "500 g aardappelen",
+        "1 paksoi",
+        "1 tl chilivlokken",
+        "1 tl sesamzaad",
+        "10 g gember",
+        "1 teen knoflook",
+        "250 g kastanjechampignons",
+        "4 bosuien",
+        "45 ml zoete chilisaus",
+        "40 ml ketjap",
+        "2 eieren",
+        "15 g roomboter",
+        "3 el olijfolie",
+        "naar smaak zout",
+        "naar smaak peper"
+      ],
+      "steps": [
+        {
+          "text": "Was of schil de aardappelen, snijd ze in stukken en kook ze afgedekt gaar. Giet af en bewaar een scheutje kookvocht.",
+          "timerMinutes": 14
+        },
+        {
+          "text": "Snijd de bosui in ringen (wit en groen apart) en de champignons in plakjes. Snijd de paksoi klein en houd stelen en blad apart. Bak eerst de stelen 2 minuten, dan het blad 1 minuut in ½ el olie en haal uit de pan.",
+          "timerMinutes": 3
+        },
+        {
+          "text": "Bak de champignons met het wit van de bosui 6 minuten in 1 el olie. Voeg ketjap en zoete chilisaus toe, schep om en laat 2 minuten kleverig worden.",
+          "timerMinutes": 8
+        },
+        {
+          "text": "Stamp de aardappelen grof met de boter, de geraspte gember, geperste knoflook, chilivlokken, sesamzaad en wat kookvocht. Schep de paksoi erdoor."
+        },
+        {
+          "text": "Bak de eieren in de rest van de olie tot spiegeleieren."
+        },
+        {
+          "text": "Verdeel de stamppot over diepe borden, schep de sticky champignons erover, leg het ei erop en strooi het bosuigroen erover."
+        }
+      ]
+    }
+  ]
+}
