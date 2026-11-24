@@ -65,6 +65,10 @@ export interface Ingredient {
   densityGPerMl?: number;
   /** Typical purchasable packaging at the default supermarket. Indicative only — not live availability. */
   packages?: PackageSize[];
+  /** Also sold loose (per piece, see gramsPerCount), so you can buy just what you need. */
+  soldLoose?: boolean;
+  /** false for animal products (dairy, eggs, honey, …). Absent means plant-based. */
+  vegan?: boolean;
   /** Commonly kept in stock; suggested as a default pantry item. */
   pantry?: boolean;
   /** Stores where this may be hard to find. Editorial hint, not verified stock data. */
@@ -284,6 +288,8 @@ export interface ShoppingItem {
   required: string;
   /** Suggested purchase (packaging), formatted. Undefined when it equals `required`. */
   purchase?: string;
+  /** Other ways to buy it (other package sizes, or loose), formatted. */
+  purchaseAlternatives?: string[];
   /** Recipes that use this item. */
   recipes: { id: string; title: string }[];
   checked: boolean;

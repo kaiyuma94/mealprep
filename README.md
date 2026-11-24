@@ -9,10 +9,10 @@ No account, no server, no paid APIs. Everything lives on your device in IndexedD
 - **Discover** – 12 hand-picked recipes per week: 4 you've enjoyed before, 4 new ones that match your taste, and 4 for variety. The selection is deterministic per ISO week, stays stable all week, and lets you swap a single card. On Sunday (Europe/Amsterdam) it shows the coming week, with a toggle back to the current week.
 - **Cooking nights** – choose 1–7 meals per week (default 4, 2 servings each), saved separately for each week. Lowering the number asks which meals to drop. Adding to a full week offers a swap or an extra night. Meals are never removed silently.
 - **Dutch throughout** – Dutch UI, recipes, ingredient names, units (el, tl, tenen, snufje) and decimal commas.
-- **Search** – by name, ingredient (Dutch, plus English aliases), cuisine or tag. Filter by cooking time, cuisine, favourites, cooked before, or new.
+- **Search** – by name, ingredient (Dutch, plus English aliases), cuisine or tag. Filter by 🌱 vegan, cooking time, cuisine, favourites, own recipes, cooked before, or new. A recipe counts as vegan when it's tagged vegan (then it means the vegan versions of e.g. mayonnaise or naan) or when all its non-optional ingredients are plant-based; animal products are marked `"vegan": false` in `src/data/ingredients.json`.
 - **Recipe detail** – adjustable servings, scaled ingredients, full method, personal notes, favourite / "not for us", and source attribution.
 - **Cooking mode** – large text, swipe or arrow-key navigation, step timers that keep running between steps, an ingredients overlay, and screen wake-lock.
-- **Shopping list** – merged by canonical ingredient, units converted, scaled per meal. It shows what you *need* next to what to *buy* (typical Dutch pack sizes), grouped by aisle in the walking order of the selected store (Lidl, AH or Jumbo). Items that may be hard to find at that store are flagged with an alternative store ("mogelijk lastig bij Lidl, anders AH of Jumbo"). Pantry items are pre-marked "al in huis". You can also pick substitutions, add or edit items, and tick items off. Your ticks, edits and manual items survive changes to the menu.
+- **Shopping list** – merged by canonical ingredient, units converted, scaled per meal. It shows what you *need* next to what to *buy*: the mix of typical Dutch pack sizes that leaves the least over (e.g. a 250 g and a 400 g tub for 600 g mushrooms), or loose pieces for produce that's also sold loose. Other sizes are one tap away in the item's menu. Items are grouped by aisle in the walking order of the selected store (Lidl, AH or Jumbo). Items that may be hard to find at that store are flagged with an alternative store ("mogelijk lastig bij Lidl, anders AH of Jumbo"). Pantry items are pre-marked "al in huis". You can also pick substitutions, add or edit items, and tick items off. Your ticks, edits and manual items survive changes to the menu.
 - **Own recipes** – "Eigen recept" on the search page opens a simple form: a name, ingredients added one line at a time with a + button ("200 g champignons", "naar smaak zout"; pasting a list adds every line), and the steps. While you type, each ingredient shows whether it was recognised. Recognised ones merge with the rest of the shopping list, and anything unknown becomes your own item under *Overig*. The cover is picked automatically from the name and ingredients, or you choose a dish shape and colour yourself. Servings (2), time (30 min) and cuisine have defaults. Own recipes appear in suggestions, search (with an "Eigen recepten" filter), the week, the shopping list and cooking mode. They can be edited or deleted, live only on the device, and are part of the backup.
 - **Sharing** – a Delen button on the shopping list, the week menu and every recipe opens the phone's own share menu (WhatsApp, Messages, Mail, …) with a ready-made Dutch text, including links back to the recipes. It uses the browser's built-in share function: no accounts, no API, nothing is sent until you press send. Where there is no share menu (some desktop browsers), the text is copied instead.
 - **History & backup** – favourites, dislikes, notes, cooking history, pantry and shopping progress persist. Export and restore everything as a JSON file.
@@ -96,18 +96,19 @@ Ingredients are matched to canonical IDs through names, plurals and aliases in `
 
 ## Testing
 
-`npm test` runs 152 tests covering:
+`npm test` runs 161 tests covering:
 
 - ISO week numbers, year rollover, and Sunday / midnight boundaries in Europe/Amsterdam (CET and CEST)
 - Deterministic weekly selection, bucket composition, cold start, cuisine diversity, single-card replacement
 - Recently eaten recipes held back, and favourites not dominating over a simulated 12 weeks
 - Meal target changes (raise, lower with explicit removal, full-week handling) and concurrent adds
 - Serving scaling, unit conversion (mass, volume, count via weight and density) and Dutch formatting
-- Shopping list aggregation, packaging suggestions, per-store aisle order and availability hints, pantry and stock overrides, substitutions, persistence of checks, edits and manual items across regeneration, and plain-text export
+- Shopping list aggregation, package advice (smallest fitting size, combined sizes, loose produce, alternatives, substitutes), per-store aisle order and availability hints, pantry and stock overrides, substitutions, persistence of checks, edits and manual items across regeneration, and plain-text export
 - IndexedDB persistence, the v1 → v2 database upgrade, backup export/restore and migration, and invalid or future backup rejection
 - Recipe and import validation with missing or incomplete data, plus the plain ingredient-line parser
 - Sharing via the share menu, the copy fallback and a closed share menu, plus the texts for the week menu and a scaled recipe
 - Own recipes: reading ingredient lines, matching them to known ingredients (also without leading adjectives), unknown items under Overig, ids, editing round trips, the automatic cover, merging into the catalogue (skipping damaged ones), search, and deleting them from current and future menus
+- Vegan: animal-product ingredients, own ingredients judged by name, optional extras, the search filter
 - Every recipe using an illustrated cover (its own palette), with no bundled photos
 
 ## Architecture
@@ -123,6 +124,7 @@ src/
     units.ts          Conversion, scaling, formatting
     shopping.ts       Aggregation, packaging, overrides, store hints, text export
     share.ts          Share menu / copy fallback, week menu and recipe texts
+    diet.ts           Vegan check for ingredients and recipes
     customRecipe.ts   The recipe form: ingredient lines, matching, building an own recipe
     catalogMerge.ts   Built-in recipes plus own recipes as one catalogue
     sections.ts       Supermarkets (Lidl, AH, Jumbo) and their aisle order

@@ -34,7 +34,7 @@ export function Search() {
     } catch {
       /* ignore */
     }
-    return { query: '', duration: 'any', cuisine: null, status: null };
+    return { query: '', duration: 'any', cuisine: null, status: null, vegan: false };
   });
   const update = (patch: Partial<SearchFilters>) =>
     setF((cur) => {
@@ -53,7 +53,7 @@ export function Search() {
   const active = useMemo(() => (f.status === 'own' && custom.size === 0 ? { ...f, status: null } : f), [f, custom.size]);
   const results = useMemo(() => searchRecipes(recipes, index, active, { favorites, cooked, disliked }), [recipes, index, active, favorites, cooked, disliked]);
   const planned = new Set(plan?.meals.map((m) => m.recipeId));
-  const anyFilter = active.query || active.duration !== 'any' || active.cuisine || active.status;
+  const anyFilter = active.query || active.duration !== 'any' || active.cuisine || active.status || active.vegan;
 
   return (
     <div>
@@ -86,6 +86,9 @@ export function Search() {
           )}
         </label>
         <div className="-mx-5 mt-3 flex gap-2 overflow-x-auto px-5 pb-1 [scrollbar-width:none]">
+          <Chip active={!!f.vegan} onClick={() => update({ vegan: !f.vegan })}>
+            🌱 Vegan
+          </Chip>
           {STATUSES.filter((s) => s.id !== 'own' || custom.size > 0).map((s) => (
             <Chip key={s.id} active={f.status === s.id} onClick={() => update({ status: f.status === s.id ? null : s.id })}>
               {s.label}
@@ -112,7 +115,7 @@ export function Search() {
           {results.length} {results.length === 1 ? 'recept' : 'recepten'}
         </span>
         {anyFilter && (
-          <button className="font-medium text-herb-700" onClick={() => update({ query: '', duration: 'any', cuisine: null, status: null })}>
+          <button className="font-medium text-herb-700" onClick={() => update({ query: '', duration: 'any', cuisine: null, status: null, vegan: false })}>
             Alles wissen
           </button>
         )}

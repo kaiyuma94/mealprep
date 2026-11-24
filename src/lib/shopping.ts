@@ -68,59 +68,138 @@ export function formatRequired(line: AggregatedLine): string {
 }
 
 export interface PurchaseSuggestion {
+  /** Number of packages, or loose pieces. */
   count: number;
+  /** Set when a single package size is suggested. */
   pkg?: PackageSize;
-  label: string;
+  /** What to buy. Undefined when it says the same as the required amount (e.g. "2" onions → 2 onions). */
+  label?: string;
+  /** Other sensible ways to buy it: other package sizes, or loose. */
+  alternatives: string[];
 }
 
+const EPS = 1e-6;
+/** Upper bound per package size when combining sizes; keeps the search tiny. */
+const MAX_PER_SIZE = 12;
+
+interface BuyOption {
+  label: string;
+  /** Total bought, in the comparison unit. */
+  total: number;
+  /** Packages or pieces to pick up. */
+  units: number;
+  pkg?: PackageSize;
+  loose?: boolean;
+}
+
+const sizeText = (p: PackageSize) => (dimensionOf(p.unit) === 'count' ? '' : ` (${formatQuantity(p.amount, p.unit)})`);
+const packText = (p: PackageSize, n: number) => `${n} × ${p.label}${sizeText(p)}`;
+
+/** Everything the recipes need, in one unit; null when the main amount can't be expressed in it. */
+function needIn(line: AggregatedLine, unit: BaseUnit, ing: Ingredient): number | null {
+  let need = 0;
+  for (const t of line.totals) {
+    const c = convert(t.amount, t.unit, unit, ing);
+    if (c === null) {
+      if (t === line.totals[0]) return null;
+      continue;
+    }
+    need += c;
+  }
+  return need;
+}
+
+/** The mix of package sizes that covers `need` with the least left over (then: fewest packages). */
+function bestPackages(sizes: { pkg: PackageSize; size: number }[], need: number): BuyOption | undefined {
+  let best: { counts: number[]; total: number; units: number } | undefined;
+  const counts = sizes.map(() => 0);
+  const walk = (i: number, total: number, units: number) => {
+    if (i === sizes.length) {
+      if (units === 0 || total < need - EPS) return;
+      if (!best || total < best.total - EPS || (Math.abs(total - best.total) < EPS && units < best.units)) best = { counts: [...counts], total, units };
+      return;
+    }
+    const max = Math.min(MAX_PER_SIZE, Math.ceil(need / sizes[i].size - EPS));
+    for (let n = 0; n <= max; n++) {
+      counts[i] = n;
+      walk(i + 1, total + n * sizes[i].size, units + n);
+      if (total + n * sizes[i].size >= need - EPS) break; // more of this size only adds waste
+    }
+    counts[i] = 0;
+  };
+  walk(0, 0, 0);
+  if (!best) return undefined;
+  const parts = sizes.map((s, i) => [s.pkg, best!.counts[i]] as const).filter(([, n]) => n > 0);
+  return {
+    label: parts.map(([p, n]) => packText(p, n)).join(' + '),
+    total: best.total,
+    units: best.units,
+    pkg: parts.length === 1 ? parts[0][0] : undefined,
+  };
+}
+
+const looseName = (ing: Ingredient, n: number) => (n > 1 && ing.plural ? ing.plural : ing.name);
+
 /**
- * Suggests what to buy given the required amount: the package size that
- * leaves the least waste, or whole pieces for loose produce.
+ * Suggests what to buy for the required amount: the mix of package sizes
+ * with the least left over (500 g + 1 kg rather than 3 × 500 g), or loose
+ * pieces when the ingredient is also sold loose and that wastes less.
+ * Other sensible options are returned as alternatives.
  */
 export function suggestPurchase(line: AggregatedLine, ing: Ingredient): PurchaseSuggestion | undefined {
   const main = line.totals[0];
   if (!main || main.amount <= 0) return undefined;
+  const packages = ing.packages ?? [];
+  // Compare everything in the unit of the packages, or in pieces for loose-only produce.
+  const unit: BaseUnit = packages.length ? baseUnitOf(packages[0].unit) : 'piece';
+  const need = needIn(line, unit, ing);
 
-  if (ing.packages?.length) {
-    let best: { n: number; waste: number; pkg: PackageSize } | undefined;
-    for (const pkg of ing.packages) {
-      const pkgBase = toBase(pkg.amount, pkg.unit);
-      // Include all buckets that can be expressed in the package unit.
-      let need = 0;
-      let ok = true;
-      for (const t of line.totals) {
-        const c = convert(t.amount, t.unit, pkgBase.unit, ing);
-        if (c === null) {
-          if (t === main) ok = false;
-          continue;
-        }
-        need += c;
+  const options: BuyOption[] = [];
+  let best: BuyOption | undefined;
+  if (need !== null && packages.length) {
+    const sizes = packages
+      .map((pkg) => ({ pkg, size: convert(pkg.amount, pkg.unit, unit, ing) }))
+      .filter((x): x is { pkg: PackageSize; size: number } => x.size !== null && x.size > 0);
+    best = bestPackages(sizes, need);
+    for (const s of sizes) {
+      const n = Math.max(1, Math.ceil(need / s.size - EPS));
+      options.push({ label: packText(s.pkg, n), total: n * s.size, units: n, pkg: s.pkg });
+    }
+  }
+
+  // Loose: whole pieces, for produce sold per piece (or with no packages at all).
+  if ((ing.soldLoose || !packages.length) && (main.unit === 'piece' || main.unit === 'clove' || ing.gramsPerCount)) {
+    const pieceUnit = main.unit === 'clove' ? 'clove' : 'piece';
+    const pieces = needIn(line, pieceUnit, ing);
+    if (pieces !== null && pieces > 0) {
+      const n = Math.ceil(pieces - EPS);
+      const total = packages.length ? convert(n, pieceUnit, unit, ing) : n;
+      if (total !== null) {
+        const label = pieceUnit === 'clove' ? `${n} ${n > 1 ? 'tenen' : 'teen'}` : `${n} ${looseName(ing, n)}`;
+        const loose: BuyOption = { label, total, units: n, loose: true };
+        options.push({ ...loose, label: packages.length ? `los: ${label}` : label });
+        // Loose wins when it leaves less over, or the same with fewer things to pick up.
+        if (!best || total < best.total - EPS || (Math.abs(total - best.total) < EPS && n < best.units)) best = loose;
       }
-      if (!ok) continue;
-      const n = Math.max(1, Math.ceil(need / pkgBase.amount - 1e-6));
-      const waste = n * pkgBase.amount - need;
-      if (!best || waste < best.waste - 1e-6 || (Math.abs(waste - best.waste) < 1e-6 && n < best.n)) best = { n, waste, pkg };
-    }
-    // Unmeasurable amounts (a pinch of nutmeg): suggest one of the smallest package.
-    if (!best && (main.unit === 'pinch' || line.totals.every((t) => convert(t.amount, t.unit, baseUnitOf(ing.packages![0].unit), ing) === null))) {
-      best = { n: 1, waste: 0, pkg: ing.packages[0] };
-    }
-    if (best) {
-      // Count packages ("pack of 8") already describe their size.
-      const size = dimensionOf(best.pkg.unit) === 'count' ? '' : ` (${formatQuantity(best.pkg.amount, best.pkg.unit)})`;
-      return { count: best.n, pkg: best.pkg, label: `${best.n} × ${best.pkg.label}${size}` };
     }
   }
 
-  // Loose items sold per piece: round up to whole pieces.
-  if (main.unit === 'piece' || main.unit === 'clove') {
-    const n = Math.ceil(main.amount - 1e-6);
-    if (Math.abs(n - main.amount) > 1e-6) {
-      const name = n > 1 && ing.plural ? ing.plural : ing.name;
-      return { count: n, label: `${n} ${main.unit === 'clove' ? (n > 1 ? 'tenen' : 'teen') : name}`.trim() };
-    }
+  // Unmeasurable amounts (a pinch of nutmeg): one of the smallest package.
+  if (!best && packages.length && (main.unit === 'pinch' || need === null)) {
+    return { count: 1, pkg: packages[0], label: packText(packages[0], 1), alternatives: [] };
   }
-  return undefined;
+  if (!best) return undefined;
+
+  const chosen = best;
+  const alternatives = options
+    .filter((o) => o.label !== chosen.label && o.label !== `los: ${chosen.label}`)
+    .sort((a, b) => a.total - b.total || a.units - b.units)
+    .map((o) => o.label)
+    .filter((l, i, all) => all.indexOf(l) === i)
+    .slice(0, 3);
+  // "2" uien needed → "2 uien" says nothing new.
+  const sameAsRequired = chosen.loose && main.unit === 'piece' && line.totals.length === 1 && Math.abs(chosen.units - main.amount) < EPS;
+  return { count: chosen.units, pkg: chosen.pkg, label: sameAsRequired ? undefined : chosen.label, alternatives };
 }
 
 export interface BuildListInput {
@@ -153,7 +232,9 @@ export function buildShoppingList(input: BuildListInput): ShoppingItem[] {
     const sub = o.substituteId ? ingredients.get(o.substituteId) : undefined;
     const shown = sub ?? ing;
     const required = o.editedQuantity?.trim() || formatRequired(line);
-    const purchase = o.editedQuantity ? undefined : suggestPurchase(line, ing)?.label;
+    // Package advice follows what you'll actually buy (the substitute, if chosen).
+    const suggestion = o.editedQuantity ? undefined : (sub && suggestPurchase(line, sub)) || suggestPurchase(line, ing);
+    const purchase = suggestion?.label;
     const fromPantry = o.inStock === undefined && pantry.has(ing.id);
     items.push({
       key: ing.id,
@@ -162,6 +243,7 @@ export function buildShoppingList(input: BuildListInput): ShoppingItem[] {
       section: shown.section,
       required,
       purchase,
+      ...(suggestion?.alternatives.length ? { purchaseAlternatives: suggestion.alternatives } : {}),
       recipes: line.recipes,
       checked: !!o.checked,
       inStock: o.inStock ?? pantry.has(ing.id),

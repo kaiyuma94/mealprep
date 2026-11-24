@@ -31,11 +31,11 @@ describe('ingredient aggregation', () => {
     expect(mayo.totals[0].amount).toBeCloseTo(4 * 15 * 0.95);
   });
 
-  it('converts pieces to the package unit (wortels → zak van 1 kg)', () => {
+  it('converts pieces to the package unit (4 wortels → zak van 500 g)', () => {
     const lines = aggregateIngredients([meal('harira-linzen-kikkererwten'), meal('vegan-pasta-e-fagioli')], RECIPE_MAP, INGREDIENT_MAP);
     const wortel = lines.find((l) => l.ingredientId === 'wortel')!;
     expect(wortel.totals).toEqual([{ unit: 'piece', amount: 4, spoons: false }]);
-    expect(suggestPurchase(wortel, INGREDIENT_MAP.get('wortel')!)?.label).toBe('1 × zak (1 kg)');
+    expect(suggestPurchase(wortel, INGREDIENT_MAP.get('wortel')!)?.label).toBe('1 × zak (500 g)');
   });
 
   it('tracks naar-smaak ingredients without quantity', () => {
@@ -47,6 +47,44 @@ describe('ingredient aggregation', () => {
 
   it('ignores recipes missing from the catalog', () => {
     expect(aggregateIngredients([meal('bestaat-niet')], RECIPE_MAP, INGREDIENT_MAP)).toEqual([]);
+  });
+});
+
+describe('package advice', () => {
+  const need = (id: string, amount: number, unit: 'g' | 'ml' | 'piece') =>
+    suggestPurchase({ ingredientId: id, totals: [{ unit, amount, spoons: false }], toTaste: false, recipes: [] }, INGREDIENT_MAP.get(id)!)!;
+
+  it('picks the smallest package that is enough (300 g aardappelen → geschilde zak van 500 g, not 1,5 kg)', () => {
+    expect(need('aardappel', 300, 'g').label).toBe('1 × zak geschild (500 g)');
+    expect(need('aardappel', 300, 'g').alternatives).toEqual(['1 × zak (1 kg)', '1 × zak (1,5 kg)', '1 × zak (3 kg)']);
+    expect(need('aardappel', 800, 'g').label).toBe('1 × zak (1 kg)');
+    expect(need('basmatirijst', 150, 'g').label).toBe('1 × pak (400 g)');
+    expect(need('kokosmelk', 180, 'ml').label).toBe('1 × blikje (200 ml)');
+  });
+
+  it('combines package sizes when that leaves less over', () => {
+    expect(need('champignons', 600, 'g').label).toBe('1 × bakje (250 g) + 1 × bakje (400 g)');
+    expect(need('ei', 8, 'piece').label).toBe('1 × doos van 10');
+    expect(need('ei', 12, 'piece').label).toBe('2 × doos van 6');
+    // Same amount: one big bag beats two smaller ones.
+    expect(need('aardappel', 2600, 'g').label).toBe('1 × zak (3 kg)');
+  });
+
+  it('buys loose when the ingredient is sold loose and that fits better', () => {
+    const p = need('paprika', 2, 'piece');
+    expect(p.label).toBeUndefined(); // "2" already says it: two loose ones
+    expect(p.alternatives).toEqual(['1 × verpakking van 3']);
+    expect(need('paprika', 3, 'piece').label).toBe('1 × verpakking van 3');
+    expect(need('zoete-aardappel', 450, 'g').label).toBe('2 zoete aardappels');
+    expect(need('bloemkool', 0.4, 'piece').label).toBe('1 × zak roosjes (400 g)');
+    expect(need('bloemkool', 0.6, 'piece').label).toBe('1 bloemkool');
+  });
+
+  it('shows the advice for the substitute when one is chosen', () => {
+    const items = build([meal('harira-linzen-kikkererwten')], st({ tomatenblokjes: { substituteId: 'passata' } }));
+    const t = item(items, 'tomatenblokjes');
+    expect(t.name).toBe(INGREDIENT_MAP.get('passata')!.name);
+    expect(t.purchase).toMatch(/pak \(500 g\)/);
   });
 });
 

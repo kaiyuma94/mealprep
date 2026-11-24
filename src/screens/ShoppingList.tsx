@@ -302,6 +302,27 @@ function ItemSheet({ item, weekKey, onClose }: { item: ShoppingItem; weekKey: st
         </div>
       )}
 
+      {item.purchaseAlternatives && item.purchaseAlternatives.length > 0 && (
+        <div className="mt-5">
+          <h3 className="text-sm font-semibold text-ink-700">Liever een andere verpakking?</h3>
+          <p className="mb-2 text-xs text-ink-500">
+            Nodig: {item.required}
+            {item.purchase ? ` · voorstel: ${item.purchase}` : ''}
+          </p>
+          <div className="flex flex-wrap gap-2">
+            {item.purchaseAlternatives.map((alt) => (
+              <button
+                key={alt}
+                className="rounded-full bg-white px-3.5 py-2 text-sm ring-1 ring-cream-200 hover:ring-herb-500"
+                onClick={() => done(setOverride(db, weekKey, item.key, { editedQuantity: alt.replace(/^los: /, '') }))}
+              >
+                {alt}
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
+
       <label className="mt-5 block text-sm font-semibold text-ink-700">
         Hoeveelheid aanpassen
         <input value={qty} onChange={(e) => setQty(e.target.value)} placeholder={item.purchase ?? item.required} className={field} />

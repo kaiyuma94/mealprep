@@ -1,4 +1,5 @@
 import type { Ingredient, Recipe } from '../types';
+import { isVeganRecipe } from './diet';
 
 export type DurationFilter = 'any' | 'quick' | 'medium' | 'long';
 export type StatusFilter = 'favorites' | 'cooked' | 'new' | 'own';
@@ -8,6 +9,8 @@ export interface SearchFilters {
   duration: DurationFilter;
   cuisine: string | null;
   status: StatusFilter | null;
+  /** Only plant-based recipes. Optional so older saved filters still load. */
+  vegan?: boolean;
 }
 
 export const fold = (s: string) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
@@ -20,7 +23,8 @@ export function buildSearchIndex(recipes: Recipe[], ingredients: Map<string, Ing
         const i = ingredients.get(ri.ingredientId);
         return i ? [i.name, i.plural ?? '', ...(i.aliases ?? [])] : [];
       });
-      return [r.id, { title: fold(`${r.title} ${r.subtitle ?? ''}`), rest: fold([r.cuisine, ...r.tags, ...ing].join(' | ')) }];
+      const vegan = isVeganRecipe(r, ingredients);
+      return [r.id, { title: fold(`${r.title} ${r.subtitle ?? ''}`), rest: fold([r.cuisine, ...r.tags, ...(vegan ? ['vegan'] : []), ...ing].join(' | ')), vegan }];
     }),
   );
 }
@@ -49,6 +53,7 @@ export function searchRecipes(
     if (f.status === 'new' && user.cooked.has(r.id)) continue;
     if (f.status === 'own' && r.source.type !== 'personal') continue;
     const idx = index.get(r.id)!;
+    if (f.vegan && !idx.vegan) continue;
     let score = 0;
     let ok = true;
     for (const t of tokens) {
