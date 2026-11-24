@@ -205,3 +205,18 @@ export function PageHeader({ eyebrow, title, right }: { eyebrow?: ReactNode; tit
 export function minutesLabel(r: Recipe): string {
   return `${r.prepMinutes + r.cookMinutes} min`;
 }
+
+/** An on/off switch with its label, the whole row tappable. */
+export function Switch({ checked, onChange, label, hint }: { checked: boolean; onChange: (v: boolean) => void; label: ReactNode; hint?: ReactNode }) {
+  return (
+    <button type="button" role="switch" aria-checked={checked} onClick={() => onChange(!checked)} className="flex w-full items-center justify-between gap-3 text-left">
+      <span className="min-w-0">
+        <span className="block text-[15px] font-medium text-ink-900">{label}</span>
+        {hint && <span className="mt-0.5 block text-xs text-ink-500">{hint}</span>}
+      </span>
+      <span className={cx('relative h-7 w-12 shrink-0 rounded-full transition', checked ? 'bg-herb-600' : 'bg-cream-300')}>
+        <span className={cx('absolute top-0.5 h-6 w-6 rounded-full bg-white shadow transition-all', checked ? 'left-[22px]' : 'left-0.5')} />
+      </span>
+    </button>
+  );
+}

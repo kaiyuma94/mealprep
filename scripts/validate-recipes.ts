@@ -24,6 +24,8 @@ for (const r of rec.recipes) {
 
 // Ingredients that no recipe uses are fine, but worth knowing about.
 const used = new Set(rec.recipes.flatMap((r) => r.ingredients.map((i) => i.ingredientId)));
+// Vegan alternatives are reached through a swap, not listed in recipes.
+for (const i of ing.ingredients) if (i.veganSwap && used.has(i.id)) used.add(i.veganSwap.id);
 const unused = ing.ingredients.filter((i) => !used.has(i.id)).map((i) => i.id);
 
 for (const i of issues) {

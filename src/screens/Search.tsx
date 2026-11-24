@@ -3,7 +3,7 @@ import { useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { RecipeCard } from '../components/RecipeCard';
 import { Chip, EmptyState, PageHeader } from '../components/ui';
-import type { Diet } from '../lib/diet';
+import type { DietFilter } from '../lib/diet';
 import { buildSearchIndex, searchRecipes, type DurationFilter, type SearchFilters, type StatusFilter } from '../lib/search';
 import { useCatalog } from '../state/catalog';
 import { useCookedIds, usePlan, usePlanActions, useRecipeStates, useWeek } from '../state/hooks';
@@ -13,9 +13,10 @@ const DURATIONS: { id: DurationFilter; label: string }[] = [
   { id: 'medium', label: '25–40 min' },
   { id: 'long', label: '40+ min' },
 ];
-const DIETS: { id: Diet; label: string }[] = [
+const DIETS: { id: DietFilter; label: string }[] = [
   { id: 'vegetarian', label: '🥦 Vegetarisch' },
   { id: 'vegan', label: '🌱 Vegan' },
+  { id: 'vegan-easy', label: '🌱 Makkelijk vegan' },
   { id: 'fish', label: '🐟 Vis & garnalen' },
 ];
 const STATUSES: { id: StatusFilter; label: string }[] = [

@@ -9,9 +9,10 @@ import { addManualItem, clearChecks, removeManualItem, setOverride, updateManual
 import { SECTION_LABELS, STORE_SECTION_ORDER, STORES, storeName, storeShort } from '../lib/sections';
 import { buildShoppingList, groupBySection, shoppingListToText } from '../lib/shopping';
 import { weekRangeLabel } from '../lib/week';
-import { usePlan, usePreferences, useShare, useWeek } from '../state/hooks';
+import { usePlan, usePreferences, useRecipeStates, useShare, useWeek } from '../state/hooks';
 import type { ShoppingItem, StoreId, SupermarketSection } from '../types';
 import { useCatalog } from '../state/catalog';
+import { veganizeRecipe, wantsVegan } from '../lib/diet';
 
 export function ShoppingList() {
   const { activeWeek, currentWeek, planningWeek } = useWeek();
@@ -20,6 +21,16 @@ export function ShoppingList() {
   const store = prefs.supermarket;
   const state = useLiveQuery(() => db.shopping.get(activeWeek), [activeWeek]);
   const { recipeMap, ingredientMap } = useCatalog();
+  const recipeStates = useRecipeStates();
+  // Meals cooked as their vegan version put the plant-based alternatives on the list.
+  const listRecipes = useMemo(() => {
+    const m = new Map(recipeMap);
+    for (const meal of plan?.meals ?? []) {
+      const r = recipeMap.get(meal.recipeId);
+      if (r && wantsVegan(r, ingredientMap, recipeStates.get(r.id), prefs.preferVegan)) m.set(r.id, veganizeRecipe(r, ingredientMap));
+    }
+    return m;
+  }, [recipeMap, ingredientMap, plan, recipeStates, prefs.preferVegan]);
   const [editing, setEditing] = useState<ShoppingItem | null>(null);
   const [adding, setAdding] = useState(false);
   const [showStock, setShowStock] = useState(false);
@@ -30,14 +41,14 @@ export function ShoppingList() {
         ? buildShoppingList({
             weekKey: activeWeek,
             meals: plan.meals,
-            recipes: recipeMap,
+            recipes: listRecipes,
             ingredients: ingredientMap,
             pantry: new Set(prefs.pantryItems),
             state,
             store,
           })
         : [],
-    [plan, prefs.pantryItems, state, activeWeek, store, recipeMap, ingredientMap],
+    [plan, prefs.pantryItems, state, activeWeek, store, listRecipes, ingredientMap],
   );
   const toBuy = items.filter((i) => !i.inStock);
   const inStock = items.filter((i) => i.inStock);

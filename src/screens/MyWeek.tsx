@@ -6,8 +6,9 @@ import { db } from '../db/db';
 import { markCooked, mutatePlan, savePlan, unmarkCooked } from '../db/repo';
 import { MAX_SERVINGS, MIN_SERVINGS, removeMeal, setServings } from '../lib/plan';
 import { weekMenuToText } from '../lib/share';
-import { usePlan, useShare, useToast, useWeek } from '../state/hooks';
+import { usePlan, usePreferences, useRecipeStates, useShare, useToast, useWeek } from '../state/hooks';
 import { useCatalog } from '../state/catalog';
+import { wantsVegan } from '../lib/diet';
 
 export function MyWeek() {
   const { activeWeek } = useWeek();
@@ -15,8 +16,15 @@ export function MyWeek() {
   const navigate = useNavigate();
   const toast = useToast();
   const share = useShare();
-  const { recipeMap } = useCatalog();
+  const { recipeMap, ingredientMap } = useCatalog();
+  const prefs = usePreferences();
+  const recipeStates = useRecipeStates();
   if (!plan) return null;
+  const isVeganMeal = (id: string) => {
+    const r = recipeMap.get(id);
+    return !!r && wantsVegan(r, ingredientMap, recipeStates.get(id), prefs.preferVegan);
+  };
+  const veganTitles = new Map([...recipeMap].map(([id, r]) => [id, isVeganMeal(id) ? { ...r, title: `${r.title} (vegan)` } : r]));
   const empty = Math.max(0, plan.mealTarget - plan.meals.length);
   const cookedCount = plan.meals.filter((m) => m.cookedAt).length;
 
@@ -30,7 +38,7 @@ export function MyWeek() {
               <IconButton
                 label="Weekmenu delen, bijvoorbeeld via WhatsApp"
                 className="text-ink-500 hover:bg-cream-200"
-                onClick={() => share('Weekmenu', weekMenuToText(plan, recipeMap, window.location.origin), 'Weekmenu gekopieerd')}
+                onClick={() => share('Weekmenu', weekMenuToText(plan, veganTitles, window.location.origin), 'Weekmenu gekopieerd')}
               >
                 <Share2 size={21} />
               </IconButton>
@@ -77,6 +85,7 @@ export function MyWeek() {
                     </Link>
                     <div className="mt-0.5 text-[13px] text-ink-500">
                       {r ? `${r.prepMinutes + r.cookMinutes} min · ${r.cuisine}` : ''}
+                      {isVeganMeal(m.recipeId) && <span className="ml-1 font-medium text-herb-700">· 🌱 vegan</span>}
                       {m.cookedAt && <span className="ml-1 font-medium text-herb-600">· Gekookt ✓</span>}
                     </div>
                     <div className="mt-2 flex items-center justify-between gap-2">

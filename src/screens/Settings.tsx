@@ -2,7 +2,7 @@ import { useLiveQuery } from 'dexie-react-hooks';
 import { ArrowLeft, Download, Upload, X } from 'lucide-react';
 import { useMemo, useRef, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { Button, Chip, cx, PageHeader, Stepper, TargetPicker } from '../components/ui';
+import { Button, Chip, cx, PageHeader, Stepper, TargetPicker, Switch } from '../components/ui';
 import { db } from '../db/db';
 import { BackupError, exportBackup, importBackup } from '../db/backup';
 import { updatePreferences, updateRecipeState } from '../db/repo';
@@ -95,6 +95,14 @@ export function Settings() {
             <TargetPicker value={prefs.defaultMealTarget} onChange={(n) => updatePreferences(db, { defaultMealTarget: n })} />
           </div>
           <p className="mt-2 text-xs text-ink-500">Weken die je al hebt gepland houden hun eigen aantal.</p>
+          <div className="mt-5 border-t border-cream-200 pt-4">
+            <Switch
+              checked={!!prefs.preferVegan}
+              onChange={(v) => updatePreferences(db, { preferVegan: v })}
+              label="🌱 Kies de vegan versie als dat kan"
+              hint="Recepten die met een paar vervangers vegan worden, toon en kook je dan vegan, ook op de boodschappenlijst. Per recept kun je het altijd nog omzetten."
+            />
+          </div>
         </section>
 
         <section className={card}>

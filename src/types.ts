@@ -72,6 +72,8 @@ export interface Ingredient {
   vegan?: boolean;
   /** false for fish and shellfish (and fish sauce). Absent means vegetarian. */
   vegetarian?: boolean;
+  /** Plant-based replacement for an animal product, used for the vegan version of a recipe. */
+  veganSwap?: { id: string; /** Amount factor, e.g. 0.5 g nutritional yeast per g of hard cheese. */ factor?: number; note?: string };
   /** Commonly kept in stock; suggested as a default pantry item. */
   pantry?: boolean;
   /** Stores where this may be hard to find. Editorial hint, not verified stock data. */
@@ -204,6 +206,8 @@ export interface UserPreferences {
   supermarket: StoreId;
   /** Canonical ingredient IDs the user always has at home. */
   pantryItems: string[];
+  /** Use the vegan version of recipes whenever one is easy to make. */
+  preferVegan?: boolean;
   updatedAt: number;
 }
 
@@ -212,6 +216,8 @@ export interface RecipeUserState {
   favorite: boolean;
   disliked: boolean;
   notes: string;
+  /** Cook this recipe as its vegan version (when it can be made vegan). Unset follows the preference. */
+  vegan?: boolean;
   updatedAt: number;
 }
 

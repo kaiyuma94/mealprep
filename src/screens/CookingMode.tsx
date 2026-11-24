@@ -8,6 +8,7 @@ import { clampServings } from '../lib/plan';
 import { usePreferences, useRecipeStates, useWeek } from '../state/hooks';
 import { IngredientList } from './RecipeDetail';
 import { useCatalog } from '../state/catalog';
+import { veganizeRecipe, wantsVegan } from '../lib/diet';
 
 function useWakeLock() {
   useEffect(() => {
@@ -111,9 +112,15 @@ export function CookingMode() {
   const [params] = useSearchParams();
   const navigate = useNavigate();
   const { recipeMap } = useCatalog();
-  const recipe = id ? recipeMap.get(id) : undefined;
+  const original = id ? recipeMap.get(id) : undefined;
   const prefs = usePreferences();
   const states = useRecipeStates();
+  const { ingredientMap } = useCatalog();
+  // Cook the vegan version when that's chosen for this recipe (or by default).
+  const recipe = useMemo(
+    () => (original && wantsVegan(original, ingredientMap, states.get(original.id), prefs.preferVegan) ? veganizeRecipe(original, ingredientMap) : original),
+    [original, ingredientMap, states, prefs.preferVegan],
+  );
   const { activeWeek, currentWeek } = useWeek();
   const servings = clampServings(Number(params.get('servings')) || prefs.defaultServings);
   const [step, setStep] = useState(0);

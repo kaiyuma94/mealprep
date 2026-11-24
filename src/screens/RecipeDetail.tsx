@@ -1,12 +1,12 @@
 import { ArrowLeft, Check, ChefHat, Clock, ExternalLink, Flame, Heart, Pencil, Plus, Share2, ThumbsDown, Timer, Trash2, Users } from 'lucide-react';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
-import { Button, cx, EmptyState, IconButton, RecipeCover, Stepper } from '../components/ui';
+import { Button, cx, EmptyState, IconButton, RecipeCover, Stepper, Switch } from '../components/ui';
 import { db } from '../db/db';
 import { deleteCustomRecipe, mutatePlan, updateRecipeState } from '../db/repo';
 import { MAX_SERVINGS, MIN_SERVINGS, setServings } from '../lib/plan';
 import { isCustomRecipe } from '../lib/customRecipe';
-import { recipeDiet } from '../lib/diet';
+import { recipeDiet, veganizeRecipe, veganSwaps, wantsVegan, type VeganSwap } from '../lib/diet';
 import { recipeToText } from '../lib/share';
 import { formatQuantity, ingredientLabel, scaleAmount } from '../lib/units';
 import { usePlan, usePlanActions, usePreferences, useRecipeStates, useShare, useToast, useWeek } from '../state/hooks';
@@ -53,6 +53,9 @@ function RecipeView({ recipe }: { recipe: Recipe }) {
   };
 
   const pantry = useMemo(() => new Set(prefs.pantryItems), [prefs.pantryItems]);
+  const swaps = useMemo(() => veganSwaps(recipe, ingredientMap), [recipe, ingredientMap]);
+  const vegan = wantsVegan(recipe, ingredientMap, state, prefs.preferVegan);
+  const shown = useMemo(() => (vegan ? veganizeRecipe(recipe, ingredientMap) : recipe), [vegan, recipe, ingredientMap]);
 
   return (
     <article className="pb-28">
@@ -70,7 +73,7 @@ function RecipeView({ recipe }: { recipe: Recipe }) {
             )}
             <IconButton
               label="Recept delen, bijvoorbeeld via WhatsApp"
-              onClick={() => share(recipe.title, recipeToText(recipe, servings, ingredientMap, window.location.origin), 'Recept gekopieerd')}
+              onClick={() => share(recipe.title, recipeToText(vegan ? { ...shown, title: `${recipe.title} (vegan)` } : recipe, servings, ingredientMap, window.location.origin), 'Recept gekopieerd')}
               className="bg-white/90 shadow-card backdrop-blur"
             >
               <Share2 size={20} />
@@ -90,7 +93,7 @@ function RecipeView({ recipe }: { recipe: Recipe }) {
       <div className="px-5 pt-5">
         <div className="text-[13px] font-medium uppercase tracking-wider text-herb-700">
           {recipe.cuisine}
-          <DietBadge diet={recipeDiet(recipe, ingredientMap)} />
+          <DietBadge diet={vegan ? 'vegan' : recipeDiet(recipe, ingredientMap)} easyVegan={!!swaps?.length && !vegan} />
         </div>
         <h1 className="mt-1 font-display text-[28px] font-semibold leading-tight">{recipe.title}</h1>
         {recipe.subtitle && <p className="mt-0.5 text-ink-500">{recipe.subtitle}</p>}
@@ -116,11 +119,19 @@ function RecipeView({ recipe }: { recipe: Recipe }) {
             <h2 className="font-display text-xl font-semibold">Ingrediënten</h2>
             <Stepper label="personen" value={servings} min={MIN_SERVINGS} max={MAX_SERVINGS} onChange={changeServings} suffix={servings === 1 ? 'persoon' : 'personen'} />
           </div>
-          <IngredientList recipe={recipe} servings={servings} pantry={pantry} />
+          {!!swaps?.length && (
+            <VeganCard swaps={swaps} on={vegan} onChange={(v) => updateRecipeState(db, recipe.id, { vegan: v })} />
+          )}
+          <IngredientList recipe={shown} servings={servings} pantry={pantry} />
         </section>
 
         <section className="mt-8">
           <h2 className="mb-3 font-display text-xl font-semibold">Bereiding</h2>
+          {vegan && swaps && (
+            <p className="mb-4 rounded-2xl bg-herb-100/60 px-3 py-2 text-sm text-ink-700">
+              🌱 Vegan versie: gebruik in de stappen {swaps.map((s) => `${s.to.name} voor ${s.from.name}`).join(', ')}.
+            </p>
+          )}
           <ol className="flex flex-col gap-4">
             {recipe.steps.map((s, i) => (
               <li key={i} className="flex gap-3.5">
@@ -250,7 +261,30 @@ function RecipeView({ recipe }: { recipe: Recipe }) {
   );
 }
 
-function DietBadge({ diet }: { diet: 'vegan' | 'vegetarian' | 'fish' }) {
+function VeganCard({ swaps, on, onChange }: { swaps: VeganSwap[]; on: boolean; onChange: (v: boolean) => void }) {
+  return (
+    <div className={cx('mb-3 rounded-[22px] p-4 shadow-card', on ? 'bg-herb-100/70' : 'bg-white')}>
+      <Switch
+        checked={on}
+        onChange={onChange}
+        label="🌱 Vegan versie"
+        hint={swaps.length === 1 ? 'Met 1 vervanger vegan te maken' : `Met ${swaps.length} vervangers vegan te maken`}
+      />
+      <ul className="mt-3 space-y-1 text-sm text-ink-700">
+        {swaps.map((s) => (
+          <li key={s.from.id}>
+            <span className={cx(on && 'text-ink-500 line-through')}>{s.from.name}</span> → <strong className="font-semibold">{s.to.name}</strong>
+            {s.factor !== 1 && <span className="text-ink-500"> (de helft)</span>}
+            {s.note && <span className="block pl-3 text-xs text-ink-500">{s.note}</span>}
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
+function DietBadge({ diet, easyVegan }: { diet: 'vegan' | 'vegetarian' | 'fish'; easyVegan?: boolean }) {
+  if (diet === 'vegetarian' && easyVegan) return <span className="ml-2 rounded-full bg-herb-100/70 px-2 py-0.5 normal-case tracking-normal">🌱 makkelijk vegan</span>;
   if (diet === 'vegetarian') return null;
   return (
     <span className={cx('ml-2 rounded-full px-2 py-0.5 normal-case tracking-normal', diet === 'vegan' ? 'bg-herb-100' : 'bg-sky-100 text-sky-800')}>

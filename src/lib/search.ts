@@ -1,5 +1,5 @@
 import type { Ingredient, Recipe } from '../types';
-import { recipeDiet, type Diet } from './diet';
+import { isEasyVegan, recipeDiet, type DietFilter } from './diet';
 
 export type DurationFilter = 'any' | 'quick' | 'medium' | 'long';
 export type StatusFilter = 'favorites' | 'cooked' | 'new' | 'own';
@@ -10,7 +10,7 @@ export interface SearchFilters {
   cuisine: string | null;
   status: StatusFilter | null;
   /** Only vegan, only vegetarian (vegan included) or only fish recipes. Optional so older saved filters still load. */
-  diet?: Diet | null;
+  diet?: DietFilter | null;
   /** @deprecated older saved filters; read as diet 'vegan'. */
   vegan?: boolean;
 }
@@ -27,7 +27,8 @@ export function buildSearchIndex(recipes: Recipe[], ingredients: Map<string, Ing
       });
       const diet = recipeDiet(r, ingredients);
       const words = diet === 'vegan' ? ['vegan', 'vegetarisch'] : diet === 'vegetarian' ? ['vegetarisch'] : ['vis'];
-      return [r.id, { title: fold(`${r.title} ${r.subtitle ?? ''}`), rest: fold([r.cuisine, ...r.tags, ...words, ...ing].join(' | ')), diet }];
+      const easyVegan = diet === 'vegetarian' && isEasyVegan(r, ingredients);
+      return [r.id, { title: fold(`${r.title} ${r.subtitle ?? ''}`), rest: fold([r.cuisine, ...r.tags, ...words, ...ing].join(' | ')), diet, easyVegan }];
     }),
   );
 }
@@ -58,6 +59,7 @@ export function searchRecipes(
     const idx = index.get(r.id)!;
     const diet = f.diet ?? (f.vegan ? 'vegan' : null);
     if (diet === 'vegan' && idx.diet !== 'vegan') continue;
+    if (diet === 'vegan-easy' && idx.diet !== 'vegan' && !idx.easyVegan) continue;
     if (diet === 'vegetarian' && idx.diet === 'fish') continue;
     if (diet === 'fish' && idx.diet !== 'fish') continue;
     let score = 0;
