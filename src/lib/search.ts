@@ -1,5 +1,5 @@
 import type { Ingredient, Recipe } from '../types';
-import { isVeganRecipe } from './diet';
+import { recipeDiet, type Diet } from './diet';
 
 export type DurationFilter = 'any' | 'quick' | 'medium' | 'long';
 export type StatusFilter = 'favorites' | 'cooked' | 'new' | 'own';
@@ -9,7 +9,9 @@ export interface SearchFilters {
   duration: DurationFilter;
   cuisine: string | null;
   status: StatusFilter | null;
-  /** Only plant-based recipes. Optional so older saved filters still load. */
+  /** Only vegan, only vegetarian (vegan included) or only fish recipes. Optional so older saved filters still load. */
+  diet?: Diet | null;
+  /** @deprecated older saved filters; read as diet 'vegan'. */
   vegan?: boolean;
 }
 
@@ -23,8 +25,9 @@ export function buildSearchIndex(recipes: Recipe[], ingredients: Map<string, Ing
         const i = ingredients.get(ri.ingredientId);
         return i ? [i.name, i.plural ?? '', ...(i.aliases ?? [])] : [];
       });
-      const vegan = isVeganRecipe(r, ingredients);
-      return [r.id, { title: fold(`${r.title} ${r.subtitle ?? ''}`), rest: fold([r.cuisine, ...r.tags, ...(vegan ? ['vegan'] : []), ...ing].join(' | ')), vegan }];
+      const diet = recipeDiet(r, ingredients);
+      const words = diet === 'vegan' ? ['vegan', 'vegetarisch'] : diet === 'vegetarian' ? ['vegetarisch'] : ['vis'];
+      return [r.id, { title: fold(`${r.title} ${r.subtitle ?? ''}`), rest: fold([r.cuisine, ...r.tags, ...words, ...ing].join(' | ')), diet }];
     }),
   );
 }
@@ -53,7 +56,10 @@ export function searchRecipes(
     if (f.status === 'new' && user.cooked.has(r.id)) continue;
     if (f.status === 'own' && r.source.type !== 'personal') continue;
     const idx = index.get(r.id)!;
-    if (f.vegan && !idx.vegan) continue;
+    const diet = f.diet ?? (f.vegan ? 'vegan' : null);
+    if (diet === 'vegan' && idx.diet !== 'vegan') continue;
+    if (diet === 'vegetarian' && idx.diet === 'fish') continue;
+    if (diet === 'fish' && idx.diet !== 'fish') continue;
     let score = 0;
     let ok = true;
     for (const t of tokens) {

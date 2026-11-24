@@ -37,8 +37,12 @@ export interface ImportRecipe {
   source?: RecipeSource;
   /** Shortcut: link to the recipe this one is based on; merged into the file-level source. */
   sourceUrl?: string;
+  /** Shortcut: how this version differs from the original (e.g. "Vega-versie: … vervangen door …"); merged into the source. */
+  adaptation?: string;
   image?: Recipe['image'];
   palette?: [string, string];
+  /** Cover shape, when the one worked out from the name doesn't fit. */
+  dish?: Recipe['dish'];
 }
 
 export interface ImportFile {
@@ -183,9 +187,10 @@ export function convertImport(file: unknown, ingredients: Ingredient[]): ImportR
       baseServings: r?.servings ?? 2,
       ingredients: ings,
       steps: (r?.steps ?? []).map((s) => (typeof s === 'string' ? { text: s } : s)),
-      source: r?.source ?? (r?.sourceUrl ? { ...f.source!, url: r.sourceUrl } : f.source!),
+      source: r?.source ?? { ...f.source!, ...(r?.sourceUrl ? { url: r.sourceUrl } : {}), ...(r?.adaptation ? { adaptation: r.adaptation } : {}) },
       ...(r?.image ? { image: r.image } : {}),
       ...(r?.palette ? { palette: r.palette } : {}),
+      ...(r?.dish ? { dish: r.dish } : {}),
     } as Recipe;
     const v = validateRecipe(recipe, ids, idx);
     issues.push(...v);

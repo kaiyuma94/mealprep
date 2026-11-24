@@ -20,3 +20,25 @@ export function isVeganRecipe(recipe: Recipe, ingredients: Map<string, Ingredien
   if (recipe.tags.includes('vegan')) return true;
   return recipe.ingredients.every((ri) => ri.optional || isVeganIngredient(ingredients.get(ri.ingredientId)));
 }
+
+export function isVegetarianIngredient(ing: Ingredient | undefined): boolean {
+  if (!ing) return false;
+  if (ing.vegetarian !== undefined) return ing.vegetarian;
+  if (ing.id.startsWith('eigen-')) return !FISH_WORDS.test(ing.name.toLowerCase());
+  return true;
+}
+
+/** Fish and shellfish in the name of an ingredient the catalogue doesn't know. */
+const FISH_WORDS = /vis|zalm|tonijn|kabeljauw|garnal|gamba|scampi|makreel|haring|ansjovis|mosselen|inktvis|pangasius|forel|schol|tilapia|krab|kreeft/;
+
+/** Vegetarian: no fish or shellfish, except as an optional extra. (Meat never appears in the catalogue.) */
+export function isVegetarianRecipe(recipe: Recipe, ingredients: Map<string, Ingredient>): boolean {
+  return recipe.ingredients.every((ri) => ri.optional || isVegetarianIngredient(ingredients.get(ri.ingredientId)));
+}
+
+export type Diet = 'vegan' | 'vegetarian' | 'fish';
+
+export function recipeDiet(recipe: Recipe, ingredients: Map<string, Ingredient>): Diet {
+  if (!isVegetarianRecipe(recipe, ingredients)) return 'fish';
+  return isVeganRecipe(recipe, ingredients) ? 'vegan' : 'vegetarian';
+}

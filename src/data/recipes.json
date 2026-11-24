@@ -25265,6 +25265,6164 @@
         "#e3862e",
         "#8a2a3a"
       ]
+    },
+    {
+      "id": "orecchiette-harissa-vegagehakt-aubergine",
+      "schemaVersion": 1,
+      "title": "Orecchiette met harissa-vegagehakt en gebakken aubergine",
+      "subtitle": "met yoghurt en gerookte-paprikaboter",
+      "description": "Pittige tomatensaus met plantaardig gehakt en harissa, met goudbruine aubergine en een lepel koele yoghurt.",
+      "cuisine": "Midden-Oosters",
+      "tags": [
+        "pasta",
+        "pittig"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 20,
+      "difficulty": "easy",
+      "baseServings": 2,
+      "ingredients": [
+        {
+          "ingredientId": "orecchiette",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "vega-gehakt",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "aubergine",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "ui",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "knoflook",
+          "amount": 2,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "tomatenblokjes",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "harissa",
+          "amount": 30,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "komijn",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "korianderpoeder",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "honing",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "griekse-yoghurt",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "gerookt-paprikapoeder",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "roomboter",
+          "amount": 30,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "olijfolie",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "bouillonblokje",
+          "amount": 0.5,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "zout",
+          "amount": null,
+          "unit": "pinch"
+        },
+        {
+          "ingredientId": "peper",
+          "amount": null,
+          "unit": "pinch"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Kook de orecchiette in ruim water met zout beetgaar. Snijd de aubergine in blokjes van ongeveer 1,5 cm, snipper de ui en hak de knoflook fijn.",
+          "timerMinutes": 12
+        },
+        {
+          "text": "Bak de aubergine in 1 el olijfolie op middelhoog vuur rondom goudbruin en zacht. Strooi er wat zout over en schep uit de pan.",
+          "timerMinutes": 8
+        },
+        {
+          "text": "Rul het gehakt los in de rest van de olie en bak 3 minuten. Bak ui, knoflook, komijn en koriander 2 minuten mee. Roer harissa, tomatenblokjes, honing en het verkruimelde bouillonblokje erdoor en laat de saus pruttelen.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Smelt intussen de boter in een steelpannetje en roer het gerookte paprikapoeder erdoor. Breng de yoghurt op smaak met een snufje zout."
+        },
+        {
+          "text": "Schep pasta en aubergine door de saus en breng op smaak. Verdeel over de borden, schep er yoghurt op en druppel de paprikaboter erover."
+        }
+      ],
+      "source": {
+        "type": "inspired",
+        "name": "HelloFresh",
+        "note": "Vega-versie van een HelloFresh-vleesgerecht: gerecht en ingrediënten gebaseerd op het origineel, vlees vervangen, bereidingswijze in eigen woorden. Alleen voor persoonlijk gebruik.",
+        "url": "https://www.hellofresh.nl/recipes/orecchiette-met-harissa-rundergehakt-en-gebakken-aubergine-6aa9431d0e82380198261d90",
+        "adaptation": "Vega-versie: het origineel gebruikt rundergehakt en runderbouillon; hier plantaardig gehakt en groentebouillon."
+      },
+      "palette": [
+        "#b8452f",
+        "#e9d8b6"
+      ]
+    },
+    {
+      "id": "courgettebootjes-zaatar-vegagehakt-zhoug",
+      "schemaVersion": 1,
+      "title": "Courgettebootjes met za'atar-vegagehakt en zhoug-yoghurt",
+      "subtitle": "met couscous, verse kruiden en geroosterde zonnebloempitten",
+      "description": "Geroosterde courgettehelften gevuld met kruidig gehakt, met een zelfgemaakte groene pepersaus door de yoghurt.",
+      "cuisine": "Midden-Oosters",
+      "tags": [
+        "oven"
+      ],
+      "prepMinutes": 15,
+      "cookMinutes": 20,
+      "difficulty": "easy",
+      "baseServings": 2,
+      "ingredients": [
+        {
+          "ingredientId": "courgette",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "vega-gehakt",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ui",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "knoflook",
+          "amount": 1,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "wortel",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "komijn",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "zaatar",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "couscous",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "bouillonblokje",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "roomboter",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "zonnebloempitten",
+          "amount": 20,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "griekse-yoghurt",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "koriander",
+          "amount": 10,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "peterselie",
+          "amount": 10,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "munt",
+          "amount": 5,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "rode-peper",
+          "amount": 0.5,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "olijfolie",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "zout",
+          "amount": null,
+          "unit": "pinch"
+        },
+        {
+          "ingredientId": "peper",
+          "amount": null,
+          "unit": "pinch"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 220 °C. Halveer de courgette in de lengte, hol de helften uit met een lepel en hak het vruchtvlees fijn. Leg de bootjes op een bakplaat, besprenkel met wat olie en zout en rooster ze.",
+          "timerMinutes": 15
+        },
+        {
+          "text": "Snipper de ui, hak de knoflook fijn en rasp de wortel grof. Rul het gehakt los in 1 el olie en bak 3 minuten. Voeg ui, knoflook, courgettevlees, komijn en za'atar toe en bak 4 minuten mee. Breng op smaak."
+        },
+        {
+          "text": "Los het bouillonblokje op in 250 ml heet water. Giet het over de couscous met de wortel en de boter, dek af en laat 5 minuten wellen. Rooster de zonnebloempitten in een droge koekenpan."
+        },
+        {
+          "text": "Hak koriander, peterselie en de rode peper heel fijn en meng met een snuf zout en een scheut olie tot een groene saus. Roer de helft door de yoghurt."
+        },
+        {
+          "text": "Vul de courgettebootjes met het gehakt. Schep de couscous op de borden, leg de bootjes erop en maak af met de zhoug-yoghurt, de rest van de groene saus, munt en pitten."
+        }
+      ],
+      "source": {
+        "type": "inspired",
+        "name": "HelloFresh",
+        "note": "Vega-versie van een HelloFresh-vleesgerecht: gerecht en ingrediënten gebaseerd op het origineel, vlees vervangen, bereidingswijze in eigen woorden. Alleen voor persoonlijk gebruik.",
+        "url": "https://www.hellofresh.nl/recipes/courgettebootjes-met-zaatar-rundergehakt-en-zhoug-yoghurt-6a9ff7dad83fec55e3cd022c",
+        "adaptation": "Vega-versie: het origineel gebruikt gekruid rundergehakt; hier plantaardig gehakt. De kant-en-klare zhoug is vervangen door een snelle zelfgemaakte versie."
+      },
+      "palette": [
+        "#6f9a52",
+        "#e8d9b0"
+      ]
+    },
+    {
+      "id": "empanadabowl-vegagehakt",
+      "schemaVersion": 1,
+      "title": "Empanadabowl met vegagehakt",
+      "subtitle": "met zelfgemaakte tortillachips, yoghurt en peterselie",
+      "description": "Alle smaken van een empanada in een kom: kruidig gehakt met mais en rozijnen en knapperige chips van wraps.",
+      "cuisine": "Argentijns",
+      "tags": [
+        "snel",
+        "bowl"
+      ],
+      "prepMinutes": 5,
+      "cookMinutes": 15,
+      "difficulty": "easy",
+      "baseServings": 2,
+      "ingredients": [
+        {
+          "ingredientId": "vega-gehakt",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ui",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "courgette",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "mais",
+          "amount": 140,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tomatenblokjes",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "gerookt-paprikapoeder",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "komijn",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "oregano",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "rozijnen",
+          "amount": 20,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "suiker",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "tortilla-wrap",
+          "amount": 4,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "griekse-yoghurt",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "peterselie",
+          "amount": 10,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "limoen",
+          "amount": 0.5,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "zonnebloemolie",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "zout",
+          "amount": null,
+          "unit": "pinch"
+        },
+        {
+          "ingredientId": "peper",
+          "amount": null,
+          "unit": "pinch"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 200 °C. Snijd de wraps in punten, leg ze op een bakplaat, bestrijk met 1 el olie, strooi er zout over en bak ze knapperig.",
+          "timerMinutes": 8
+        },
+        {
+          "text": "Snipper de ui en snijd de courgette in kleine blokjes. Rul het gehakt los in de rest van de olie en bak 3 minuten. Bak ui en courgette 4 minuten mee."
+        },
+        {
+          "text": "Roer paprikapoeder, komijn en oregano erdoor. Voeg tomatenblokjes, uitgelekte mais, rozijnen, suiker en 150 ml water toe en laat inkoken. Breng op smaak met zout, peper en een kneepje limoen.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Schep het gehakt in kommen met een lepel yoghurt en gehakte peterselie, en steek de chips erin."
+        }
+      ],
+      "source": {
+        "type": "inspired",
+        "name": "HelloFresh",
+        "note": "Vega-versie van een HelloFresh-vleesgerecht: gerecht en ingrediënten gebaseerd op het origineel, vlees vervangen, bereidingswijze in eigen woorden. Alleen voor persoonlijk gebruik.",
+        "url": "https://www.hellofresh.nl/recipes/empanadabowl-met-rundergehakt-6a97e761e75bbd5a4ef59cca",
+        "adaptation": "Vega-versie: het origineel gebruikt gekruid rundergehakt; hier plantaardig gehakt."
+      },
+      "palette": [
+        "#d9a441",
+        "#7a3b2e"
+      ],
+      "dish": "bowl"
+    },
+    {
+      "id": "udonnoedels-vegagehakt-teriyaki-mascarpone",
+      "schemaVersion": 1,
+      "title": "Udonnoedels met vegagehakt in teriyaki-mascarponesaus",
+      "subtitle": "met champignons, prei en Thais basilicum",
+      "description": "Dikke udon in een romige, zoet-zoute saus met gehakt, champignons en een frisse handvol kruiden.",
+      "cuisine": "Aziatisch",
+      "tags": [
+        "snel",
+        "wok"
+      ],
+      "prepMinutes": 5,
+      "cookMinutes": 10,
+      "difficulty": "easy",
+      "baseServings": 2,
+      "ingredients": [
+        {
+          "ingredientId": "udon",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "vega-gehakt",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "champignons",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "prei",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "knoflook",
+          "amount": 1,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "teriyakisaus",
+          "amount": 50,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "sojasaus",
+          "amount": 20,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "mascarpone",
+          "amount": 50,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "pindas",
+          "amount": 20,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "thais-basilicum",
+          "amount": 5,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "koriander",
+          "amount": 5,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "olijfolie",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "peper",
+          "amount": null,
+          "unit": "pinch"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Snijd de champignons in plakjes en de prei in dunne ringen, hak de knoflook fijn en hak de pinda's grof."
+        },
+        {
+          "text": "Bak het gehakt in de olie in een wok op hoog vuur 3 minuten los. Voeg champignons, prei en knoflook toe en roerbak tot de groente slinkt.",
+          "timerMinutes": 4
+        },
+        {
+          "text": "Maak de udon los onder warm water en voeg ze met teriyakisaus, sojasaus, mascarpone en een scheutje water toe. Schep om tot alles glanst en heet is."
+        },
+        {
+          "text": "Verdeel over kommen en bestrooi met Thais basilicum, koriander, pinda's en versgemalen peper."
+        }
+      ],
+      "source": {
+        "type": "inspired",
+        "name": "HelloFresh",
+        "note": "Vega-versie van een HelloFresh-vleesgerecht: gerecht en ingrediënten gebaseerd op het origineel, vlees vervangen, bereidingswijze in eigen woorden. Alleen voor persoonlijk gebruik.",
+        "url": "https://www.hellofresh.nl/recipes/udonnoedels-met-rundergehakt-in-teriyaki-mascarponesaus-6a97e67ae75bbd5a4ef59a92",
+        "adaptation": "Vega-versie: het origineel gebruikt oosters gekruid rundergehakt; hier plantaardig gehakt. De roerbakmix is vervangen door champignons en prei."
+      },
+      "palette": [
+        "#8a5a2b",
+        "#c9d6a0"
+      ]
+    },
+    {
+      "id": "ghanese-stoof-vegagehakt-pinda",
+      "schemaVersion": 1,
+      "title": "Ghanees-geïnspireerde stoof met vegagehakt en pinda",
+      "subtitle": "met rijst, zoete aardappel, limoen en spinazie",
+      "description": "Een romige pindastoof met tomaat, zoete aardappel en spinazie, warm gekruid en fris afgemaakt met limoen.",
+      "cuisine": "West-Afrikaans",
+      "tags": [
+        "comfort",
+        "pittig"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 20,
+      "difficulty": "easy",
+      "baseServings": 2,
+      "ingredients": [
+        {
+          "ingredientId": "basmatirijst",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "vega-gehakt",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "zoete-aardappel",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "wortel",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "rode-ui",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "tomatenpuree",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "harissa",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "pindakaas",
+          "amount": 50,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ras-el-hanout",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "komijn",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "spinazie",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "limoen",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "bouillonblokje",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "zonnebloemolie",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "zout",
+          "amount": null,
+          "unit": "pinch"
+        },
+        {
+          "ingredientId": "peper",
+          "amount": null,
+          "unit": "pinch"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Kook de rijst volgens de verpakking. Schil de zoete aardappel en snijd hem met de wortel in kleine blokjes. Snipper de rode ui."
+        },
+        {
+          "text": "Rul het gehakt los in de olie in een hapjespan en bak 3 minuten. Bak ui, zoete aardappel, wortel, ras el hanout en komijn 3 minuten mee."
+        },
+        {
+          "text": "Roer tomatenpuree, harissa en pindakaas erdoor. Giet 250 ml water met het bouillonblokje erbij en laat afgedekt stoven tot de groente zacht is.",
+          "timerMinutes": 12
+        },
+        {
+          "text": "Laat de spinazie in de laatste minuten erin slinken. Breng op smaak met limoensap, zout en peper en serveer met de rijst en een partje limoen."
+        }
+      ],
+      "source": {
+        "type": "inspired",
+        "name": "HelloFresh",
+        "note": "Vega-versie van een HelloFresh-vleesgerecht: gerecht en ingrediënten gebaseerd op het origineel, vlees vervangen, bereidingswijze in eigen woorden. Alleen voor persoonlijk gebruik.",
+        "url": "https://www.hellofresh.nl/recipes/ghanees-geinspireerde-stoof-met-rundergehakt-en-pinda-6a82f5b6ee0be9e8e28781f4",
+        "adaptation": "Vega-versie: het origineel gebruikt biologisch rundergehakt; hier plantaardig gehakt. Taginepasta en de kruidenmix zijn vervangen door tomatenpuree, harissa en ras el hanout."
+      },
+      "palette": [
+        "#c8702f",
+        "#3f5f2a"
+      ]
+    },
+    {
+      "id": "snelle-vega-bolognese-penne",
+      "schemaVersion": 1,
+      "title": "Snelle vega bolognese met penne",
+      "subtitle": "met basilicum, cherrytomaten en Italiaanse harde kaas",
+      "description": "Een doordeweekse bolognese in een kwartier: plantaardig gehakt, wortel en tomaat, zacht gemaakt met een scheut melk.",
+      "cuisine": "Italiaans",
+      "tags": [
+        "snel",
+        "pasta",
+        "budget"
+      ],
+      "prepMinutes": 5,
+      "cookMinutes": 15,
+      "difficulty": "easy",
+      "baseServings": 2,
+      "ingredients": [
+        {
+          "ingredientId": "penne",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "vega-gehakt",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cherrytomaten",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ui",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "wortel",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "knoflook",
+          "amount": 1,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "tomatenpuree",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "italiaanse-kruiden",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "sojasaus",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "balsamico",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "melk",
+          "amount": 60,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "bouillonblokje",
+          "amount": 0.5,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "harde-kaas",
+          "amount": 25,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "basilicum",
+          "amount": 5,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "olijfolie",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "zout",
+          "amount": null,
+          "unit": "pinch"
+        },
+        {
+          "ingredientId": "peper",
+          "amount": null,
+          "unit": "pinch"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Kook de penne beetgaar. Snipper de ui, rasp de wortel fijn, hak de knoflook en halveer de cherrytomaten."
+        },
+        {
+          "text": "Rul het gehakt los in de olie en bak 3 minuten. Bak ui, wortel en knoflook 3 minuten mee. Roer tomatenpuree en Italiaanse kruiden erdoor en bak nog 1 minuut."
+        },
+        {
+          "text": "Voeg de tomaatjes, 150 ml water met het halve bouillonblokje, sojasaus en balsamico toe en laat pruttelen. Roer de melk erdoor voor een zachte saus.",
+          "timerMinutes": 6
+        },
+        {
+          "text": "Schep de penne door de saus, breng op smaak en serveer met geraspte kaas en basilicum."
+        }
+      ],
+      "source": {
+        "type": "inspired",
+        "name": "HelloFresh",
+        "note": "Vega-versie van een HelloFresh-vleesgerecht: gerecht en ingrediënten gebaseerd op het origineel, vlees vervangen, bereidingswijze in eigen woorden. Alleen voor persoonlijk gebruik.",
+        "url": "https://www.hellofresh.nl/recipes/snelle-bolognese-met-parmigiano-reggiano-6a82eefc6a08324360c8c9a2",
+        "adaptation": "Vega-versie: het origineel gebruikt rundergehakt, runderbouillon, Worcestershiresaus en Parmigiano Reggiano; hier plantaardig gehakt, groentebouillon, sojasaus en vegetarische harde kaas."
+      },
+      "palette": [
+        "#c4482f",
+        "#f2d58c"
+      ]
+    },
+    {
+      "id": "gevulde-paprikas-vegagehakt-feta",
+      "schemaVersion": 1,
+      "title": "Gevulde paprika's met vegagehakt en feta",
+      "subtitle": "met champignons, rozemarijn en parelcouscous",
+      "description": "Halve paprika's uit de oven, gevuld met gehakt, champignons en parelcouscous en afgemaakt met gesmolten feta.",
+      "cuisine": "Mediterraan",
+      "tags": [
+        "oven"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 25,
+      "difficulty": "easy",
+      "baseServings": 2,
+      "ingredients": [
+        {
+          "ingredientId": "paprika",
+          "amount": 2,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "vega-gehakt",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "parelcouscous",
+          "amount": 130,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "bouillonblokje",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "champignons",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "knoflook",
+          "amount": 1,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "rozemarijn",
+          "amount": 5,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "paprikapoeder",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "tomatenpuree",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "rodewijnazijn",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "feta",
+          "amount": 50,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "olijfolie",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "zout",
+          "amount": null,
+          "unit": "pinch"
+        },
+        {
+          "ingredientId": "peper",
+          "amount": null,
+          "unit": "pinch"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 200 °C. Halveer de paprika's door de steel en verwijder de zaadlijsten. Leg ze met de snijkant naar boven op een bakplaat, besprenkel met wat olie en zout en bak ze voor.",
+          "timerMinutes": 10
+        },
+        {
+          "text": "Kook de parelcouscous gaar in 300 ml water met het bouillonblokje. Snijd de champignons klein en hak knoflook en rozemarijnnaaldjes fijn.",
+          "timerMinutes": 12
+        },
+        {
+          "text": "Rul het gehakt los in de rest van de olie en bak 3 minuten. Bak champignons, knoflook, rozemarijn en paprikapoeder 4 minuten mee en roer tomatenpuree en azijn erdoor. Meng met de helft van de couscous."
+        },
+        {
+          "text": "Vul de paprika's, verkruimel de feta erover en zet ze terug in de oven tot de feta zacht is. Serveer met de rest van de couscous.",
+          "timerMinutes": 10
+        }
+      ],
+      "source": {
+        "type": "inspired",
+        "name": "HelloFresh",
+        "note": "Vega-versie van een HelloFresh-vleesgerecht: gerecht en ingrediënten gebaseerd op het origineel, vlees vervangen, bereidingswijze in eigen woorden. Alleen voor persoonlijk gebruik.",
+        "url": "https://www.hellofresh.nl/recipes/gevulde-paprikas-met-bio-rundergehakt-6a8c5d2372cd4551cc2b81aa",
+        "adaptation": "Vega-versie: het origineel gebruikt biologisch rundergehakt en runderbouillon; hier plantaardig gehakt en groentebouillon. De kruidenkaasblokjes zijn vervangen door feta."
+      },
+      "palette": [
+        "#d0452f",
+        "#e6c27a"
+      ]
+    },
+    {
+      "id": "kerriepasteitjes-vegagehakt-limoensalade",
+      "schemaVersion": 1,
+      "title": "Kerriepasteitjes met vegagehakt",
+      "subtitle": "met salade, ingelegde ui en limoendressing",
+      "description": "Krokante bladerdeegpasteitjes gevuld met kerriegehakt en mangochutney, met een frisse salade met snel ingelegde ui.",
+      "cuisine": "Caribisch",
+      "tags": [
+        "oven",
+        "weekend"
+      ],
+      "prepMinutes": 20,
+      "cookMinutes": 20,
+      "difficulty": "medium",
+      "baseServings": 2,
+      "ingredients": [
+        {
+          "ingredientId": "bladerdeeg",
+          "amount": 0.5,
+          "unit": "pack"
+        },
+        {
+          "ingredientId": "vega-gehakt",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "knoflook",
+          "amount": 2,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "wortel",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "kerriepoeder",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "paprikapoeder",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "komijn",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "mangochutney",
+          "amount": 25,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "melk",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "rode-ui",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "limoen",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "suiker",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "paprika",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "slamix",
+          "amount": 60,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "olijfolie",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "mayonaise",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "zout",
+          "amount": null,
+          "unit": "pinch"
+        },
+        {
+          "ingredientId": "peper",
+          "amount": null,
+          "unit": "pinch"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 220 °C en laat het bladerdeeg op het aanrecht op temperatuur komen. Snijd de rode ui in dunne ringen en meng met het sap van een halve limoen, de suiker en een snuf zout. Laat staan."
+        },
+        {
+          "text": "Hak de knoflook fijn en rasp de wortel. Rul het gehakt los in 1 el olie en bak 3 minuten. Bak knoflook, wortel, kerrie, paprikapoeder en komijn 3 minuten mee, roer de mangochutney en een scheutje water erdoor en laat iets afkoelen."
+        },
+        {
+          "text": "Snijd het bladerdeeg in 4 rechthoeken. Schep de vulling op één helft, vouw dicht en druk de randen aan met een vork. Bestrijk met melk en bak goudbruin.",
+          "timerMinutes": 18
+        },
+        {
+          "text": "Snijd de paprika in reepjes en bak 5 minuten in de rest van de olie. Klop het sap van de andere halve limoen met een scheut olie en zout tot een dressing. Meng de sla met paprika, ingelegde ui en dressing en serveer met de pasteitjes en mayonaise."
+        }
+      ],
+      "source": {
+        "type": "inspired",
+        "name": "HelloFresh",
+        "note": "Vega-versie van een HelloFresh-vleesgerecht: gerecht en ingrediënten gebaseerd op het origineel, vlees vervangen, bereidingswijze in eigen woorden. Alleen voor persoonlijk gebruik.",
+        "url": "https://www.hellofresh.nl/recipes/kerrie-runderpasteitjes-en-salade-met-limoendressing-6a9ed94250d85bbd02ec93ed",
+        "adaptation": "Vega-versie: het origineel gebruikt biologisch rundergehakt en kippenbouillon; hier plantaardig gehakt zonder bouillon. Abrikozenchutney is vervangen door mangochutney."
+      },
+      "palette": [
+        "#e0a526",
+        "#8e3b26"
+      ],
+      "dish": "tart"
+    },
+    {
+      "id": "tacos-vega-kip-guacamolesalade",
+      "schemaVersion": 1,
+      "title": "Taco's met vega kip en guacamole",
+      "subtitle": "met koolsalade, zure room, tomaat en limoen",
+      "description": "Kleine tortilla's vol Mexicaans gekruide vega kip, frisse koolsla, zelfgemaakte guacamole en zure room.",
+      "cuisine": "Mexicaans",
+      "tags": [
+        "snel"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 5,
+      "difficulty": "easy",
+      "baseServings": 2,
+      "ingredients": [
+        {
+          "ingredientId": "mini-tortilla",
+          "amount": 8,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "vega-kipstukjes",
+          "amount": 175,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "mexicaanse-kruiden",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "avocado",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "rode-ui",
+          "amount": 0.5,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "limoen",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "tomaat",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "koolmix",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "slamix",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "creme-fraiche",
+          "amount": 50,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "olijfolie",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "zout",
+          "amount": null,
+          "unit": "pinch"
+        },
+        {
+          "ingredientId": "peper",
+          "amount": null,
+          "unit": "pinch"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Prak de avocado met de helft van het limoensap, de fijngesnipperde rode ui en een snuf zout tot guacamole. Snijd de tomaat in blokjes."
+        },
+        {
+          "text": "Meng de koolmix met de rest van het limoensap en een snuf zout."
+        },
+        {
+          "text": "Bak de vega kip in de olie goudbruin. Strooi in de laatste minuut de Mexicaanse kruiden erover met een scheutje water.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Verwarm de tortilla's kort in een droge koekenpan. Vul ze met sla, koolsalade, kip, guacamole, tomaat en een lepel zure room."
+        }
+      ],
+      "source": {
+        "type": "inspired",
+        "name": "HelloFresh",
+        "note": "Vega-versie van een HelloFresh-vleesgerecht: gerecht en ingrediënten gebaseerd op het origineel, vlees vervangen, bereidingswijze in eigen woorden. Alleen voor persoonlijk gebruik.",
+        "url": "https://www.hellofresh.nl/recipes/tacos-met-kip-en-guacamolesalade-6aa16123548a82de3e1b324f",
+        "adaptation": "Vega-versie: het origineel gebruikt kipgehakt met Mexicaanse kruiden; hier vegetarische kipstukjes. De kant-en-klare guacamole is vervangen door een zelfgemaakte."
+      },
+      "palette": [
+        "#6f9a52",
+        "#e8a33d"
+      ]
+    },
+    {
+      "id": "stirfry-bulgogi-vega-kip-sesam",
+      "schemaVersion": 1,
+      "title": "Stir-fry met bulgogi vega kip en sesam",
+      "subtitle": "met rijst, peultjes, paprika en limoen",
+      "description": "Knapperige roerbakgroenten en vega kip in een zoete Koreaanse saus, met geroosterde sesam en limoen.",
+      "cuisine": "Koreaans",
+      "tags": [
+        "wok",
+        "snel"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 15,
+      "difficulty": "easy",
+      "baseServings": 2,
+      "ingredients": [
+        {
+          "ingredientId": "basmatirijst",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "vega-kipstukjes",
+          "amount": 175,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "rode-ui",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "paprika",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "peultjes",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "knoflook",
+          "amount": 1,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "teriyakisaus",
+          "amount": 70,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "chilivlokken",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "sesamzaad",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "limoen",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "zonnebloemolie",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "zout",
+          "amount": null,
+          "unit": "pinch"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Kook de rijst volgens de verpakking. Rooster de sesam in een droge wok en schep uit. Snijd de ui in halve ringen en de paprika in reepjes en hak de knoflook."
+        },
+        {
+          "text": "Bak de vega kip in 1 el olie goudbruin en schep uit de wok.",
+          "timerMinutes": 4
+        },
+        {
+          "text": "Roerbak ui, paprika, sugarsnaps en knoflook in de rest van de olie op hoog vuur; ze moeten knapperig blijven.",
+          "timerMinutes": 4
+        },
+        {
+          "text": "Doe de kip terug met de bulgogisaus, 50 ml water en de chilivlokken en laat 1 minuut glanzen. Knijp er een halve limoen boven uit en serveer op de rijst met sesam en een partje limoen."
+        }
+      ],
+      "source": {
+        "type": "inspired",
+        "name": "HelloFresh",
+        "note": "Vega-versie van een HelloFresh-vleesgerecht: gerecht en ingrediënten gebaseerd op het origineel, vlees vervangen, bereidingswijze in eigen woorden. Alleen voor persoonlijk gebruik.",
+        "url": "https://www.hellofresh.nl/recipes/stir-fry-met-bulgogi-kip-gomasio-en-limoen-6aa93eed87970cc2cf3c180c",
+        "adaptation": "Vega-versie: het origineel gebruikt varkenshaaspuntjes (eerder kip); hier vegetarische kipstukjes. Gomasio is vervangen door geroosterde sesam."
+      },
+      "palette": [
+        "#9c3d22",
+        "#a9c46c"
+      ]
+    },
+    {
+      "id": "belgische-vega-kip-rodekool-appel",
+      "schemaVersion": 1,
+      "title": "Belgische klassieker: vega kip met rodekool en appel",
+      "subtitle": "met aardappelpartjes, jus en peterselie",
+      "description": "Zoetzure rodekool met appel, krokante aardappelpartjes, gebakken vega kip en een snelle jus.",
+      "cuisine": "Belgisch",
+      "tags": [
+        "comfort",
+        "oven",
+        "winter"
+      ],
+      "prepMinutes": 15,
+      "cookMinutes": 30,
+      "difficulty": "easy",
+      "baseServings": 2,
+      "ingredients": [
+        {
+          "ingredientId": "aardappel",
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "knoflook",
+          "amount": 1,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "tijm",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "appel",
+          "amount": 2,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "rode-ui",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "rodekool",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "suiker",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "wittewijnazijn",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "vega-kipstukjes",
+          "amount": 175,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "bouillonblokje",
+          "amount": 0.5,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "sojasaus",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "maizena",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "roomboter",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "olijfolie",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "peterselie",
+          "amount": 10,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "mayonaise",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "zout",
+          "amount": null,
+          "unit": "pinch"
+        },
+        {
+          "ingredientId": "peper",
+          "amount": null,
+          "unit": "pinch"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 220 °C. Snijd de aardappelen in partjes en meng met 1 el olie, de tijm, de geperste knoflook en zout. Rooster ze op een bakplaat goudbruin.",
+          "timerMinutes": 30
+        },
+        {
+          "text": "Snipper de rode ui en snijd de appels in blokjes. Smoor de ui in de boter, voeg rodekool, appel, suiker, azijn en een scheut water toe en laat afgedekt zacht stoven.",
+          "timerMinutes": 20
+        },
+        {
+          "text": "Breng 150 ml water met het bouillonblokje en de sojasaus aan de kook. Roer de maïzena los in een scheutje koud water en bind er de jus mee."
+        },
+        {
+          "text": "Bak de vega kip in de rest van de olie goudbruin. Serveer met de partjes, de rodekool en de jus, en maak af met peterselie en mayonaise."
+        }
+      ],
+      "source": {
+        "type": "inspired",
+        "name": "HelloFresh",
+        "note": "Vega-versie van een HelloFresh-vleesgerecht: gerecht en ingrediënten gebaseerd op het origineel, vlees vervangen, bereidingswijze in eigen woorden. Alleen voor persoonlijk gebruik.",
+        "url": "https://www.hellofresh.nl/recipes/belgische-klassieker-kip-met-rodekool-en-appel-6aa16a84ab95f37e5f0c194d",
+        "adaptation": "Vega-versie: het origineel gebruikt kipfilet en demi-glace; hier vegetarische kipstukjes en een jus van groentebouillon en sojasaus."
+      },
+      "palette": [
+        "#7a2e4d",
+        "#e0b04a"
+      ]
+    },
+    {
+      "id": "pittige-curry-vega-kip-bruine-rijst",
+      "schemaVersion": 1,
+      "title": "Pittige curry met vega kip en bruine rijst",
+      "subtitle": "met peultjes, wortel, komkommer en koriander",
+      "description": "Een snelle kokoscurry met gember, garam masala en vega kip, met een frisse komkommersalade erbij.",
+      "cuisine": "Indiaas",
+      "tags": [
+        "curry",
+        "pittig"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 20,
+      "difficulty": "easy",
+      "baseServings": 2,
+      "ingredients": [
+        {
+          "ingredientId": "zilvervliesrijst",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "vega-kipstukjes",
+          "amount": 175,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "rode-ui",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "knoflook",
+          "amount": 1,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "gember",
+          "amount": 10,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "rode-peper",
+          "amount": 0.5,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "wortel",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "kerriepoeder",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "garam-masala",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "kokosmelk",
+          "amount": 180,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "bouillonblokje",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "peultjes",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "komkommer",
+          "amount": 0.5,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "wittewijnazijn",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "limoen",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "koriander",
+          "amount": 10,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "pompoenpitten",
+          "amount": 10,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "zonnebloemolie",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "zout",
+          "amount": null,
+          "unit": "pinch"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Kook de rijst volgens de verpakking. Snijd de komkommer in blokjes en meng met de azijn en een snuf zout."
+        },
+        {
+          "text": "Snipper de ui, hak knoflook, gember en rode peper fijn en snijd de wortel in halve maantjes. Rooster de pompoenpitten in een droge pan en schep uit."
+        },
+        {
+          "text": "Bak de vega kip 3 minuten in de olie en schep uit. Bak ui, knoflook, gember en peper 2 minuten, roer kerrie en garam masala erdoor en bak 1 minuut. Voeg wortel, kokosmelk en 100 ml water met het bouillonblokje toe en laat pruttelen; doe de peultjes er na 3 minuten bij.",
+          "timerMinutes": 6
+        },
+        {
+          "text": "Doe de kip terug, breng op smaak met limoensap en zout en serveer met de rijst, de komkommer, koriander en pompoenpitten."
+        }
+      ],
+      "source": {
+        "type": "inspired",
+        "name": "HelloFresh",
+        "note": "Vega-versie van een HelloFresh-vleesgerecht: gerecht en ingrediënten gebaseerd op het origineel, vlees vervangen, bereidingswijze in eigen woorden. Alleen voor persoonlijk gebruik.",
+        "url": "https://www.hellofresh.nl/recipes/eiwitplus-pittige-curry-met-xl-portie-kip-en-bruine-rijst-6aa16b53548a82de3e1b34b1",
+        "adaptation": "Vega-versie: het origineel gebruikt kipfilet en kippenbouillon; hier vegetarische kipstukjes en groentebouillon."
+      },
+      "palette": [
+        "#e5a23a",
+        "#4e7a3c"
+      ]
+    },
+    {
+      "id": "gochujang-traybake-tofu-yoghurt",
+      "schemaVersion": 1,
+      "title": "Gochujang-traybake met tofu en yoghurt",
+      "subtitle": "met krieltjes, tomaten en courgette",
+      "description": "Alles op één bakplaat: krieltjes, groente en kleverige tofu in een zoet-pittige gochujanglaag, met koele yoghurt.",
+      "cuisine": "Koreaans",
+      "tags": [
+        "oven",
+        "pittig"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 35,
+      "difficulty": "easy",
+      "baseServings": 2,
+      "ingredients": [
+        {
+          "ingredientId": "krieltjes",
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tofu",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "gochujang",
+          "amount": 25,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "zoete-chilisaus",
+          "amount": 35,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "rode-ui",
+          "amount": 2,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "courgette",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "knoflook",
+          "amount": 2,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "cherrytomaten",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "verse-tijm",
+          "amount": 5,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ras-el-hanout",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "balsamico",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "suiker",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "griekse-yoghurt",
+          "amount": 50,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "olijfolie",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "zout",
+          "amount": null,
+          "unit": "pinch"
+        },
+        {
+          "ingredientId": "peper",
+          "amount": null,
+          "unit": "pinch"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 220 °C. Halveer de krieltjes, meng ze met 1 el olie, de ras el hanout en zout en rooster ze op een bakplaat.",
+          "timerMinutes": 15
+        },
+        {
+          "text": "Dep de tofu droog en snijd hem in blokjes. Meng gochujang, zoete chilisaus en de rest van de olie en schep de tofu erdoor."
+        },
+        {
+          "text": "Snijd de uien in parten en de courgette in halve maantjes en kneus de knoflook. Verdeel groente, tomaatjes en tijm over de krieltjes, besprenkel met balsamico en suiker en leg de tofu erbovenop. Rooster tot de tofu kleverig is.",
+          "timerMinutes": 20
+        },
+        {
+          "text": "Serveer uit de bakplaat met een lepel yoghurt en versgemalen peper."
+        }
+      ],
+      "source": {
+        "type": "inspired",
+        "name": "HelloFresh",
+        "note": "Vega-versie van een HelloFresh-vleesgerecht: gerecht en ingrediënten gebaseerd op het origineel, vlees vervangen, bereidingswijze in eigen woorden. Alleen voor persoonlijk gebruik.",
+        "url": "https://www.hellofresh.nl/recipes/miljuschkas-gochujang-traybake-met-kip-en-yoghurt-6aa169d3548a82de3e1b343b",
+        "adaptation": "Vega-versie: het origineel gebruikt kippendijen; hier tofu, die in de oven mooi kleverig wordt. De kruidenmix is vervangen door ras el hanout."
+      },
+      "palette": [
+        "#c8442f",
+        "#f0d9a8"
+      ],
+      "dish": "ovendish"
+    },
+    {
+      "id": "bao-buns-vega-kip-gochujangdressing",
+      "schemaVersion": 1,
+      "title": "Knapperige bao buns met vega kip en gochujangdressing",
+      "subtitle": "met rodekoolsalade en sesam",
+      "description": "Zachte bao met krokant gepaneerde vega kip, frisse rodekoolsalade en een zoet-pittige gochujangdressing.",
+      "cuisine": "Aziatisch",
+      "tags": [
+        "weekend"
+      ],
+      "prepMinutes": 15,
+      "cookMinutes": 10,
+      "difficulty": "easy",
+      "baseServings": 2,
+      "ingredients": [
+        {
+          "ingredientId": "bao-buns",
+          "amount": 6,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "vega-kipstukjes",
+          "amount": 175,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "paneermeel",
+          "amount": 25,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sesamzaad",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "mayonaise",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "rodekool",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "wortel",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "wittewijnazijn",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "gochujang",
+          "amount": 25,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "zoete-chilisaus",
+          "amount": 35,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "sojasaus",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "zonnebloemolie",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "zout",
+          "amount": null,
+          "unit": "pinch"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Meng de rodekool met de geraspte wortel, de azijn en een snuf zout tot een frisse salade."
+        },
+        {
+          "text": "Roer gochujang, zoete chilisaus, sojasaus en 1 el water door elkaar tot een dressing."
+        },
+        {
+          "text": "Schep de vega kip door 1 el mayonaise en daarna door panko gemengd met sesam. Bak in de olie rondom knapperig.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Verwarm de bao volgens de verpakking. Vul ze met salade, kip, dressing en de rest van de mayonaise."
+        }
+      ],
+      "source": {
+        "type": "inspired",
+        "name": "HelloFresh",
+        "note": "Vega-versie van een HelloFresh-vleesgerecht: gerecht en ingrediënten gebaseerd op het origineel, vlees vervangen, bereidingswijze in eigen woorden. Alleen voor persoonlijk gebruik.",
+        "url": "https://www.hellofresh.nl/recipes/knapperige-bao-buns-met-kip-en-zoete-gochujangdressing-6ab264010b6fccf8478b4aac",
+        "adaptation": "Vega-versie: het origineel gebruikt kippendijreepjes; hier vegetarische kipstukjes."
+      },
+      "palette": [
+        "#6b3f6e",
+        "#d9a35a"
+      ]
+    },
+    {
+      "id": "pokebowl-krokante-tofu-bruine-rijst",
+      "schemaVersion": 1,
+      "title": "Pokébowl met krokante tofu en bruine rijst",
+      "subtitle": "met avocado, sinaasappel en komkommer",
+      "description": "Een kleurrijke bowl met kleverig geglaceerde krokante tofu, avocado, sinaasappel en een pittige mayo.",
+      "cuisine": "Japans",
+      "tags": [
+        "bowl"
+      ],
+      "prepMinutes": 15,
+      "cookMinutes": 20,
+      "difficulty": "medium",
+      "baseServings": 2,
+      "ingredients": [
+        {
+          "ingredientId": "zilvervliesrijst",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "wittewijnazijn",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "tofu",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "bloem",
+          "amount": 30,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sojasaus",
+          "amount": 20,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "honing",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "knoflook",
+          "amount": 1,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "komkommer",
+          "amount": 0.5,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "avocado",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "sinaasappel",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "sesamzaad",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "mayonaise",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "chilivlokken",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "zonnebloemolie",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "zout",
+          "amount": null,
+          "unit": "pinch"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Kook de rijst volgens de verpakking en roer de azijn en een snuf zout erdoor."
+        },
+        {
+          "text": "Dep de tofu droog, snijd in blokjes en wentel door de bloem met wat zout. Bak in de olie rondom krokant. Roer sojasaus, honing en geperste knoflook door elkaar en glaceer de tofu daarmee in de laatste minuut.",
+          "timerMinutes": 8
+        },
+        {
+          "text": "Snijd komkommer en avocado in plakjes en de sinaasappel in partjes. Meng de mayonaise met de chilivlokken."
+        },
+        {
+          "text": "Verdeel de rijst over kommen, leg de toppings en tofu erop en maak af met sesam en pittige mayo."
+        }
+      ],
+      "source": {
+        "type": "inspired",
+        "name": "HelloFresh",
+        "note": "Vega-versie van een HelloFresh-vleesgerecht: gerecht en ingrediënten gebaseerd op het origineel, vlees vervangen, bereidingswijze in eigen woorden. Alleen voor persoonlijk gebruik.",
+        "url": "https://www.hellofresh.nl/recipes/pokebowl-met-gefrituurde-kip-6ab13d600b6fccf8478aec04",
+        "adaptation": "Vega-versie: het origineel gebruikt gefrituurde kipfilet; hier krokant gebakken tofu met dezelfde glazuur."
+      },
+      "palette": [
+        "#e8a33d",
+        "#3f6e8a"
+      ]
+    },
+    {
+      "id": "vega-balletjes-champignonroomsaus",
+      "schemaVersion": 1,
+      "title": "Vega balletjes in champignonroomsaus",
+      "subtitle": "met aardappelen, sperziebonen en bieslook",
+      "description": "Echte huiskost: balletjes in een romige champignonsaus met mosterd, met gekookte aardappelen en boontjes.",
+      "cuisine": "Nederlands",
+      "tags": [
+        "comfort",
+        "budget"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 25,
+      "difficulty": "easy",
+      "baseServings": 2,
+      "ingredients": [
+        {
+          "ingredientId": "aardappel",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sperziebonen",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "vega-balletjes",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ui",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "knoflook",
+          "amount": 2,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "champignons",
+          "amount": 125,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "rodewijnazijn",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "kookroom",
+          "amount": 150,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "bouillonblokje",
+          "amount": 0.5,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "mosterd",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "basilicum",
+          "amount": 10,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "bieslook",
+          "amount": 5,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "roomboter",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "olijfolie",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "zout",
+          "amount": null,
+          "unit": "pinch"
+        },
+        {
+          "ingredientId": "peper",
+          "amount": null,
+          "unit": "pinch"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Schil de aardappelen, snijd ze in gelijke stukken en kook ze gaar. Kook de sperziebonen in een andere pan in 6 minuten beetgaar.",
+          "timerMinutes": 15
+        },
+        {
+          "text": "Bak de balletjes in de olie rondom bruin en schep uit de pan.",
+          "timerMinutes": 7
+        },
+        {
+          "text": "Snipper de ui, hak de knoflook en snijd de champignons in plakjes. Bak ze 5 minuten in 1 el boter, blus met de azijn en voeg kookroom, 100 ml water met het bouillonblokje en de mosterd toe. Laat 3 minuten inkoken en doe de balletjes terug."
+        },
+        {
+          "text": "Schep de aardappelen om met de rest van de boter en de gesneden bieslook. Roer het basilicum door de saus en serveer met de boontjes."
+        }
+      ],
+      "source": {
+        "type": "inspired",
+        "name": "HelloFresh",
+        "note": "Vega-versie van een HelloFresh-vleesgerecht: gerecht en ingrediënten gebaseerd op het origineel, vlees vervangen, bereidingswijze in eigen woorden. Alleen voor persoonlijk gebruik.",
+        "url": "https://www.hellofresh.nl/recipes/onze-kipgehaktballetjes-in-champignonroomsaus-6aa161ca00c1712eb5d56a9d",
+        "adaptation": "Vega-versie: het origineel gebruikt kipgehaktballetjes; hier vegetarische balletjes. Basilicumcrème is vervangen door vers basilicum."
+      },
+      "palette": [
+        "#8a5a2b",
+        "#e9e1cf"
+      ]
+    },
+    {
+      "id": "vega-gyros-koolrabi-bulgur-labne",
+      "schemaVersion": 1,
+      "title": "Vega gyros met koolrabi",
+      "subtitle": "met kruidige bulgur, spinazie en frisse labne",
+      "description": "Gekruide vega shoarma op bulgur met kerrie en spinazie, met zoetzuur geglaceerde koolrabi en labne.",
+      "cuisine": "Grieks",
+      "tags": [
+        "eiwitrijk"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 25,
+      "difficulty": "medium",
+      "baseServings": 2,
+      "ingredients": [
+        {
+          "ingredientId": "koolrabi",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "ui",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "kerriepoeder",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "bulgur",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "bouillonblokje",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "spinazie",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "vega-shoarma",
+          "amount": 175,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "oregano",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "honing",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "wittewijnazijn",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "labne",
+          "amount": 80,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "olijfolie",
+          "amount": 1.5,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "zout",
+          "amount": null,
+          "unit": "pinch"
+        },
+        {
+          "ingredientId": "peper",
+          "amount": null,
+          "unit": "pinch"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Schil de koolrabi en snijd in staafjes; snijd de ui in halve ringen. Bak de koolrabi in ½ el olie tot hij beetgaar is en glaceer in de laatste minuut met honing en azijn.",
+          "timerMinutes": 8
+        },
+        {
+          "text": "Fruit de ui met de kerrie in ½ el olie, voeg de bulgur en 350 ml water met het bouillonblokje toe en laat afgedekt garen. Roer de spinazie erdoor tot die slinkt.",
+          "timerMinutes": 12
+        },
+        {
+          "text": "Bak de vega shoarma in de rest van de olie rondom bruin en strooi de oregano erover.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Verdeel de bulgur over de borden met de shoarma en koolrabi en een flinke lepel labne."
+        }
+      ],
+      "source": {
+        "type": "inspired",
+        "name": "HelloFresh",
+        "note": "Vega-versie van een HelloFresh-vleesgerecht: gerecht en ingrediënten gebaseerd op het origineel, vlees vervangen, bereidingswijze in eigen woorden. Alleen voor persoonlijk gebruik.",
+        "url": "https://www.hellofresh.nl/recipes/gyros-van-kippendij-met-koolrabi-661e607fa0f8bf5f811e8ec6",
+        "adaptation": "Vega-versie: het origineel gebruikt kippendijreepjes met kebabkruiden; hier vegetarische shoarma. Vadouvan is vervangen door kerriepoeder."
+      },
+      "palette": [
+        "#b8763c",
+        "#7c9a4d"
+      ]
+    },
+    {
+      "id": "fusion-carbonara-kimchi-vega-spek",
+      "schemaVersion": 1,
+      "title": "Fusion carbonara met kimchi en vega spek",
+      "subtitle": "met harde kaas en sesam-komkommersalade",
+      "description": "Romige spaghetti met knapperige vega spekjes en pittige kimchi, met een frisse komkommersalade met sesam.",
+      "cuisine": "Koreaans",
+      "tags": [
+        "pasta",
+        "snel"
+      ],
+      "prepMinutes": 5,
+      "cookMinutes": 15,
+      "difficulty": "easy",
+      "baseServings": 2,
+      "ingredients": [
+        {
+          "ingredientId": "spaghetti",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "vega-spekjes",
+          "amount": 75,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sjalot",
+          "amount": 2,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "knoflook",
+          "amount": 1,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "kimchi",
+          "amount": 50,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "kookroom",
+          "amount": 150,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "sojasaus",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "sambal",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "harde-kaas",
+          "amount": 20,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "komkommer",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "wittewijnazijn",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "suiker",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "sesamolie",
+          "amount": 10,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "sesamzaad",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "zonnebloemolie",
+          "amount": 1,
+          "unit": "tbsp"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Kook de spaghetti beetgaar. Snijd de komkommer in halve plakjes en meng met azijn, suiker, de helft van de sesamolie en de sesam."
+        },
+        {
+          "text": "Snipper de sjalotten, hak de knoflook en snijd de kimchi grof. Bak de spekjes in de zonnebloemolie knapperig en bak sjalot en knoflook 2 minuten mee.",
+          "timerMinutes": 3
+        },
+        {
+          "text": "Bak de kimchi 1 minuut mee. Voeg kookroom, sojasaus en sambal toe en laat 2 minuten zacht koken. Roer de helft van de kaas erdoor."
+        },
+        {
+          "text": "Schep de spaghetti met een scheutje kookvocht en de rest van de sesamolie door de saus. Serveer met de rest van de kaas en de komkommersalade."
+        }
+      ],
+      "source": {
+        "type": "inspired",
+        "name": "HelloFresh",
+        "note": "Vega-versie van een HelloFresh-vleesgerecht: gerecht en ingrediënten gebaseerd op het origineel, vlees vervangen, bereidingswijze in eigen woorden. Alleen voor persoonlijk gebruik.",
+        "url": "https://www.hellofresh.nl/recipes/fusion-carbonara-met-spaghetti-kimchi-en-spek-6a685c0a97f1e02209173845",
+        "adaptation": "Vega-versie: het origineel gebruikt ontbijtspek en Grana Padano; hier vegetarische spekjes en vegetarische harde kaas."
+      },
+      "palette": [
+        "#c8442f",
+        "#f2e6cf"
+      ]
+    },
+    {
+      "id": "risotto-peer-vega-spek-kaas",
+      "schemaVersion": 1,
+      "title": "Risotto met gekaramelliseerde peer, vega spek en kaas",
+      "subtitle": "met champignons, walnoten en peterselie",
+      "description": "Romige champignonrisotto met hartige spekjes, zoete gebakken peer en knapperige walnoten.",
+      "cuisine": "Italiaans",
+      "tags": [
+        "comfort",
+        "winter"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 25,
+      "difficulty": "medium",
+      "baseServings": 2,
+      "ingredients": [
+        {
+          "ingredientId": "risottorijst",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "bouillonblokje",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "rode-ui",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "knoflook",
+          "amount": 1,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "champignons",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "vega-spekjes",
+          "amount": 75,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "verse-tijm",
+          "amount": 5,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "peer",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "suiker",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "roomboter",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "geraspte-kaas",
+          "amount": 50,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sojasaus",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "walnoten",
+          "amount": 20,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "peterselie",
+          "amount": 10,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "olijfolie",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "zout",
+          "amount": null,
+          "unit": "pinch"
+        },
+        {
+          "ingredientId": "peper",
+          "amount": null,
+          "unit": "pinch"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Los het bouillonblokje op in 600 ml heet water. Snipper de ui, hak de knoflook en snijd de champignons in plakjes."
+        },
+        {
+          "text": "Fruit ui en knoflook 2 minuten in de olie, roer de rijst erdoor tot die glazig is en voeg de bouillon scheut voor scheut toe. Blijf af en toe roeren tot de rijst romig en beetgaar is.",
+          "timerMinutes": 20
+        },
+        {
+          "text": "Snijd de peer in partjes en bak ze in de boter met de suiker tot ze karamelliseren. Bak in een andere pan de spekjes 3 minuten en de champignons met de tijm 5 minuten mee."
+        },
+        {
+          "text": "Roer het champignonmengsel, de kaas en de sojasaus door de risotto en breng op smaak. Serveer met de peer, grof gehakte walnoten en peterselie."
+        }
+      ],
+      "source": {
+        "type": "inspired",
+        "name": "HelloFresh",
+        "note": "Vega-versie van een HelloFresh-vleesgerecht: gerecht en ingrediënten gebaseerd op het origineel, vlees vervangen, bereidingswijze in eigen woorden. Alleen voor persoonlijk gebruik.",
+        "url": "https://www.hellofresh.nl/recipes/risotto-met-gekaramelliseerde-peer-spek-en-kaas-6a50f5816e4158183d5e0598",
+        "adaptation": "Vega-versie: het origineel gebruikt spekreepjes, kippenbouillon en Worcestershiresaus; hier vegetarische spekjes, groentebouillon en sojasaus."
+      },
+      "palette": [
+        "#b8763c",
+        "#e9d8a6"
+      ]
+    },
+    {
+      "id": "zuurkoolsoep-vega-rookworst",
+      "schemaVersion": 1,
+      "title": "Zuurkoolsoep met vega rookworst",
+      "subtitle": "naar Poolse kapuśniak, met vega spek en peterselie",
+      "description": "Een stevige, licht zurige soep met zuurkool, wortel en pastinaak, met plakjes rookworst en krokante uitjes.",
+      "cuisine": "Oost-Europees",
+      "tags": [
+        "soep",
+        "winter",
+        "comfort"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 30,
+      "difficulty": "easy",
+      "baseServings": 2,
+      "ingredients": [
+        {
+          "ingredientId": "ui",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "wortel",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "pastinaak",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "vega-spekjes",
+          "amount": 75,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "komijn",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "italiaanse-kruiden",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "zuurkool",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "laurier",
+          "amount": 2,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "bouillonblokje",
+          "amount": 1.5,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "vega-rookworst",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "gebakken-uitjes",
+          "amount": 30,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "peterselie",
+          "amount": 10,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "zonnebloemolie",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "zout",
+          "amount": null,
+          "unit": "pinch"
+        },
+        {
+          "ingredientId": "peper",
+          "amount": null,
+          "unit": "pinch"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Snipper de ui en snijd wortel en pastinaak in blokjes. Bak de spekjes in de olie in een soeppan knapperig en schep de helft uit voor erover.",
+          "timerMinutes": 3
+        },
+        {
+          "text": "Bak ui, wortel en pastinaak 4 minuten mee en roer komijn en Italiaanse kruiden erdoor."
+        },
+        {
+          "text": "Spoel de zuurkool kort af als je hem minder zuur wilt. Voeg hem met de laurier en 750 ml water met de bouillonblokjes toe en laat zacht koken.",
+          "timerMinutes": 20
+        },
+        {
+          "text": "Snijd de rookworst in plakjes en verwarm ze de laatste 5 minuten mee. Haal de laurier eruit, breng op smaak en serveer met de spekjes, gebakken uitjes en peterselie."
+        }
+      ],
+      "source": {
+        "type": "inspired",
+        "name": "HelloFresh",
+        "note": "Vega-versie van een HelloFresh-vleesgerecht: gerecht en ingrediënten gebaseerd op het origineel, vlees vervangen, bereidingswijze in eigen woorden. Alleen voor persoonlijk gebruik.",
+        "url": "https://www.hellofresh.nl/recipes/zuurkoolsoep-met-rookworst-6aa16048548a82de3e1b316b",
+        "adaptation": "Vega-versie: het origineel gebruikt varkensrookworst, spekreepjes en kippenbouillon; hier vegetarische rookworst, vegetarische spekjes en groentebouillon."
+      },
+      "palette": [
+        "#e0b04a",
+        "#6f9a52"
+      ]
+    },
+    {
+      "id": "vega-worst-stamppot-zoete-aardappel",
+      "schemaVersion": 1,
+      "title": "Vega worst met stamppot van zoete aardappel",
+      "subtitle": "met witte kaas, uienjus en prei",
+      "description": "Romige stamppot van gewone en zoete aardappel met prei, met een zoete uienjus en een gebakken worst.",
+      "cuisine": "Nederlands",
+      "tags": [
+        "stamppot",
+        "comfort",
+        "winter"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 25,
+      "difficulty": "easy",
+      "baseServings": 2,
+      "ingredients": [
+        {
+          "ingredientId": "aardappel",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "zoete-aardappel",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "prei",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "rode-ui",
+          "amount": 2,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "balsamico",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "bouillonblokje",
+          "amount": 0.5,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "vega-worst",
+          "amount": 2,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "roomboter",
+          "amount": 4,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "italiaanse-kruiden",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "witte-kaas",
+          "amount": 50,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "zout",
+          "amount": null,
+          "unit": "pinch"
+        },
+        {
+          "ingredientId": "peper",
+          "amount": null,
+          "unit": "pinch"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Schil de aardappelen en zoete aardappel, snijd in stukken en kook gaar. Snijd de prei in ringen en kook die de laatste 5 minuten mee.",
+          "timerMinutes": 15
+        },
+        {
+          "text": "Snijd de rode uien in ringen en bak ze in 1 el boter zacht en goudbruin. Blus met balsamico en 60 ml water met het bouillonblokje en laat iets inkoken tot een jus.",
+          "timerMinutes": 10
+        },
+        {
+          "text": "Bak de worsten in 1 el boter volgens de verpakking rondom bruin.",
+          "timerMinutes": 8
+        },
+        {
+          "text": "Giet de aardappelen af en stamp ze met de rest van de boter en de Italiaanse kruiden. Breng op smaak, verkruimel de witte kaas erover en serveer met de worst en uienjus."
+        }
+      ],
+      "source": {
+        "type": "inspired",
+        "name": "HelloFresh",
+        "note": "Vega-versie van een HelloFresh-vleesgerecht: gerecht en ingrediënten gebaseerd op het origineel, vlees vervangen, bereidingswijze in eigen woorden. Alleen voor persoonlijk gebruik.",
+        "url": "https://www.hellofresh.nl/recipes/brandt-and-levie-worst-met-stamppot-6aa16098548a82de3e1b3194",
+        "adaptation": "Vega-versie: het origineel gebruikt varkensworst; hier vegetarische worst."
+      },
+      "palette": [
+        "#c8702f",
+        "#f1efe6"
+      ]
+    },
+    {
+      "id": "romige-gnocchi-vega-worst-boerenkool",
+      "schemaVersion": 1,
+      "title": "Romige gnocchi met vega worst en boerenkool",
+      "subtitle": "met salie, harde kaas en knapperige panko-amandeltopping",
+      "description": "Gnocchi in een romige saus met worst, spekjes, boerenkool en salie, met een krokante topping van panko en amandel.",
+      "cuisine": "Italiaans",
+      "tags": [
+        "comfort",
+        "winter"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 20,
+      "difficulty": "easy",
+      "baseServings": 2,
+      "ingredients": [
+        {
+          "ingredientId": "gnocchi",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "vega-worst",
+          "amount": 2,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "vega-spekjes",
+          "amount": 50,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "prei",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "courgette",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "knoflook",
+          "amount": 2,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "salie",
+          "amount": 5,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "boerenkool",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "kookroom",
+          "amount": 150,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "bouillonblokje",
+          "amount": 0.5,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "wittewijnazijn",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "harde-kaas",
+          "amount": 20,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "paneermeel",
+          "amount": 25,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "amandelen",
+          "amount": 20,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "olijfolie",
+          "amount": 3,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "zout",
+          "amount": null,
+          "unit": "pinch"
+        },
+        {
+          "ingredientId": "peper",
+          "amount": null,
+          "unit": "pinch"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Rooster panko en grof gehakte amandelen in 1 el olie goudbruin, strooi er zout over en schep uit de pan."
+        },
+        {
+          "text": "Snijd de worst in plakjes en bak met de spekjes in 1 el olie bruin. Schep uit.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Snijd prei en courgette klein en bak met knoflook en salie 4 minuten in de rest van de olie. Laat de boerenkool 3 minuten meeslinken en voeg kookroom, 100 ml water met het bouillonblokje en de azijn toe."
+        },
+        {
+          "text": "Laat de gnocchi in de saus gaar worden en doe worst en spekjes terug. Roer de kaas erdoor en serveer met de knapperige topping.",
+          "timerMinutes": 4
+        }
+      ],
+      "source": {
+        "type": "inspired",
+        "name": "HelloFresh",
+        "note": "Vega-versie van een HelloFresh-vleesgerecht: gerecht en ingrediënten gebaseerd op het origineel, vlees vervangen, bereidingswijze in eigen woorden. Alleen voor persoonlijk gebruik.",
+        "url": "https://www.hellofresh.nl/recipes/romige-gnocchi-met-worst-cavolo-nero-en-guanciale-6a75c850af49332c6079953c",
+        "adaptation": "Vega-versie: het origineel gebruikt varkensworst, guanciale, runderbouillon en Parmigiano Reggiano; hier vegetarische worst en spekjes, groentebouillon en vegetarische harde kaas. Cavolo nero is vervangen door boerenkool."
+      },
+      "palette": [
+        "#5b7f4a",
+        "#e9e1cf"
+      ]
+    },
+    {
+      "id": "romige-lasagnesoep-vega-worst",
+      "schemaVersion": 1,
+      "title": "Romige lasagnesoep met vega worst",
+      "subtitle": "met spinazie, basilicum en harde kaas",
+      "description": "De smaak van lasagne als soep: tomaat, worst en stukken lasagneblad in een romige bouillon met spinazie.",
+      "cuisine": "Italiaans",
+      "tags": [
+        "soep",
+        "snel"
+      ],
+      "prepMinutes": 5,
+      "cookMinutes": 15,
+      "difficulty": "easy",
+      "baseServings": 2,
+      "ingredients": [
+        {
+          "ingredientId": "vega-worst",
+          "amount": 2,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "ui",
+          "amount": 2,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "wortel",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "knoflook",
+          "amount": 1,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "tomaat",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "italiaanse-kruiden",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "bouillonblokje",
+          "amount": 1.5,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "lasagnebladen",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "spinazie",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "kookroom",
+          "amount": 150,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "wittewijnazijn",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "basilicum",
+          "amount": 10,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "harde-kaas",
+          "amount": 20,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "olijfolie",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "zout",
+          "amount": null,
+          "unit": "pinch"
+        },
+        {
+          "ingredientId": "peper",
+          "amount": null,
+          "unit": "pinch"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Snipper de uien, snijd de wortel in kleine blokjes, hak de knoflook en snijd de tomaat en de worst in stukjes."
+        },
+        {
+          "text": "Bak de worst 3 minuten in de olie in een soeppan. Bak ui, wortel en knoflook 4 minuten mee en roer de Italiaanse kruiden erdoor."
+        },
+        {
+          "text": "Voeg tomaat en 700 ml water met de bouillonblokjes toe en breng aan de kook. Snijd de lasagnebladen in repen en kook ze in de soep gaar.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Laat de spinazie erin slinken, roer kookroom en azijn erdoor en breng op smaak. Serveer met basilicum en geraspte kaas."
+        }
+      ],
+      "source": {
+        "type": "inspired",
+        "name": "HelloFresh",
+        "note": "Vega-versie van een HelloFresh-vleesgerecht: gerecht en ingrediënten gebaseerd op het origineel, vlees vervangen, bereidingswijze in eigen woorden. Alleen voor persoonlijk gebruik.",
+        "url": "https://www.hellofresh.nl/recipes/romige-lasagne-soep-met-worst-en-parmigiano-reggiano-6a675854d5e939e3a7ce36b2",
+        "adaptation": "Vega-versie: het origineel gebruikt gekruide kipworstjes, kippenbouillon en Parmigiano Reggiano; hier vegetarische worst, groentebouillon en vegetarische harde kaas."
+      },
+      "palette": [
+        "#c4482f",
+        "#f2d58c"
+      ]
+    },
+    {
+      "id": "quiche-lorraine-vega-spekjes",
+      "schemaVersion": 1,
+      "title": "Belgische klassieker: quiche lorraine met vega spekjes",
+      "subtitle": "met belegen kaas en tomaat-rucolasalade",
+      "description": "Een romige quiche van eieren, room en kaas met gebakken ui en spekjes, met een frisse tomatensalade.",
+      "cuisine": "Belgisch",
+      "tags": [
+        "oven",
+        "weekend"
+      ],
+      "prepMinutes": 15,
+      "cookMinutes": 30,
+      "difficulty": "easy",
+      "baseServings": 2,
+      "ingredients": [
+        {
+          "ingredientId": "bladerdeeg",
+          "amount": 1,
+          "unit": "pack"
+        },
+        {
+          "ingredientId": "vega-spekjes",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ui",
+          "amount": 2,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "ei",
+          "amount": 3,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "kookroom",
+          "amount": 150,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "geraspte-kaas",
+          "amount": 50,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "nootmuskaat",
+          "amount": 1,
+          "unit": "pinch"
+        },
+        {
+          "ingredientId": "tomaat",
+          "amount": 2,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "rucola",
+          "amount": 40,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "olijfolie",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "balsamico",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "zout",
+          "amount": null,
+          "unit": "pinch"
+        },
+        {
+          "ingredientId": "peper",
+          "amount": null,
+          "unit": "pinch"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 200 °C. Bekleed een ingevette ovenschaal of taartvorm van ongeveer 20 cm met het bladerdeeg en prik er gaatjes in."
+        },
+        {
+          "text": "Snijd de uien in ringen en bak ze met de spekjes zacht en goudbruin.",
+          "timerMinutes": 6
+        },
+        {
+          "text": "Klop eieren, kookroom, kaas, nootmuskaat en peper door elkaar. Verdeel spekjes en ui over de bodem, giet het eimengsel erover en bak de quiche goudbruin en gestold.",
+          "timerMinutes": 30
+        },
+        {
+          "text": "Snijd de tomaten in partjes en meng met rucola, olie, balsamico en zout. Serveer bij de quiche."
+        }
+      ],
+      "source": {
+        "type": "inspired",
+        "name": "HelloFresh",
+        "note": "Vega-versie van een HelloFresh-vleesgerecht: gerecht en ingrediënten gebaseerd op het origineel, vlees vervangen, bereidingswijze in eigen woorden. Alleen voor persoonlijk gebruik.",
+        "url": "https://www.hellofresh.nl/recipes/belgische-klassieker-quiche-lorraine-6a748fb9f3c2bf6ffb4b2ed4",
+        "adaptation": "Vega-versie: het origineel gebruikt spekreepjes; hier vegetarische spekjes."
+      },
+      "palette": [
+        "#e8a33d",
+        "#f2e6cf"
+      ]
+    },
+    {
+      "id": "romige-tagliatelle-vegagehakt-vega-spek",
+      "schemaVersion": 1,
+      "title": "Romige tagliatelle met vegagehakt en vega spek",
+      "subtitle": "met puntpaprika, mascarpone en basilicum",
+      "description": "Verse tagliatelle in een romige tomatensaus met gehakt, knapperige spekjes en zoete puntpaprika.",
+      "cuisine": "Italiaans",
+      "tags": [
+        "pasta",
+        "snel"
+      ],
+      "prepMinutes": 5,
+      "cookMinutes": 15,
+      "difficulty": "easy",
+      "baseServings": 2,
+      "ingredients": [
+        {
+          "ingredientId": "verse-pasta",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "vega-gehakt",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "vega-spekjes",
+          "amount": 50,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ui",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "knoflook",
+          "amount": 2,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "paprika",
+          "amount": 2,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "passata",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "bouillonblokje",
+          "amount": 0.5,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "mascarpone",
+          "amount": 50,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "harde-kaas",
+          "amount": 40,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "basilicum",
+          "amount": 10,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "olijfolie",
+          "amount": 0.5,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "zout",
+          "amount": null,
+          "unit": "pinch"
+        },
+        {
+          "ingredientId": "peper",
+          "amount": null,
+          "unit": "pinch"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Breng een pan water met zout aan de kook. Snipper de ui, hak de knoflook en snijd de paprika's in reepjes."
+        },
+        {
+          "text": "Bak de spekjes 3 minuten in de olie, voeg het gehakt toe en rul het in 3 minuten los. Bak ui, knoflook en paprika 4 minuten mee."
+        },
+        {
+          "text": "Voeg passata en 50 ml water met het bouillonblokje toe en laat pruttelen. Roer de mascarpone erdoor.",
+          "timerMinutes": 4
+        },
+        {
+          "text": "Kook de tagliatelle in 2 à 3 minuten gaar en schep ze door de saus. Serveer met de kaas en basilicum."
+        }
+      ],
+      "source": {
+        "type": "inspired",
+        "name": "HelloFresh",
+        "note": "Vega-versie van een HelloFresh-vleesgerecht: gerecht en ingrediënten gebaseerd op het origineel, vlees vervangen, bereidingswijze in eigen woorden. Alleen voor persoonlijk gebruik.",
+        "url": "https://www.hellofresh.nl/recipes/onze-tagliatelle-met-kip-en-guanciale-6aa1619eab95f37e5f0c17e1",
+        "adaptation": "Vega-versie: het origineel gebruikt kipgehakt, guanciale, runderbouillon en Grana Padano; hier plantaardig gehakt, vegetarische spekjes, groentebouillon en vegetarische harde kaas."
+      },
+      "palette": [
+        "#c8442f",
+        "#f0d9a8"
+      ]
+    },
+    {
+      "id": "vega-burger-spek-tomatenjam-truffelmayo",
+      "schemaVersion": 1,
+      "title": "Vegaburger met vega spek en tomatenjam",
+      "subtitle": "met truffelmayo, harde kaas en courgettelinten",
+      "description": "Een feestelijke burger met snelle tomatenjam, knapperige spekjes en truffelmayo, met aardappelpartjes uit de oven.",
+      "cuisine": "Amerikaans",
+      "tags": [
+        "weekend"
+      ],
+      "prepMinutes": 15,
+      "cookMinutes": 30,
+      "difficulty": "easy",
+      "baseServings": 2,
+      "ingredients": [
+        {
+          "ingredientId": "aardappel",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "italiaanse-kruiden",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "cherrytomaten",
+          "amount": 125,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "knoflook",
+          "amount": 1,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "balsamico",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "suiker",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "courgette",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "wittewijnazijn",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "vega-spekjes",
+          "amount": 50,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "vega-burger",
+          "amount": 2,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "hamburgerbol",
+          "amount": 2,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "roomboter",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "truffelmayonaise",
+          "amount": 50,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "little-gem",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "harde-kaas",
+          "amount": 20,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "olijfolie",
+          "amount": 3,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "zout",
+          "amount": null,
+          "unit": "pinch"
+        },
+        {
+          "ingredientId": "peper",
+          "amount": null,
+          "unit": "pinch"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 220 °C. Snijd de aardappelen in partjes, meng met 1 el olie, de Italiaanse kruiden en zout en rooster ze goudbruin.",
+          "timerMinutes": 30
+        },
+        {
+          "text": "Halveer de tomaatjes en laat ze met de geperste knoflook, balsamico en suiker inkoken tot een dikke jam.",
+          "timerMinutes": 10
+        },
+        {
+          "text": "Snijd de courgette met een dunschiller in linten en meng met azijn, 1 el olie en zout. Bak de spekjes knapperig en bak de burgers volgens de verpakking in de rest van de olie. Rooster de opengesneden broodjes kort in de boter."
+        },
+        {
+          "text": "Bouw de burgers op met truffelmayo, sla, burger, tomatenjam, spekjes en kaasschaafsel. Serveer met de partjes en courgettelinten."
+        }
+      ],
+      "source": {
+        "type": "inspired",
+        "name": "HelloFresh",
+        "note": "Vega-versie van een HelloFresh-vleesgerecht: gerecht en ingrediënten gebaseerd op het origineel, vlees vervangen, bereidingswijze in eigen woorden. Alleen voor persoonlijk gebruik.",
+        "url": "https://www.hellofresh.nl/recipes/kipburger-met-spek-en-tomatenjam-6a9958fd71b095d5fbafae5d",
+        "adaptation": "Vega-versie: het origineel gebruikt een kipburger, ontbijtspek en Parmigiano Reggiano; hier een vegaburger, vegetarische spekjes en vegetarische harde kaas."
+      },
+      "palette": [
+        "#b8763c",
+        "#c4482f"
+      ]
+    },
+    {
+      "id": "romige-conchiglie-vegagehakt-mozzarella",
+      "schemaVersion": 1,
+      "title": "Romige conchiglie met vegagehakt",
+      "subtitle": "met vega spek, mozzarella, basilicum en knapperige uitjes",
+      "description": "Schelpjespasta in een romige tomatensaus met gehakt en wortel, met gesmolten mozzarella en krokante uitjes.",
+      "cuisine": "Italiaans",
+      "tags": [
+        "pasta",
+        "comfort"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 15,
+      "difficulty": "easy",
+      "baseServings": 2,
+      "ingredients": [
+        {
+          "ingredientId": "conchiglie",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "vega-gehakt",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "vega-spekjes",
+          "amount": 50,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ui",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "knoflook",
+          "amount": 1,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "wortel",
+          "amount": 2,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "oregano",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "passata",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "kookroom",
+          "amount": 150,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "bouillonblokje",
+          "amount": 0.5,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "mozzarella",
+          "amount": 50,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "gebakken-uitjes",
+          "amount": 30,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "basilicum",
+          "amount": 10,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "olijfolie",
+          "amount": 0.5,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "zout",
+          "amount": null,
+          "unit": "pinch"
+        },
+        {
+          "ingredientId": "peper",
+          "amount": null,
+          "unit": "pinch"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Kook de conchiglie beetgaar. Snipper de ui, hak de knoflook en rasp de wortels."
+        },
+        {
+          "text": "Bak spekjes en gehakt samen 4 minuten in de olie. Bak ui, knoflook en wortel 3 minuten mee en roer de oregano erdoor."
+        },
+        {
+          "text": "Voeg passata, kookroom en 50 ml water met het bouillonblokje toe en laat pruttelen.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Schep de pasta door de saus, scheur de mozzarella erover en laat even smelten. Serveer met gebakken uitjes en basilicum."
+        }
+      ],
+      "source": {
+        "type": "inspired",
+        "name": "HelloFresh",
+        "note": "Vega-versie van een HelloFresh-vleesgerecht: gerecht en ingrediënten gebaseerd op het origineel, vlees vervangen, bereidingswijze in eigen woorden. Alleen voor persoonlijk gebruik.",
+        "url": "https://www.hellofresh.nl/recipes/romige-conchiglie-met-biologisch-rundergehakt-6a67324997f1e02209171638",
+        "adaptation": "Vega-versie: het origineel gebruikt biologisch rundergehakt en ontbijtspek; hier plantaardig gehakt en vegetarische spekjes."
+      },
+      "palette": [
+        "#d6a04a",
+        "#c4482f"
+      ]
+    },
+    {
+      "id": "zelfgemaakte-empanadas-vegagehakt",
+      "schemaVersion": 1,
+      "title": "Zelfgemaakte empanada's met vegagehakt",
+      "subtitle": "met knapperige komkommer-tomatensalade",
+      "description": "Bladerdeeghapjes gevuld met rokerig gekruid gehakt, roomkaas en kaas, met een frisse salade.",
+      "cuisine": "Spaans",
+      "tags": [
+        "oven",
+        "weekend"
+      ],
+      "prepMinutes": 20,
+      "cookMinutes": 20,
+      "difficulty": "medium",
+      "baseServings": 2,
+      "ingredients": [
+        {
+          "ingredientId": "bladerdeeg",
+          "amount": 1,
+          "unit": "pack"
+        },
+        {
+          "ingredientId": "vega-gehakt",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ui",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "knoflook",
+          "amount": 2,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "wortel",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "gerookt-paprikapoeder",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "komijn",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "roomkaas",
+          "amount": 50,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "geraspte-kaas",
+          "amount": 25,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tomaat",
+          "amount": 2,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "komkommer",
+          "amount": 0.5,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "peterselie",
+          "amount": 5,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "wittewijnazijn",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "olijfolie",
+          "amount": 1.5,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "zout",
+          "amount": null,
+          "unit": "pinch"
+        },
+        {
+          "ingredientId": "peper",
+          "amount": null,
+          "unit": "pinch"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 200 °C. Snipper de ui, hak de knoflook en rasp de wortel. Rul het gehakt los in ½ el olie en bak 3 minuten. Bak de groente, het paprikapoeder en de komijn 4 minuten mee."
+        },
+        {
+          "text": "Roer roomkaas en geraspte kaas door het gehakt en laat iets afkoelen. Snijd het bladerdeeg in 6 vierkanten, schep de vulling erop, vouw dicht tot driehoeken en druk de randen aan met een vork."
+        },
+        {
+          "text": "Bak de empanada's goudbruin op een bakplaat met bakpapier.",
+          "timerMinutes": 20
+        },
+        {
+          "text": "Snijd tomaten en komkommer in blokjes en meng met peterselie, azijn, de rest van de olie en zout. Serveer bij de empanada's."
+        }
+      ],
+      "source": {
+        "type": "inspired",
+        "name": "HelloFresh",
+        "note": "Vega-versie van een HelloFresh-vleesgerecht: gerecht en ingrediënten gebaseerd op het origineel, vlees vervangen, bereidingswijze in eigen woorden. Alleen voor persoonlijk gebruik.",
+        "url": "https://www.hellofresh.nl/recipes/zelfgemaakte-empanadas-met-rundergehakt-6aa15a52ab95f37e5f0c1516",
+        "adaptation": "Vega-versie: het origineel gebruikt gekruid rundergehakt; hier plantaardig gehakt. De BBQ-rub is vervangen door gerookt paprikapoeder en komijn."
+      },
+      "palette": [
+        "#e0a526",
+        "#6f9a52"
+      ]
+    },
+    {
+      "id": "snelle-chili-vegagehakt-tortillachips",
+      "schemaVersion": 1,
+      "title": "Snelle chili met vegagehakt en tortillachips",
+      "subtitle": "met kidneybonen, mais, zure room en koriander",
+      "description": "In tien minuten een rokerige chili met bonen en mais, om te scheppen met tortillachips.",
+      "cuisine": "Mexicaans",
+      "tags": [
+        "snel",
+        "pittig",
+        "eenpans"
+      ],
+      "prepMinutes": 5,
+      "cookMinutes": 10,
+      "difficulty": "easy",
+      "baseServings": 2,
+      "ingredients": [
+        {
+          "ingredientId": "vega-gehakt",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ui",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "paprika",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "tomatenpuree",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "gerookt-paprikapoeder",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "komijn",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "chilivlokken",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "passata",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "kidneybonen",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "mais",
+          "amount": 140,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tortillachips",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "creme-fraiche",
+          "amount": 50,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "koriander",
+          "amount": 10,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "olijfolie",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "zout",
+          "amount": null,
+          "unit": "pinch"
+        },
+        {
+          "ingredientId": "peper",
+          "amount": null,
+          "unit": "pinch"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Snipper de ui en snijd de paprika in reepjes. Rul het gehakt los in de olie en bak 3 minuten. Bak ui en paprika 3 minuten mee."
+        },
+        {
+          "text": "Roer tomatenpuree, paprikapoeder, komijn en chilivlokken erdoor en bak 1 minuut. Voeg passata en de uitgelekte bonen en mais toe en laat pruttelen.",
+          "timerMinutes": 4
+        },
+        {
+          "text": "Breng op smaak en serveer met tortillachips, zure room en koriander."
+        }
+      ],
+      "source": {
+        "type": "inspired",
+        "name": "HelloFresh",
+        "note": "Vega-versie van een HelloFresh-vleesgerecht: gerecht en ingrediënten gebaseerd op het origineel, vlees vervangen, bereidingswijze in eigen woorden. Alleen voor persoonlijk gebruik.",
+        "url": "https://www.hellofresh.nl/recipes/5-minuten-chili-met-kipgehakt-tortillachips-en-zure-room-6a75c7f8af49332c6079947f",
+        "adaptation": "Vega-versie: het origineel gebruikt kipgehakt met Mexicaanse kruiden; hier plantaardig gehakt. De birriapasta is vervangen door tomatenpuree met gerookt paprikapoeder, komijn en chilivlokken."
+      },
+      "palette": [
+        "#9c3d22",
+        "#e0b14a"
+      ]
+    },
+    {
+      "id": "volkoren-fusilli-vegagehakt-tomatensalsa",
+      "schemaVersion": 1,
+      "title": "Volkoren fusilli met vegagehakt",
+      "subtitle": "met tomatensalsa, spinazie en belegen kaas",
+      "description": "Fusilli in een romige roomkaassaus met gehakt en spinazie, met een frisse tomatensalsa erbovenop.",
+      "cuisine": "Italiaans",
+      "tags": [
+        "pasta",
+        "snel"
+      ],
+      "prepMinutes": 5,
+      "cookMinutes": 15,
+      "difficulty": "easy",
+      "baseServings": 2,
+      "ingredients": [
+        {
+          "ingredientId": "fusilli",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "vega-gehakt",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "rode-ui",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "knoflook",
+          "amount": 2,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "oregano",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "kruidenroomkaas",
+          "amount": 75,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "bouillonblokje",
+          "amount": 0.5,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "spinazie",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tomaat",
+          "amount": 2,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "wittewijnazijn",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "geraspte-kaas",
+          "amount": 25,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "olijfolie",
+          "amount": 1.5,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "zout",
+          "amount": null,
+          "unit": "pinch"
+        },
+        {
+          "ingredientId": "peper",
+          "amount": null,
+          "unit": "pinch"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Kook de fusilli beetgaar. Snijd de tomaten in blokjes en meng met een kwart van de fijngesnipperde rode ui, de azijn, ½ el olie en zout tot salsa."
+        },
+        {
+          "text": "Snipper de rest van de ui en hak de knoflook. Rul het gehakt los in de rest van de olie en bak met ui, knoflook en oregano in 5 minuten bruin."
+        },
+        {
+          "text": "Roer de kruidenroomkaas en 100 ml water met het bouillonblokje erdoor tot een romige saus en laat de spinazie erin slinken."
+        },
+        {
+          "text": "Schep de pasta door de saus en serveer met de salsa en geraspte kaas."
+        }
+      ],
+      "source": {
+        "type": "inspired",
+        "name": "HelloFresh",
+        "note": "Vega-versie van een HelloFresh-vleesgerecht: gerecht en ingrediënten gebaseerd op het origineel, vlees vervangen, bereidingswijze in eigen woorden. Alleen voor persoonlijk gebruik.",
+        "url": "https://www.hellofresh.nl/recipes/volkoren-fusilli-met-rundergehakt-6a82e933ee0be9e8e2878083",
+        "adaptation": "Vega-versie: het origineel gebruikt rundergehakt en kippenbouillon; hier plantaardig gehakt en groentebouillon."
+      },
+      "palette": [
+        "#d0452f",
+        "#6f9a52"
+      ]
+    },
+    {
+      "id": "sweet-sticky-garnalen-gomasio",
+      "schemaVersion": 1,
+      "title": "Sweet & sticky garnalen met gomasio",
+      "subtitle": "met rijst, sperziebonen en bloemkoolrijst",
+      "description": "Garnalen in een kleverige zoete saus met gember, met rijst, boontjes en zelfgemaakte sesamstrooisel.",
+      "cuisine": "Koreaans",
+      "tags": [
+        "vis",
+        "snel"
+      ],
+      "prepMinutes": 5,
+      "cookMinutes": 15,
+      "difficulty": "easy",
+      "baseServings": 2,
+      "ingredients": [
+        {
+          "ingredientId": "basmatirijst",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "bouillonblokje",
+          "amount": 0.5,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "sesamzaad",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "sperziebonen",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ui",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "knoflook",
+          "amount": 1,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "gember",
+          "amount": 10,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "bloemkool",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "roomboter",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "garnalen",
+          "amount": 160,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "zoete-chilisaus",
+          "amount": 70,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "honing",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "ketjap",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "chilivlokken",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "zonnebloemolie",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "zout",
+          "amount": null,
+          "unit": "pinch"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Kook de rijst in water met het halve bouillonblokje. Rooster de sesam in een droge pan en wrijf hem met een snuf zout grof fijn in een vijzel of met de bolle kant van een lepel: dat is je gomasio."
+        },
+        {
+          "text": "Halveer de sperziebonen en kook ze beetgaar. Snipper de ui en hak knoflook en gember fijn.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Bak de bloemkoolrijst 4 minuten in de boter en schep hem door de gekookte rijst."
+        },
+        {
+          "text": "Bak de garnalen in de olie tot ze net roze zijn, voeg ui, knoflook en gember toe en bak 1 minuut. Roer zoete chilisaus, honing, ketjap en 2 el water erdoor en laat even glanzen.",
+          "timerMinutes": 3
+        },
+        {
+          "text": "Serveer de rijst met de bonen en garnalen en bestrooi met gomasio en chilivlokken."
+        }
+      ],
+      "source": {
+        "type": "inspired",
+        "name": "HelloFresh",
+        "note": "Gerecht en ingrediënten gebaseerd op een HelloFresh-recept met vis of garnalen; bereidingswijze in eigen woorden. Alleen voor persoonlijk gebruik.",
+        "url": "https://www.hellofresh.nl/recipes/sweet-and-sticky-garnalen-met-gomasio-6a9958eb71b095d5fbafac6e",
+        "adaptation": "De kippenbouillon uit het origineel is vervangen door groentebouillon en de kruidenmix door chilivlokken."
+      },
+      "palette": [
+        "#e8a33d",
+        "#5b7f4a"
+      ]
+    },
+    {
+      "id": "garnalen-gele-currysaus-broccoli",
+      "schemaVersion": 1,
+      "title": "Grote garnalen met kruidige gele currysaus",
+      "subtitle": "met jasmijnrijst, broccoli en gebakken uitjes",
+      "description": "Romige gele kokoscurry met grote garnalen en broccoli, fris gemaakt met limoen en afgemaakt met krokante uitjes.",
+      "cuisine": "Vietnamees",
+      "tags": [
+        "vis",
+        "curry",
+        "snel"
+      ],
+      "prepMinutes": 5,
+      "cookMinutes": 15,
+      "difficulty": "easy",
+      "baseServings": 2,
+      "ingredients": [
+        {
+          "ingredientId": "jasmijnrijst",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "broccoli",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "ui",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "gele-currypasta",
+          "amount": 30,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "kokosmelk",
+          "amount": 180,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "vissaus",
+          "amount": 10,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "sojasaus",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "garnalen",
+          "amount": 260,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "roomboter",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "limoen",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "rode-peper",
+          "amount": 0.5,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "gebakken-uitjes",
+          "amount": 30,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "zonnebloemolie",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "zout",
+          "amount": null,
+          "unit": "pinch"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Kook de rijst volgens de verpakking. Snijd de broccoli in roosjes en kook of stoom ze beetgaar.",
+          "timerMinutes": 4
+        },
+        {
+          "text": "Snipper de ui en bak hem met de currypasta 2 minuten in de olie. Voeg kokosmelk, vissaus en sojasaus toe en laat zacht inkoken.",
+          "timerMinutes": 3
+        },
+        {
+          "text": "Bak de garnalen in de boter tot ze net roze zijn en schep ze met de broccoli door de saus. Breng op smaak met limoensap."
+        },
+        {
+          "text": "Serveer met de rijst en bestrooi met gebakken uitjes en ringetjes rode peper."
+        }
+      ],
+      "source": {
+        "type": "inspired",
+        "name": "HelloFresh",
+        "note": "Gerecht en ingrediënten gebaseerd op een HelloFresh-recept met vis of garnalen; bereidingswijze in eigen woorden. Alleen voor persoonlijk gebruik.",
+        "url": "https://www.hellofresh.nl/recipes/grote-garnalen-met-kruidige-gele-currysaus-6aa9454724258ceb6cef3912",
+        "adaptation": "De Vietnamese saus uit het origineel is vervangen door sojasaus en limoen."
+      },
+      "palette": [
+        "#e5a23a",
+        "#4e7a3c"
+      ]
+    },
+    {
+      "id": "garnalen-citroen-peterselieboter-parelcouscous",
+      "schemaVersion": 1,
+      "title": "Grote garnalen met citroen-peterselieboter",
+      "subtitle": "met parelcouscous, tomaten en rozijnen",
+      "description": "Garnalen gebakken in boter met citroenrasp, knoflook en peterselie, op parelcouscous met tomaat en een zoet accent van rozijnen.",
+      "cuisine": "Mediterraan",
+      "tags": [
+        "vis"
+      ],
+      "prepMinutes": 15,
+      "cookMinutes": 20,
+      "difficulty": "medium",
+      "baseServings": 2,
+      "ingredients": [
+        {
+          "ingredientId": "parelcouscous",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "bouillonblokje",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "rozijnen",
+          "amount": 20,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ui",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "wortel",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "tomaat",
+          "amount": 2,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "cherrytomaten",
+          "amount": 125,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "italiaanse-kruiden",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "citroen",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "knoflook",
+          "amount": 1,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "peterselie",
+          "amount": 10,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "roomboter",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "garnalen",
+          "amount": 260,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "olijfolie",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "zout",
+          "amount": null,
+          "unit": "pinch"
+        },
+        {
+          "ingredientId": "peper",
+          "amount": null,
+          "unit": "pinch"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Kook de parelcouscous met de rozijnen gaar in 350 ml water met het bouillonblokje.",
+          "timerMinutes": 12
+        },
+        {
+          "text": "Snipper de ui en snijd wortel en tomaten in blokjes. Bak ui en wortel 4 minuten in de olie, voeg tomaat en Italiaanse kruiden toe en laat 5 minuten stoven. Halveer de cherrytomaten en schep ze er op het laatst door."
+        },
+        {
+          "text": "Rasp de citroen en hak knoflook en peterselie fijn. Smelt de boter, voeg rasp, knoflook en de helft van de peterselie toe en bak de garnalen hierin tot ze roze zijn.",
+          "timerMinutes": 3
+        },
+        {
+          "text": "Meng couscous en groente, breng op smaak met citroensap en serveer met de garnalen, de boter uit de pan en de rest van de peterselie."
+        }
+      ],
+      "source": {
+        "type": "inspired",
+        "name": "HelloFresh",
+        "note": "Gerecht en ingrediënten gebaseerd op een HelloFresh-recept met vis of garnalen; bereidingswijze in eigen woorden. Alleen voor persoonlijk gebruik.",
+        "url": "https://www.hellofresh.nl/recipes/grote-garnalen-met-citroen-peterselieboter-6aa810a20e8238019825fb68"
+      },
+      "palette": [
+        "#e8a33d",
+        "#6f9a52"
+      ]
+    },
+    {
+      "id": "noedels-mango-geglaceerde-garnalen",
+      "schemaVersion": 1,
+      "title": "Noedels met mango-geglaceerde garnalen",
+      "subtitle": "met roerbakgroenten en sesam",
+      "description": "Snelle wok met noedels, prei en paprika en garnalen in een zoet-pittige mangoglazuur.",
+      "cuisine": "Aziatisch",
+      "tags": [
+        "vis",
+        "wok",
+        "snel"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 10,
+      "difficulty": "easy",
+      "baseServings": 2,
+      "ingredients": [
+        {
+          "ingredientId": "mie",
+          "amount": 125,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "rode-ui",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "paprika",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "prei",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "knoflook",
+          "amount": 1,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "garnalen",
+          "amount": 160,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "mangochutney",
+          "amount": 60,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "zoete-chilisaus",
+          "amount": 70,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "sojasaus",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "chilivlokken",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "sesamzaad",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "zonnebloemolie",
+          "amount": 2,
+          "unit": "tbsp"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Kook de noedels volgens de verpakking, giet af en spoel kort koud. Snijd ui en paprika in reepjes, de prei in ringen en hak de knoflook."
+        },
+        {
+          "text": "Roerbak de groente met de knoflook in 1 el olie op hoog vuur.",
+          "timerMinutes": 4
+        },
+        {
+          "text": "Schuif de groente opzij, bak de garnalen in de rest van de olie roze en roer mangochutney, zoete chilisaus, sojasaus en 2 el water erdoor.",
+          "timerMinutes": 2
+        },
+        {
+          "text": "Schep de noedels erdoor tot alles warm en geglaceerd is. Serveer met sesam en chilivlokken."
+        }
+      ],
+      "source": {
+        "type": "inspired",
+        "name": "HelloFresh",
+        "note": "Gerecht en ingrediënten gebaseerd op een HelloFresh-recept met vis of garnalen; bereidingswijze in eigen woorden. Alleen voor persoonlijk gebruik.",
+        "url": "https://www.hellofresh.nl/recipes/noedels-met-mango-geglaceerde-garnalen-6a9958dde75bbd5a4ef5dec2",
+        "adaptation": "De mangoketchup uit het origineel is vervangen door mangochutney."
+      },
+      "palette": [
+        "#e0a526",
+        "#c8442f"
+      ]
+    },
+    {
+      "id": "gebakken-rijst-garnalen-pindasaus",
+      "schemaVersion": 1,
+      "title": "Gebakken rijst met garnalen en pindasaus",
+      "subtitle": "met sperziebonen, bloemkoolrijst en gebakken uitjes",
+      "description": "Kruidige nasi met garnalen en boontjes, half rijst en half bloemkoolrijst, met een snelle pindasaus.",
+      "cuisine": "Indonesisch",
+      "tags": [
+        "vis",
+        "pittig"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 20,
+      "difficulty": "easy",
+      "baseServings": 2,
+      "ingredients": [
+        {
+          "ingredientId": "zilvervliesrijst",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "pindakaas",
+          "amount": 60,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ketjap",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "sambal",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "sperziebonen",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garnalen",
+          "amount": 160,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "knoflook",
+          "amount": 1,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "bosui",
+          "amount": 6,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "rode-currypasta",
+          "amount": 30,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "kerriepoeder",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "bloemkool",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "gebakken-uitjes",
+          "amount": 30,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "zonnebloemolie",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "zout",
+          "amount": null,
+          "unit": "pinch"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Kook de rijst en laat hem uitgespreid uitdampen. Roer pindakaas, 1 el ketjap, sambal en 100 ml heet water tot een gladde pindasaus."
+        },
+        {
+          "text": "Snijd de sperziebonen in stukjes en kook ze beetgaar.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Bak de garnalen in 1 el olie in een wok roze en schep uit. Bak knoflook, het wit van de bosui, currypasta en kerrie 1 minuut in de rest van de olie. Voeg bloemkoolrijst toe en bak 3 minuten, daarna rijst, bonen en de rest van de ketjap.",
+          "timerMinutes": 3
+        },
+        {
+          "text": "Schep de garnalen erdoor en serveer met de pindasaus, gebakken uitjes en het groen van de bosui."
+        }
+      ],
+      "source": {
+        "type": "inspired",
+        "name": "HelloFresh",
+        "note": "Gerecht en ingrediënten gebaseerd op een HelloFresh-recept met vis of garnalen; bereidingswijze in eigen woorden. Alleen voor persoonlijk gebruik.",
+        "url": "https://www.hellofresh.nl/recipes/miljuschkas-gebakken-rijst-met-garnalen-6aa16a2c548a82de3e1b344d",
+        "adaptation": "De kant-en-klare pindasaus en nasikruiden uit het origineel zijn vervangen door pindakaas met ketjap en sambal, en kerriepoeder."
+      },
+      "palette": [
+        "#8a5a2b",
+        "#e0b04a"
+      ]
+    },
+    {
+      "id": "sticky-zalm-citroendressing-couscous",
+      "schemaVersion": 1,
+      "title": "Sticky zalm met citroendressing en verse kruiden",
+      "subtitle": "met couscous, Noord-Afrikaanse kruiden en veldsla",
+      "description": "Zalm met een kleverig laagje honing en paprika, op kruidige couscous met wortel en een frisse kruidendressing.",
+      "cuisine": "Noord-Afrikaans",
+      "tags": [
+        "vis",
+        "snel"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 15,
+      "difficulty": "easy",
+      "baseServings": 2,
+      "ingredients": [
+        {
+          "ingredientId": "couscous",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "bouillonblokje",
+          "amount": 0.5,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "wortel",
+          "amount": 2,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "roomboter",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "ras-el-hanout",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "zalmfilet",
+          "amount": 2,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "paprikapoeder",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "honing",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "rode-ui",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "komkommer",
+          "amount": 0.5,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "veldsla",
+          "amount": 40,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "citroen",
+          "amount": 0.5,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "mayonaise",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "wittewijnazijn",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "dille",
+          "amount": 5,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "munt",
+          "amount": 5,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "peterselie",
+          "amount": 5,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "olijfolie",
+          "amount": 1.5,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "zout",
+          "amount": null,
+          "unit": "pinch"
+        },
+        {
+          "ingredientId": "peper",
+          "amount": null,
+          "unit": "pinch"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Snijd de wortels in dunne plakjes en bak ze in de boter met de ras el hanout zacht. Giet 200 ml heet water met het bouillonblokje erbij, roer de couscous erdoor, dek af en laat wellen.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Bestrooi de zalm met paprikapoeder en zout. Bak hem in ½ el olie op de huid tot die krokant is, keer om en bak nog 2 minuten. Glaceer in de laatste minuut met de honing.",
+          "timerMinutes": 6
+        },
+        {
+          "text": "Hak de kruiden fijn en meng de helft met de mayonaise, het citroensap, de azijn en een scheut water tot een dressing."
+        },
+        {
+          "text": "Snipper de rode ui fijn en snijd de komkommer in blokjes. Schep ze met de veldsla, de rest van de kruiden en de olie door de couscous. Serveer met de zalm en de dressing."
+        }
+      ],
+      "source": {
+        "type": "inspired",
+        "name": "HelloFresh",
+        "note": "Gerecht en ingrediënten gebaseerd op een HelloFresh-recept met vis of garnalen; bereidingswijze in eigen woorden. Alleen voor persoonlijk gebruik.",
+        "url": "https://www.hellofresh.nl/recipes/sticky-zalm-met-citroendressing-en-verse-kruiden-6aa1600b00c1712eb5d56962",
+        "adaptation": "De Afrikaanse kruidenmix uit het origineel is vervangen door ras el hanout."
+      },
+      "palette": [
+        "#e8a33d",
+        "#6f9a52"
+      ]
+    },
+    {
+      "id": "zalm-sesamjasje-zoete-aziatische-saus",
+      "schemaVersion": 1,
+      "title": "Zalm in sesamjasje met zoete Aziatische saus",
+      "subtitle": "met bruine rijst, courgette en gember",
+      "description": "Zalm met een krokant korstje van sesam, met gebakken courgette met gember en een zoete saus.",
+      "cuisine": "Aziatisch",
+      "tags": [
+        "vis"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 20,
+      "difficulty": "easy",
+      "baseServings": 2,
+      "ingredients": [
+        {
+          "ingredientId": "zilvervliesrijst",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "bouillonblokje",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "zalmfilet",
+          "amount": 2,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "honing",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "sesamzaad",
+          "amount": 20,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "courgette",
+          "amount": 2,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "ui",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "knoflook",
+          "amount": 1,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "gember",
+          "amount": 10,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "zoete-chilisaus",
+          "amount": 35,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "sojasaus",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "roomboter",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "zonnebloemolie",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "zout",
+          "amount": null,
+          "unit": "pinch"
+        },
+        {
+          "ingredientId": "peper",
+          "amount": null,
+          "unit": "pinch"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Kook de rijst in water met het bouillonblokje."
+        },
+        {
+          "text": "Bestrijk de bovenkant van de zalm dun met honing en druk hem in de sesam. Bak in de olie eerst op de sesamkant goudbruin en daarna op de andere kant.",
+          "timerMinutes": 6
+        },
+        {
+          "text": "Snijd de courgettes in halve maantjes, snipper de ui en hak knoflook en gember. Bak ze in de boter tot de courgette beetgaar is.",
+          "timerMinutes": 6
+        },
+        {
+          "text": "Verwarm zoete chilisaus, sojasaus en 3 el water kort in een pannetje. Serveer zalm, rijst en courgette met de saus."
+        }
+      ],
+      "source": {
+        "type": "inspired",
+        "name": "HelloFresh",
+        "note": "Gerecht en ingrediënten gebaseerd op een HelloFresh-recept met vis of garnalen; bereidingswijze in eigen woorden. Alleen voor persoonlijk gebruik.",
+        "url": "https://www.hellofresh.nl/recipes/zalm-in-sesamjasje-met-zoete-aziatische-saus-6a9958f1e75bbd5a4ef5e05a"
+      },
+      "palette": [
+        "#3f6e8a",
+        "#e9d8a6"
+      ]
+    },
+    {
+      "id": "zalm-harissa-yoghurt-bulgur",
+      "schemaVersion": 1,
+      "title": "Zalm met harissa en yoghurtsausje",
+      "subtitle": "op bulgur met courgette en geroosterde tomaten",
+      "description": "Pittige zalm uit de oven op een bakplaat vol courgette en tomaat, met bulgur en een koele knoflookyoghurt.",
+      "cuisine": "Midden-Oosters",
+      "tags": [
+        "vis",
+        "oven",
+        "pittig"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 20,
+      "difficulty": "easy",
+      "baseServings": 2,
+      "ingredients": [
+        {
+          "ingredientId": "courgette",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "cherrytomaten",
+          "amount": 125,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "rode-ui",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "knoflook",
+          "amount": 2,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "komijn",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "korianderpoeder",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "bulgur",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "bouillonblokje",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "roomboter",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "zalmfilet",
+          "amount": 2,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "harissa",
+          "amount": 30,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "honing",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "griekse-yoghurt",
+          "amount": 50,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "olijfolie",
+          "amount": 3,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "zout",
+          "amount": null,
+          "unit": "pinch"
+        },
+        {
+          "ingredientId": "peper",
+          "amount": null,
+          "unit": "pinch"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 200 °C. Snijd courgette in blokjes en ui in parten. Meng ze met de tomaatjes, 1 teen geplette knoflook, komijn, koriander, 2 el olie en zout op een bakplaat en rooster.",
+          "timerMinutes": 20
+        },
+        {
+          "text": "Kook de bulgur in 300 ml water met het bouillonblokje gaar en roer de boter erdoor.",
+          "timerMinutes": 12
+        },
+        {
+          "text": "Meng harissa, honing en de rest van de olie, smeer over de zalm en leg hem na 8 minuten tussen de groente op de bakplaat. Bak tot de zalm net gaar is.",
+          "timerMinutes": 12
+        },
+        {
+          "text": "Roer de yoghurt met een snuf zout en een beetje geraspte knoflook. Serveer de bulgur met de groente, de zalm en de yoghurt."
+        }
+      ],
+      "source": {
+        "type": "inspired",
+        "name": "HelloFresh",
+        "note": "Gerecht en ingrediënten gebaseerd op een HelloFresh-recept met vis of garnalen; bereidingswijze in eigen woorden. Alleen voor persoonlijk gebruik.",
+        "url": "https://www.hellofresh.nl/recipes/bio-zalm-met-harissa-en-yoghurtsausje-6a96fee371b095d5fbaf3f5b",
+        "adaptation": "De Midden-Oosterse kruidenmix uit het origineel is vervangen door komijn en koriander."
+      },
+      "palette": [
+        "#c4482f",
+        "#e9d8a6"
+      ]
+    },
+    {
+      "id": "bulgurbowl-zalm-bietjes-geitenkaas",
+      "schemaVersion": 1,
+      "title": "Bulgurbowl met zalm en bietjes",
+      "subtitle": "met geitenkaas met honing, amandelen en verse kruiden",
+      "description": "Een kleurrijke bowl met geroosterde bieten, zalm, bulgur, komkommer en zachte geitenkaas met honing.",
+      "cuisine": "Mediterraan",
+      "tags": [
+        "vis",
+        "bowl",
+        "oven"
+      ],
+      "prepMinutes": 15,
+      "cookMinutes": 25,
+      "difficulty": "medium",
+      "baseServings": 2,
+      "ingredients": [
+        {
+          "ingredientId": "rode-biet",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "rode-ui",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "knoflook",
+          "amount": 2,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "oregano",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "zalmfilet",
+          "amount": 2,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "bulgur",
+          "amount": 75,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "bouillonblokje",
+          "amount": 0.5,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "komkommer",
+          "amount": 0.5,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "geitenkaas",
+          "amount": 50,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "honing",
+          "amount": 3,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "wittewijnazijn",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "amandelen",
+          "amount": 20,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "peterselie",
+          "amount": 5,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "munt",
+          "amount": 5,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "olijfolie",
+          "amount": 2.5,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "zout",
+          "amount": null,
+          "unit": "pinch"
+        },
+        {
+          "ingredientId": "peper",
+          "amount": null,
+          "unit": "pinch"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 200 °C. Snijd bieten en ui in parten, meng met de geplette knoflook, oregano, 1 el olie en zout en rooster op een bakplaat.",
+          "timerMinutes": 25
+        },
+        {
+          "text": "Leg de zalm met een druppel olie en zout na 13 minuten bij de bieten en bak mee tot hij net gaar is.",
+          "timerMinutes": 12
+        },
+        {
+          "text": "Kook de bulgur in 200 ml water met het bouillonblokje gaar. Roer 2 tl honing, de azijn, de rest van de olie en zout tot een dressing. Prak de geitenkaas met de rest van de honing."
+        },
+        {
+          "text": "Verdeel bulgur, bieten, komkommerblokjes en zalm over kommen. Maak af met geitenkaas, grof gehakte amandelen, kruiden en dressing."
+        }
+      ],
+      "source": {
+        "type": "inspired",
+        "name": "HelloFresh",
+        "note": "Gerecht en ingrediënten gebaseerd op een HelloFresh-recept met vis of garnalen; bereidingswijze in eigen woorden. Alleen voor persoonlijk gebruik.",
+        "url": "https://www.hellofresh.nl/recipes/bulgurbowl-met-zalm-en-bietjes-6a9958fd56a4cfbb96385409",
+        "adaptation": "De geitenkaasbolletjes met honing uit het origineel zijn vervangen door zachte geitenkaas met een beetje honing."
+      },
+      "palette": [
+        "#7a2e4d",
+        "#e9d8a6"
+      ]
+    },
+    {
+      "id": "kabeljauw-zaatar-sinaasappelsalsa",
+      "schemaVersion": 1,
+      "title": "Kabeljauw met za'atar en frisse sinaasappelsalsa",
+      "subtitle": "met kruidige parelcouscous en verse kruiden",
+      "description": "Krokant gebakken kabeljauw met za'atar, op kruidige parelcouscous met een sappige salsa van sinaasappel, tomaat en munt.",
+      "cuisine": "Midden-Oosters",
+      "tags": [
+        "vis",
+        "snel"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 15,
+      "difficulty": "easy",
+      "baseServings": 2,
+      "ingredients": [
+        {
+          "ingredientId": "parelcouscous",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "bouillonblokje",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "ras-el-hanout",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "sinaasappel",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "tomaat",
+          "amount": 2,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "komkommer",
+          "amount": 0.5,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "rode-ui",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "rode-peper",
+          "amount": 0.5,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "munt",
+          "amount": 5,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "peterselie",
+          "amount": 5,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "wittewijnazijn",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "kabeljauwfilet",
+          "amount": 2,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "zaatar",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "mayonaise",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "olijfolie",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "zout",
+          "amount": null,
+          "unit": "pinch"
+        },
+        {
+          "ingredientId": "peper",
+          "amount": null,
+          "unit": "pinch"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Kook de parelcouscous met de ras el hanout gaar in 350 ml water met het bouillonblokje.",
+          "timerMinutes": 12
+        },
+        {
+          "text": "Rasp een beetje schil van de sinaasappel en snijd het vruchtvlees in blokjes. Meng met blokjes tomaat en komkommer, de helft van de fijngesnipperde ui, rode peper, munt, azijn, 1 el olie en zout tot salsa."
+        },
+        {
+          "text": "Dep de kabeljauw droog, bestrooi met za'atar en zout en bak in de rest van de olie aan beide kanten goudbruin en net gaar.",
+          "timerMinutes": 7
+        },
+        {
+          "text": "Roer de sinaasappelrasp door de mayonaise en schep de peterselie en de rest van de ui door de couscous. Serveer met de vis, salsa en mayo."
+        }
+      ],
+      "source": {
+        "type": "inspired",
+        "name": "HelloFresh",
+        "note": "Gerecht en ingrediënten gebaseerd op een HelloFresh-recept met vis of garnalen; bereidingswijze in eigen woorden. Alleen voor persoonlijk gebruik.",
+        "url": "https://www.hellofresh.nl/recipes/kabeljauw-met-zaatar-en-frisse-sinaasappelsalsa-6a75c52852a1aa811f7b32fc",
+        "adaptation": "De Midden-Oosterse kruidenmix uit het origineel is vervangen door ras el hanout."
+      },
+      "palette": [
+        "#e8a33d",
+        "#3f6e8a"
+      ]
+    },
+    {
+      "id": "kabeljauw-romige-dillesaus-citroenaardappelen",
+      "schemaVersion": 1,
+      "title": "Kabeljauw in romige dillesaus met citroenaardappelen",
+      "subtitle": "met olijven, venkel, aubergine en paprika",
+      "description": "Een Griekse ovenschotel met citroenaardappelen en geroosterde groente, met kabeljauw in een romige saus met dille.",
+      "cuisine": "Grieks",
+      "tags": [
+        "vis",
+        "oven"
+      ],
+      "prepMinutes": 15,
+      "cookMinutes": 30,
+      "difficulty": "easy",
+      "baseServings": 2,
+      "ingredients": [
+        {
+          "ingredientId": "aardappel",
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "citroen",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "aubergine",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "paprika",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "venkel",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "knoflook",
+          "amount": 2,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "oregano",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "olijven",
+          "amount": 30,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sjalot",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "wittewijnazijn",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "kookroom",
+          "amount": 150,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "dille",
+          "amount": 10,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "kabeljauwfilet",
+          "amount": 2,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "roomboter",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "olijfolie",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "zout",
+          "amount": null,
+          "unit": "pinch"
+        },
+        {
+          "ingredientId": "peper",
+          "amount": null,
+          "unit": "pinch"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 220 °C. Snijd de aardappelen in partjes en aubergine, paprika en venkel in stukken. Meng met citroenrasp, geplette knoflook, oregano, de olie en zout en rooster op een bakplaat.",
+          "timerMinutes": 30
+        },
+        {
+          "text": "Snipper de sjalot en smoor hem in 1 el boter. Blus met de azijn, voeg de kookroom toe en laat 3 minuten inkoken. Roer de gehakte dille en een kneepje citroensap erdoor."
+        },
+        {
+          "text": "Bak de kabeljauw in de rest van de boter aan beide kanten goudbruin en net gaar.",
+          "timerMinutes": 7
+        },
+        {
+          "text": "Schep de olijven door de groente en serveer met de vis, de dillesaus en partjes citroen."
+        }
+      ],
+      "source": {
+        "type": "inspired",
+        "name": "HelloFresh",
+        "note": "Gerecht en ingrediënten gebaseerd op een HelloFresh-recept met vis of garnalen; bereidingswijze in eigen woorden. Alleen voor persoonlijk gebruik.",
+        "url": "https://www.hellofresh.nl/recipes/kabeljauw-in-romige-dillesaus-met-citroenaardappelen-6a50da136e4158183d5dfabb"
+      },
+      "palette": [
+        "#3f6e8a",
+        "#f1efe6"
+      ]
+    },
+    {
+      "id": "kabeljauw-rozemarijnkorst-geroosterde-groenten",
+      "schemaVersion": 1,
+      "title": "Kabeljauw in rozemarijnkorst met geroosterde groenten",
+      "subtitle": "met parelcouscous en tomaat-balsamicosaus",
+      "description": "Kabeljauw met een knapperige korst van panko en rozemarijn, op parelcouscous met geroosterde groente.",
+      "cuisine": "Mediterraan",
+      "tags": [
+        "vis",
+        "oven"
+      ],
+      "prepMinutes": 15,
+      "cookMinutes": 20,
+      "difficulty": "medium",
+      "baseServings": 2,
+      "ingredients": [
+        {
+          "ingredientId": "courgette",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "paprika",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "rode-ui",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "ras-el-hanout",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "parelcouscous",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "bouillonblokje",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "paneermeel",
+          "amount": 35,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "rozemarijn",
+          "amount": 5,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "knoflook",
+          "amount": 1,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "kabeljauwfilet",
+          "amount": 2,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "bloem",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "ketchup",
+          "amount": 60,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "balsamico",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "peterselie",
+          "amount": 10,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "olijfolie",
+          "amount": 2.5,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "zout",
+          "amount": null,
+          "unit": "pinch"
+        },
+        {
+          "ingredientId": "peper",
+          "amount": null,
+          "unit": "pinch"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 220 °C. Snijd courgette, paprika en ui in stukken, meng met ras el hanout, 1 el olie en zout en rooster op een bakplaat.",
+          "timerMinutes": 20
+        },
+        {
+          "text": "Kook de parelcouscous gaar in 300 ml water met het bouillonblokje.",
+          "timerMinutes": 12
+        },
+        {
+          "text": "Meng panko met fijngehakte rozemarijn, geraspte knoflook, 1 el olie en zout. Haal de vis door de bloem, bestrijk de bovenkant met 1 el ketchup en druk het pankomengsel erop. Bak de vis de laatste 10 minuten mee op de bakplaat met wat olie eronder.",
+          "timerMinutes": 10
+        },
+        {
+          "text": "Verwarm de rest van de ketchup met de balsamico tot een saus. Schep peterselie door de couscous en serveer met groente, vis en saus."
+        }
+      ],
+      "source": {
+        "type": "inspired",
+        "name": "HelloFresh",
+        "note": "Gerecht en ingrediënten gebaseerd op een HelloFresh-recept met vis of garnalen; bereidingswijze in eigen woorden. Alleen voor persoonlijk gebruik.",
+        "url": "https://www.hellofresh.nl/recipes/kabeljauw-in-rozemarijnkorst-met-geroosterde-groenten-6a50f559748b7cf792502513",
+        "adaptation": "De Midden-Oosterse kruidenmix uit het origineel is vervangen door ras el hanout."
+      },
+      "palette": [
+        "#c8442f",
+        "#6f9a52"
+      ]
+    },
+    {
+      "id": "kabeljauw-thaise-groene-curry",
+      "schemaVersion": 1,
+      "title": "Kabeljauw met Thaise groene curry",
+      "subtitle": "met jasmijnrijst, aubergine en paprika",
+      "description": "Een geurige groene kokoscurry met aubergine en paprika en zacht gebakken kabeljauw.",
+      "cuisine": "Thais",
+      "tags": [
+        "vis",
+        "curry"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 20,
+      "difficulty": "medium",
+      "baseServings": 2,
+      "ingredients": [
+        {
+          "ingredientId": "jasmijnrijst",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "aubergine",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "ui",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "knoflook",
+          "amount": 1,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "gember",
+          "amount": 10,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "paprika",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "groene-currypasta",
+          "amount": 30,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "kokosmelk",
+          "amount": 180,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "bouillonblokje",
+          "amount": 0.5,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "vissaus",
+          "amount": 10,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "kabeljauwfilet",
+          "amount": 2,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "bloem",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "roomboter",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "thais-basilicum",
+          "amount": 5,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "zonnebloemolie",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "zout",
+          "amount": null,
+          "unit": "pinch"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Kook de rijst volgens de verpakking. Snijd de aubergine in blokjes en bak ze in de olie goudbruin.",
+          "timerMinutes": 6
+        },
+        {
+          "text": "Snipper de ui, hak knoflook en gember en snijd de paprika in reepjes. Bak ze 3 minuten mee, roer de currypasta erdoor en bak 1 minuut."
+        },
+        {
+          "text": "Voeg kokosmelk, 100 ml water met het bouillonblokje en de vissaus toe en laat zacht koken.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Bestuif de kabeljauw licht met bloem en zout en bak hem in de boter aan beide kanten net gaar. Serveer op de curry met rijst en Thais basilicum.",
+          "timerMinutes": 6
+        }
+      ],
+      "source": {
+        "type": "inspired",
+        "name": "HelloFresh",
+        "note": "Gerecht en ingrediënten gebaseerd op een HelloFresh-recept met vis of garnalen; bereidingswijze in eigen woorden. Alleen voor persoonlijk gebruik.",
+        "url": "https://www.hellofresh.nl/recipes/kabeljauw-met-thaise-stijl-groene-curry-6a2c1da8b2e241c4bdafcdfe"
+      },
+      "palette": [
+        "#4e7a3c",
+        "#f1efe6"
+      ]
+    },
+    {
+      "id": "udonnoedelsoep-gebakken-pangasius",
+      "schemaVersion": 1,
+      "title": "Aromatische udonnoedelsoep met gebakken pangasius",
+      "subtitle": "met champignons, spitskool en gember",
+      "description": "Een heldere, geurige bouillon met gember, udon en groente, met een goudbruin gebakken visfilet erop.",
+      "cuisine": "Japans",
+      "tags": [
+        "vis",
+        "soep",
+        "snel"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 15,
+      "difficulty": "easy",
+      "baseServings": 2,
+      "ingredients": [
+        {
+          "ingredientId": "ui",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "knoflook",
+          "amount": 2,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "gember",
+          "amount": 10,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "wortel",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "champignons",
+          "amount": 125,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "bouillonblokje",
+          "amount": 1.5,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "sojasaus",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "spitskool",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "udon",
+          "amount": 220,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "pangasiusfilet",
+          "amount": 2,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "roomboter",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "limoen",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "zonnebloemolie",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "sambal",
+          "amount": null,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "zout",
+          "amount": null,
+          "unit": "pinch"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Snipper de ui, hak knoflook en gember fijn, snijd de wortel in dunne reepjes en de champignons in plakjes."
+        },
+        {
+          "text": "Fruit ui, knoflook en gember 2 minuten in de olie in een soeppan. Bak wortel en champignons 3 minuten mee en voeg 750 ml water met de bouillonblokjes en de sojasaus toe."
+        },
+        {
+          "text": "Laat de spitskool in de soep beetgaar worden en verwarm de udon de laatste 2 minuten mee.",
+          "timerMinutes": 4
+        },
+        {
+          "text": "Bestrooi de vis met zout en bak hem in de boter aan beide kanten goudbruin.",
+          "timerMinutes": 6
+        },
+        {
+          "text": "Breng de soep op smaak met limoensap, schep in kommen en leg de vis erop. Geef sambal erbij."
+        }
+      ],
+      "source": {
+        "type": "inspired",
+        "name": "HelloFresh",
+        "note": "Gerecht en ingrediënten gebaseerd op een HelloFresh-recept met vis of garnalen; bereidingswijze in eigen woorden. Alleen voor persoonlijk gebruik.",
+        "url": "https://www.hellofresh.nl/recipes/aromatische-udonnoedelsoep-met-gebakken-pangasius-6a50f31a6e4158183d5e01d9",
+        "adaptation": "De Vietnamese saus uit het origineel is vervangen door sojasaus en limoen."
+      },
+      "palette": [
+        "#8a5a2b",
+        "#e9d8a6"
+      ]
+    },
+    {
+      "id": "pangasius-kokosnoedels-pindas-chili-olie",
+      "schemaVersion": 1,
+      "title": "Pangasius met kokosnoedels, pinda's en chili-olie",
+      "subtitle": "in kruidige gele curry met paksoi en bimi",
+      "description": "Udon in een gele kokoscurry met paksoi en bimi, met gebakken vis, pinda's en een snelle chili-olie.",
+      "cuisine": "Thais",
+      "tags": [
+        "vis",
+        "curry",
+        "pittig"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 15,
+      "difficulty": "easy",
+      "baseServings": 2,
+      "ingredients": [
+        {
+          "ingredientId": "zonnebloemolie",
+          "amount": 3,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "chilivlokken",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "gerookt-paprikapoeder",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "ui",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "knoflook",
+          "amount": 1,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "gember",
+          "amount": 10,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "gele-currypasta",
+          "amount": 30,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "kerriepoeder",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "kokosmelk",
+          "amount": 120,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "bouillonblokje",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "bimi",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "paksoi",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "udon",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "pangasiusfilet",
+          "amount": 2,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "limoen",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "pindas",
+          "amount": 20,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "koriander",
+          "amount": 10,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "zout",
+          "amount": null,
+          "unit": "pinch"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Verwarm 2 el olie met de chilivlokken en het paprikapoeder 1 minuut op laag vuur en zet apart: dat is je chili-olie."
+        },
+        {
+          "text": "Snipper de ui, hak knoflook en gember en bak ze met currypasta en kerrie 2 minuten in een beetje olie. Voeg kokosmelk en 300 ml water met het bouillonblokje toe."
+        },
+        {
+          "text": "Laat bimi en de in stukken gesneden paksoi erin beetgaar worden en verwarm de udon mee.",
+          "timerMinutes": 4
+        },
+        {
+          "text": "Bak de vis in de rest van de olie aan beide kanten goudbruin.",
+          "timerMinutes": 6
+        },
+        {
+          "text": "Breng de noedels op smaak met limoensap en zout en serveer met de vis, gehakte pinda's, koriander en chili-olie."
+        }
+      ],
+      "source": {
+        "type": "inspired",
+        "name": "HelloFresh",
+        "note": "Gerecht en ingrediënten gebaseerd op een HelloFresh-recept met vis of garnalen; bereidingswijze in eigen woorden. Alleen voor persoonlijk gebruik.",
+        "url": "https://www.hellofresh.nl/recipes/pangasiusfilet-met-kokosnoedels-pindas-en-chili-olie-6a50f5c2748b7cf792502703",
+        "adaptation": "De kant-en-klare chili-olie uit het origineel is vervangen door een snelle zelfgemaakte versie."
+      },
+      "palette": [
+        "#e5a23a",
+        "#4e7a3c"
+      ]
+    },
+    {
+      "id": "pangasius-romige-bieslooksaus-honingwortels",
+      "schemaVersion": 1,
+      "title": "Pangasius met romige bieslooksaus",
+      "subtitle": "met honing-mosterdwortels en aardappelpartjes",
+      "description": "Hollands en vertrouwd: gebakken visfilet, aardappelpartjes uit de oven, zoete mosterdwortels en een frisse kruidensaus.",
+      "cuisine": "Nederlands",
+      "tags": [
+        "vis",
+        "oven",
+        "comfort"
+      ],
+      "prepMinutes": 15,
+      "cookMinutes": 30,
+      "difficulty": "easy",
+      "baseServings": 2,
+      "ingredients": [
+        {
+          "ingredientId": "aardappel",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "italiaanse-kruiden",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "wortel",
+          "amount": 2,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "honing",
+          "amount": 3,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "mosterd",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "griekse-yoghurt",
+          "amount": 50,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "bieslook",
+          "amount": 5,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "dille",
+          "amount": 5,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "citroen",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "pangasiusfilet",
+          "amount": 2,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "olijfolie",
+          "amount": 4,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "zout",
+          "amount": null,
+          "unit": "pinch"
+        },
+        {
+          "ingredientId": "peper",
+          "amount": null,
+          "unit": "pinch"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 220 °C. Snijd de aardappelen in partjes, meng met de Italiaanse kruiden, 2 el olie en zout en rooster ze.",
+          "timerMinutes": 30
+        },
+        {
+          "text": "Snijd de wortels in staafjes, meng met de honing, 1 tl mosterd, 1 el olie en zout en rooster ze op een tweede bakplaat mee.",
+          "timerMinutes": 25
+        },
+        {
+          "text": "Roer de yoghurt met de fijngesneden bieslook en dille, de rest van de mosterd, een kneepje citroensap en zout."
+        },
+        {
+          "text": "Bak de vis in de rest van de olie aan beide kanten goudbruin. Serveer met partjes, wortels, de saus en partjes citroen.",
+          "timerMinutes": 6
+        }
+      ],
+      "source": {
+        "type": "inspired",
+        "name": "HelloFresh",
+        "note": "Gerecht en ingrediënten gebaseerd op een HelloFresh-recept met vis of garnalen; bereidingswijze in eigen woorden. Alleen voor persoonlijk gebruik.",
+        "url": "https://www.hellofresh.nl/recipes/pangasius-met-bieslooksaus-65bccb2c75a56b8c9f84d0dd"
+      },
+      "palette": [
+        "#e0a526",
+        "#f1efe6"
+      ]
+    },
+    {
+      "id": "spaghetti-puttanesca-tonijn",
+      "schemaVersion": 1,
+      "title": "Spaghetti puttanesca met tonijn",
+      "subtitle": "met krokante kappertjes, olijven en peterselie",
+      "description": "Een pittige tomatensaus uit de voorraadkast met olijven, kappertjes en tonijn, met krokant gebakken kappertjes erbovenop.",
+      "cuisine": "Italiaans",
+      "tags": [
+        "vis",
+        "pasta",
+        "snel"
+      ],
+      "prepMinutes": 5,
+      "cookMinutes": 15,
+      "difficulty": "easy",
+      "baseServings": 2,
+      "ingredients": [
+        {
+          "ingredientId": "spaghetti",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "kappertjes",
+          "amount": 30,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ui",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "knoflook",
+          "amount": 1,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "rode-peper",
+          "amount": 0.5,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "paprika",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "tomaat",
+          "amount": 2,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "passata",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "italiaanse-kruiden",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "suiker",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "wittewijnazijn",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "olijven",
+          "amount": 30,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tonijn",
+          "amount": 1,
+          "unit": "can"
+        },
+        {
+          "ingredientId": "peterselie",
+          "amount": 10,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "olijfolie",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "zout",
+          "amount": null,
+          "unit": "pinch"
+        },
+        {
+          "ingredientId": "peper",
+          "amount": null,
+          "unit": "pinch"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Kook de spaghetti beetgaar. Dep de helft van de kappertjes droog en bak ze in 1 el olie krokant; schep uit op keukenpapier.",
+          "timerMinutes": 2
+        },
+        {
+          "text": "Snipper de ui, hak knoflook en rode peper en snijd paprika en tomaten in blokjes. Bak ui, knoflook, peper en paprika 4 minuten in de rest van de olie."
+        },
+        {
+          "text": "Voeg tomaat, passata, Italiaanse kruiden, suiker en azijn toe en laat pruttelen. Roer de rest van de kappertjes, de olijven en de uitgelekte tonijn erdoor en verwarm 1 minuut.",
+          "timerMinutes": 6
+        },
+        {
+          "text": "Schep de spaghetti door de saus en serveer met de krokante kappertjes en peterselie."
+        }
+      ],
+      "source": {
+        "type": "inspired",
+        "name": "HelloFresh",
+        "note": "Gerecht en ingrediënten gebaseerd op een HelloFresh-recept met vis of garnalen; bereidingswijze in eigen woorden. Alleen voor persoonlijk gebruik.",
+        "url": "https://www.hellofresh.nl/recipes/spaghetti-puttanesca-met-gegrilde-kappertjes-6a96fe3071b095d5fbaf3f3b"
+      },
+      "palette": [
+        "#c4482f",
+        "#3f6e8a"
+      ]
+    },
+    {
+      "id": "pokebowl-tonijn-zoet-pittige-mais",
+      "schemaVersion": 1,
+      "title": "Pokébowl met tonijn en zoet-pittige mais",
+      "subtitle": "met sushirijst, gembermayonaise en knapperige groenten",
+      "description": "Gekruide sushirijst met tonijn, geroosterde mais, radijs en komkommer en een gembermayo.",
+      "cuisine": "Japans",
+      "tags": [
+        "vis",
+        "bowl",
+        "snel"
+      ],
+      "prepMinutes": 15,
+      "cookMinutes": 15,
+      "difficulty": "easy",
+      "baseServings": 2,
+      "ingredients": [
+        {
+          "ingredientId": "sushirijst",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "wittewijnazijn",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "suiker",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "mais",
+          "amount": 140,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "zoete-chilisaus",
+          "amount": 30,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "gember",
+          "amount": 10,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "mayonaise",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "komkommer",
+          "amount": 0.5,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "radijs",
+          "amount": 1,
+          "unit": "bunch"
+        },
+        {
+          "ingredientId": "tonijn",
+          "amount": 1,
+          "unit": "can"
+        },
+        {
+          "ingredientId": "ketjap",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "sesamzaad",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "zout",
+          "amount": null,
+          "unit": "pinch"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Spoel de rijst tot het water helder is en kook hem met 225 ml water afgedekt op laag vuur. Laat 10 minuten nagaren en roer azijn, suiker en een snuf zout erdoor.",
+          "timerMinutes": 12
+        },
+        {
+          "text": "Laat de mais uitlekken, rooster hem in een droge pan en roer de zoete chilisaus erdoor.",
+          "timerMinutes": 3
+        },
+        {
+          "text": "Rasp de gember en roer door de mayonaise. Snijd komkommer en radijsjes in dunne plakjes. Laat de tonijn uitlekken en meng met een scheut ketjap."
+        },
+        {
+          "text": "Verdeel de rijst over kommen, leg alle toppings erop en maak af met gembermayo, de rest van de ketjap en sesam."
+        }
+      ],
+      "source": {
+        "type": "inspired",
+        "name": "HelloFresh",
+        "note": "Gerecht en ingrediënten gebaseerd op een HelloFresh-recept met vis of garnalen; bereidingswijze in eigen woorden. Alleen voor persoonlijk gebruik.",
+        "url": "https://www.hellofresh.nl/recipes/pokebowl-met-tonijn-furikake-en-zoet-pittige-mais-6aa15ac4548a82de3e1b3009",
+        "adaptation": "Furikake uit het origineel is vervangen door sesamzaad."
+      },
+      "palette": [
+        "#e0a526",
+        "#3f6e8a"
+      ]
+    },
+    {
+      "id": "gevulde-paprika-tonijn-witte-kaas",
+      "schemaVersion": 1,
+      "title": "Gevulde paprika met tonijn en witte kaas",
+      "subtitle": "met kruidige couscous, yoghurt en peterselie",
+      "description": "Puntpaprika's uit de oven gevuld met couscous, tonijn en courgette, met witte kaas en een mosterd-honingyoghurt.",
+      "cuisine": "Midden-Oosters",
+      "tags": [
+        "vis",
+        "oven",
+        "budget"
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 20,
+      "difficulty": "easy",
+      "baseServings": 2,
+      "ingredients": [
+        {
+          "ingredientId": "paprika",
+          "amount": 2,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "couscous",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "bouillonblokje",
+          "amount": 0.5,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "ui",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "courgette",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "komijn",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "paprikapoeder",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "italiaanse-kruiden",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "tonijn",
+          "amount": 1,
+          "unit": "can"
+        },
+        {
+          "ingredientId": "witte-kaas",
+          "amount": 50,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "griekse-yoghurt",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "mosterd",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "honing",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "peterselie",
+          "amount": 10,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "olijfolie",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "zout",
+          "amount": null,
+          "unit": "pinch"
+        },
+        {
+          "ingredientId": "peper",
+          "amount": null,
+          "unit": "pinch"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Verwarm de oven voor op 200 °C. Halveer de paprika's in de lengte, verwijder de zaadjes en bak ze met een beetje olie en zout voor.",
+          "timerMinutes": 10
+        },
+        {
+          "text": "Giet 250 ml heet water met het bouillonblokje over de couscous, dek af en laat wellen. Snijd ui en courgette in blokjes en bak ze 5 minuten in de rest van de olie met komijn, paprikapoeder en Italiaanse kruiden."
+        },
+        {
+          "text": "Meng de groente, de uitgelekte tonijn en de helft van de couscous. Vul de paprika's, verkruimel de witte kaas erover en bak ze af.",
+          "timerMinutes": 10
+        },
+        {
+          "text": "Roer yoghurt, mosterd en honing door elkaar. Schep peterselie door de rest van de couscous en serveer met de paprika's en de yoghurtsaus."
+        }
+      ],
+      "source": {
+        "type": "inspired",
+        "name": "HelloFresh",
+        "note": "Gerecht en ingrediënten gebaseerd op een HelloFresh-recept met vis of garnalen; bereidingswijze in eigen woorden. Alleen voor persoonlijk gebruik.",
+        "url": "https://www.hellofresh.nl/recipes/gevulde-paprika-met-tonijn-en-witte-kaas-6a50f2f36e4158183d5e00c7",
+        "adaptation": "De kruidenmixen uit het origineel zijn vervangen door Italiaanse kruiden, komijn en paprikapoeder."
+      },
+      "palette": [
+        "#d0452f",
+        "#f1efe6"
+      ]
+    },
+    {
+      "id": "tacos-krokante-vis-zoetzure-groenten",
+      "schemaVersion": 1,
+      "title": "Taco's met krokante vis",
+      "subtitle": "met zoetzure groenten en rokerige mayonaise",
+      "description": "Kleine tortilla's met krokant gepaneerde visreepjes, snel ingelegde groente en een smokey mayo.",
+      "cuisine": "Mexicaans",
+      "tags": [
+        "vis"
+      ],
+      "prepMinutes": 15,
+      "cookMinutes": 15,
+      "difficulty": "medium",
+      "baseServings": 2,
+      "ingredients": [
+        {
+          "ingredientId": "komkommer",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "wortel",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "rode-ui",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "wittewijnazijn",
+          "amount": 3,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "suiker",
+          "amount": 1.5,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "mayonaise",
+          "amount": 75,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "gerookt-paprikapoeder",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "pangasiusfilet",
+          "amount": 2,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "bloem",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "mexicaanse-kruiden",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "ingredientId": "paneermeel",
+          "amount": 25,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "roomboter",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "ingredientId": "mini-tortilla",
+          "amount": 6,
+          "unit": "piece"
+        },
+        {
+          "ingredientId": "slamix",
+          "amount": 50,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "zout",
+          "amount": null,
+          "unit": "pinch"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Snijd komkommer en wortel met een dunschiller in linten en de ui in dunne ringen. Meng met azijn, suiker en zout en laat staan.",
+          "timerMinutes": 10
+        },
+        {
+          "text": "Roer de mayonaise met het gerookte paprikapoeder."
+        },
+        {
+          "text": "Snijd de vis in reepjes, haal ze door de bloem met de Mexicaanse kruiden en een snuf zout, en daarna door de panko. Bak ze in de boter rondom krokant.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Verwarm de tortilla's en vul ze met sla, de uitgelekte zoetzure groente, vis en smokey mayo."
+        }
+      ],
+      "source": {
+        "type": "inspired",
+        "name": "HelloFresh",
+        "note": "Gerecht en ingrediënten gebaseerd op een HelloFresh-recept met vis of garnalen; bereidingswijze in eigen woorden. Alleen voor persoonlijk gebruik.",
+        "url": "https://www.hellofresh.nl/recipes/tacos-met-krokant-gebakken-vis-en-knapperige-groenten-6a75c51152a1aa811f7b3266"
+      },
+      "palette": [
+        "#e8a33d",
+        "#6f9a52"
+      ]
     }
   ]
 }

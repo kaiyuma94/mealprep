@@ -17,7 +17,9 @@ describe('search', () => {
     expect(ids({ query: 'koreaans' })).toContain('stamppot-koreaanse-kruiden-sticky-champignons');
     for (const id of ids({ query: 'koreaans' })) {
       const r = RECIPES.find((x) => x.id === id)!;
-      expect(`${r.title} ${r.subtitle ?? ''} ${r.cuisine}`.toLowerCase()).toContain('korea');
+      // Matches on name or cuisine, or on an ingredient alias (gochujang = "koreaanse pepperpasta").
+      const names = r.ingredients.flatMap((ri) => { const i = INGREDIENT_MAP.get(ri.ingredientId); return i ? [i.name, ...(i.aliases ?? [])] : []; });
+      expect(`${r.title} ${r.subtitle ?? ''} ${r.cuisine} ${names.join(' ')}`.toLowerCase()).toContain('korea');
     }
     const stamppot = ids({ query: 'stamppot' });
     expect(stamppot).toEqual(expect.arrayContaining(['stamppot-zoete-aardappel-boerenkool', 'broccoli-spitskool-stamppot-jus', 'stamppot-koreaanse-kruiden-sticky-champignons']));

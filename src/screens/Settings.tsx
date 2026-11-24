@@ -192,7 +192,7 @@ export function Settings() {
 
         <section className="px-1 text-xs leading-relaxed text-ink-500">
           <p>
-            Weekmenu bevat {builtInCount} vegetarische recepten{custom.size > 0 ? ` (plus ${custom.size} eigen)` : ''}, geïnspireerd op gerechten van HelloFresh: naam en ingrediënten zijn gebaseerd op het origineel, de
+            Weekmenu bevat {builtInCount} recepten{custom.size > 0 ? ` (plus ${custom.size} eigen)` : ''}: vegetarisch, waaronder vega-versies van vleesgerechten, plus een aantal met vis en garnalen. Ze zijn geïnspireerd op gerechten van HelloFresh: naam en ingrediënten zijn gebaseerd op het origineel, de
             bereidingswijze is in eigen woorden geschreven. Alleen voor persoonlijk gebruik; niet verbonden aan HelloFresh. Looproutes, verpakkingen en
             ‘mogelijk lastig te vinden’-hints zijn indicatief en geen actuele voorraadinformatie.
           </p>

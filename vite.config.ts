@@ -12,7 +12,7 @@ export default defineConfig({
       manifest: {
         name: 'Weekmenu',
         short_name: 'Weekmenu',
-        description: 'Vegetarische weekplanner voor twee',
+        description: 'Weekplanner voor twee: vegetarisch, vega en vis',
         lang: 'nl',
         theme_color: '#f7f1e8',
         background_color: '#f7f1e8',

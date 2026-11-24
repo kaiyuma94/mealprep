@@ -3,6 +3,7 @@ import { useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { RecipeCard } from '../components/RecipeCard';
 import { Chip, EmptyState, PageHeader } from '../components/ui';
+import type { Diet } from '../lib/diet';
 import { buildSearchIndex, searchRecipes, type DurationFilter, type SearchFilters, type StatusFilter } from '../lib/search';
 import { useCatalog } from '../state/catalog';
 import { useCookedIds, usePlan, usePlanActions, useRecipeStates, useWeek } from '../state/hooks';
@@ -11,6 +12,11 @@ const DURATIONS: { id: DurationFilter; label: string }[] = [
   { id: 'quick', label: '≤ 25 min' },
   { id: 'medium', label: '25–40 min' },
   { id: 'long', label: '40+ min' },
+];
+const DIETS: { id: Diet; label: string }[] = [
+  { id: 'vegetarian', label: '🥦 Vegetarisch' },
+  { id: 'vegan', label: '🌱 Vegan' },
+  { id: 'fish', label: '🐟 Vis & garnalen' },
 ];
 const STATUSES: { id: StatusFilter; label: string }[] = [
   { id: 'favorites', label: '♥ Favorieten' },
@@ -30,11 +36,14 @@ export function Search() {
   const [f, setF] = useState<SearchFilters>(() => {
     try {
       const saved = sessionStorage.getItem('wm-search');
-      if (saved) return JSON.parse(saved) as SearchFilters;
+      if (saved) {
+        const s = JSON.parse(saved) as SearchFilters;
+        return { ...s, diet: s.diet ?? (s.vegan ? 'vegan' : null), vegan: undefined };
+      }
     } catch {
       /* ignore */
     }
-    return { query: '', duration: 'any', cuisine: null, status: null, vegan: false };
+    return { query: '', duration: 'any', cuisine: null, status: null, diet: null };
   });
   const update = (patch: Partial<SearchFilters>) =>
     setF((cur) => {
@@ -53,7 +62,7 @@ export function Search() {
   const active = useMemo(() => (f.status === 'own' && custom.size === 0 ? { ...f, status: null } : f), [f, custom.size]);
   const results = useMemo(() => searchRecipes(recipes, index, active, { favorites, cooked, disliked }), [recipes, index, active, favorites, cooked, disliked]);
   const planned = new Set(plan?.meals.map((m) => m.recipeId));
-  const anyFilter = active.query || active.duration !== 'any' || active.cuisine || active.status || active.vegan;
+  const anyFilter = active.query || active.duration !== 'any' || active.cuisine || active.status || active.diet;
 
   return (
     <div>
@@ -86,9 +95,12 @@ export function Search() {
           )}
         </label>
         <div className="-mx-5 mt-3 flex gap-2 overflow-x-auto px-5 pb-1 [scrollbar-width:none]">
-          <Chip active={!!f.vegan} onClick={() => update({ vegan: !f.vegan })}>
-            🌱 Vegan
-          </Chip>
+          {DIETS.map((d) => (
+            <Chip key={d.id} active={f.diet === d.id} onClick={() => update({ diet: f.diet === d.id ? null : d.id })}>
+              {d.label}
+            </Chip>
+          ))}
+          <span className="mx-1 w-px shrink-0 bg-cream-300" />
           {STATUSES.filter((s) => s.id !== 'own' || custom.size > 0).map((s) => (
             <Chip key={s.id} active={f.status === s.id} onClick={() => update({ status: f.status === s.id ? null : s.id })}>
               {s.label}
@@ -115,7 +127,7 @@ export function Search() {
           {results.length} {results.length === 1 ? 'recept' : 'recepten'}
         </span>
         {anyFilter && (
-          <button className="font-medium text-herb-700" onClick={() => update({ query: '', duration: 'any', cuisine: null, status: null, vegan: false })}>
+          <button className="font-medium text-herb-700" onClick={() => update({ query: '', duration: 'any', cuisine: null, status: null, diet: null })}>
             Alles wissen
           </button>
         )}

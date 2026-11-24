@@ -5,7 +5,8 @@ export const UNITS: readonly Unit[] = ['g', 'kg', 'ml', 'l', 'tsp', 'tbsp', 'pie
 
 export const SECTIONS: readonly SupermarketSection[] = [
   'produce', 'herbs', 'bakery', 'dairy-eggs', 'chilled', 'pasta-rice-grains', 'canned-jarred',
-  'world-foods', 'oils-sauces', 'spices', 'nuts-dried', 'baking', 'frozen', 'other',
+  'world-foods', 'oils-sauces', 'spices', 'nuts-dried', 'baking', 'frozen',
+  'fish', 'other',
 ];
 
 export interface ValidationIssue {

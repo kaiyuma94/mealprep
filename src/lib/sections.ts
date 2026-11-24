@@ -15,11 +15,11 @@ export const storeShort = (id: StoreId) => STORES.find((s) => s.id === id)?.shor
  */
 export const STORE_SECTION_ORDER: Record<StoreId, SupermarketSection[]> = {
   // Lidl: groente & fruit bij de ingang, dan brood, koeling, houdbaar, diepvries achterin.
-  lidl: ['produce', 'herbs', 'bakery', 'chilled', 'dairy-eggs', 'pasta-rice-grains', 'canned-jarred', 'world-foods', 'oils-sauces', 'spices', 'baking', 'nuts-dried', 'frozen', 'other'],
+  lidl: ['produce', 'herbs', 'bakery', 'chilled', 'fish', 'dairy-eggs', 'pasta-rice-grains', 'canned-jarred', 'world-foods', 'oils-sauces', 'spices', 'baking', 'nuts-dried', 'frozen', 'other'],
   // AH: AGF, dan vega/koeling en zuivel langs de wand, brood, daarna de houdbare gangpaden.
-  ah: ['produce', 'herbs', 'chilled', 'dairy-eggs', 'bakery', 'pasta-rice-grains', 'world-foods', 'canned-jarred', 'oils-sauces', 'spices', 'baking', 'nuts-dried', 'frozen', 'other'],
+  ah: ['produce', 'herbs', 'chilled', 'fish', 'dairy-eggs', 'bakery', 'pasta-rice-grains', 'world-foods', 'canned-jarred', 'oils-sauces', 'spices', 'baking', 'nuts-dried', 'frozen', 'other'],
   // Jumbo: AGF, brood, koeling en zuivel, diepvries vaak halverwege, dan houdbaar.
-  jumbo: ['produce', 'herbs', 'bakery', 'chilled', 'dairy-eggs', 'frozen', 'pasta-rice-grains', 'world-foods', 'canned-jarred', 'oils-sauces', 'spices', 'baking', 'nuts-dried', 'other'],
+  jumbo: ['produce', 'herbs', 'bakery', 'chilled', 'fish', 'dairy-eggs', 'frozen', 'pasta-rice-grains', 'world-foods', 'canned-jarred', 'oils-sauces', 'spices', 'baking', 'nuts-dried', 'other'],
 };
 
 /** Default order (Lidl). */
@@ -39,5 +39,6 @@ export const SECTION_LABELS: Record<SupermarketSection, { label: string; icon: s
   baking: { label: 'Bakken & suiker', icon: '🍯' },
   'nuts-dried': { label: 'Noten & gedroogd fruit', icon: '🥜' },
   frozen: { label: 'Diepvries', icon: '❄️' },
+  fish: { label: 'Vis & garnalen', icon: '🐟' },
   other: { label: 'Overig', icon: '🛒' },
 };

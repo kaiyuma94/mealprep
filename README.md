@@ -1,6 +1,6 @@
 # Weekmenu
 
-A mobile-first Progressive Web App (fully in Dutch) for planning a week of vegetarian dinners for two: pick your meals on Sunday, get one consolidated shopping list sorted for your Dutch supermarket (Lidl, Albert Heijn or Jumbo), and cook step by step in a distraction-free cooking mode.
+A mobile-first Progressive Web App (fully in Dutch) for planning a week of dinners for two (vegetarian, plus some fish and shrimp): pick your meals on Sunday, get one consolidated shopping list sorted for your Dutch supermarket (Lidl, Albert Heijn or Jumbo), and cook step by step in a distraction-free cooking mode.
 
 No account, no server, no paid APIs. Everything lives on your device in IndexedDB and works offline.
 
@@ -19,12 +19,18 @@ No account, no server, no paid APIs. Everything lives on your device in IndexedD
 
 ## About the recipes
 
-The app ships with **200 vegetarian recipes inspired by hellofresh.nl**, for personal use. They cover pasta, risotto and orzo, curries, Asian, Mexican and Middle Eastern dishes, soups, stamppot and other Dutch classics, ovenschotels, hartige taarten and salads:
+The app ships with **250 recipes inspired by hellofresh.nl**, for personal use. They cover pasta, risotto and orzo, curries, Asian, Mexican and Middle Eastern dishes, soups, stamppot and other Dutch classics, ovenschotels, hartige taarten and salads:
+
+- **200 vegetarian recipes** (`recipes-src/hellofresh-geinspireerd-1..10.json`).
+- **30 vega versions of meat dishes** (`…-11-vega-versies.json`): the meat is swapped for plantaardig gehakt, vega kip, shoarma, spekjes, worst or balletjes, or for tofu. Each recipe page says what the original used (`adaptation`).
+- **20 fish and shrimp recipes** (`…-12-vis.json`): salmon, cod, pangasius, tuna and shrimp. Search has filters for 🥦 vegetarisch (no fish), 🌱 vegan and 🐟 vis & garnalen, and fish has its own aisle on the shopping list.
+
+For all of them:
 
 - **Taken from the original:** the dish name and subtitle, the ingredients with their 2-person amounts, time and cuisine. These are facts and ideas.
 - **Written in our own words:** every method step is our own wording. No instruction text was copied.
 - **Not bundled:** HelloFresh's photos. Each recipe links to the original page instead ("Bekijk het origineel (met foto) op HelloFresh").
-- **Adapted:** HelloFresh's own spice sachets and sauces were replaced with products from Dutch supermarkets. Non-vegetarian ingredients were swapped too: Worcestershire sauce contains anchovy, and Parmigiano and Grana Padano are made with animal rennet.
+- **Adapted:** HelloFresh's own spice sachets and sauces were replaced with products from Dutch supermarkets. Meat stock, Worcestershire sauce and Parmigiano were swapped too in every recipe without fish: Worcestershire sauce contains anchovy, and Parmigiano and Grana Padano are made with animal rennet.
 
 Each recipe is labelled with source type `inspired` and links to the recipe it is based on. Weekmenu is not affiliated with HelloFresh.
 
@@ -96,7 +102,7 @@ Ingredients are matched to canonical IDs through names, plurals and aliases in `
 
 ## Testing
 
-`npm test` runs 161 tests covering:
+`npm test` runs 165 tests covering:
 
 - ISO week numbers, year rollover, and Sunday / midnight boundaries in Europe/Amsterdam (CET and CEST)
 - Deterministic weekly selection, bucket composition, cold start, cuisine diversity, single-card replacement
@@ -108,7 +114,7 @@ Ingredients are matched to canonical IDs through names, plurals and aliases in `
 - Recipe and import validation with missing or incomplete data, plus the plain ingredient-line parser
 - Sharing via the share menu, the copy fallback and a closed share menu, plus the texts for the week menu and a scaled recipe
 - Own recipes: reading ingredient lines, matching them to known ingredients (also without leading adjectives), unknown items under Overig, ids, editing round trips, the automatic cover, merging into the catalogue (skipping damaged ones), search, and deleting them from current and future menus
-- Vegan: animal-product ingredients, own ingredients judged by name, optional extras, the search filter
+- Diet: animal-product and fish ingredients, own ingredients judged by name, optional extras, the vegetarian / vegan / fish filters, the 30 vega versions and 20 fish recipes, and the fish aisle
 - Every recipe using an illustrated cover (its own palette), with no bundled photos
 
 ## Architecture

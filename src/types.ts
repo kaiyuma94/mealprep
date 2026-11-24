@@ -39,6 +39,7 @@ export type SupermarketSection =
   | 'nuts-dried'
   | 'baking'
   | 'frozen'
+  | 'fish'
   | 'other';
 
 export interface PackageSize {
@@ -69,6 +70,8 @@ export interface Ingredient {
   soldLoose?: boolean;
   /** false for animal products (dairy, eggs, honey, …). Absent means plant-based. */
   vegan?: boolean;
+  /** false for fish and shellfish (and fish sauce). Absent means vegetarian. */
+  vegetarian?: boolean;
   /** Commonly kept in stock; suggested as a default pantry item. */
   pantry?: boolean;
   /** Stores where this may be hard to find. Editorial hint, not verified stock data. */
@@ -107,6 +110,8 @@ export interface RecipeSource {
   url?: string;
   license?: string;
   note?: string;
+  /** How this version differs from the original, e.g. a vega version of a meat dish. Shown on the recipe page. */
+  adaptation?: string;
 }
 
 export interface RecipeImage {

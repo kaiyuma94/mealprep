@@ -6,7 +6,7 @@ import { db } from '../db/db';
 import { deleteCustomRecipe, mutatePlan, updateRecipeState } from '../db/repo';
 import { MAX_SERVINGS, MIN_SERVINGS, setServings } from '../lib/plan';
 import { isCustomRecipe } from '../lib/customRecipe';
-import { isVeganRecipe } from '../lib/diet';
+import { recipeDiet } from '../lib/diet';
 import { recipeToText } from '../lib/share';
 import { formatQuantity, ingredientLabel, scaleAmount } from '../lib/units';
 import { usePlan, usePlanActions, usePreferences, useRecipeStates, useShare, useToast, useWeek } from '../state/hooks';
@@ -90,7 +90,7 @@ function RecipeView({ recipe }: { recipe: Recipe }) {
       <div className="px-5 pt-5">
         <div className="text-[13px] font-medium uppercase tracking-wider text-herb-700">
           {recipe.cuisine}
-          {isVeganRecipe(recipe, ingredientMap) && <span className="ml-2 rounded-full bg-herb-100 px-2 py-0.5 normal-case tracking-normal">🌱 vegan</span>}
+          <DietBadge diet={recipeDiet(recipe, ingredientMap)} />
         </div>
         <h1 className="mt-1 font-display text-[28px] font-semibold leading-tight">{recipe.title}</h1>
         {recipe.subtitle && <p className="mt-0.5 text-ink-500">{recipe.subtitle}</p>}
@@ -146,6 +146,7 @@ function RecipeView({ recipe }: { recipe: Recipe }) {
             {recipe.source.type === 'inspired' && (
               <>
                 Geïnspireerd door een recept van <strong>{recipe.source.name}</strong>. De bereidingswijze is in eigen woorden geschreven; alleen voor persoonlijk gebruik.
+                {recipe.source.adaptation && <span className="mt-2 block text-ink-700">{recipe.source.adaptation}</span>}
                 {recipe.source.url && (
                   <a
                     className="mt-2 flex items-center gap-1.5 font-semibold text-herb-700 underline-offset-4 hover:underline"
@@ -246,6 +247,15 @@ function RecipeView({ recipe }: { recipe: Recipe }) {
         </div>
       </div>
     </article>
+  );
+}
+
+function DietBadge({ diet }: { diet: 'vegan' | 'vegetarian' | 'fish' }) {
+  if (diet === 'vegetarian') return null;
+  return (
+    <span className={cx('ml-2 rounded-full px-2 py-0.5 normal-case tracking-normal', diet === 'vegan' ? 'bg-herb-100' : 'bg-sky-100 text-sky-800')}>
+      {diet === 'vegan' ? '🌱 vegan' : '🐟 vis'}
+    </span>
   );
 }
 
