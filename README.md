@@ -15,6 +15,7 @@ No account, no server, no paid APIs. Everything lives on your device in IndexedD
 - **Shopping list** – merged by canonical ingredient, units converted, scaled per meal. It shows what you *need* next to what to *buy*: the mix of typical Dutch pack sizes that leaves the least over (e.g. a 250 g and a 400 g tub for 600 g mushrooms), or loose pieces for produce that's also sold loose. Other sizes are one tap away in the item's menu. Items are grouped by aisle in the walking order of the selected store (Lidl, AH or Jumbo). Items that may be hard to find at that store are flagged with an alternative store ("mogelijk lastig bij Lidl, anders AH of Jumbo"). Pantry items are pre-marked "al in huis". You can also pick substitutions, add or edit items, and tick items off. Your ticks, edits and manual items survive changes to the menu.
 - **Own recipes** – "Eigen recept" on the search page opens a simple form: a name, ingredients added one line at a time with a + button ("200 g champignons", "naar smaak zout"; pasting a list adds every line), and the steps. While you type, each ingredient shows whether it was recognised. Recognised ones merge with the rest of the shopping list, and anything unknown becomes your own item under *Overig*. The cover is picked automatically from the name and ingredients, or you choose a dish shape and colour yourself. Servings (2), time (30 min) and cuisine have defaults. Own recipes appear in suggestions, search (with an "Eigen recepten" filter), the week, the shopping list and cooking mode. They can be edited or deleted, live only on the device, and are part of the backup.
 - **Vegan versions** – 143 vegetarian recipes can be made vegan with one to four one-to-one swaps (butter → plantaardige boter, milk → havermelk, cream → haver-/sojaroom, yoghurt → sojayoghurt, mayo → vegan mayo, honey → agavesiroop, cheese → vegan kaas or edelgistvlokken, feta → plantaardige feta, mie → rijstnoedels, …). They're labelled 🌱 *makkelijk vegan*, and the recipe page has a *Vegan versie* switch that shows the swaps and the swapped ingredient list. The choice is remembered per recipe and carries through to cooking mode, sharing, the week and the shopping list (the alternatives are bought instead). Settings has "Kies de vegan versie als dat kan" to make it the default. Egg, halloumi and paneer have no swap, so those recipes don't qualify. Swaps are the `veganSwap` field in `src/data/ingredients.json`.
+- **Wat heb ik nog?** – type what's left in the fridge as free text ("halve courgette", "200 g spinazie", or a pasted list). Each line is recognised with the same matcher as the recipe form; unrecognised words are looked up in recipe titles and ingredient names. Recipes are ranked by how much they use up (a listed substitute such as rode ui for ui counts a bit less) and how little you'd still have to buy (pantry staples and "naar smaak" don't count), with a + to put them in the week. The list is kept on the device (in the preferences, so also in backups). Reachable from Ontdekken and Zoeken; logic in `src/lib/fridge.ts`.
 - **Sharing** – a Delen button on the shopping list, the week menu and every recipe opens the phone's own share menu (WhatsApp, Messages, Mail, …) with a ready-made Dutch text, including links back to the recipes. It uses the browser's built-in share function: no accounts, no API, nothing is sent until you press send. Where there is no share menu (some desktop browsers), the text is copied instead.
 - **History & backup** – favourites, dislikes, notes, cooking history, pantry and shopping progress persist. Export and restore everything as a JSON file.
 
@@ -103,7 +104,7 @@ Ingredients are matched to canonical IDs through names, plurals and aliases in `
 
 ## Testing
 
-`npm test` runs 172 tests covering:
+`npm test` runs 180 tests covering:
 
 - ISO week numbers, year rollover, and Sunday / midnight boundaries in Europe/Amsterdam (CET and CEST)
 - Deterministic weekly selection, bucket composition, cold start, cuisine diversity, single-card replacement
@@ -117,6 +118,7 @@ Ingredients are matched to canonical IDs through names, plurals and aliases in `
 - Own recipes: reading ingredient lines, matching them to known ingredients (also without leading adjectives), unknown items under Overig, ids, editing round trips, the automatic cover, merging into the catalogue (skipping damaged ones), search, and deleting them from current and future menus
 - Diet: animal-product and fish ingredients, own ingredients judged by name, optional extras, the vegetarian / vegan / fish filters, the 30 vega versions and 20 fish recipes, and the fish aisle
 - Vegan versions: every swap target exists and is vegan, swaps per recipe, amounts (e.g. half the weight of nutritional yeast for hard cheese), the recipe's own choice over the preference, the shopping list and the "makkelijk vegan" filter
+- Wat heb ik nog?: recognising free text, ranking by use and extra purchases, pantry staples ignored, substitutes, unrecognised words, vegan versions, "niets voor ons", and fridge items added at the same moment
 - Every recipe using an illustrated cover (its own palette), with no bundled photos
 
 ## Architecture
@@ -132,7 +134,8 @@ src/
     units.ts          Conversion, scaling, formatting
     shopping.ts       Aggregation, packaging, overrides, store hints, text export
     share.ts          Share menu / copy fallback, week menu and recipe texts
-    diet.ts           Vegan check for ingredients and recipes
+    diet.ts           Vegan/vegetarian checks and vegan versions
+    fridge.ts         "Wat heb ik nog?" matching and ranking
     customRecipe.ts   The recipe form: ingredient lines, matching, building an own recipe
     catalogMerge.ts   Built-in recipes plus own recipes as one catalogue
     sections.ts       Supermarkets (Lidl, AH, Jumbo) and their aisle order

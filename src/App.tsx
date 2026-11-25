@@ -10,6 +10,7 @@ import { CatalogProvider } from './state/catalog';
 import { PlanPromptProvider, ToastProvider, WeekProvider } from './state/hooks';
 
 const CookingMode = lazy(() => import('./screens/CookingMode').then((m) => ({ default: m.CookingMode })));
+const Fridge = lazy(() => import('./screens/Fridge').then((m) => ({ default: m.Fridge })));
 const RecipeEditor = lazy(() => import('./screens/RecipeEditor').then((m) => ({ default: m.RecipeEditor })));
 const Settings = lazy(() => import('./screens/Settings').then((m) => ({ default: m.Settings })));
 
@@ -30,6 +31,7 @@ export function App() {
                     <Route path="recipe/new" element={<RecipeEditor />} />
                     <Route path="recipe/:id" element={<RecipeDetail />} />
                     <Route path="recipe/:id/edit" element={<RecipeEditor />} />
+                    <Route path="koelkast" element={<Fridge />} />
                     <Route path="settings" element={<Settings />} />
                     <Route path="*" element={<Discover />} />
                   </Route>

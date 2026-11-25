@@ -1,5 +1,6 @@
 import type {
   CustomRecipeRecord,
+  IngredientLineDraft,
   ManualShoppingItem,
   Recipe,
   RecipeUserState,
@@ -33,6 +34,17 @@ export async function getPreferences(db: WeekmenuDB): Promise<UserPreferences> {
 export async function updatePreferences(db: WeekmenuDB, patch: Partial<Omit<UserPreferences, 'id'>>): Promise<void> {
   const current = await getPreferences(db);
   await db.preferences.put({ ...current, ...patch, id: 'me', updatedAt: Date.now() });
+}
+
+/**
+ * Changes the fridge list in one read-modify-write transaction, so quick
+ * successive additions can't overwrite each other.
+ */
+export async function updateFridge(db: WeekmenuDB, change: (items: IngredientLineDraft[]) => IngredientLineDraft[]): Promise<void> {
+  await db.transaction('rw', db.preferences, async () => {
+    const current = await getPreferences(db);
+    await db.preferences.put({ ...current, fridge: change(current.fridge ?? []), id: 'me', updatedAt: Date.now() });
+  });
 }
 
 // ---------- Plans ----------

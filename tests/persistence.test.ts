@@ -3,7 +3,7 @@ import { beforeEach, describe, expect, it } from 'vitest';
 import { RECIPES } from '../src/data/catalog';
 import { WeekmenuDB } from '../src/db/db';
 import { BACKUP_VERSION, BackupError, exportBackup, importBackup, migrateBackup } from '../src/db/backup';
-import { addManualItem, deleteCustomRecipe, ensureSelection, getPlan, getPreferences, markCooked, mutatePlan, replaceSelectionSlot, saveCustomRecipe, savePlan, setOverride, unmarkCooked, updateRecipeState } from '../src/db/repo';
+import { addManualItem, deleteCustomRecipe, updateFridge, ensureSelection, getPlan, getPreferences, markCooked, mutatePlan, replaceSelectionSlot, saveCustomRecipe, savePlan, setOverride, unmarkCooked, updateRecipeState } from '../src/db/repo';
 import { INGREDIENTS } from '../src/data/catalog';
 import { buildCustomRecipe, emptyForm } from '../src/lib/customRecipe';
 import { addMeal } from '../src/lib/plan';
@@ -163,5 +163,12 @@ describe('persistence', () => {
     expect((await getPlan(db, '2026-W47')).meals.map((m) => m.recipeId)).toEqual([record.id]);
     expect((await getPlan(db, '2026-W48')).meals).toEqual([]);
     expect((await getPlan(db, '2026-W49')).meals).toEqual([]);
+  });
+
+  it('keeps every fridge item when several are added at the same moment', async () => {
+    await Promise.all(['courgette', 'feta', 'spinazie'].map((text) => updateFridge(db, (cur) => [...cur, { text }])));
+    expect((await getPreferences(db)).fridge?.map((i) => i.text).sort()).toEqual(['courgette', 'feta', 'spinazie']);
+    await updateFridge(db, (cur) => cur.filter((i) => i.text !== 'feta'));
+    expect((await getPreferences(db)).fridge).toHaveLength(2);
   });
 });

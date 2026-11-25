@@ -1,4 +1,4 @@
-import { ArrowRight, Sparkles } from 'lucide-react';
+import { ArrowRight, Refrigerator, Sparkles } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { RecipeCard } from '../components/RecipeCard';
 import { MealTargetCard, SundayToggle, weekRelation } from '../components/WeekControls';
@@ -36,6 +36,17 @@ export function Discover() {
       <PageHeader eyebrow={`${weekRelation(activeWeek, currentWeek, planningWeek)} · ${weekRangeLabel(activeWeek)}`} title="Wat eten we?" />
       <SundayToggle />
       <div className="px-5">{plan && <MealTargetCard plan={plan} />}</div>
+
+      <Link to="/koelkast" className="mx-5 mt-3 flex items-center gap-3 rounded-[22px] bg-white px-4 py-3.5 shadow-card ring-1 ring-cream-200 transition hover:ring-herb-500">
+        <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-sky-100 text-sky-700">
+          <Refrigerator size={20} />
+        </span>
+        <span className="min-w-0 flex-1">
+          <span className="block font-semibold text-ink-900">Wat heb ik nog?</span>
+          <span className="block text-sm text-ink-500">Recepten voor wat er nog in de koelkast ligt</span>
+        </span>
+        <ArrowRight size={18} className="shrink-0 text-ink-300" />
+      </Link>
 
       {full && (
         <Link to="/week" className="mx-5 mt-3 flex items-center justify-between rounded-[22px] bg-herb-600 px-5 py-4 text-white shadow-card animate-rise">

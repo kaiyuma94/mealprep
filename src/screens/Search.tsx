@@ -1,4 +1,4 @@
-import { Plus, SearchX, Search as SearchIcon, X } from 'lucide-react';
+import { Plus, Refrigerator, SearchX, Search as SearchIcon, X } from 'lucide-react';
 import { useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { RecipeCard } from '../components/RecipeCard';
@@ -123,6 +123,11 @@ export function Search() {
         </div>
       </div>
 
+      <div className="px-5 pt-1">
+        <Link to="/koelkast" className="inline-flex items-center gap-1.5 text-sm font-semibold text-herb-700">
+          <Refrigerator size={15} /> Zoek op wat je nog in huis hebt
+        </Link>
+      </div>
       <div className="flex items-center justify-between px-5 pb-2 pt-2 text-sm text-ink-500">
         <span>
           {results.length} {results.length === 1 ? 'recept' : 'recepten'}

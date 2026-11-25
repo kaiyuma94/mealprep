@@ -208,6 +208,8 @@ export interface UserPreferences {
   pantryItems: string[];
   /** Use the vegan version of recipes whenever one is easy to make. */
   preferVegan?: boolean;
+  /** "Wat heb ik nog?": what's left in the fridge, as typed. */
+  fridge?: IngredientLineDraft[];
   updatedAt: number;
 }
 
