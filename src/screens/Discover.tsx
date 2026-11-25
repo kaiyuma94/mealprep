@@ -1,4 +1,4 @@
-import { ArrowRight, Refrigerator, Sparkles } from 'lucide-react';
+import { ArrowRight, Refrigerator } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { RecipeCard } from '../components/RecipeCard';
 import { MealTargetCard, SundayToggle, weekRelation } from '../components/WeekControls';
@@ -55,14 +55,6 @@ export function Discover() {
         </Link>
       )}
 
-      {coldStart && plan?.meals.length === 0 && (
-        <div className="mx-5 mt-5 flex gap-3 rounded-[22px] bg-saffron-100 p-4 text-sm text-ink-700">
-          <Sparkles size={20} className="mt-0.5 shrink-0 text-saffron-500" />
-          <p>
-            Welkom! Kies een paar avondmaaltijden om te beginnen. Hoe meer jullie koken en hartjes geven, hoe beter deze pagina jullie smaak leert kennen — met af en toe een oude favoriet.
-          </p>
-        </div>
-      )}
 
       {groups.map((g) => (
         <section key={g.bucket} className="mt-8 px-5">
